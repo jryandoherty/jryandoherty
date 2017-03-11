@@ -1,32 +1,53 @@
 @import "files/colors",
+
+"files/animations",
+
 "files/fonts";
 
 
 html, body {
 	width: 100%;
 	height: 100%;
-	font-family: "ralewayregular",sans-serif;
-	font-style: normal;
-	font-weight: 100;
+	 font-family: 'oswaldlight';
 	font-size: 17px;
-	color:$bzOrange;
+	color:$black;
+	background: #fcfcfc;
 
+}
+
+p::-moz-selection { background-color: $blackGreen}
+p::selection { background-color: $siennaLight; }
+
+h1, h2, h3 {
+	font-family: 'oswaldbold';
 }
 
 p.browsehappy{
 	padding:50px 0 0 10px;
-	color:$bzOrange;
+
 }
 
-.bg-img {
+.navbar {
+	background-color: transparent;
+	border:none;
+}
+
+.navbar-brand {
+	padding-top:90px;
+	height:auto;
+	width:345px;
+}
+
+.brick-background {
 	width: 100%;
 	height: 80%;
-	background: url('../img/code_graffiti.png') right bottom no-repeat, url('../img/bg_brick.jpg') center center no-repeat;
-	background-size: 1050px, cover;
+	font-family: 'oswaldbook';
+	background: url('/img/code_graffiti.png') right bottom no-repeat, url('/img/bg_brick.jpg') center center no-repeat;
+	background-size: 700px, cover;
 	color:#fff;
 	position:relative;
 
-  &:before {
+	&:before {
 	content: '';
 	position: absolute;
 	height:100%;
@@ -35,90 +56,197 @@ p.browsehappy{
 	bottom: 0;
 	left: 0;
 	background-image:radial-gradient(circle, #f06d06, transparent);
-	opacity: .44;
-  }
-
-	img{
-		position: absolute;
-		left:0;
-		right:0;
-		margin: 0 auto;
+	background-repeat: no-repeat;
+	/*background-size:30% 30%;*/
+	opacity: .34;
 	}
-}
 
 
-#trades{
-	width:296px;
-	height:114px;
-	float:right;
-	z-index: 900;
-
-	margin-top:30px;
-	position:absolute;
-	cursor:pointer
+		.nav {
+			margin-top:30px;
+		}
+		.introText {
+			font-size:36px;
+		}
 
 }
 
-#portfolio{
-	width:160px;
-	height:162px;
-	background:url(../img/portfolioButton.gif) no-repeat top;
+p.browsehappy{
+	padding:50px 0 0 10px;
+	color:$bzOrange;
+}
+
+
+.portfolioPage .brick-background {
+	height:150px;
+}
+
+
+.recentWork{
+	width:175px;
+	height:175px;
 	z-index: 700;
+	margin:10px 0 0 0;
 	position:relative;
-	cursor:pointer;
-	margin:-60px 0 0 -20px;
-	float:right
+	float:right;
+	transform: rotate(0deg);
+	transition: .4s ease-in all;
+
+	&:hover{
+
+		transform: rotate(15deg);
+		transition: .8s ease-in all;
+
+	}
+
+	svg #sticker {fill:$green}
+	svg:hover #sticker { fill: $greenLight  }
+
 }
 
-#portfolio:hover {
-	background:url(../img/portfolioButton.gif) no-repeat bottom
-}
 
 
-#trades:hover {
-	background:url(..img/tradespeople_over.gif) no-repeat top
-}
 
-#services{
-	width:120px;
-	height:113px;
-	background:url(../img/services.gif) no-repeat top;
-	margin:20px 0 0 -38px;
+.about{
+	width:125px;
+	height:125px;
+	margin:105px -10px 0 -50px;
 	z-index: 600;
 	position:relative;
-	cursor:pointer;
-	float:right}
+	float:right;
+	transform: rotate(0deg);
+	transition: .4s ease-in all;
 
-#services:hover{
-	background:url(../img/services.gif) no-repeat bottom;
+	&:hover{
+
+		transform: rotate(15deg);
+		transition: .8s ease-in all;
+
+	}
+
+	svg #sticker {fill:$sienna}
+	svg:hover #sticker { fill: $siennaLight  }
 }
 
-#contact{
-	width:120px;
+
+
+.contact{
+	width:100px;
 	height:100px;
-	background:url(../img/contactButton.gif) no-repeat top;
-	margin:-40px 0 0 -80px;
+
+	margin:20px 0 0 -88px;
 	z-index: 900;
 	position:relative;
-	cursor:pointer;
-	float:right
+	float:right;
+	transform: rotate(0deg);
+	transition: .4s ease-in all;
+
+	&:hover{
+
+		transform: rotate(15deg);
+		transition: .8s ease-in all;
+
+	}
+
+	svg #sticker {fill:$yellow}
+	svg:hover #sticker { fill: $yellowLight  }
+
 }
 
-#contact:hover{
-	background:url(../img/contactButton.gif) no-repeat bottom;
-}
 
-#about{
+.portfolio{
 	width:120px;
-	height:105px;
-	background:url(../img/aboutButton.gif) no-repeat top;
-	margin:-10px 0 0 -50px;
+	height:120px;
+	margin:50px 0 0 -37px;
 	z-index: 800;
 	position:relative;
 	cursor:pointer;
-	float:right
+	float:right;
+	transform: rotate(1deg);
+	transition: .4s ease-in all;
+
+	&:hover{
+
+		transform: rotate(15deg);
+		transition: .8s ease-in all;
+
+	}
+
+	svg #sticker {fill:$black}
+	svg:hover #sticker { fill: $blackGreen }
+
+
 }
 
-#about:hover{
-	background:url(../img/aboutButton.gif) no-repeat bottom;
+
+.aboutme {
+	min-height: 1000px;
+	background:url('/img/sunset.jpg') center center no-repeat;
+	background-size: cover;
 }
+
+.contactme{
+	min-height:450px;
+	background:$black;
+
+	h2 {
+		color:$siennaLight;
+	}
+
+}
+
+
+
+footer {
+	background:url('/img/wild_oliva.png');
+}
+
+
+@media (max-width: 767px) {
+
+.brick-background {
+	height:100%;
+
+	.nav {
+		margin-top: 0
+	}
+	.navbar-collapse{
+		overflow:hidden;
+	}
+	.introText {
+		font-size: 21px;
+	}
+}
+
+	.navbar-brand {
+		padding-top:10px;
+		width:160px;
+	}
+
+	.navbar-nav li div {
+		display: inline-block;
+		float: none;
+		margin:0
+	}
+
+	.portfolio {
+		width:96px;
+		height:96px;
+	}
+
+	.about {
+		width:100px;
+		height:100px;
+	}
+
+	.contact {
+		width:80px;
+		height:80px;
+	}
+
+	.recentWork {
+		width:140px;
+		height:140px;
+	}
+
+  }
