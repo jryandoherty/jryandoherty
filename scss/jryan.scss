@@ -1,5 +1,7 @@
 @import "files/colors",
+
 "files/animations",
+
 "files/fonts";
 
 
@@ -45,7 +47,7 @@ p.browsehappy{
 	color:#fff;
 	position:relative;
 
-  &:before {
+	&:before {
 	content: '';
 	position: absolute;
 	height:100%;
@@ -57,15 +59,23 @@ p.browsehappy{
 	background-repeat: no-repeat;
 	/*background-size:30% 30%;*/
 	opacity: .34;
-  }
+	}
 
-	.nav {
-		margin-top:30px;
-	}
-	.introText {
-		font-size:36px;
-	}
+
+		.nav {
+			margin-top:30px;
+		}
+		.introText {
+			font-size:36px;
+		}
+
 }
+
+p.browsehappy{
+	padding:50px 0 0 10px;
+	color:$bzOrange;
+}
+
 
 .portfolioPage .brick-background {
 	height:150px;
@@ -239,5 +249,4 @@ footer {
 		height:140px;
 	}
 
-
-}
+  }

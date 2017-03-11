@@ -133,6 +133,10 @@ p.browsehappy {
   .brick-background .introText {
     font-size: 36px; }
 
+p.browsehappy {
+  padding: 50px 0 0 10px;
+  color: #e98822; }
+
 .portfolioPage .brick-background {
   height: 150px; }
 
