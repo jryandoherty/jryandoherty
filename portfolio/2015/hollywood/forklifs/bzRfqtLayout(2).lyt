@@ -1,0 +1,246 @@
+[#compress]
+
+[#assign xhtmlCompliant = true in spring]
+[#import "spring.ftl" as spring /]
+[#include "macro/GlobalMacros.ftl" /]
+[#assign apiDomain]${APPLICATION_PROPERTIES["CONFIG.environment.api-host-prefix"]?string?trim}[#t][/#assign]
+
+<!doctype html>
+<!--[if lt IE 7 ]>             <html lang="en" class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]>                <html lang="en" class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]>                <html lang="en" class="ie ie8"> <![endif]-->
+<!--[if IE 9 ]>                <html lang="en" class="ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en">                <!--<![endif]-->
+
+<head>
+    <title>Get Free Price Quotes on ${categoryDisplayName} with the help of BuyerZone.com</title>
+    
+	<meta charset="utf-8">
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+    
+    <!--[if lt IE 9]>[@processOnce '/scripts/libs/html5shiv.js'; fileUrl]<script type="text/javascript" src="${fileUrl}"></script>[/@]<![endif]-->
+  
+	
+    
+    <script src="/dist/js/bzBlueCrush.js"></script>
+    
+	<script src="/dist/js/bzPPCQuestionSetFlow.js"></script>
+
+	[#include "/includes/blueCrushQSTpl.ftl"]
+
+	[#include "/includes/blueCrushProgressBarTpl.ftl"]
+    
+    
+ <!-- initiate app -->
+	<script type="text/javascript">
+	$(document).ready(function() {
+		var catType = '${quoteRequest.category.categoryType.description?lower_case}',
+			flow = new BZ.flow.PPCQuestionSetFlow({
+				apiDomain: '${apiDomain}',
+				categoryName: '${categoryDisplayName}',
+				categoryId: '${quoteRequest.category.categoryId}',
+				flowType: '2277',
+				pageType: 'qs',
+				$renderTo: $('.rfq-form.qs .qs-container')
+		});
+		flow.startup();
+	});
+	</script>
+  
+  
+  
+	
+    
+    
+    <link rel="stylesheet" href="/dist/css/blueCrush.css" type="text/css" >
+    <link rel="stylesheet" href="/industrial/forklifts/hollywood.css" type="text/css" >
+
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'wmk2oyr',
+      scriptTimeout: 3000
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+	
+<script src="//cdn.optimizely.com/js/6869001.js"></script> 
+    
+
+
+
+</head>
+
+<body >
+
+   
+   
+   <div class="topBar"></div>
+
+
+<div class="videoContainer">
+    
+    <div class="white-logo"><a href="/"><img src="/bzng/industrial/forklifts/bz_logo_white.png" width="350" height="50" alt=""></a></div>
+    <div class="message">
+    <img src="/bzng/industrial/forklifts/headline.png" width="508" height="233" alt=""/> 
+    <a href="#questionSet" class="getQuotes smoothscroll" >Get pricing on a forklift today &#9661;</a>
+    
+    
+  </div>
+    
+  <video autoplay loop poster="/industrial/forklifts/forklift_poster.jpg">
+    <source src="/industrial/forklifts/v5137529.mp4" type="video/mp4">
+    <source src="/industrial/forklifts/v5137529.webm" type="video/webm">
+  </video>
+</div>
+
+
+<section class="lowerPage ">
+
+  
+  
+   <div class="container">
+   <a name="questionSet" id="questionSet"></a>
+   <div class="callToAction">
+ <p>Answer these quick questions and we'll provide you with multiple price quotes so you know you're getting the best deal.</p>
+    <p class="arrowCallToAction"><img src="/images/bluecrush/sharedetails_arrow.png" width="148" height="49" alt=""/></p>
+    <p class="arrowMobile"><img src="/industrial/forklifts/sharedetails_mobile.png" width="148" height="49" alt=""/></p>
+  </div>
+  
+  <div class="questionContainer">
+				
+				<div class="rightContent">
+                <div class="contentCol">
+                    <div class="contentWrapper rfq-box">
+                         
+                        <!-- form -->
+                        <form class="rfq-form qs" method="post">
+                        <input type="hidden" name="_registration_layout" id="_registration_layout" value="bzRfqtRegistration">
+                        [#include "/includes/sessionParam.ftl"]
+                        
+                        <div class="qs-container"></div>
+                        </form>
+                        <!-- // form -->
+                    <div class="loadingSpinner"></div>
+                </div>
+		  </div>
+				  
+					<div id="backNextRow" class="clearLeft firstPage">
+						<div class="backWrapper" id="rfq-back">
+							<span>&lt; PREVIOUS</span>
+						</div>
+						<div class="nextWrapper" id="rfq-continue">
+							<span class="nextLabel">NEXT</span>
+							<span class="nextArrow"></span>
+						</div>
+					</div>
+					<div class="progressBar"></div>
+				</div>
+		
+				
+                <!-- zip code city list -->
+				[#include "/includes/zipCityList.ftl"]
+            </div>
+   
+  </div>
+
+
+</section>
+
+
+
+
+<footer>
+
+
+
+
+<div class="clearLeft credits">
+    <div>
+    
+    </div>
+    <div>
+        <p><a href="/about-us/">About Us</a> |
+        <a href="/about-us/disclaimer/">Terms &amp; Conditions</a> |
+        <a href="/about-us/privacy/">Privacy Policy</a></p>
+        <p>Customer Care: 888-393-5000</p>
+        
+        <p>&copy; 2015 BuyerZone.com LLC. A Purch Brand. All Rights Reserved.</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+<img src="/bzng/industrial/forklifts/BZ_logo_buyer.png" width="350" height="50" alt=""/><br>
+<a href="//www.bbb.org/boston/business-reviews/administrative-services/buyerzone-com-llc-in-waltham-ma-87942/#bbbonlineclick">
+    <img src="/images/bluecrush/blue_seal.png" alt="BuyerZone.com, LLC BBB Business Review">
+    </a>
+</footer>
+
+
+   
+   
+   
+   
+   
+   
+   
+    
+
+	<!-- javascript -->
+	
+<script>
+$("a.smoothscroll").click(function(){
+			$('html, body').animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top
+			}, 400);
+			return false;
+			});
+			
+$(document).on("pageRendered.bzFlow", function(evt) {
+	if (/reviewingRFQ/.test(window.location.search.toString())) {
+	$('html, body').animate({ scrollTop: $('.rightContent').offset().top, scrollLeft: 0 });
+	}
+	});
+			
+</script>
+
+	
+
+
+<!-- alternate close button for info dialog -->
+	<div id="dialogCloseAlt">
+		<div class="closeWrapper">
+			<span>CLOSE</span>
+		</div>
+	</div>
+
+	<!-- move images here to bring them out of the flow -->
+	<div id="questionPopupImages">
+	</div>
+
+	<!-- pre-load for checkbox and radio icons -->
+	<div id="controlImagePreload">
+		<img src="/bzng/images/bluecrush/radio_on.png" alt="">
+		<img src="/bzng/images/bluecrush/radio_off.png" alt="">
+		<img src="/bzng/images/bluecrush/checkbox_on.png" alt="">
+		<img src="/bzng/images/bluecrush/checkbox_off.png" alt="">
+	</div>
+
+
+
+	<!-- landing page pixels -->
+	[#if xmlTree('categoryElements.pixelsLanding')??]
+		<div class="tracking-pixels">
+			[@xmlRef 'categoryElements.pixelsLanding' /]
+		</div>
+	[/#if]
+
+</body>
+</html>
+[/#compress]
