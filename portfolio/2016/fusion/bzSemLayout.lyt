@@ -1,0 +1,198 @@
+[#compress]
+
+[#assign xhtmlCompliant = true in spring]
+[#import "spring.ftl" as spring /]
+[#include "macro/GlobalMacros.ftl" /]
+[#assign apiDomain]${APPLICATION_PROPERTIES["CONFIG.environment.api-host-prefix"]?string?trim}[#t][/#assign]
+<!doctype html>
+
+<!--[if lt IE 7]> <html class="ie6 ie" lang="en"> <![endif]-->
+<!--[if IE 7]>	<html class="ie7 ie" lang="en"> <![endif]-->
+<!--[if IE 8]>	<html class="ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 9]>	<html class="ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8"/>
+
+	<title>${categoryDisplayName!} Price Quotes From Qualified Sellers</title>
+	<meta name="description" content="Answer a few questions about your purchase, we'll match you with pre-screened sellers, and receive customized ${categoryDisplayName!} price quotes today.">
+	<meta name="ROBOTS" content="NOINDEX, FOLLOW"> 
+
+	<!--[if lt IE 9]>[@processOnce '/scripts/libs/html5shiv.js'; fileUrl]<script type="text/javascript" src="${fileUrl}"></script>[/@]<![endif]-->
+
+	<!-- libs & plugins -->
+	<script type="text/javascript" src="/bzng/dist/js/bzBlueCrush.js"></script>
+
+	<script type="text/javascript" src="/bzng/dist/js/bzPPCQuestionSetFlow.js"></script>
+
+	[#include "blueCrushQSTpl.ftl"]
+	[#include "/includes/semCallToAct.ftl"]
+	[#include "/includes/blueCrushProgressBarTpl.ftl"]
+
+	<!-- initiate app -->
+	<script type="text/javascript">
+	$(document).ready(function() {
+		var catType = '${quoteRequest.category.categoryType.description?lower_case}',
+			flow = new BZ.flow.PPCQuestionSetFlow({
+				apiDomain: '${apiDomain}',
+				categoryName: '${categoryDisplayName}',
+				categoryId: '${quoteRequest.category.categoryId}',
+				pageType: 'qs',
+				$renderTo: $('.rfq-form.qs .qs-container')
+		});
+		flow.startup();
+	 
+	});
+
+</script>
+
+	 <!-- stylesheet -->
+    <link rel="stylesheet" href="/dist/css/blueCrush.css" type="text/css">
+    <link rel="stylesheet" href="/hr-personnel/time-and-attendance-systems/fusion.css" type="text/css">
+	
+	<script src="//cdn.optimizely.com/js/6869001.js"></script>
+    
+</head>
+
+<body class="seoRfq">
+
+	<div class="bg-img">
+
+    <div class="logoRow">
+        <a href="[@generateExternalUrl '/'/]" title="BuyerZone"><img src="//cdn.buyerzone.com/images/BZ_logo_buyer.svg" width="200" alt="BUYERZONE" /></a>
+        <h1>Compare Quotes for Time and Attendance Systems &amp; Save</h1>
+        <h2>Share a few details to get multiple price quotes so you know you're getting the best deal.</h2>
+    </div>
+        
+  <div class="questionContainer" id="questionSet">
+				
+                <div class="contentCol">
+				
+                    <div class="contentWrapper rfq-box">
+                        <!-- form -->
+                        <form class="rfq-form qs" method="post">
+                        [#include "/includes/sessionParam.ftl"]
+                  
+                        <div class="qs-container"></div>
+                        </form>
+                        <!-- // form -->
+                    <div class="loadingSpinner"></div>
+                </div>
+		  </div>
+				  
+                  
+                <div id="backNextRow">
+                
+                    <button class="backWrapper" id="rfq-back">back</button>
+                    <button class="nextWrapper" id="rfq-continue"><span class="nextLabel">NEXT</span> </button>
+                
+                </div>
+                    
+                    <div class="progressBar"></div>
+
+				
+                <!-- zip code city list -->
+				[#include "/includes/zipCityList.ftl"]
+            </div>
+            
+            
+        
+        <div class="imageContainer">
+        
+            <img src="/hr-personnel/time-and-attendance-systems/time_950.png" width="680" alt="" class="image1" style="margin-bottom:-75px" />
+            
+            
+            <div class="buyersGuide"><img src="//cdn.buyerzone.com/images/mktg/utopia/buyers_guide.svg" width="110" alt="Buyer's Guide" onerror="this.src='//cdn.buyerzone.com/images/mktg/utopia/buyers_guide.png'">
+                <h2>FREE Buyer's Guide</h2>
+                <p>We'll also provide you with a free Time and Attendance Buyer's Guide to help you make the right decision.</p>
+            </div>
+        
+        </div>
+            
+          
+</div>
+ 
+
+		<div class="why">
+           
+            <div>
+                <h3><strong>Save Time.</strong></h3>
+                <p>We'll do the work for you to quickly find a few quality time and attendance system providers who can help fulfill your needs.</p>
+            </div>
+           
+            <div>
+                <h3><strong>Save Money.</strong></h3>
+                <p>You save when providers deliver competing price quotes to win your business.</p>
+            </div>
+     
+            <div>
+                <h3><strong>No Brainer.</strong></h3>
+                <p>BuyerZone has helped thousands of businesses find a great time and attendance system at the right price.</p>
+            </div>
+        
+      </div>
+
+   <footer>
+	 
+     <div class="credits">
+		  <a href="//www.bbb.org/boston/business-reviews/administrative-services/buyerzone-com-llc-in-waltham-ma-87942/#bbbonlineclick">
+			  <img src="/bzng/images/bluecrush/blue_seal.png" alt="BuyerZone.com, LLC BBB Business Review" />
+		  </a>
+        <span>&copy; 2016 BuyerZone.com LLC. A Purch Brand. All Rights Reserved.</span>
+        <a href="[@generateExternalUrl '/about-us/'/]">About Us</a> |
+        <a href="[@generateExternalUrl '/about-us/disclaimer/'/]">Terms &amp; Conditions</a> |
+        <a href="[@generateExternalUrl '/about-us/privacy/'/]">Privacy Policy</a>
+        <span class="number">Customer Care: 888-393-5000</span>
+    </div>
+</footer>
+    
+
+<script>
+
+	$(document).on('click', 'div.radio', function(e){
+		var parentPage = $(this).closest('.page');
+		var allRadioDivs = parentPage.find('div.radio');
+		var checkedRadios = allRadioDivs.find('input:checked');
+		
+		//clear all style1 classes
+		allRadioDivs.removeClass('onState');
+		//add style1 class only to checked radios
+		checkedRadios.closest('div.radio').addClass('onState');	
+	});
+
+</script> 
+    
+    
+	<!-- alternate close button for info dialog -->
+	<div id="dialogCloseAlt">
+		<div class="closeWrapper">
+			<span>CLOSE</span>
+		</div>
+	</div>
+
+	<!-- move images here to bring them out of the flow -->
+	<div id="questionPopupImages">
+	</div>
+
+	<!-- pre-load for checkbox and radio icons -->
+	<div id="controlImagePreload">
+		<img src="/bzng/retail/pos-systems/radio_on.svg" alt="">
+		<img src="/bzng/retail/pos-systems/radio_off.svg" alt="">
+		<img src="/bzng/retail/pos-systems/checkbox_on.svg" alt="">
+		<img src="/bzng/retail/pos-systems/checkbox_off.svg" alt="">
+	</div>
+
+	<!-- analytics -->
+	[#include "/includes/siteStats.ftl"]
+
+	<!-- landing page pixels -->
+	[#if xmlTree('categoryElements.pixelsLanding')??]
+		<div class="tracking-pixels">
+			[@xmlRef 'categoryElements.pixelsLanding' /]
+		</div>
+	[/#if]
+</body>
+
+</html>
+[/#compress]

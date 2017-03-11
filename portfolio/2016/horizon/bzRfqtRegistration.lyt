@@ -1,0 +1,205 @@
+[#compress]
+
+[#assign xhtmlCompliant = true in spring]
+[#import "spring.ftl" as spring /]
+[#include "macro/GlobalMacros.ftl" /]
+[#assign apiDomain]${APPLICATION_PROPERTIES["CONFIG.environment.api-host-prefix"]?string?trim}[#t][/#assign]
+<!doctype html>
+
+<!--[if lt IE 7]> <html class="ie6 ie" lang="en"> <![endif]-->
+<!--[if IE 7]>	<html class="ie7 ie" lang="en"> <![endif]-->
+<!--[if IE 8]>	<html class="ie8 ie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8"/>
+
+	<title>${categoryDisplayName!} Price Quotes From Qualified Sellers</title>
+	<meta name="description" content="Answer a few questions about your purchase, we'll match you with pre-screened sellers, and receive customized ${categoryDisplayName!} price quotes today."/>
+	<meta name="ROBOTS" content="NOINDEX, FOLLOW">
+
+	<!--[if lt IE 9]>[@processOnce '/scripts/libs/html5shiv.js'; fileUrl]<script type="text/javascript" src="${fileUrl}"></script>[/@]<![endif]-->
+
+	<!-- needed for truste -->
+	<script type="text/javascript" src="//privacy-policy.truste.com/privacy-seal/BuyerZone-com,-LLC/asc?rid=002791d6-6d48-464d-b0e7-77d855ccf758"></script>
+
+	<!-- libs & plugins -->
+	[@processOnce '/dist/js/bzBlueCrush.js'; fileUrl]<script type="text/javascript" src="${fileUrl}"></script>[/@]
+
+	<script type="text/javascript" src="/bzng/dist/js/bzPPCRegistrationFlow.js"></script>
+
+	[#include "/includes/semHeadline.ftl"]
+	[#include "/includes/semTagline.ftl"]
+	[#include "/includes/semCallToAct.ftl"]
+	[#include "blueCrushRegTpl.ftl"]
+	[#include "/includes/blueCrushProgressBarTpl.ftl"]
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+		var catType = '${quoteRequest.category.categoryType.description?lower_case}',
+			flow = new BZ.flow.PPCRegistrationFlow({
+				apiDomain: '${apiDomain}',
+				//apiDomain: '//bz-stg.buyerzone.com',
+				categoryName: '${categoryDisplayName}',
+				categoryId: '${quoteRequest.category.categoryId}',
+				categoryType: catType,
+				pageType: 'reg',
+				$renderTo: $('.rfq-form .reg-page')
+			});
+		flow.startup();
+	});
+	</script>
+
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Keania+One" rel="stylesheet">
+
+	<!-- stylesheet -->
+	[@processOnce '/dist/css/blueCrush.css'; fileUrl]<link rel="stylesheet" href="${fileUrl}" type="text/css" />[/@]
+ 	<link rel="stylesheet" href="/industrial/forklifts/horizon.css" type="text/css">
+    
+    <!-- Begin Inspectlet Embed Code -->
+	<script type="text/javascript" id="inspectletjs">
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 1737737408]);
+    (function() {
+    function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+    })();
+    </script>
+    <!-- End Inspectlet Embed Code -->
+	
+	<script src="//cdn.optimizely.com/js/6869001.js"></script>
+    
+</head>
+
+<body class="reg-page">
+
+<div class="horizon">
+
+ <a href="[@generateExternalUrl '/'/]" title="BuyerZone" style="position:absolute;padding:10px 0 10px 30px;width:200px;height:30px"><svg
+	 viewBox="14.7 134.6 1377.5 206.7" enable-background="new 14.7 134.6 1377.5 206.7" xml:space="preserve">
+<g>
+	<path fill="#000000" d="M14.7,168.3H77c31.1,0,54.5,13.6,54.5,42c0,19.3-12.6,31.3-31,37.1v0.4c21.6,1.3,38.8,19.3,38.8,41.9
+		c0,30.2-28.1,46.8-63.1,46.8H14.7V168.3z M39.2,238.2h33.3c18.5,0,33.4-6.9,33.4-25.2c0-13.4-8.8-24.7-28.3-24.7H39.4v49.9H39.2z
+		 M39.2,316.8h35.7c14.7,0,38.8-4.8,38.8-28.5c0-20.1-14.9-30-38.4-30H39.2V316.8z" style="box-shadow: -1px -1px 2px #000"/>
+	<path fill="#000000" d="M182.7,168.3v103.2c0,21,11.1,48.2,45.1,48.2c33.8,0,45.1-27.1,45.1-48.2V168.3h24.3v106.8
+		c0,39-30.2,65.9-69.4,65.9s-69.6-26.8-69.6-65.9V168.3H182.7z"/>
+	<path fill="#000000" d="M369.4,265l-67.8-96.7h31.1l48.9,74l50.3-74h29.6L393.7,265v71.9h-24.3V265z"  />
+	<path fill="#000000" d="M469.3,168.3H585v21.4h-91.3V240h85v21.4h-85v54.1h95.9v21.4H469.3L469.3,168.3L469.3,168.3z"/>
+	<path fill="#000000" d="M611.3,168.3h63.1c45.9,0,57.5,26,57.5,47.2c0,21.4-17,41.7-44,44.5l50.8,76.8h-30.4l-45.5-74.1h-27.1v74.1
+		h-24.3V168.3H611.3z M635.6,242.6h31.9c19.3,0,38.4-4.2,38.4-27.1s-19.3-27.1-38.4-27.1h-31.9V242.6z"/>
+</g>
+<g>
+	<path fill="#000000" d="M746.2,315.5l95.9-125.6h-93.1v-21.6h121.5v21.4l-95.4,125.6h96.9v21.4H746.2L746.2,315.5L746.2,315.5z"/>
+	<path fill="#000000" d="M1075.5,168.3h30l92.7,138.5h0.4V168.3h22.9v168.6h-29l-93.6-138.5h-0.4v138.5h-22.9V168.3z"/>
+	<path fill="#000000" d="M1253,168.3h108.7v21.4H1276V240h79.9v21.4H1276v54.1h90.2v21.4h-112.9V168.3H1253z"/>
+</g>
+<g>
+	<path fill="#000000" d="M906.6,297.3l13.8,0.6c-8.8-11.3-14.1-25.6-15.1-41.3c-2.3-38.8,22.9-71.5,62.5-73.8
+		c17.4-1,32.5,4.2,44.5,13.6l15.5,0.6l1.1-13.2c-16.2-13.6-37.8-21-62.3-19.5c-51,3.1-85.8,42.6-82.7,93.4
+		c1.3,21.4,9,40.1,21.2,54.5L906.6,297.3z"/>
+	<path fill="#000000" d="M1037.1,191.8l-1.3,14.3l-14.1-0.6c9.6,11.5,15.7,26.6,16.6,43.2c2.3,38.8-22.9,71.5-62.5,73.8
+		c-18.5,1.1-34.6-4.8-46.8-15.5l-14.3-0.6l-1.3,14c16.4,14.3,38.6,22,63.6,20.6c51-3.1,85.8-42.6,82.7-93.4
+		C1058.3,225.4,1050.3,206.1,1037.1,191.8z"/>
+</g>
+<text transform="matrix(1.0678 0 0 1 1362.6931 169.0356)" fill="#000000" font-family="'Arial'" font-size="35.8474" letter-spacing="-0.9">®</text>
+</svg></a> 
+        
+        <div class="cta">
+            
+            <h1>Leave the heavy lifting to us</h1>
+            <h2><span>&#8679;</span> We'll help you get the best price on a forklift</h2>
+        
+        </div>
+        
+        <div class="progress-value"></div>
+        
+    </div>
+    
+ <div class="bg-img">
+
+  <div class="questionContainer" id="questionSet">
+				
+         <div class="contentCol">
+				
+                <div class="valueProp">
+                
+                    <div class="valuePropContainer">
+                        
+                       <p>Answer a few easy questions and we'll connect you with reputable dealers who will provide competitive price quotes.</p>
+                    
+                        <img src="http://cdn.buyerzone.com/images/mktg/hornet/buyersGuide.png" width="170" alt="Buyer's Guide">
+                        <h2 style="color:#2F2F2F">FREE Buyer's Guide</h2>
+                        <p>We'll also provide you with a free forklifts Buyer's Guide to help you make the right decision.</p>
+                        
+                    </div>
+                    
+                    <!--<div class="progressBar"></div>-->
+                </div>
+                
+                
+                    <div class="contentWrapper rfq-box">
+                    
+                        <!-- form -->
+                       <form class="rfq-form reg registration" method="post">
+									<div class="reg-page"></div>
+								</form>
+                        <!-- // form -->
+                    <div class="loadingSpinner"></div>
+                	
+                
+                    <div id="backNextRow">
+                        <button class="backWrapper" id="rfq-back">back</button>
+                        <button class="nextWrapper" id="rfq-continue"><span class="nextLabel">NEXT</span> </button>
+                    </div>
+                               
+                </div>
+    
+		  </div>
+   
+   </div>
+               
+</div>
+
+<div class="footer">
+    
+    <div style="padding:30px 0 30px 30px">
+    
+    <a href="[@generateExternalUrl '/'/]" title="BuyerZone" ><img src="//cdn.buyerzone.com/images/BZ_logo_buyer.svg" style="padding-bottom:10px" width="270" alt="BUYERZONE" /></a> 
+    
+        <div class="credits">
+            <span>&copy; 2016 BuyerZone.com LLC. A Purch Brand. All Rights Reserved.</span><br><br>
+            <a href="[@generateExternalUrl '/about-us/'/]">About Us</a> |
+            <a href="[@generateExternalUrl '/about-us/disclaimer/'/]">Terms &amp; Conditions</a> |
+            <a href="[@generateExternalUrl '/about-us/privacy/'/]">Privacy Policy</a>
+            <span class="number">Customer Care: 888-393-5000</span>
+        </div>
+    
+    </div>
+
+</div>
+
+	<!-- alternate close button for info dialog -->
+	<div id="dialogCloseAlt">
+		<div class="closeWrapper">
+			<span>CLOSE</span>
+		</div>
+	</div>
+
+	<!-- pre-load for checkbox and radio icons -->
+	<div id="controlImagePreload">
+		<img src="//cdn.buyerzone.com/images/mktg/midnight/radio_on.svg">
+		<img src="//cdn.buyerzone.com/images/mktg/midnight/radio_off.svg">
+		<img src="//cdn.buyerzone.com/images/mktg/midnight/checkbox_on.svg">
+		<img src="//cdn.buyerzone.com/images/mktg/midnight/checkbox_off.svg">
+	</div>
+
+	<!-- processing message -->
+	[#include "/includes/rfqProcessing.ftl" /]
+
+	<!-- analytics -->
+	[#include "/includes/siteStats.ftl"]
+
+</body>
+
+</html>
+[/#compress]

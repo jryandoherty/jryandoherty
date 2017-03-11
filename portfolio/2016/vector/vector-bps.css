@@ -1,0 +1,2859 @@
+/* ==import main style sheet
+------------------------------------------------------*/
+/* Inline-lists */
+/* Breadcrumbs */
+/* Page Box */
+/* Buttons */
+/* contains form and all related elements
+----------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\000035}}
+.rfq-box {
+  min-height: 320px;
+  height: auto;
+  position: relative;
+  /* general
+  ----------------------------------------------------------*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000311}}
+.rfq-box nav {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000319}}
+.rfq-box form legend .required {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000323}}
+.rfq-box form .page {
+  min-height: 245px;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000328}}
+.rfq-box form .page > div.checkbox,
+.rfq-box form .page > div.radio,
+.rfq-box form .page > input[type="text"],
+.rfq-box form .page > textarea,
+.rfq-box form .page > select {
+  margin-top: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000335}}
+.rfq-box form .page div.checkbox ~ div.checkbox,
+.rfq-box form .page div.radio ~ div.radio {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000339}}
+.rfq-box form .page textarea {
+  height: 200px;
+  width: 400px;
+}
+
+/*----------------------------------------------------------
+  =RFQ conversion page
+----------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000352}}
+.seoRfq {
+  /* text input sizes */
+  /* multiple text input answers */
+  /* "other" answers */
+  /* answer columns */
+  /* reg */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000353}}
+.seoRfq label {
+  width: 550px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000358}}
+.seoRfq .textsmall {
+  width: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000361}}
+.seoRfq .textmedium {
+  width: 250px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000364}}
+.seoRfq .textlarge,
+.seoRfq .email {
+  width: 400px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000370}}
+.seoRfq .textmultiple {
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000372}}
+.seoRfq .textmultiple label {
+  padding-right: 10px;
+  width: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000376}}
+.seoRfq .textmultiple .textlarge {
+  width: 300px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000379}}
+.seoRfq .textmultiple span.error {
+  margin-left: 165px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000387}}
+.seoRfq .multipleAnsOther {
+  float: left;
+  width: 550px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\0000391}}
+.seoRfq .multipleAnsOther label {
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003101}}
+.seoRfq .answersColumn {
+  width: 47%;
+  margin-top: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003104}}
+.seoRfq .answersColumn label {
+  width: 245px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003107}}
+.seoRfq .answersColumn .multipleAnsOther {
+  width: 245px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003111}}
+.seoRfq .answersColumn1 {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003114}}
+.seoRfq .answersColumn2 {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003120}}
+.seoRfq .reg-field {
+  margin-bottom: 3px;
+  padding: 5px 0;
+  width: 465px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003126}}
+.seoRfq .reg-field label,
+.seoRfq .reg-field input {
+  display: block;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003131}}
+.seoRfq .reg-field label {
+  font-weight: bold;
+  width: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003135}}
+.seoRfq .reg-field input {
+  width: 300px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003138}}
+.seoRfq .reg-field select {
+  width: 310px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003144}}
+.seoRfq .reg-field span.error {
+  clear: both;
+  font-size: .6875em;
+  display: block;
+  margin-left: 150px;
+}
+
+/*----------------------------------------------------------
+  =notes, help, etc
+----------------------------------------------------------*/
+/* question help text/hint */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003161}}
+.emailHint {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003164}}
+.q-help-link,
+.emailHint a {
+  background: url(/bzng/images/buttons/info.jpg) no-repeat;
+  display: inline-block;
+  height: 18px;
+  position: relative;
+  text-indent: -9999px;
+  top: 1px;
+  width: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003179}}
+p.note {
+  margin: 0;
+}
+
+/* help popup */
+/*----------------------------------------------------------
+  =hover images
+----------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003186}}
+a.hover-img {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003190}}
+.hover-img-container {
+  display: none;
+  position: absolute;
+  text-align: center;
+  z-index: 500;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003200}}
+.hover-img-container span {
+  position: absolute;
+  right: 12px;
+  top: -11px;
+  color: #00679A;
+  font-size: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003208}}
+.hover-img-container div {
+  padding: 10px;
+  overflow: hidden;
+  zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003214}}
+.hover-img-container p {
+  margin: 0 0 5px 0;
+  text-align: center;
+  padding: 4px 8px;
+  font-weight: bold;
+}
+
+/* ie 7 help */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_rfq\.scss}line{font-family:\00003234}}
+.ie7 .checkbox input,
+.ie7 .checkbox label,
+.ie7 .radio input,
+.ie7 .radio label {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_util\.scss}line{font-family:\0000315}}
+.clearfix, .rfq-box nav .rfq-navigation {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_util\.scss}line{font-family:\000035}}
+.clearfix:before, .rfq-box nav .rfq-navigation:before, .clearfix:after, .rfq-box nav .rfq-navigation:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_util\.scss}line{font-family:\0000310}}
+.clearfix:after, .rfq-box nav .rfq-navigation:after {
+  clear: both;
+}
+
+/**
+ * from zurb foundation 5
+ */
+/*----------------------------------------------------------
+  = JQUERY POPUPS ()
+
+Style area: all instances of popups created with jquery ui plugin
+Examples are: help text, example answers (UGC pages), zip code list, example images for form answers
+For plugin information, see '/scripts/jquery/ui/jquery-ui.min-1.8rc3.js'
+For plugin configuration, see '/scripts/bzFormControls.js'
+Original jquery ui plugin stylesheets can be found here:
+http://jquery-ui.googlecode.com/svn/tags/latest/themes/base/jquery-ui.css
+http://static.jquery.com/ui/css/demo-docs-theme/ui.theme.css
+----------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000312}}
+.diag {
+  /* class on hidden div that will 'pop up' when link is clicked on */
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000317}}
+.ui-dialog {
+  /* containing box for 'popup' */
+  padding: 15px;
+  position: absolute;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000323}}
+.ui-helper-clearfix {
+  /* I hate clear fixes, there are so many better ways to do it :( */
+  display: block;
+}
+
+/*----------------------------------------------------------
+  =dialog-pop-under + question-help - example answers
+----------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000331}}
+.dialog-pop-under {
+  /* general popup including example answers (ugc), zip code city list, why we need your email address, ect. */
+  background: #e2edfa;
+  border: 2px solid #069;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000340}}
+.question-help,
+.bz-dialog {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000346}}
+.question-help p,
+.bz-dialog p {
+  font-size: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000349}}
+.question-help.blue,
+.bz-dialog.blue {
+  color: #f8fbff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000351}}
+.question-help.blue a,
+.bz-dialog.blue a {
+  border: none;
+  color: #eec57e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000356}}
+.question-help .ui-dialog-title,
+.bz-dialog .ui-dialog-title {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000361}}
+.question-help .ui-dialog-title .ui-icon,
+.bz-dialog .ui-dialog-title .ui-icon {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000366}}
+.question-help.liteBlue .ui-dialog-title,
+.bz-dialog.liteBlue .ui-dialog-title {
+  color: #464646;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000370}}
+.question-help .ui-dialog-buttonset button,
+.bz-dialog .ui-dialog-buttonset button {
+  float: left;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 8px 10px;
+  border: 0;
+}
+
+/* help text popup */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000383}}
+.dialog-pop-under .ui-dialog-title,
+.bz-dialog .ui-dialog-title,
+.question-help .ui-dialog-title {
+  /* popup header, contained in a span */
+  display: block;
+  font-weight: bold;
+  line-height: 1.286em;
+  margin: 8px 0 18px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000393}}
+.dialog-pop-under div.ui-widget-content,
+.bz-dialog div.ui-widget-content,
+.question-help div.ui-widget-content {
+  overflow: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\0000399}}
+.dialog-pop-under div.ui-dialog-buttonpane {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\00003103}}
+.dialog-pop-under p,
+.bz-dialog p,
+.question-help p {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\00003109}}
+.dialog-pop-under ul,
+.bz-dialog ul,
+.question-help ul {
+  list-style-type: disc;
+  margin-top: 0;
+  padding-left: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\00003118}}
+.dialog-pop-under .ui-dialog-buttonpane,
+.bz-dialog .ui-dialog-buttonpane,
+.question-help .ui-dialog-buttonpane {
+  clear: both;
+  margin-top: 18px;
+}
+
+/* div that contains close button */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\00003126}}
+.bz-dialog .ui-dialog-buttonpane,
+.question-help .ui-dialog-buttonpane {
+  clear: both;
+  margin-top: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\00003134}}
+.dialog-pop-under .ui-dialog-buttonpane button span,
+.bz-dialog .ui-dialog-buttonpane button span,
+.question-help .ui-dialog-buttonpane button span {
+  /* button text */
+  padding: 0 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\00003141}}
+.dialog-pop-under .ui-dialog-titlebar .ui-icon,
+.bz-dialog .ui-dialog-titlebar .ui-icon,
+.question-help .ui-dialog-titlebar .ui-icon {
+  /* draggable icon */
+  display: none;
+}
+
+/*----------------------------------------------------------
+  =dialog-pop-under - zipcode popup specific styles
+----------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\00003151}}
+.dialog-zipcode .ui-dialog-titlebar {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_jqueryPopups\.scss}line{font-family:\00003155}}
+.dialog-zipcode ul {
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: "Avenir LT W01 55 Roman";
+  src: url("/bzng/styles/bz/fonts/avenir/2f5a6074-badc-4e08-83f1-ed67fe5c3d7c.eot?#iefix");
+  src: url("/bzng/styles/bz/fonts/avenir/2f5a6074-badc-4e08-83f1-ed67fe5c3d7c.eot?#iefix") format("eot"), url("/bzng/styles/bz/fonts/avenir/b9ebb19d-88c1-4cbd-9baf-cf51972422ec.woff") format("woff"), url("/bzng/styles/bz/fonts/avenir/5ed4f98e-9044-4810-88ff-74d412c1351f.ttf") format("truetype"), url("/bzng/styles/bz/fonts/avenir/4cb16859-16ca-4342-b89c-292dc83266af.svg#4cb16859-16ca-4342-b89c-292dc83266af") format("svg");
+}
+@font-face {
+  font-family: "Avenir LT W01 65 Medium";
+  src: url("/bzng/styles/bz/fonts/avenir/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix");
+  src: url("/bzng/styles/bz/fonts/avenir/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix") format("eot"), url("/bzng/styles/bz/fonts/avenir/2cac77ec-9bc0-4ee7-87e4-27650190744f.woff") format("woff"), url("/bzng/styles/bz/fonts/avenir/aaf11848-aac2-4d09-9a9c-aac5ff7b8ff4.ttf") format("truetype"), url("/bzng/styles/bz/fonts/avenir/294099f3-8d00-4676-afc5-5e9d8d43ad69.svg#294099f3-8d00-4676-afc5-5e9d8d43ad69") format("svg");
+}
+@font-face {
+  font-family: "Avenir LT W01 85 Heavy";
+  src: url("/bzng/styles/bz/fonts/avenir/f61bf0f6-c193-4100-b940-12a1a01dcee5.eot?#iefix");
+  src: url("/bzng/styles/bz/fonts/avenir/f61bf0f6-c193-4100-b940-12a1a01dcee5.eot?#iefix") format("eot"), url("/bzng/styles/bz/fonts/avenir/7147ec3a-8ff8-4ec9-8c5c-bd1571dc6ae6.woff") format("woff"), url("/bzng/styles/bz/fonts/avenir/d1dc54b2-878d-4693-8d6e-b442e99fef68.ttf") format("truetype"), url("/bzng/styles/bz/fonts/avenir/731dd4d3-64da-427d-ba61-01575b3cf3f7.svg#731dd4d3-64da-427d-ba61-01575b3cf3f7") format("svg");
+}
+/**
+ *  blueCrush.scss
+ *
+ *  Created by Danny Rosenberg
+ *  2014-10-14
+ *
+ *  Parsed by css2scss
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000314}}
+h1 {
+  font-size: 1.85em;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000319}}
+.mainContent article {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000323}}
+.sidebar h3 {
+  color: #ff871e;
+  margin-top: 20px;
+}
+
+/**
+  * buyer welcome
+  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000333}}
+.rfq-box {
+  padding: 30px;
+  -webkit-box-shadow: 1px 1px 2px 0px #cccccc;
+  -moz-box-shadow: 1px 1px 2px 0px #cccccc;
+  box-shadow: 1px 1px 2px 0px #cccccc;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  width: 580px;
+  overflow: hidden;
+  /* hover image hovers */
+  /* nav container that contains continue and back buttons */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000340}}
+.rfq-box .page {
+  position: absolute;
+  left: 580px;
+  width: 580px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000346}}
+.ie .rfq-box {
+  border: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000351}}
+.rfq-box a.hover-img {
+  color: #01bee9;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000357}}
+.rfq-box nav {
+  bottom: 20px;
+  margin-top: 20px;
+  position: absolute;
+  width: 580px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000366}}
+.rfq-box .qs .continue-btn,
+.rfq-box .qs .back-btn {
+  display: none;
+}
+
+/* progress bar.. see _progressbar.scss for full styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000373}}
+.html5-progress-bar {
+  margin-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000377}}
+.logos {
+  margin: 30px auto;
+  width: 960px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000382}}
+.truste {
+  margin: 15px 0 0 150px;
+  width: 225px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000387}}
+td[colspan='3'] .truste {
+  width: 480px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000391}}
+.tcpa {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\0000395}}
+.tcpa-text,
+.tcpaBelow {
+  color: #666666;
+  float: left;
+  font-size: .6875em;
+  line-height: 1.5;
+  margin-top: 20px;
+  width: 455px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003105}}
+.tcpa-logos {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003107}}
+.tcpa-logos img {
+  margin: 24px 0 0 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003112}}
+.tcpaAbove {
+  width: 570px;
+  padding-bottom: 15px;
+  font-size: .6875em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003118}}
+.question {
+  font-weight: bold;
+}
+
+/* newsletter signup */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003124}}
+.newsletter {
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003126}}
+.newsletter p {
+  color: #999999;
+  float: left;
+  font-size: .6875em;
+  margin: 0;
+  width: 520px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003135}}
+.seoRfq .registration .page .reg-field.last {
+  margin-bottom: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003139}}
+.seoRfq .reg-field input,
+.seoRfq .reg-field label {
+  clear: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003144}}
+.ie8 .seoRfq .answersColumn label {
+  width: 208px !important;
+}
+
+/*----------------------------------------------------------
+  = processing overlay on form submit
+	+ animated processing graphic on question set
+----------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003152}}
+.processing {
+  display: none;
+  float: right;
+  margin: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003158}}
+#processing {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5000px;
+  background-color: black;
+  z-index: 2000;
+  -moz-opacity: 0.6;
+  opacity: .60;
+  filter: alpha(opacity=60);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003172}}
+#processing-body {
+  display: none;
+  text-align: center;
+  width: 575px;
+  background-color: white;
+  padding: 10px;
+  z-index: 10002;
+  position: absolute;
+  top: 25%;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003186}}
+#processing-body p,
+#processing-body img {
+  margin: 15px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003191}}
+#processing-body ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  width: 340px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003198}}
+#processing-body li {
+  display: none;
+  font-size: 1.15em;
+  line-height: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003204}}
+#processing-body h3 {
+  margin: 10px 0 0 0;
+  line-height: 1.25em;
+}
+
+/* seller logos */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003210}}
+.logos {
+  -webkit-box-shadow: 1px 1px 2px 0 #ccc;
+  -moz-box-shadow: 1px 1px 2px 0 #ccc;
+  box-shadow: 1px 1px 2px 0 #ccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003216}}
+.ie8 .logos {
+  border: 1px solid #cccccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003220}}
+.ie7 .logos {
+  border: 1px solid #cccccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003224}}
+.logos a {
+  margin: 0 13px;
+}
+
+/* input focus */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003229}}
+input[type="text"]:focus {
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 153, 204, 0.5);
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 153, 204, 0.5);
+  box-shadow: 0px 0px 4px 0px rgba(0, 153, 204, 0.5);
+  border: 1px solid #66c2e0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003236}}
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 153, 204, 0.5);
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 153, 204, 0.5);
+  box-shadow: 0px 0px 2px 0px rgba(0, 153, 204, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003243}}
+.ie input:focus {
+  outline: 1px dotted #6b6b6b;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003247}}
+.rfq-navigation .button:focus, .rfq-navigation .question-help .ui-dialog-buttonset button:focus, .question-help .ui-dialog-buttonset .rfq-navigation button:focus,
+.rfq-navigation .bz-dialog .ui-dialog-buttonset button:focus,
+.bz-dialog .ui-dialog-buttonset .rfq-navigation button:focus {
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 153, 204, 0.5);
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 153, 204, 0.5);
+  box-shadow: 0px 0px 4px 0px rgba(0, 153, 204, 0.5);
+}
+
+/* hide tracking pixels */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003258}}
+.question-help.blue {
+  color: #afd3fb;
+}
+
+/**
+ *  TODO: below classes need to be combined with previous classes
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003268}}
+.backWrapper span, .nextWrapper span, .completionWrapper span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003276}}
+.closeWrapper, #rfq-continue {
+  font-family: "Avenir LT W01 85 Heavy", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003285}}
+input[type="checkbox"] + label, input[type="checkbox"] + div.multipleAnsOther > label {
+  background: url("/bzng/images/bluecrush/checkbox_off.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: auto;
+  min-height: 30px;
+  padding: 0 0 4px 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003295}}
+input[type="checkbox"]:checked + label, input[type="checkbox"]:checked + div.multipleAnsOther > label {
+  background: url("/bzng/images/bluecrush/checkbox_on.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: auto;
+  min-height: 30px;
+  padding: 0 0 4px 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003305}}
+input[type="radio"] + label, input[type="radio"] + div.multipleAnsOther > label {
+  background: url("/bzng/images/bluecrush/radio_off.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: auto;
+  min-height: 30px;
+  padding: 0 0 4px 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003315}}
+input[type="radio"]:checked + label, input[type="radio"]:checked + div.multipleAnsOther > label {
+  background: url("/bzng/images/bluecrush/radio_on.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: auto;
+  min-height: 30px;
+  padding: 0 0 4px 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003324}}
+.logoRow {
+  width: 100%;
+  height: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003327}}
+.logoRow .center {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003330}}
+.logoRow .logo {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003337}}
+.tagline {
+  color: #fff;
+  font-size: 19px;
+  left: 280px;
+  position: absolute;
+  top: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003345}}
+.contentRow {
+  background-repeat: no-repeat;
+  background-position: 50% 16px;
+  min-height: 532px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003351}}
+.leftContent {
+  padding: 28px 20px 0 0;
+  float: left;
+  width: 390px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003355}}
+.leftContent .question {
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003358}}
+.leftContent ul {
+  margin: 4px 0 14px 16px;
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_util\.scss}line{font-family:\000035}}
+.leftContent ul:before, .leftContent ul:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/_util\.scss}line{font-family:\0000310}}
+.leftContent ul:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003361}}
+.leftContent ul li {
+  color: white;
+  font-size: 17px;
+  height: 50px;
+  line-height: 1.4;
+  list-style-type: none;
+  margin: 12px 0 0 20px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003371}}
+.leftContent ul li {
+  background: url(/bzng/images/bluecrush/sharedetails_icon_1.png) no-repeat scroll 0 0 transparent;
+  color: #fff;
+  font-size: 17px;
+  height: 50px;
+  line-height: 1.4;
+  list-style-type: none;
+  margin: 12px 0 0 20px;
+  padding: 0 0 0 56px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003381}}
+.leftContent ul li + li {
+  background: url(/bzng/images/bluecrush/sharedetails_icon_2.png) no-repeat scroll 0 0 transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003384}}
+.leftContent .icon {
+  background: none;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003387}}
+.leftContent .icon:before {
+  content: '';
+  width: 50px;
+  height: 50px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003397}}
+.leftContent .icon--book:before {
+  background-image: url(/bzng/images/bluecrush/sharedetails_icon_1.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003402}}
+.leftContent .icon--clipboard:before {
+  background-image: url(/bzng/images/bluecrush/sharedetails_icon_2.png);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003407}}
+.leftContent .curved-arrow {
+  margin-top: 16px;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003411}}
+.leftContent [src="/bzng/images/bluecrush/sharedetails_arrow.png"] {
+  margin-top: 16px;
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003417}}
+.rightContent {
+  position: relative;
+  float: left;
+  border-color: #464646;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 4px;
+  width: 542px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003427}}
+.headerRow {
+  height: 88px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003429}}
+.headerRow h2 {
+  color: #acacac;
+  font-size: 19px;
+  height: 25px;
+  line-height: 25px;
+  margin: auto 0 auto 10px;
+  text-transform: none;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003440}}
+.compareSaveLogo {
+  float: left;
+  height: 80px;
+  width: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003446}}
+.compareSaveText {
+  color: #000;
+  font-size: 24px;
+  height: 52px;
+  line-height: 52px;
+  margin: auto 0 auto 10px;
+  text-transform: none;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003458}}
+.ie7 .headerRow .compareSaveText {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003461}}
+.ie7 .headerRow h2 {
+  margin-top: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003465}}
+.ie7 .contentColWrapper {
+  background-image: none;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003469}}
+.ie7 input[type="checkbox"] {
+  display: inline;
+  margin: 0;
+  vertical-align: baseline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003474}}
+.ie7 input[type="checkbox"] + label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003478}}
+.ie7 input[type="checkbox"] + div.multipleAnsOther > label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003484}}
+.ie7 input[type="checkbox"]:checked + label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003488}}
+.ie7 input[type="checkbox"]:checked + div.multipleAnsOther > label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003494}}
+.ie7 input[type="radio"] {
+  display: inline;
+  margin: 0;
+  vertical-align: baseline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003499}}
+.ie7 input[type="radio"] + label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003503}}
+.ie7 input[type="radio"] + div.multipleAnsOther > label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003509}}
+.ie7 input[type="radio"]:checked + label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003513}}
+.ie7 input[type="radio"]:checked + div.multipleAnsOther > label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003520}}
+.ie7 .horizontalControls label {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003523}}
+.ie7 .horizontalControls .qiconWrapper {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003528}}
+.ie7 form label {
+  line-height: normal !important;
+  display: inline !important;
+  height: auto !important;
+  padding: auto !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003534}}
+.ie7 form legend {
+  white-space: normal;
+  display: table;
+  margin: 0 0 0 -7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003540}}
+.ie7 .multipleAnsOther > input.other-input {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003543}}
+.ie7 .completionWrapper span {
+  margin-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003547}}
+.ie7 .reg-page fieldset h3 {
+  margin-top: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003550}}
+.ie7 .reg-page fieldset table input {
+  width: 97% !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003554}}
+.ie7 .logos a.ie7spcl {
+  margin-top: 7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003557}}
+.ie7 .textmultiple > label.textwrap + input.textsmall {
+  margin-top: 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003561}}
+.ie7 input[type='radio'] + label {
+  background: none;
+  padding: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003565}}
+.ie7 input[type='radio'] + div.multipleAnsOther > label {
+  background: none;
+  padding: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003571}}
+.ie7 input[type='checkbox'] + label {
+  background: none;
+  padding: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003575}}
+.ie7 input[type='checkbox'] + div.multipleAnsOther > label {
+  background: none;
+  padding: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003580}}
+.ie7 .answersColumn .multipleAnsOther > input.other-input {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003585}}
+.clearLeft {
+  clear: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003587}}
+.clearLeft.footer {
+  color: #5d5d5d;
+  font-size: 0.6875em;
+  overflow: auto;
+  width: 960px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003593}}
+.clearLeft.footer > span {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003596}}
+.clearLeft.footer > div {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003600}}
+.clearLeft.footer a {
+  display: inline-block;
+  padding: 6px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003604}}
+.clearLeft.footer a + a {
+  border-left: 1px solid #b9b9b9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003607}}
+.clearLeft.footer a + span {
+  border-left: 1px solid #b9b9b9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003612}}
+.clearLeft.footer span {
+  display: inline-block;
+  padding: 6px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003616}}
+.clearLeft.footer div.aboutRow span {
+  font-family: "Avenir LT W01 85 Heavy", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003623}}
+.contentCol {
+  background-color: white;
+  min-height: 300px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003626}}
+.contentCol .rfq-box {
+  width: 482px;
+  border-radius: 0;
+  box-shadow: none;
+  left: auto;
+  min-height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003632}}
+.contentCol .rfq-box .page {
+  width: 482px;
+  left: 482px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003639}}
+.contentWrapper {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  padding: 24px 30px 0 30px;
+  position: relative;
+  width: 900px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003651}}
+.safari .horizontalControls .multipleAnsOther input.other-input {
+  margin-top: 4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003654}}
+.safari .horizontalControls.choose5 .multipleAnsOther input.other-input {
+  margin-top: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003658}}
+.safari .contentWrapper.rfq-box {
+  overflow-y: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003663}}
+.safari fieldset > div.radio input[type="radio"] + label {
+  display: table-cell;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003666}}
+.safari fieldset > div.radio input[type="radio"] + div.multipleAnsOther > label {
+  display: table-cell;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003670}}
+.safari fieldset > div.answersColumn > div.radio input[type="radio"] + label {
+  display: table-cell;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003677}}
+.ie8 .contentColWrapper {
+  background-image: none;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003681}}
+.ie8 input[type="checkbox"] {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003684}}
+.ie8 input[type="checkbox"] + label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003688}}
+.ie8 input[type="checkbox"] + div.multipleAnsOther > label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003694}}
+.ie8 input[type="checkbox"]:checked + label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003698}}
+.ie8 input[type="checkbox"]:checked + div.multipleAnsOther > label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003704}}
+.ie8 input[type="radio"] {
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003707}}
+.ie8 input[type="radio"] + label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003711}}
+.ie8 input[type="radio"] + div.multipleAnsOther > label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003717}}
+.ie8 input[type="radio"]:checked + label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003721}}
+.ie8 input[type="radio"]:checked + div.multipleAnsOther > label {
+  display: inline;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003728}}
+.ie8 .horizontalControls label {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003731}}
+.ie8 .horizontalControls .qiconWrapper {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003734}}
+.ie8 .horizontalControls > div {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003738}}
+.ie8 .multipleAnsOther > input.other-input {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003742}}
+.ie8 input[type='radio'] + label {
+  background: none;
+  padding: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003746}}
+.ie8 input[type='radio'] + div.multipleAnsOther > label {
+  background: none;
+  padding: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003752}}
+.ie8 input[type='checkbox'] + label {
+  background: none;
+  padding: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003756}}
+.ie8 input[type='checkbox'] + div.multipleAnsOther > label {
+  background: none;
+  padding: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003761}}
+.ie8 .answersColumn .multipleAnsOther > input.other-input {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003766}}
+#backNextRow {
+  border-color: #464646;
+  border-style: solid;
+  height: 48px;
+  border-width: 1px 0;
+  border-color: #464646;
+  border-style: solid;
+  height: 48px;
+  border-width: 1px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003772}}
+#backNextRow.firstPage .backWrapper {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003775}}
+#backNextRow.firstPage .nextWrapper {
+  width: 542px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003784}}
+#backNextRow.firstPage .backWrapper {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003787}}
+#backNextRow.firstPage .nextWrapper {
+  width: 542px;
+}
+
+/*
+ *  remove any/all inner content and nav from ie7, which is no longer supported
+ *  replace with 'warning message'
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003797}}
+html.ie7 #backNextRow {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003801}}
+html.ie7 fieldset.page {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003805}}
+.backWrapper {
+  background-color: #cacaca;
+  border-right: 1px solid #464646;
+  float: left;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  width: 127px;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003819}}
+.nextWrapper {
+  float: left;
+  background-color: #f8a556;
+  height: 48px;
+  line-height: 48px;
+  text-align: right;
+  width: 414px;
+  cursor: pointer;
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003833}}
+.closeWrapper {
+  background-color: #464646;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 411px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003840}}
+.closeWrapper span {
+  background-image: url("/bzng/images/bluecrush/X_Close_Icon.png");
+  background-repeat: no-repeat;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 23px;
+  padding-left: 31px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003851}}
+.ie7 .completionRow {
+  overflow: hidden !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003855}}
+.completionRow {
+  border-color: #464646;
+  border-style: solid;
+  font-size: 14px;
+  overflow: auto;
+  position: relative;
+  border-width: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003864}}
+.completionWrapper {
+  background-color: #fff;
+  float: left;
+  height: 42px;
+  line-height: 42px;
+  position: relative;
+  text-align: center;
+  width: 542px;
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003878}}
+.completionBar {
+  background-color: #bed279;
+  border-right: 1px solid #464646;
+  font-size: 14px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003887}}
+.completionMsg {
+  color: #99ae6d;
+  display: none;
+  height: 42px;
+  left: 65%;
+  line-height: 42px;
+  position: absolute;
+  text-align: center;
+  width: 35%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003898}}
+.contentColWrapper {
+  background-color: #fff;
+  border-color: #464646;
+  border-style: solid;
+  overflow: auto;
+  border-width: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003908}}
+#rfq-continue:hover {
+  background-color: #f4b245 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003914}}
+#rfq-back:hover {
+  background-color: #cfcfcf;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003917}}
+#rfq-back span {
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003922}}
+.nextArrow {
+  background: url("/bzng/images/bluecrush/next_arrow.png") no-repeat scroll 0 0 transparent;
+  height: 48px;
+  width: 36px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003928}}
+.logoWrapper {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003930}}
+.logoWrapper .logos {
+  border-top: 1px solid #bdbdbd;
+  box-shadow: none;
+  font-size: 0;
+  margin: 0;
+  padding-bottom: 18px;
+  width: 542px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003937}}
+.logoWrapper .logos a {
+  background-size: 100%;
+  margin: 0 11px;
+  width: 74px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003943}}
+.logoWrapper span {
+  display: block;
+  font-size: 16px;
+  margin: 18px;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003953}}
+.reg-page fieldset h3 {
+  margin-bottom: 1.0em;
+  font-family: "Avenir LT W01 85 Heavy", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003958}}
+.reg-page fieldset table input {
+  width: 225px !important;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003962}}
+.reg-page fieldset table select {
+  width: 225px !important;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003968}}
+.reg-page table {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003971}}
+.reg-page td {
+  height: 50px;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003975}}
+.reg-page .truste {
+  margin: 15px 0 0;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003979}}
+.reg-page .onepage td {
+  height: 70px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003985}}
+.seoRfq .reg-field {
+  padding: 0 !important;
+  width: auto !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003988}}
+.seoRfq .reg-field label {
+  cursor: auto;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003992}}
+.seoRfq .reg-field span.error {
+  margin-left: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\00003997}}
+.seoRfq .textmultiple label {
+  float: left;
+  width: 250px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031001}}
+.seoRfq .textmultiple .textlarge {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031004}}
+.seoRfq .textmultiple span.error {
+  font-size: 12px;
+  margin-left: 260px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031009}}
+.seoRfq label {
+  width: auto !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031012}}
+.seoRfq .multipleAnsOther {
+  float: left;
+  width: auto !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031015}}
+.seoRfq .multipleAnsOther span.error {
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031019}}
+.seoRfq .multipleAnsOtherClear {
+  clear: left;
+  height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031023}}
+.seoRfq .textlarge {
+  margin-left: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031028}}
+.q-help-link {
+  background: url("/bzng/images/bluecrush/info.png") !important;
+  height: 26px;
+  width: 26px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031034}}
+input[type="checkbox"] {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031054}}
+input[type="radio"] {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031074}}
+#dialogCloseAlt {
+  cursor: pointer;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 53px;
+  z-index: 9999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031083}}
+.spaceExtender {
+  background-color: transparent;
+  height: 40px;
+  overflow: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031089}}
+.build {
+  color: #d7d7d7;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031093}}
+.ie7wrap {
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031101}}
+p ~ .tcpa-logos {
+  text-align: right;
+  width: 100px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031106}}
+p ~ .tcpaWrapper a img {
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031110}}
+p.note + span.error {
+  color: red;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031118}}
+.zipCode {
+  margin-top: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031124}}
+form .question .optional {
+  font-size: 14px;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031128}}
+form .question span.error {
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031132}}
+form legend {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031134}}
+form legend .optional {
+  font-size: 14px;
+  color: #999 !important;
+  font-weight: normal;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031140}}
+form legend span.error {
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031144}}
+form label {
+  font-size: 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031147}}
+form input[type="file"] {
+  border-color: #548ed4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031149}}
+form input[type="file"]:focus {
+  border-color: #548ed4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031153}}
+form input[type="number"] {
+  border-color: #548ed4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031155}}
+form input[type="number"]:focus {
+  border-color: #548ed4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031159}}
+form input[type="text"] {
+  border-color: #548ed4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031161}}
+form input[type="text"]:focus {
+  border-color: #548ed4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031165}}
+form select {
+  border-color: #548ed4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031167}}
+form select:focus {
+  border-color: #548ed4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031171}}
+form textarea {
+  border-color: #548ed4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031173}}
+form textarea:focus {
+  border-color: #548ed4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031177}}
+form fieldset {
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031182}}
+form .reg-page label {
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031187}}
+.check-note {
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031191}}
+.note {
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031195}}
+.q-note {
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031199}}
+.trustRow {
+  margin-top: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031201}}
+.trustRow > a {
+  padding: 1px 6px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031203}}
+.trustRow > a + a img {
+  margin: 0 0 8px 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031209}}
+.aboutRow {
+  margin: 8px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031211}}
+.aboutRow.lastPage {
+  margin-top: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031216}}
+.horizontalControls {
+  margin: 42px auto 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031217}}
+.horizontalControls label {
+  background-position: 50% 0 !important;
+  min-width: 26px;
+  padding-left: 0 !important;
+  padding-top: 30px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031224}}
+.horizontalControls .qiconWrapper {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+  height: 90px;
+  margin: 0 auto 14px;
+  width: 90px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031234}}
+.horizontalControls .multipleAnsOther label {
+  padding-bottom: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031237}}
+.horizontalControls .multipleAnsOther input.other-input {
+  display: block;
+  margin: 0.5em 0;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031243}}
+.horizontalControls.choose2 {
+  margin-left: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031245}}
+.horizontalControls.choose2 > div {
+  width: 190px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031250}}
+.horizontalControls.choose5 > div {
+  width: 19%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031253}}
+.horizontalControls.choose5 .multipleAnsOther input.other-input {
+  margin-top: 0.5em;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031258}}
+.horizontalControls > div {
+  float: left;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031261}}
+.horizontalControls > div + div {
+  padding-left: 1%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031265}}
+.horizontalControls.choose3 > div {
+  width: 32%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031268}}
+.horizontalControls.choose4 > div {
+  width: 24%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031273}}
+#controlImagePreload {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031279}}
+.question {
+  color: #163353;
+  font-family: "Avenir LT W01 85 Heavy", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031287}}
+.questionWhite {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031292}}
+.psize {
+  font-size: 13px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031297}}
+.rfq-box .warning {
+  background-color: #e1e1e1;
+  padding: 14px 12px 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031300}}
+.rfq-box .warning a {
+  color: inherit;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031303}}
+.rfq-box .warning a:visited {
+  color: inherit;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031307}}
+.rfq-box .warning a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031311}}
+.rfq-box .warning a:active {
+  color: inherit;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031316}}
+.rfq-box .warning p {
+  line-height: normal;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031321}}
+.rfq-box .warning-after {
+  clear: both;
+  float: left;
+  margin-top: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031326}}
+.rfq-box .warning-before {
+  margin-bottom: 0;
+  margin-top: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031330}}
+.rfq-box form .page {
+  min-height: 390px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031334}}
+.rfq-box form .page > div.answersColumn {
+  margin-top: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031337}}
+.rfq-box form .page > div.checkbox {
+  margin-top: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031340}}
+.rfq-box form .page > div.radio {
+  margin-top: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031343}}
+.rfq-box form .page > div.textmultiple {
+  margin-top: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031347}}
+.rfq-box form .page > input[type="text"] {
+  margin-top: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031350}}
+.rfq-box form .page > select {
+  margin-top: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031353}}
+.rfq-box form .page > textarea {
+  margin-top: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031357}}
+.rfq-box form .page textarea {
+  height: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031361}}
+.rfq-box form .page div.checkbox ~ div.checkbox {
+  margin-top: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031364}}
+.rfq-box form .page div.radio ~ div.radio {
+  margin-top: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031368}}
+.rfq-box form .page div.horizontalControls > div.checkbox ~ div.checkbox {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031371}}
+.rfq-box form .page div.horizontalControls > div.radio ~ div.radio {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031376}}
+.rfq-box form .page a.hover-img {
+  color: #3e87ec;
+  font-size: inherit;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031384}}
+.question-help {
+  border-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031386}}
+.question-help.blue {
+  background-color: #3a7edb;
+  overflow: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031391}}
+.question-help div.ui-widget-content {
+  height: auto !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031394}}
+.question-help div.ui-dialog-buttonpane {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031398}}
+.question-help.gray a, .question-help .ui-dialog-buttonset button.question-help a,
+.bz-dialog .ui-dialog-buttonset button.question-help a {
+  color: #0000ff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031403}}
+.ui-dialog-title {
+  font-size: 23px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031407}}
+.tcpa {
+  margin: 1.5em 0 0;
+  padding-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031412}}
+.tcpaAbove {
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031416}}
+.tcpaBelow {
+  margin: 0;
+  width: 420px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031421}}
+.tcpa-logos {
+  text-align: center;
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031424}}
+.tcpa-logos img {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031427}}
+.tcpa-logos a + a img {
+  margin-left: 16px;
+  padding-bottom: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031433}}
+a {
+  color: #3e87ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031435}}
+a:active {
+  color: #3e87ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031438}}
+a:hover {
+  color: #3e87ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031441}}
+a:visited {
+  color: #3e87ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031444}}
+a.zipCode {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031449}}
+.ui-dialog {
+  border-color: #464646;
+  border-style: solid;
+  border-width: 1px 0 1px 1px;
+  opacity: 0.95;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031455}}
+.ui-dialog .dialogWrapper {
+  overflow: auto;
+  padding: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031461}}
+.tcpaWrapper {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031463}}
+.tcpaWrapper img {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031466}}
+.tcpaWrapper .tcpa.reglast-show {
+  background-color: #fff;
+  border-top: 4px solid #464646;
+  margin-top: 0 !important;
+  overflow: auto;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031473}}
+.tcpaWrapper p.tcpa {
+  float: left;
+  font-size: 12px;
+  line-height: normal;
+  margin: 0;
+  width: 65%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031480}}
+.tcpaWrapper a img {
+  margin-right: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031485}}
+.errorTxt {
+  font-size: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031489}}
+.chrome .contentWrapper.rfq-box {
+  overflow-y: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031493}}
+.multipleAnsOther > input.other-input {
+  display: block;
+  margin: 0 0 0 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031499}}
+.answersColumn .multipleAnsOther > label {
+  padding-bottom: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031502}}
+.answersColumn .multipleAnsOther > input.other-input {
+  display: block;
+  margin: 0 0 0 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031508}}
+.non-reg .completionBar {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031512}}
+#rfq-finish-form ul li {
+  background: url("/bzng/images/bluecrush/check_icon.png") no-repeat scroll 7px 7px transparent;
+  line-height: normal;
+  list-style-type: none;
+  padding: 0.25em 0 1px 28px;
+  vertical-align: middle;
+  margin: 0.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031521}}
+html:not(.ie7):not(.ie8) .answersColumn .multipleAnsOther > input.other-input {
+  display: block;
+  margin-left: 32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031526}}
+.checkbox.newsLetter > label {
+  color: #999;
+  font-size: 0.6875em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031531}}
+.ie8 .checkbox.newsLetter > label {
+  width: 460px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031535}}
+td.error > span.error {
+  padding-top: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031539}}
+.warning-before ~ .horizontalControls {
+  margin-top: 22px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031543}}
+.answersRow2 .horizontalControls {
+  margin-top: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031547}}
+.textmultiple > label.textwrap + input.textsmall {
+  margin-top: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031551}}
+.ie .rfq-box {
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031555}}
+legend.question + p.note {
+  line-height: normal;
+  margin-top: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031560}}
+textarea + p.note {
+  margin-top: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031564}}
+.pageBox.gray, .question-help .ui-dialog-buttonset button.pageBox,
+.bz-dialog .ui-dialog-buttonset button.pageBox {
+  background-color: #a6a6a6;
+  opacity: 1.0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031569}}
+.q-help.help-popup.psize {
+  color: #fff;
+  font-size: 17px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031574}}
+.footer a {
+  color: #5d5d5d !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031576}}
+.footer a:active {
+  color: #5d5d5d !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031579}}
+.footer a:hover {
+  color: #5d5d5d !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031582}}
+.footer a:visited {
+  color: #5d5d5d !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031587}}
+.postalcode_input.zipUS {
+  width: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031591}}
+.bz-dialog.gray a, .question-help .ui-dialog-buttonset button.bz-dialog a,
+.bz-dialog .ui-dialog-buttonset button.bz-dialog a {
+  color: #0000ff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031595}}
+.loadingSpinner {
+  background-image: url("/bzng/images/spinner.gif");
+  bottom: 7px;
+  display: none;
+  height: 11px;
+  position: absolute;
+  right: 62px;
+  width: 43px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031605}}
+#seoRfq {
+  background-image: url("/bzng/images/bluecrush/background_seo.png") !important;
+  background-color: #f9f7f5 !important;
+  background-position: 0 263px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031606}}
+#seoRfq .headerTop a, #seoRfq .headerMain a {
+  color: #fff !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031612}}
+#seoRfq .ui-dialog-titlebar.ui-widget-header > button {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031617}}
+.question-help.blue:focus {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031621}}
+.warning ul {
+  margin-top: 1em;
+  padding-left: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031626}}
+div.mainContent {
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031628}}
+div.mainContent .header {
+  height: 92px;
+  margin: 6px auto;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031632}}
+div.mainContent .header:after {
+  background-image: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031635}}
+div.mainContent .header h2 {
+  font-size: 100%;
+  max-width: 300px;
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031646}}
+div.middleContent h2 {
+  font-size: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031649}}
+div.middleContent h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 2em;
+  padding-bottom: 130px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031655}}
+div.middleContent h3,
+div.middleContent img {
+  margin-left: 95px;
+  width: 770px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031662}}
+h2.center {
+  font-family: "Avenir LT W01 85 Heavy", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 1.175em;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/blueCrush-midnight\.scss}line{font-family:\000031670}}
+section.logos {
+  box-shadow: none;
+  margin-bottom: 60px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\000031}}
+html, body {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background: #464646;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000312}}
+.center {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000320}}
+h1, h2, h3 {
+  margin: 0;
+  font-weight: normal;
+  text-transform: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000327}}
+h1 {
+  margin-bottom: .35em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  font-family: "retiro-std-36pt",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000336}}
+h1 span {
+  display: block;
+  color: #163353;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000345}}
+h2 {
+  font-size: 17px;
+  font-weight: 400;
+  border-top: 1px solid #fff;
+  padding-top: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000354}}
+.logoRow {
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000359}}
+.tagline {
+  top: 22px;
+  left: 308px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000365}}
+.leftContent {
+  padding-top: 15px;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000370}}
+.arrowNew {
+  text-align: right;
+  margin-top: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000376}}
+.compareSaveText {
+  color: #fff;
+  font-size: 31px;
+  margin: 0 0 30px 0;
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000384}}
+.nextWrapper {
+  width: 270px;
+  left: 190px;
+  border-radius: 4px;
+  background: #163353;
+  text-align: center;
+  font-weight: normal;
+  position: absolute;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\0000395}}
+#backNextRow {
+  border: none;
+  background: none;
+  padding-left: 82px;
+  margin-top: -26px;
+  float: left;
+  width: 300px;
+  clear: both;
+  position: relative;
+  /* right: 0; */
+  margin-left: 408px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003108}}
+#backNextRow.firstPage .nextWrapper {
+  width: 270px;
+  left: 190px;
+  position: absolute;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003116}}
+.backWrapper {
+  width: 88px;
+  border: none;
+  background-color: #5F5C5C;
+  color: #fff;
+  border-radius: 4px;
+  height: 40px;
+  line-height: 36px;
+  margin-top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003127}}
+#rfq-continue:hover {
+  background-color: #1168ea !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003132}}
+#rfq-back:hover {
+  background-color: #848383;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003136}}
+.nextArrow {
+  width: 17px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003145}}
+.progressBar {
+  padding: 0 0 0 64px;
+  background: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003150}}
+.completionRow {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003155}}
+.completionWrapper {
+  width: 414px;
+  background: #AAA9A8;
+  height: 28px;
+  border-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003163}}
+.completionBar {
+  border-radius: 4px;
+  background: #0177FF;
+  border-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003170}}
+.completionBar span {
+  margin-top: -17px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003174}}
+.message-text {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003179}}
+.question {
+  font-family: "proxima-nova",sans-serif !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 27px;
+  color: #163353;
+  line-height: 1.2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003188}}
+.rightContent {
+  min-height: 558px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(22, 51, 83, 0.75);
+  box-shadow: 0px 0px 9px 3px rgba(22, 51, 83, 0.75);
+  border: none;
+  border-radius: 9px;
+  margin-top: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003201}}
+.rfq-box {
+  margin-left: -10px;
+  background-color: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003213}}
+.rfq-box .page {
+  width: 480px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003219}}
+.horizontalControls .qiconWrapper {
+  border: 1px solid #868686;
+  border-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003225}}
+input[type="radio"] ~ .qiconWrapper + label {
+  background: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003230}}
+input[type="radio"]:checked ~ .qiconWrapper + label {
+  background: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003235}}
+.horizontalControls .qiconWrapper > input[type="radio"]:checked ~ label {
+  background: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003239}}
+form input[type="text"] {
+  border-color: #464646;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003244}}
+form input[type="text"]:focus {
+  border-color: #464646;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003249}}
+#email {
+  width: 400px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003253}}
+.check-note, .note, .q-note {
+  color: #999;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003258}}
+form input[type="file"], form input[type="number"], form input[type="text"], form select, form textarea {
+  border: 1px solid #CCC;
+  font-size: .8125em;
+  line-height: 18px;
+  padding: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003266}}
+input[type="radio"] ~ label, input[type="radio"] ~ div.multipleAnsOther > label {
+  background: transparent url("//cdn.buyerzone.com/images/mktg/midnight/radio_off.svg") no-repeat scroll 0px 0px;
+  background-size: 26px 26px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003272}}
+input[type="radio"]:checked ~ label, input[type="radio"]:checked ~ div.multipleAnsOther > label {
+  background: transparent url("//cdn.buyerzone.com/images/mktg/midnight/radio_on.svg") no-repeat scroll 0px 0px;
+  background-size: 26px 26px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003278}}
+input[type="checkbox"] ~ div.multipleAnsOther > label, input[type="checkbox"] + label {
+  background: transparent url("//cdn.buyerzone.com/images/mktg/midnight/checkbox_off.svg") no-repeat scroll 0px 0px;
+  display: inline-block;
+  height: auto;
+  min-height: 30px;
+  padding: 0px 0px 4px 30px;
+  background-size: 26px 26px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003287}}
+input[type="checkbox"]:checked ~ div.multipleAnsOther > label, input[type="checkbox"]:checked + label {
+  background: transparent url("//cdn.buyerzone.com/images/mktg/midnight/checkbox_on.svg") no-repeat scroll 0px 0px;
+  display: inline-block;
+  height: auto;
+  min-height: 30px;
+  padding: 0px 0px 4px 30px;
+  background-size: 26px 26px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003298}}
+input[type="radio"]:checked + div {
+  border: 3px solid #317AE7;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003307}}
+.horizontalControls .qiconWrapper:hover {
+  border: 3px solid #317AE7;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003312}}
+.horizontalControls label {
+  background-position: 50% 0 !important;
+  min-width: 26px;
+  padding-left: 0 !important;
+  padding-top: 8px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003319}}
+form label {
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.5;
+  margin: 2px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003326}}
+p.note + span.error {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003332}}
+form .question span.error {
+  color: red;
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003339}}
+.ui-dialog {
+  top: 115px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003344}}
+.dialogWrapper {
+  height: 463px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003348}}
+.question-help.blue {
+  border-radius: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003352}}
+.closeWrapper {
+  border-radius: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003356}}
+#dialogCloseAlt {
+  top: 614px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003360}}
+.reg-field span.error {
+  clear: both;
+  color: #F00;
+  font-size: 0.6875em;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003368}}
+.tcpaWrapper {
+  margin-bottom: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003372}}
+.loadingSpinner {
+  right: 154px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003376}}
+.small {
+  width: 60px;
+  border: 3px solid;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003381}}
+.hidden {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003388}}
+.reg-page .rfq-box {
+  height: 422px !important;
+  padding: 15px 30px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003393}}
+.reg-page .rfq-box form .page > div.checkbox {
+  margin-top: -44px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003397}}
+.reg-page .progressBar {
+  margin-top: -40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003402}}
+.reg-page .truste {
+  margin: 4px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003406}}
+.reg-page .buyersGuide {
+  margin: 36px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003411}}
+.buyersGuide {
+  width: 540px;
+  float: right;
+  margin: 40px 0;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003418}}
+.buyersGuide img {
+  float: left;
+  margin: 0 24px 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003423}}
+.buyersGuide p {
+  font-size: 17px;
+  margin: 0;
+  line-height: 1.25em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003429}}
+.buyersGuide h2 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  font-family: "retiro-std-36pt",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003444}}
+.why {
+  width: 960px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003451}}
+.why p {
+  font-size: .85em;
+  margin: 0;
+  line-height: 1.55em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003457}}
+.why h2, .why h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 56px;
+  text-align: center;
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003465}}
+.why h2 {
+  font-family: "retiro-std-36pt",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003472}}
+.why h3 {
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003478}}
+.why h4 {
+  margin: 10px 0 5px;
+  font-size: 21px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003484}}
+.why div {
+  width: 192px;
+  float: left;
+  margin-right: 20px;
+  padding: 0 0 0 112px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003493}}
+.why div img {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003503}}
+.why div:nth-child(5) {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003512}}
+footer {
+  background: #fdfdfd;
+  padding: 40px;
+  font-size: 12px;
+  margin-bottom: -40px;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003519}}
+footer:before {
+  background: none;
+  height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003526}}
+footer .credits {
+  width: 960px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\.scss}line{font-family:\00003531}}
+footer span {
+  display: block;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\/bps\.scss}line{font-family:\000032}}
+.vectorBG {
+  background: url("/telecom-equipment/business-phone-systems/phone_transparent2.png") 12px 548px/436px no-repeat, linear-gradient(to top right, #0177ff, #58fffc);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\/bps\.scss}line{font-family:\000039}}
+.ie9 .vectorBG {
+  background: #0177FF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\/bps\.scss}line{font-family:\0000314}}
+.whyContainer {
+  background: url("/telecom-equipment/business-phone-systems/cord.png") 12px 0/192px no-repeat;
+  padding: 110px 0 280px 0;
+}
+
+/* answer icons */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\/bps\.scss}line{font-family:\0000321}}
+.page-1 .radio:first-child .qiconWrapper {
+  background-image: url("//cdn.buyerzone.com/images/mktg/midnight/icons/business-phone/bps-new-bc.svg") !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\/bps\.scss}line{font-family:\0000324}}
+.page-1 .radio:nth-child(2) .qiconWrapper {
+  background-image: url("//cdn.buyerzone.com/images/mktg/midnight/icons/business-phone/bps-replace-bc.svg") !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\/bps\.scss}line{font-family:\0000327}}
+.page-1 .radio:nth-child(3) .qiconWrapper {
+  background-image: url("//cdn.buyerzone.com/images/mktg/midnight/icons/business-phone/bps-expand-bc.svg") !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\/bps\.scss}line{font-family:\0000330}}
+.page-3 .radio:first-child .qiconWrapper {
+  background-image: url("//cdn.buyerzone.com/images/mktg/midnight/icons/common/asap-icon-midnight.svg") !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\/bps\.scss}line{font-family:\0000333}}
+.page-3 .radio:nth-child(2) .qiconWrapper {
+  background-image: url("//cdn.buyerzone.com/images/mktg/midnight/icons/common/month_dk_1-3.svg") !important;
+  background-size: 70px;
+  background-position: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\/bps\.scss}line{font-family:\0000338}}
+.page-3 .radio:nth-child(3) .qiconWrapper {
+  background-image: url("//cdn.buyerzone.com/images/mktg/midnight/icons/common/bps-3-6months-bc.svg") !important;
+  background-size: 70px;
+  background-position: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\/bps\.scss}line{font-family:\0000343}}
+.page-3 .radio:nth-child(4) .qiconWrapper {
+  background-image: url("//cdn.buyerzone.com/images/mktg/midnight/icons/common/month-6plusmonths.svg") !important;
+  background-size: 70px;
+  background-position: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/rdoherty\/Documents\/Environment\/workspace\/bz2apps\/apps\/bzng-war\/src\/main\/webapp\/sass\/scss\/mktg\/vector\/bps\.scss}line{font-family:\0000348}}
+form .pag-3 label {
+  font-size: 13px !important;
+}

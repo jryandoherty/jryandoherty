@@ -1,0 +1,512 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin:0;
+	padding:0;
+	font-family: "neuzeit-grotesk",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+ 
+}
+
+.bg-img {
+	width: 100%;
+	height: 100%;
+	background: url('//cdn.buyerzone.com/images/mktg/portals/trucks_bg2.jpg') center center no-repeat;
+	background-size: cover;
+	color:#fff;
+}
+
+.bg-img:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#607C9D,#464646, #636363, #0060CE);
+	opacity: .74; 
+}
+
+.headLine {
+	position: absolute;
+	top: 3%;
+	width:36%;
+	left: 4%;
+	text-align:left;
+}
+
+
+.headLine p {
+	margin-bottom:40px;
+	
+}
+
+.headLine a {
+	color:#a6d0ff;
+	margin-bottom:20px;
+	padding-bottom:30px
+}
+
+.headLine img {
+	width:100%;
+	height:auto;
+	padding-top:4px
+}
+
+.headLine a img {
+	width:220px;
+	height:auto;
+	margin-left:20%;
+	padding-top:0;
+}
+
+.tagline {
+	position: absolute;
+	bottom:0;
+	width:65%;
+	left: 3%;
+	
+}
+
+.tagline h1 {
+	font-size:2.65em;
+}
+
+.tagline span {
+	/*color:rgba(166, 143, 0, 1);*/
+}
+
+.tagline img {
+	width:82%;
+	height:auto;
+	border:none;
+	
+}
+
+.tagline a {
+	border:0;	
+}
+
+
+.taglineMobile {
+	display:none;
+	padding:0 30px;
+}
+
+.rightContent {
+	position:absolute;
+	right:2%;
+	top:14%;
+	width:675px;
+	
+}
+
+.rightContent div {
+	margin:6px;
+}
+
+.rightContent h1{
+	text-align:center;
+	font-size:23px;
+	font-weight:bold;
+	margin:0;
+	font-weight: 300;
+}
+
+.rightContent h1 span {
+	color:#f2c554
+}
+
+.rightContent h2{
+	text-align:center;
+	font-size:19px;
+	margin:0 0 20px 0;
+	font-weight: 300;
+}
+
+.circleOne {
+	background-image:url('//cdn.buyerzone.com/images/mktg/portals/box.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	
+	border-radius: 50%;
+	height: 411px;
+	width: 411px;
+	background-size:426px;
+	
+	margin: 0 auto;
+	box-shadow: 0px 0px 0px 6px rgba(208, 159, 0, 1) inset;
+	transition: box-shadow 0.6s ease 0s;
+	float:left;
+	
+	text-align: center;
+	vertical-align: middle;
+	line-height: 411px;  
+	
+	font-size: 54px;
+	color:#fff;
+	text-decoration:blink;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
+
+.circleOne:hover {
+	box-shadow: 0px 0px 0px 205px rgba(208, 159, 0, .7) inset;
+	transition: all 0.6s ease 0s;
+}
+
+.circleTwo {
+	background-image:url('//cdn.buyerzone.com/images/mktg/portals/highway.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	cursor: pointer;
+	display: block;
+	border-radius: 50%;
+	
+	height: 254px;
+	width: 254px;
+	background-size: 138%;
+	background-position: -95px;
+	
+	box-shadow: 0px 0px 0px 6px rgba(173, 201, 245, .7) inset;
+	transition: box-shadow 0.6s ease 0s;
+	
+	float:left;
+	
+	text-align: center;
+	vertical-align: middle;
+	line-height: 34px;  
+	
+	font-size: 38px;
+	color:#fff;
+	text-decoration:blink;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 1); 
+}
+
+.circleTwo:hover {
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 175px rgba(173, 201, 245, .7) inset;
+	transition: all 0.6s ease 0s;
+}
+
+.circleTwo span {    
+	top: 92px;
+	position: relative;
+}
+
+.circleThreeCon {
+    height: 157px;
+    width: 157px;
+}
+
+
+.circleThree {
+    background-image:url('//cdn.buyerzone.com/images/mktg/portals/bucket.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    border-radius: 50%;
+   
+    margin: 0 auto;
+    box-shadow: 0px 0px 0px 4px rgba(166, 143, 0, 1) inset;
+    transition: box-shadow 0.6s ease 0s;
+	float:left;
+   
+    height: 157px;
+    width: 157px;
+    background-size:158px;
+	
+	text-align: center;
+	vertical-align: middle;
+	line-height: 28px; 
+
+	font-size: 30px;
+	color:#fff;
+	text-decoration:blink;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
+
+
+.circleThree span {    
+	top: 50px;
+	position: relative;
+}
+
+.circleThree:hover {
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 175px rgba(166, 143, 0, .7) inset;
+	transition: all 0.6s ease 0s;
+}
+
+
+.circleFour {
+	background-image:url('//cdn.buyerzone.com/images/mktg/portals/bucket.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	border-radius: 50%;
+	
+	height: 97px;
+	width: 97px;
+	background-size:97px;
+	
+	box-shadow: 0px 0px 0px 4px rgba(55, 47, 10, 1) inset;
+	transition: box-shadow 0.6s ease 0s;
+	float:left;
+	clear: left;
+	margin-left: 328px !important;
+	margin-top: -49px !important;
+
+	text-align: center;
+	vertical-align: middle;
+	line-height: 97px;  
+	
+	font-size: 21px;
+	color:#fff;
+	text-decoration:blink;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
+
+.circleFour:hover {
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 175px rgba(55, 47, 10, .7) inset;
+	transition: all 0.6s ease 0s;
+}
+
+
+
+.why {
+	width:80%;
+	max-width:960px;
+	margin:75px auto 100px;
+	position:static;
+}
+
+.why img {
+	float:right;
+	margin-left:20px;
+	max-width:100%;
+	height:auto;
+}
+
+.why p {
+	font-size:1.25em;
+	margin:0;
+}
+
+.why strong{
+	font-size:30px;
+	line-height: 30px;
+}
+
+.footer {
+	background: #464646;
+	padding: 60px;
+	font-size: 13px;
+	color:#ffffff;
+	text-align:center;
+	margin-bottom:-20px;
+	
+}
+
+.footer img {
+	width:30%;
+	height:auto;
+	border:none;
+}
+
+
+
+@media (min-width: 1600px){
+	.headLine {
+		width:670px
+		
+	}
+	
+	.rightContent {
+		right:4%
+	}
+}
+
+
+@media (max-width: 1280px){
+
+	.headLine {
+		width:34%;
+	}
+	
+	.rightContent {
+		width:510px;
+	}
+	
+	.rightContent h1 {
+		font-size:21px;
+	}
+	
+	
+	.circleOne {
+		height: 310px;
+		width: 310px;
+		line-height:310px;
+		font-size:40px;
+	}
+	
+	.circleTwo {
+		height: 180px;
+		width: 180px;
+		background-position: -68px;
+		line-height:28px;
+		font-size:30px;
+	}
+	
+	.circleTwo span {
+		top:64px;
+	}
+	
+	.circleThree {
+		margin-top: 7px;
+	}
+	
+	.circleFour {
+		margin-left: 216px !important;
+		margin-top: -58px !important;
+	}
+	
+	.why img {
+		display: block;
+		margin: 26px auto 26px;
+		float:none;
+	}
+
+}
+
+@media (max-width: 882px){
+		
+	.bg-img {
+		height:auto;
+		background: url('//cdn.buyerzone.com/images/mktg/portals/bg_trucks_mobile.jpg') center center no-repeat #919594;
+		background-size: cover;
+		padding-top: 8px;
+		padding-bottom: 24px;
+		
+	}
+	
+	.bg-img:before {
+		position: static;
+	}
+	
+	.headLine {
+		position:static;
+		width:300px;
+		margin:auto;
+	}
+	
+	.headLine img {
+		padding-top:10px;
+		width:100%;
+	}
+	
+	.headLine a img {	
+		margin:0 auto;
+		display:block;
+		
+	}
+	
+	.tagline {
+		position:static;
+		width:95%;
+		margin:auto;
+		text-align:center;
+		clear: left;
+	}
+	
+	.tagline h1 {
+		font-size:1.65em
+	}
+	
+	.rightContent {
+		position:static;
+		display: inline-block;
+		text-align: center;
+		width:100%;
+	}
+	
+	
+	.rightContent a{
+		float: none !important;
+		display:inline-block;	
+	}
+	
+	.circleOne {
+		height: 210px;
+		width: 210px;
+		background-size: 210px;
+		font-size:30px;
+		line-height:210px;
+	}
+	
+	.circleFour{
+		margin:0 !important
+	}
+
+	
+}
+
+
+@media (max-width: 515px){
+
+	.circleTwo {
+		height: 150px;
+		width: 150px;
+		line-height:28px;
+		background-position: -48px;
+		font-size:28px;
+	}
+	
+	.circleTwo span {
+		top: 50px;
+	}
+
+	.circleThree {
+		height: 130px;
+		width: 130px;
+	}
+
+	.circleThree span {
+		top: 38px;
+	}
+	
+	.why {
+		margin:0 auto 30px;
+	}
+	
+	.footer img {
+		width:100%;
+		height:auto;
+	}
+
+}
+
+@media (max-height: 668px){
+	.tagline {
+		width:65%;	
+	}
+	
+	.rightContent {
+		right: 0%;
+		top: 10%;	
+	}
+
+}
+
+
+@media (max-height: 600px) and (min-width:1281px){
+	.tagline{
+		width:40%;
+	}
+}

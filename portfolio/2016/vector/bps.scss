@@ -1,0 +1,50 @@
+
+.vectorBG {
+	background: url('/telecom-equipment/business-phone-systems/phone_transparent2.png') 12px 548px / 436px no-repeat, linear-gradient(to top right, #0177FF, #58FFFC);
+	
+	
+}
+
+
+.ie9 .vectorBG {
+	background: #0177FF;
+}
+
+
+.whyContainer {
+	background: url('/telecom-equipment/business-phone-systems/cord.png') 12px 0 / 192px no-repeat;padding:110px 0 280px 0
+}
+
+
+/* answer icons */
+
+.page-1 .radio:first-child .qiconWrapper {
+	background-image: url('//cdn.buyerzone.com/images/mktg/midnight/icons/business-phone/bps-new-bc.svg') !important
+}
+.page-1 .radio:nth-child(2) .qiconWrapper {
+	background-image: url('//cdn.buyerzone.com/images/mktg/midnight/icons/business-phone/bps-replace-bc.svg') !important
+}
+.page-1 .radio:nth-child(3) .qiconWrapper {
+	background-image: url('//cdn.buyerzone.com/images/mktg/midnight/icons/business-phone/bps-expand-bc.svg') !important
+}
+.page-3 .radio:first-child .qiconWrapper {
+	background-image: url('//cdn.buyerzone.com/images/mktg/midnight/icons/common/asap-icon-midnight.svg') !important
+}
+.page-3 .radio:nth-child(2) .qiconWrapper {
+	background-image: url('//cdn.buyerzone.com/images/mktg/midnight/icons/common/month_dk_1-3.svg') !important;
+	background-size: 70px;
+    background-position: 10px;
+}
+.page-3 .radio:nth-child(3) .qiconWrapper {
+	background-image: url('//cdn.buyerzone.com/images/mktg/midnight/icons/common/bps-3-6months-bc.svg') !important;
+	background-size: 70px;
+    background-position: 10px;
+}
+.page-3 .radio:nth-child(4) .qiconWrapper {
+	background-image: url('//cdn.buyerzone.com/images/mktg/midnight/icons/common/month-6plusmonths.svg') !important;
+	background-size: 70px;
+    background-position: 10px;
+}
+form .pag-3 label {
+	font-size: 13px !important
+}

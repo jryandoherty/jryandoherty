@@ -1,0 +1,238 @@
+[#compress]
+
+[#assign xhtmlCompliant = true in spring]
+[#import "spring.ftl" as spring /]
+[#include "macro/GlobalMacros.ftl" /]
+[#assign apiDomain]${APPLICATION_PROPERTIES["CONFIG.environment.api-host-prefix"]?string?trim}[#t][/#assign]
+<!doctype html>
+
+<!--[if lt IE 7]> <html class="ie6 ie" lang="en"> <![endif]-->
+<!--[if IE 7]>	<html class="ie7 ie" lang="en"> <![endif]-->
+<!--[if IE 8]>	<html class="ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 9]>	<html class="ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8"/>
+
+	<title>${categoryDisplayName!} Price Quotes From Qualified Sellers</title>
+	<meta name="description" content="Answer a few questions about your purchase, we'll match you with pre-screened sellers, and receive customized ${categoryDisplayName!} price quotes today."/>
+	<meta name="ROBOTS" content="NOINDEX, FOLLOW"> 
+	
+	<!-- canonical tag -->
+	<link rel="canonical" href="${canonical!}" />
+
+	<!--[if lt IE 9]>[@processOnce '/scripts/libs/html5shiv.js'; fileUrl]<script type="text/javascript" src="${fileUrl}"></script>[/@]<![endif]-->
+
+	<!-- needed for truste -->
+	<script type="text/javascript" src="//privacy-policy.truste.com/privacy-seal/BuyerZone-com,-LLC/asc?rid=002791d6-6d48-464d-b0e7-77d855ccf758"></script>
+
+	<!-- libs & plugins -->
+	[@processOnce '/dist/js/bzBlueCrush.js'; fileUrl]<script type="text/javascript" src="${fileUrl}"></script>[/@]
+
+	<script type="text/javascript" src="/bzng/dist/js/bzPPCRegistrationFlow.js"></script>
+
+    [#include "blueCrushRegTpl2.ftl"]
+    [#include "blueCrushProgressBarTpl2.ftl"]
+    [#include "/includes/semControls.ftl"]
+    
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+		var catType = '${quoteRequest.category.categoryType.description?lower_case}', 
+			flow = new BZ.flow.PPCRegistrationFlow({
+				//apiDomain: '${apiDomain}',
+				apiDomain: '//bz-stg.buyerzone.com',
+				categoryName: '${categoryDisplayName}',
+				categoryId: '${quoteRequest.category.categoryId}', 
+				categoryType: catType,
+				pageType: 'reg',
+				$renderTo: $('.rfq-form .reg-page')
+			});
+		flow.startup();
+	});
+	</script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/dist/css/blueCrush.css" type="text/css">
+    <link rel="stylesheet" href="/office-equipment/digital-copiers/mariner.css" type="text/css">
+   
+    
+     <!-- Begin Inspectlet Embed Code -->
+	<script type="text/javascript" id="inspectletjs">
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 1737737408]);
+    (function() {
+    function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+    })();
+    </script>
+    <!-- End Inspectlet Embed Code --><!-- Begin Inspectlet Embed Code -->
+    
+    <script src="//cdn.optimizely.com/js/6869001.js"></script>
+</head>
+
+<body class="reg-page">
+
+<div class="bg-mariner">
+    
+   <div class="topContainer">
+   
+   <div class="ctaLeft"> 
+   
+   <div class="logoRow">
+         <a href="[@generateExternalUrl '/'/]" title="BuyerZone" ><img src="//cdn.buyerzone.com/images/BZ_logo_white.svg" width="290"  alt="BUYERZONE" onerror="this.src='//cdn.buyerzone.com/images/BZ_logo_buyer.png'"></a>
+       
+            
+        <h1>COMPARE COPIER QUOTES &amp; SAVE BIG</h1>
+        
+         </div>
+         
+         
+        <ul>
+        <h3><em>Here's How:</em></h3>
+            <li>
+            	<h2>Narrow down your needs.</h2>
+            	<p>Answer a few easy questions to help us better understand your purchase requirements.</p>
+            </li>
+            <li>
+                <h2>Get matched up.</h2>
+                <p>We'll identify a few reputable copier dealers that can provide competitive price quotes to win your business.</p>
+            </li>
+            <li>
+                <h2>Choose the best option.</h2>
+                <p>Compare the quotes you receive and choose the best deal based on your budget - it's fast, easy, and totally free.</p>
+            </li>
+            
+		</ul>
+   
+    
+    
+  </div>
+   
+   
+   
+   
+   <div class="questionStrip">
+   
+   <h4>Build Your Copier Quote Request</h4>
+   
+    
+    <div class="progressBar" ></div>
+   
+    
+                
+                   
+							<div class="rfq-box">
+								<!-- form -->
+								<form class="rfq-form reg registration" method="post">
+									<div class="reg-page"></div>
+								</form>
+								<!-- // form -->
+							</div>
+						
+                        
+                         <div class="loadingSpinner"></div>            
+                
+                <div id="backNextRow">
+                    <button class="nextWrapper" id="rfq-continue"><span class="nextLabel">NEXT</span> </button>
+                    <button class="backWrapper" id="rfq-back">back</button>
+                </div>
+					
+					<div class="tcpaWrapper reglast-show">
+						<!-- tcpa -->
+						<div class="tcpa reglast-show reg-hide">
+							<p class="tcpaBelow reglast-show reg-hide"></p>
+						
+							<div class="tcpa-logos">
+								<a href="//privacy.truste.com/privacy-seal/BuyerZone-com,-LLC/validation?rid=298b050a-42dd-44fa-a5c8-5c7460ce5dbd" title="TRUSTe online privacy certification" target="_blank"><img src="[@makeAbsoluteUrl '/images/logo/truste-logo-33h.png'/]" alt="TRUSTe online privacy certification" /></a>
+								<img src="[@makeAbsoluteUrl '/images/logo/bbb-logo-30h.png'/]" class="bbb" title="Better Business Bureau Accredited Business" alt="TRUSTe Certified Privacy" />
+							</div>
+						</div>
+					</div>
+         
+               
+
+                <!-- zip code city list -->
+				[#include "/includes/zipCityList.ftl"]
+            
+   
+   </div>
+   
+   </div>
+
+</div>
+
+
+     <div class="buyersGuide">
+        <img src="//cdn.buyerzone.com/images/mktg/mariner/BG_Icon_Mariner.svg" width="250" alt="Buyer's Guide">
+       <p><strong>FREE Buyer's Guide</strong></p>
+		<p>We'll also provide you with a free Digital Copier Buyer's Guide upon completion to help you make the right decision.</p>
+    </div>
+    
+
+<div class="whyContainer">
+	
+<div class="why">
+         
+         <img src="//cdn.buyerzone.com/images/mktg/mariner/Copier_Icon_Mariner3.svg" width="300" alt="Digital Copiers">
+       <p><strong>WHY IT MAKES SENSE</strong></p>
+		<p>You're interested in a copier that fits your needs at a great price. Instead of spending hours searching websites, BuyerZone does
+the work for you to find quality dealers who will provide competing price quotes for you to compare. You save valuable time and get to choose the best option based on your budget.</p>
+    </div>
+
+</div>
+
+
+
+	<footer>
+	 
+     <div class="credits">
+        
+        <p><a href="[@generateExternalUrl '/about-us/'/]">About Us</a> |
+        <a href="[@generateExternalUrl '/about-us/disclaimer/'/]">Terms &amp; Conditions</a> |
+        <a href="[@generateExternalUrl '/about-us/privacy/'/]">Privacy Policy</a>
+        <span class="number">Customer Care: 888-393-5000</span></p>
+        
+        <p>&copy; 2016 BuyerZone.com LLC. A Purch Brand. All Rights Reserved.</p>
+	
+	  
+    </div>
+</footer>
+
+
+<script>
+$(function(){
+	
+	$('#rfq-continue, #rfq-back').click(function(){
+	$("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+ 	});
+ });
+</script>
+
+	<!-- alternate close button for info dialog -->
+	<div id="dialogCloseAlt">
+		<div class="closeWrapper">
+			<span>CLOSE</span>
+		</div>
+	</div>
+
+	<!-- pre-load for checkbox and radio icons -->
+	<div id="controlImagePreload">
+		<img src="http://cdn.buyerzone.com/images/mktg/utopia/radio_on.svg" />
+		<img src="http://cdn.buyerzone.com/images/mktg/utopia/radio_off.svg" />
+		<img src="http://cdn.buyerzone.com/images/mktg/utopia/checkbox_on.svg" />
+		<img src="http://cdn.buyerzone.com/images/mktg/utopia/checkbox_off.svg" />
+	</div>
+
+	<!-- processing message -->
+	[#include "/includes/rfqProcessing.ftl" /]
+
+	<!-- analytics -->
+	[#include "/includes/siteStats.ftl"]
+
+</body>
+
+</html>
+[/#compress]
