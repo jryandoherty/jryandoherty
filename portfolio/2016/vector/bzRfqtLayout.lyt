@@ -1,0 +1,229 @@
+[#compress]
+
+[#assign xhtmlCompliant = true in spring]
+[#import "spring.ftl" as spring /]
+[#include "macro/GlobalMacros.ftl" /]
+[#assign apiDomain]${APPLICATION_PROPERTIES["CONFIG.environment.api-host-prefix"]?string?trim}[#t][/#assign]
+<!doctype html>
+
+
+<!--[if IE 8]>	<html class="ie8 ie" lang="en"> <![endif]-->
+<!--[if IE 9]>	<html class="ie9 ie" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8"/>
+
+	<title>${categoryDisplayName!} Price Quotes From Qualified Sellers</title>
+	<meta name="description" content="Answer a few questions about your purchase, we'll match you with pre-screened sellers, and receive customized ${categoryDisplayName!} price quotes today.">
+	<meta name="ROBOTS" content="NOINDEX, FOLLOW"> 
+
+	<!--[if lt IE 9]>[@processOnce '/scripts/libs/html5shiv.js'; fileUrl]<script type="text/javascript" src="${fileUrl}"></script>[/@]<![endif]-->
+
+	<!-- libs & plugins -->
+	<script type="text/javascript" src="/bzng/dist/js/bzBlueCrush.js"></script>
+
+	<script type="text/javascript" src="/bzng/dist/js/bzPPCQuestionSetFlow.js"></script>
+
+	[#include "blueCrushQSTpl.ftl"]
+	[#include "/includes/blueCrushProgressBarTpl.ftl"]
+
+	<!-- initiate app -->
+	<script type="text/javascript">
+	$(document).ready(function() {
+		var catType = '${quoteRequest.category.categoryType.description?lower_case}',
+			flow = new BZ.flow.PPCQuestionSetFlow({
+				apiDomain: '${apiDomain}',
+				//apiDomain: '//bz-stg.buyerzone.com',
+				categoryName: '${categoryDisplayName}',
+				categoryId: '${quoteRequest.category.categoryId}',
+				flowType: '2277',
+				pageType: 'qs',
+				$renderTo: $('.rfq-form.qs .qs-container')
+		});
+		flow.startup();
+	 
+	});
+
+	</script>
+
+	<script src="https://use.typekit.net/rnb3ckg.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+	<!-- stylesheet -->
+    <link rel="stylesheet" href="/telecom-equipment/business-phone-systems/vector-bps.css" type="text/css">
+    
+    <!--<link rel="stylesheet" href="/sass/css/vector-bps.css" type="text/css">-->
+    
+    <!-- Begin Inspectlet Embed Code -->
+	<script type="text/javascript" id="inspectletjs">
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 1737737408]);
+    (function() {
+    function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+    })();
+    </script>
+    <!-- End Inspectlet Embed Code -->
+
+	<script src="//cdn.optimizely.com/js/6869001.js"></script>
+    
+</head>
+
+<body>
+
+		
+	<div class="vectorBG">
+			<div class="logoRow">
+                <div class="center" >
+                    <a href="[@generateExternalUrl '/'/]" title="BuyerZone"><img src="//cdn.buyerzone.com/images/BZ_logo_buyer.svg" width="290" height="70" alt="BUYERZONE" onerror="this.src='//cdn.buyerzone.com/images/BZ_logo_buyer.png'"></a>
+                    
+                </div>
+			</div>
+            
+            <div class="center">
+				<div class="leftContent">
+					
+                    <h1>
+                        <span>Compare</span> <span style="font-size: 65px;
+    line-height: 57px;color:#fff;">Business Phone System </span> <span>Quotes &amp; Save Big</span>
+                    </h1>
+                            
+                   <h2>
+                        Just share a few quick details to receive competing phone system price quotes so you know you're getting the best deal.
+                    </h2>
+					
+					
+					<div class="arrowNew">
+						<img src="//cdn.buyerzone.com/images/mktg/midnight/arrow-icon-CT.svg" width="170" alt="" onerror="this.src='//cdn.buyerzone.com/images/mktg/midnight/arrow-icon-CT.png'">
+					</div>
+                    
+                    
+				</div>
+				<div class="rightContent">
+					
+						
+							<div class="rfq-box">
+								<!-- form -->
+								<form class="rfq-form qs" method="post">
+									[#include "/includes/sessionParam.ftl"]
+
+									<div class="qs-container"></div>
+								</form>
+								<!-- // form -->
+								<div class="loadingSpinner"></div>
+							</div>
+						
+					
+					<div class="progressBar"></div>
+                    					
+				</div>
+                
+                <div id="backNextRow" class="clearLeft firstPage">
+						<div class="backWrapper" id="rfq-back">
+							<span>&lt; Back</span>
+						</div>
+						<div class="nextWrapper" id="rfq-continue">
+							<span class="nextLabel">NEXT</span>
+							<span class="nextArrow"></span>
+						</div>
+					</div>
+
+			
+            <div class="buyersGuide"><img src="//cdn.buyerzone.com/images/mktg/vector/Proxima_BG.svg"  alt="Buyer's Guide">
+            <h2><strong> FREE Buyer's Guide</strong></h2>
+			<p>We'll also provide you with a free business phone system Buyer's Guide to help you make the right decision.</p>
+            </div>
+        
+            </div>
+            
+             
+       </div> <!-- end vectorBG -->
+      
+        <div class="whyContainer">
+        
+        <div class="why">
+        
+            <h2>MAKE THE RIGHT CALL </h2>
+            <h3>Here's why it makes sense to compare quotes.</h3>
+            
+            
+            <div>
+            <img src="//cdn.buyerzone.com/images/mktg/vector/time-icon.svg" width="200" alt="">
+            <h4><strong>Save Time.</strong></h4>
+            <p>We'll do the work for you to quickly find a few quality phone system dealers who can help fulfill your needs.</p>
+            </div>
+            
+            
+            
+            <div>
+            <img src="//cdn.buyerzone.com/images/mktg/vector/money-icon.svg" width="200" alt="">
+            <h4><strong>Save Money.</strong></h4>
+            <p>You save when dealers provide <em>competing</em> price quotes to win your business.</p>
+            </div>
+            
+            
+            
+            <div>
+            <img src="//cdn.buyerzone.com/images/mktg/vector/bps.svg" width="200" alt="Business Phone Systems" >
+            <h4><strong>No Brainer.</strong></h4>
+            <p>BuyerZone has helped thousands of businesses find a great phone system at the right price.</p>
+            </div>
+        
+        
+        </div>
+      
+      </div>
+
+   
+  
+ <footer>
+	 
+     <div class="credits">
+		  
+	  
+	 <span><a href="[@generateExternalUrl '/'/]" title="BuyerZone"><img src="//cdn.buyerzone.com/images/BZ_logo_gray.svg" width="250" alt=""></a></span>
+        <span>&copy; 2016 BuyerZone.com LLC. A Purch Brand. All Rights Reserved.</span>
+        <span>
+       
+        <a href="[@generateExternalUrl '/about-us/disclaimer/'/]">Terms &amp; Conditions</a> |
+        <a href="[@generateExternalUrl '/about-us/privacy/'/]">Privacy Policy</a>
+        </span>
+       
+	  
+    </div>
+</footer>
+
+	<!-- alternate close button for info dialog -->
+	<div id="dialogCloseAlt">
+		<div class="closeWrapper">
+			<span>CLOSE</span>
+		</div>
+	</div>
+
+	<!-- move images here to bring them out of the flow -->
+	<div id="questionPopupImages">
+	</div>
+
+	<!-- pre-load for checkbox and radio icons -->
+	<div id="controlImagePreload">
+		<img src="//cdn.buyerzone.com/images/mktg/midnight/radio_on.svg" />
+		<img src="//cdn.buyerzone.com/images/mktg/midnight/radio_off.svg" />
+		<img src="//cdn.buyerzone.com/images/mktg/midnight/checkbox_on.svg" />
+		<img src="//cdn.buyerzone.com/images/mktg/midnight/checkbox_off.svg" />
+	</div>
+    
+	<!-- analytics -->
+	[#include "/includes/siteStats.ftl"]
+
+	<!-- landing page pixels -->
+	[#if xmlTree('categoryElements.pixelsLanding')??]
+		<div class="tracking-pixels">
+			[@xmlRef 'categoryElements.pixelsLanding' /]
+		</div>
+	[/#if]
+
+</body>
+
+</html>
+[/#compress]

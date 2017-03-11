@@ -1,0 +1,259 @@
+/* ===== Primary Styles ========================================================
+   Author: J. Ryan Doherty
+   ========================================================================== */
+
+body {width:960px;margin: 0 auto;background:url('../img/bg_gradient2.jpg') top no-repeat #6b6972;font-family:Arial, Helvetica, sans-serif;
+-moz-box-shadow:1px 2px 4px 3px #000;-webkit-box-shadow: 1px 2px 4px 3px #000;box-shadow:1px 2px 4px 3px #000;}
+
+a{text-decoration:none;color:#1f2b76}
+a:hover {text-decoration:underline;color:#5362BB;}
+
+h1, h2, h3, h4, h5{margin:0;padding:0;font-family: 'MuseoSlab-500';line-height:1em}
+h1, h2{margin: 6px 0}
+h4{font-size:1.1em}
+h5{font-size:1.0em}
+
+/* header, footer, nav */
+header {background:#999;height:90px;padding:0 10px;}
+header a {color:#FFF;}
+header a:visited {color:#FFF;}
+
+footer {clear:both;font-size:11px;background:#999;overflow:hidden;padding:20px 10px;background:url('../img/bg_footer.jpg')}
+footer ul {margin-left:10px;font-family:'MuseoSlab-500'}
+footer li { float: left;padding:0;margin:0 16px 0 0 }
+
+nav {padding:0;width:620px;float:right;z-index:60;}
+nav ul {}
+nav li { float: left; padding-top:60px;margin-bottom:-40px;margin-right:25px;}
+nav li.last {margin-right:0;}
+nav li.on {background:url('../img/lock.gif') center  no-repeat;}
+nav li a { display: block;  padding: 0;font-family: 'BebasRegular';font-size:1.1em}
+
+nav li a:hover {text-decoration:underline;color:#CCFBFF;}
+
+nav li a span{left:-9999px;position:absolute}
+
+
+/* General styles */
+
+.main {background:#fff;padding:0 10px 40px}
+
+.searchBox {float:right}
+
+.introText {width:650px;margin:40px 0  0 65px}
+
+.breadcrumbs {margin:25px 0 0 30px; z-index:70;position: absolute;font-size:.9em;}
+.lt-ie8 .breadcrumbs {position:relative;}
+.breadcrumbs ul li { float: left;padding:0;margin:0 4px 0 0 }
+
+.logo { position: absolute;top: 26px;margin-left:-80px;z-index: 50;width:370px;height:210px;background:url('../img/bg_logo.png') no-repeat}
+
+.social {height:30px;background:#999;padding:4px 10px;background:url('../img/bg_nav.jpg')}
+.sidesocial {padding:4px 10px;width:100px;padding-top:30px}
+
+
+.topics {clear:both;padding:30px 0;margin: 0 0 30px 0}
+.topics > :last-child { margin-bottom: 0 !important; margin-right: 0 !important; }
+.box{width:280px;margin: 0 7px;background:#CCC;float:left;padding:10px;}
+.lt-ie9 .box{margin:0 6px}
+.box a {font-weight:normal;font-size:1.2em;}
+
+.home .box {min-height:500px}
+.home .box a {font-family:'MuseoSlab-500'}
+
+
+.circle {background: #AC831A;color:#FFF;font-weight:bold;font-size:12px;border: 3px solid #D5AF4E;width: 30px;height: 30px;
+	border-radius:20px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	margin:0 0 0 6px;
+}
+
+.lt-ie9 .circle{padding-left:4px}
+
+
+/* article page */
+
+.intro {width:700px;border-bottom:3px solid #666;margin: 60px 0 0 30px;z-index:90}
+
+.date {margin:0;padding:8px 0 0 0;float:left;font-size:12px;font-weight:bold}
+.author {margin:0;padding:8px 0 0 0 ;font-size:12px;font-style:italic;}
+.content {width:520px;float:left;padding-left:30px;margin:10px 0}
+
+.secondary {width:150px;float:left;border-right:1px solid #999;margin:10px 0 0 30px}
+.keypoints {border-bottom:1px solid #999;padding-bottom:20px}
+.keypoints ul {margin:0;font-size:12px;padding:10px 10px 0 16px}
+.keypoints ul li {margin-bottom:10px}
+
+.sidebar {float:right;width:160px;background:#D5AF4E;margin:60px 0 0 15px;padding:10px;border:3px solid #AC831A;border-radius:8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;}
+	
+.sidebar  a{font-size:.9em}	
+
+/* Topic page */
+
+.topic .sidebar{margin:60px 0 0 15px; }
+.lt-ie8 .topic .sidebar{margin:-10px 0 0 15px; }
+.topic .second {margin:20px 0 0 15px}
+.topic .feature {width:405px; float:left;margin:50px 0 0 30px;clear:left}
+.lt-ie8 .topic .feature {width:405px; float:left;margin:-10px 0 0 30px;clear:left}
+.topic .secondary {margin:0;border-right:none}
+.topic .article-list {width:240px;float:left;margin:60px 0 0 15px}
+.lt-ie8 .topic .article-list {margin:-10px 0 0 15px}
+.topic .article-list .box{display:block;width:260px;font-size:12px;border-top:2px solid #666;padding:10px 5px 10px 10px}
+.topic .article-list .box img {float:left;margin:14px 10px 20px 0}
+.lt-ie8 .topic .article-list .box img {float:left;margin:0 10px 20px 0}
+.topic .article-list .box p {float:left;width:180px}
+.topic .article-list > :last-child {border-bottom:2px solid #333}
+
+
+/* static page */
+
+.page .feature {width:700px;margin: 50px 0 0 30px;}
+ul.contentList {font-family:Arial, Helvetica, sans-serif}
+
+
+/* Form field styles */
+fieldset {  
+margin:0px;
+border:0px;
+padding:0px;
+}
+
+fieldset ol {margin:30px 0; padding:0}
+fieldset ol li{clear:left;margin:12px 0; padding:0}
+fieldset ol li.category{margin:24px 0}
+fieldset ol ul {margin:0;padding:0;list-style:none}
+
+legend {padding-left:170px;display:block}
+input, select, textarea{border:2px solid #989490}
+checkbox{border:none}
+.checkboxBG {padding:20px; background:#06F}
+
+label {  
+float:left;
+width:170px;
+margin-right:20px;
+margin-top:-2px;
+text-align:left;
+}
+fieldset #buttons {padding-left:190px;margin-top:10px}
+
+.error-message{color:#F00;font-weight:bold}
+#submit-message {border:1px solid #ccc;color:#FFF;background:#989490;padding:10px;margin-top:50px}
+
+.submit {background:url('../img/submit.gif');cursor:pointer;
+    width: 160px;
+    height: 42px;
+	border:0;
+}
+
+
+
+/* ==float clear -----------------------------------*/
+.group:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.clear, .cleaner { clear: both; }
+.clearRight { clear: right; }
+.clearLeft { clear: left; }
+
+
+
+/* Notes:  These styles will typically be used by content editors within the cms ui */
+/*----------------------------------------------------------
+  ==images
+------------------------------------------------------*/
+
+div.img_float_left p, div.img_float_right p { margin-bottom: 13px; }
+.img_float_left { float: left; margin: 4px 13px 4px 0; }/* float images left */ 
+.img_float_right { float: right; margin: 4px 0 4px 13px; }
+div.img_center { margin: auto; }
+div.img_float_left img, /* removes border from image element in instances when div around image already has border */ div.img_float_right img { border: none; padding: 0; }
+div.img_float_left p, /* style image captions */ div.img_float_right p { color: #666; padding: 0 5px; }
+/*----------------------------------------------------------
+  ==tables
+------------------------------------------------------*/
+.article table { align: center; border-bottom: 1px solid #000; border-top: 1px solid #000; margin: auto; padding: 0; width: auto; }
+.article thead { background: #000; color: #fff; font-weight: normal; }
+.article tbody { background: #fff; color: #000; }
+.article tfoot { background: #fff; color: #e45503; }
+.article td, .article th { padding: 3px 10px; text-align: left; }
+.article tbody th { font-weight: bold; }
+table .striped { background: #e1e1e1; }
+/*----------------------------------------------------------
+  ==pullquotes
+------------------------------------------------------*/
+.pullquote { border: 1px solid #b2cce5; width: 238px; } /* content that is contained within a box in the article */ 
+.article .pullquote h3 { background: #b2cce5; /*color: #fff;*/
+				margin: 0; padding: 10px; }
+.pullquote div { padding: 0 10px; }
+.pullquote ul, .pullquote ol { margin-left: 15px; }
+.pq_float_left { float: left; margin: 4px 13px 4px 0; }
+.pq_float_right { float: right; margin: 4px 0 4px 13px; }
+
+/*----------------------------------------------------------
+  ==lists
+------------------------------------------------------*/
+.list_indent { /* this will indent a list when it is to the left of a floated element (i.e. photo) because the left margin will be ignored */ left: 35px; position: relative; }
+.quote_list li { padding: 9px 0; }
+/*----------------------------------------------------------
+  ==miscellaneous
+------------------------------------------------------*/
+.content_author { color: #666; font-family: "Courier New", Courier, monospace; }
+.attribution, .small_text, ul p.attribution, ul p.small_text { font-size: .91666em; }
+.attribution { font-style: italic; }
+p.attribution, p.small_text { font-size: .6875em; }
+.sidebar .include-7 a { /* over-riding .include-7 a styles from seo includes*/ float: none; margin: 0; text-indent: 0; width: auto; }
+.adsense_float_left { float: left; margin: 4px 13px 4px 0; }
+.adsense_float_right { float: right; margin: 4px 0 4px 13px; }
+
+
+
+/* Font Stuff */
+
+
+/* @license
+ * MyFonts Webfont Build ID 2351769, 2012-08-28T17:13:15-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Museo Slab 500 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo-slab/500/
+ * 
+ * Webfont: Museo Slab 500 Italic by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo-slab/500-italic/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2351769
+ * Licensed pageviews: 100,000,000
+ * Webfonts copyright: Copyright (c) 2009 by Jos Buivenga. All rights reserved.
+ * 
+ * © 2012 Bitstream Inc
+*/
+
+
+
+  
+ @font-face {font-family: 'MuseoSlab-500';src: url('23E299_0_0.eot');src: url('23E299_0_0.eot?#iefix') format('embedded-opentype'),url('23E299_0_0.woff') format('woff'),url('23E299_0_0.ttf') format('truetype');}
+ 
+  
+ @font-face {font-family: 'MuseoSlab-500Italic';src: url('23E299_1_0.eot');src: url('23E299_1_0.eot?#iefix') format('embedded-opentype'),url('23E299_1_0.woff') format('woff'),url('23E299_1_0.ttf') format('truetype');}
+ 
+ @font-face {
+    font-family: 'BebasRegular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BEBAS___-webfont.woff') format('woff'),
+         url('BEBAS___-webfont.ttf') format('truetype'),
+         url('BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+

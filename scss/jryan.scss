@@ -1,0 +1,243 @@
+@import "files/colors",
+"files/animations",
+"files/fonts";
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+	 font-family: 'oswaldlight';
+	font-size: 17px;
+	color:$black;
+	background: #fcfcfc;
+
+}
+
+p::-moz-selection { background-color: $blackGreen}
+p::selection { background-color: $siennaLight; }
+
+h1, h2, h3 {
+	font-family: 'oswaldbold';
+}
+
+p.browsehappy{
+	padding:50px 0 0 10px;
+
+}
+
+.navbar {
+	background-color: transparent;
+	border:none;
+}
+
+.navbar-brand {
+	padding-top:90px;
+	height:auto;
+	width:345px;
+}
+
+.brick-background {
+	width: 100%;
+	height: 80%;
+	font-family: 'oswaldbook';
+	background: url('/img/code_graffiti.png') right bottom no-repeat, url('/img/bg_brick.jpg') center center no-repeat;
+	background-size: 700px, cover;
+	color:#fff;
+	position:relative;
+
+  &:before {
+	content: '';
+	position: absolute;
+	height:100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image:radial-gradient(circle, #f06d06, transparent);
+	background-repeat: no-repeat;
+	/*background-size:30% 30%;*/
+	opacity: .34;
+  }
+
+	.nav {
+		margin-top:30px;
+	}
+	.introText {
+		font-size:36px;
+	}
+}
+
+.portfolioPage .brick-background {
+	height:150px;
+}
+
+
+.recentWork{
+	width:175px;
+	height:175px;
+	z-index: 700;
+	margin:10px 0 0 0;
+	position:relative;
+	float:right;
+	transform: rotate(0deg);
+	transition: .4s ease-in all;
+
+	&:hover{
+
+		transform: rotate(15deg);
+		transition: .8s ease-in all;
+
+	}
+
+	svg #sticker {fill:$green}
+	svg:hover #sticker { fill: $greenLight  }
+
+}
+
+
+
+
+.about{
+	width:125px;
+	height:125px;
+	margin:105px -10px 0 -50px;
+	z-index: 600;
+	position:relative;
+	float:right;
+	transform: rotate(0deg);
+	transition: .4s ease-in all;
+
+	&:hover{
+
+		transform: rotate(15deg);
+		transition: .8s ease-in all;
+
+	}
+
+	svg #sticker {fill:$sienna}
+	svg:hover #sticker { fill: $siennaLight  }
+}
+
+
+
+.contact{
+	width:100px;
+	height:100px;
+
+	margin:20px 0 0 -88px;
+	z-index: 900;
+	position:relative;
+	float:right;
+	transform: rotate(0deg);
+	transition: .4s ease-in all;
+
+	&:hover{
+
+		transform: rotate(15deg);
+		transition: .8s ease-in all;
+
+	}
+
+	svg #sticker {fill:$yellow}
+	svg:hover #sticker { fill: $yellowLight  }
+
+}
+
+
+.portfolio{
+	width:120px;
+	height:120px;
+	margin:50px 0 0 -37px;
+	z-index: 800;
+	position:relative;
+	cursor:pointer;
+	float:right;
+	transform: rotate(1deg);
+	transition: .4s ease-in all;
+
+	&:hover{
+
+		transform: rotate(15deg);
+		transition: .8s ease-in all;
+
+	}
+
+	svg #sticker {fill:$black}
+	svg:hover #sticker { fill: $blackGreen }
+
+
+}
+
+
+.aboutme {
+	min-height: 1000px;
+	background:url('/img/sunset.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.contactme{
+	min-height:450px;
+	background:$black;
+
+	h2 {
+		color:$siennaLight;
+	}
+
+}
+
+
+
+footer {
+	background:url('/img/wild_oliva.png');
+}
+
+
+@media (max-width: 767px) {
+
+.brick-background {
+	height:100%;
+
+	.nav {
+		margin-top: 0
+	}
+	.navbar-collapse{
+		overflow:hidden;
+	}
+	.introText {
+		font-size: 21px;
+	}
+}
+
+	.navbar-brand {
+		padding-top:10px;
+		width:160px;
+	}
+
+	.navbar-nav li div {
+		display: inline-block;
+		float: none;
+		margin:0
+	}
+
+	.portfolio {
+		width:96px;
+		height:96px;
+	}
+
+	.about {
+		width:100px;
+		height:100px;
+	}
+
+	.contact {
+		width:80px;
+		height:80px;
+	}
+
+	.recentWork {
+		width:140px;
+		height:140px;
+	}
+
+
+}

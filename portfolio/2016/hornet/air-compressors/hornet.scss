@@ -1,0 +1,746 @@
+html, body {
+	height: 100%;
+	font-family: "ralewayregular", sans-serif;
+	background: rgba(69,69,69,1.00);
+	padding: 0;
+	min-width:900px;
+	margin:0;
+}
+
+@font-face {
+	font-family: 'ralewayregular';
+	src: url('/webfonts/raleway-regular-webfont.eot');
+	src: url('/webfonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),  url('/webfonts/raleway-regular-webfont.woff2') format('woff2'),  url('/webfonts/raleway-regular-webfont.woff') format('woff'),  url('/webfonts/raleway-regular-webfont.ttf') format('truetype'),  url('/webfonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ralewaythin';
+	src: url('/webfonts/raleway-thin-webfont.eot');
+	src: url('/webfonts/raleway-thin-webfont.eot?#iefix') format('embedded-opentype'),  url('/webfonts/raleway-thin-webfont.woff2') format('woff2'),  url('/webfonts/raleway-thin-webfont.woff') format('woff'),  url('/webfonts/raleway-thin-webfont.ttf') format('truetype'),  url('/webfonts/raleway-thin-webfont.svg#ralewaythin') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+h2 {
+	font-size:1.85em
+}
+
+dd, dt, li {
+    line-height: 1.6923076923076923;
+    margin: 0;
+}
+
+.hidden {display:none}
+
+
+.bg-img {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	margin-bottom: -40px;
+}
+
+
+#backNextRow {
+	position: absolute;
+	right: 8%;
+	margin-top: -37px;
+	border: none;
+}
+.firstPage .buttonContainer {
+	display: none
+}
+.nextLabel {
+	height: 150px;
+	width: 150px;
+	background: #E8C22A;
+	transform: skew(-5deg);
+	-webkit-transform: skew(-5deg);
+	border:none;
+}
+.nextLabel:hover {
+	background: #FFC02E;
+}
+.backWrapper {
+	background: #FFF59D;
+	height: 80px;
+	width: 80px;
+	transform: skew(-5deg);
+	-webkit-transform: skew(-5deg);
+	border: none;
+	margin-top: 20px;
+}
+#rfq-back:hover {
+	background-color: #E8E82A;
+}
+
+.progress-value {
+	color: #fff;
+	font-size: 18px;
+	position: absolute;
+	right: 0px;
+	margin: 20px;
+	font-size:36px;
+
+}
+.completionRow {
+	width: 100%;
+	margin: 0 auto
+}
+.completionWrapper {
+	background-color: rgba(255, 192, 46, .4);
+	height: 15px;
+	border: none;
+	float: none;
+	line-height: 16px;
+	width: 100%;
+	margin: 0 auto;
+}
+.completionBar {
+	border: 0;
+	background-color:rgba(253, 210, 19, .9);
+	-ms-transition:  0.8s linear;
+	-moz-transition:  0.8s linear;
+	-webkit-transition: 0.8s linear;
+	transform: 0.8s linear;
+	
+}
+.completionMsg {
+	position: static;
+	color: #fff;
+	float:right;
+	width:auto !important;
+	height:0;
+	margin:-8px 10px 0 0 ;
+	font-family: "ralewayregular", sans-serif;
+}
+
+
+.questionContainer {
+	top: 10%;
+	position: relative;
+}
+.leftPage {
+	width: 28%;
+	margin: 2% 8% 0;
+	height: 80%;
+	float: left;
+	padding: 0;
+	font-size: 100%;
+}
+.leftPage ul {
+	border-bottom: 3px solid #3F91EC;
+	padding: 0 40px 20px;
+}
+
+.leftPage h1 {
+	text-align:center;
+}
+
+.leftPage h1 img {
+	width:100%;
+	height:auto;	
+}
+
+.leftPage h2 {
+	text-align: center;
+	max-width:380px;
+	margin: 0 auto 10px;
+}
+
+
+.how {
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+	margin:0;
+	border-top:3px solid #3F91EC;
+	padding-top:10px
+}
+
+
+.rfq-box {
+	width: 47%;
+	overflow: hidden;
+	padding: 30px 0 0;
+	border-radius: 0;
+	background: rgba(255, 235, 59, .9);
+	transform: skew(-5deg);
+	-webkit-transform: skew(-5deg);
+	color: #464646;
+	
+}
+.rfq-box .page {
+	width: 88%
+}
+
+.rfq-box .warning {
+   background: rgba(255, 235, 59, 1);
+}
+
+
+.safari fieldset>div.answersColumn>div.radio input[type=radio]+label, .safari fieldset>div.radio input[type=radio]+div.multipleAnsOther>label, .safari fieldset>div.radio input[type=radio]+label {
+	display:inline-block;
+}
+
+
+
+form legend {
+	text-align: left;
+	transform: skew(5deg);
+	-webkit-transform: skew(5deg);
+}
+
+form label {
+}
+
+span.error {
+	color: #CC1B69 !important;
+	font-weight: bold;
+	font-size:16px !important;
+	margin-top: 8px;
+	display: block;
+}
+
+.question {
+	font-size: 28px;
+	color: #464646;
+	font-family: "ralewayregular", sans-serif !important;
+	font-weight: 400;
+	transform: skew(5deg);
+	-webkit-transform: skew(5deg);
+	line-height:1em;
+}
+
+legend.question + p.note, p.note {
+	color: #5E5E5E;
+	font-size: 16px
+}
+
+.rfq-box form .page > input[type="text"] {
+	display: block;
+	width: 60%;
+	font-size: 23px;
+	border-radius: 6px;
+	border: #464646 4px solid;
+	padding: 6px;
+	transform: skew(0);
+	-webkit-transform: skew(0);
+	
+}
+
+input#email {
+	width: 80%;
+}
+
+.postalcode_input.zipUS {
+	width: 100px !important;
+}
+
+.exampleAnswers {
+	display: none
+}
+
+form fieldset.error {
+	background: none
+}
+
+form fieldset.error input[type="text"] {
+	border: 4px solid #CC1B69 !important
+}
+.q-help-link {
+	display: none
+}
+.horizontalControls {
+	margin: 20px auto 0px;
+}
+.horizontalControls label {
+	padding-top: 0 !important;
+	position:absolute;
+	bottom:5px;
+	left:5px;
+}
+
+
+.ie9 .horizontalControls label {
+	position:static;
+	padding: 10px 20px !important
+	
+}
+
+
+.horizontalControls div.radio .qiconWrapper {
+	/*height: 120px;*/
+	width: 100%;
+	margin-bottom:2px;
+	border-radius: 6px;
+	border: 1px solid #464646;
+	background-position:8px 14px;
+	background-size:90px 90px;
+	height:150px;
+	
+	-ms-transition: background 0.2s linear;
+	-moz-transition: background 0.2s linear;
+	-webkit-transition:  all 0.2s linear;
+	tranistion:all 0.2s linear;
+	
+	
+}
+.horizontalControls div.radio:hover .qiconWrapper{
+	background-position:22px 14px;
+	background-size:90px 90px;
+	
+}
+
+.ie9 .horizontalControls div.radio .qiconWrapper {
+	background-position:8px 34px;
+}
+
+
+.horizontalControls div.radio {
+	float: none;
+	width: 28%;
+	margin: 4px;
+	transform: skew(0deg);
+	-webkit-transform: skew(0deg);
+}
+
+.horizontalControls div.radio input[type="radio"] ~ label {
+	padding-top: 0 !important;
+	background: none;
+}
+
+.horizontalControls div.radio input[type="radio"]:checked ~ label {
+	padding-top: 0 !important;
+	background: none;
+}
+
+.horizontalControls > div + div {
+	padding-left:0
+}
+
+
+.onStateButton {
+	border: 4px solid #000;
+}
+
+
+
+div.radio {
+	display: inline-block;
+	margin: 6px;
+	text-align: left;
+	cursor: pointer;
+	transform: skew(5deg);
+	-webkit-transform: skew(5deg);
+}
+
+div.radio:hover {
+	background: #FFC02E;
+}
+
+
+
+input[type="radio"]:checked + div {
+	background-color:#E8C22A;
+	
+	
+}
+input[type="radio"]:checked + div + label {
+	font-weight: bold;
+}
+
+
+
+
+input[type="radio"] + label, input[type="radio"] + div.multipleAnsOther > label{
+	background: url('//cdn.buyerzone.com/images/mktg/hornet/radio_off_hornet.svg') no-repeat 10px center;
+	background-size: 26px 26px;
+	text-align:left;
+	border-radius: 6px;
+	padding: 14px 14px 6px 40px;
+	border: 1px solid #464646;
+	cursor: pointer;
+
+}
+
+
+
+input[type="radio"]:checked + label,  input[type="radio"]:checked + div.multipleAnsOther > label{
+	background: url('//cdn.buyerzone.com/images/mktg/hornet/radio_on_hornet.svg') no-repeat 10px center;
+	background-color: #E8C22A;
+	background-size: 26px 26px;
+	padding: 14px 14px 6px 40px;
+	
+	-ms-transition: background-color 0.6s linear;
+	-moz-transition: background-color 0.6s linear;
+	-webkit-transition: background-color 0.6s linear;
+	transition: background-color 0.6s linear;
+	
+}
+
+
+
+
+input[type="checkbox"]:checked + div.multipleAnsOther > label, input[type="checkbox"]:checked + label {
+	background: url('//cdn.buyerzone.com/images/mktg/midnight/checkbox_on.svg') no-repeat;
+	background-size: 26px 26px;
+}
+input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + label {
+	background: url('//cdn.buyerzone.com/images/mktg/midnight/checkbox_off.svg') no-repeat;
+	background-size: 26px 26px;
+}
+
+
+
+
+
+/* Reg page overrides */
+
+.reg-page .rfq-box .page {
+	width:85%
+}
+
+.reg-page form label {
+	display: block;
+}
+.reg-page table {
+	margin: 0 auto;
+}
+.reg-page .progressBar {
+	margin-top: 0 !important
+}
+
+.reg-page fieldset table input {
+	line-height: normal;
+	font-size: 16px;
+	border-radius: 6px;
+	border: #464646 4px solid;
+	padding: 6px;
+	margin-bottom: 0;
+	width: 100% !important;
+	margin-top: 4px;
+}
+
+.reg-page fieldset table select { 
+	-webkit-appearance:select;
+    -moz-appearance: select;
+    appearance: none;
+    padding: 6px;
+	font-size: 16px;
+	border-radius: 6px;
+	border: #464646 4px solid;
+	width:100% !important;
+	margin-top: 4px;
+	height:40px;
+	
+	/*-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor:pointer;*/
+	
+}
+
+/*.reg-page fieldset table select:after {
+	color: #444;
+	content: '>';
+
+	padding: 0 0 2px;
+	position:absolute;
+	top:4px;
+	
+	
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}*/
+
+
+.reg-page td.error input[type="text"] {
+	border: 4px solid #EF6458 !important
+}
+.reg-page td.error select {
+	border: 4px solid #EF6458 !important
+}
+.reg-page fieldset h3 {
+	font-size: 23px;
+	font-family: "ralewayregular", sans-serif !important;
+	font-style: normal;
+	font-weight: 400;
+	margin: 5px auto 20px;
+}
+.reg-page .rfq-box form .page>div.checkbox {
+	
+	margin-top: 10px;
+}
+
+.reg-page span.error {
+	
+	font-size:14px !important;
+	margin-bottom: 6px;
+	margin-top: 2px;
+}
+
+
+.checkbox.newsLetter > label {
+	color:#5C5C5C;
+}
+
+.reg-page .onepage td {
+   /* height: 82px; */
+}
+
+
+td[colspan="3"] .truste {
+    width: 0;
+}
+
+.tcpaWrapper {
+	clear: none;
+	background-color: none;
+	width: auto;
+   color: #333;
+}
+.tcpaWrapper .tcpa.reglast-show {
+	overflow: visible;
+	background-color: transparent;
+	border-top: none !important;
+	color: #fff;
+}
+.tcpaBelow {
+	color: #464646;
+	width: 100%;
+	margin-left: -10px;
+	margin-bottom:5px;
+}
+
+.tcpa-logos {
+	text-align: left !important;
+	width:200px !important;
+	float:none !important;
+	margin-top:10px !important;
+}
+td.error > span.error {
+	color: #EF6458;
+	font-size: 12px;
+	display: block;
+}
+
+.buyersGuide {
+	vertical-align:central
+}
+
+.buyersGuide img {
+	float:left;
+	margin: 0 8px 40px 0;
+}
+.buyersGuide p {
+	padding-top: 4%;
+	line-height: 1.5em;
+}
+.footer {
+	padding: 5px;
+	font-size: 12px;
+	clear: both;
+	margin-left: 8%;
+	margin-top: 20px;
+	bottom: 0;
+	position: absolute;
+}
+.footer a:hover {
+	color: #FFE90D
+}
+.footer a, .footer a:visited {
+	color: #4EAFF8 !important
+}
+
+.footer a img {
+	border:none;	
+}
+
+.footer p {
+	margin-top:0
+}
+
+.logoFooter {
+	width: 340px;
+	height: 65px;
+}
+
+@media (max-width:1142px) {
+.horizontalControls div.radio {
+	float: none;
+	width: 25%;
+	margin: 2px;
+}
+}
+
+
+@media (max-width:1115px) {
+.question {
+	font-size: 21px
+}
+
+form label {
+	font-size: 14px;
+}
+.buyersGuide p {
+	font-size:80%;
+	padding-top:2%;
+}
+.buyersGuide img {
+	width: 100px
+}
+.nextLabel {
+	height: 110px
+}
+
+.leftPage h2 {
+	font-size:17px;
+}
+
+.leftPage .how {
+	font-size:17px
+}
+
+.leftPage ul {
+	padding: 0px 20px 20px;
+}
+.logoFooter {
+	width: 228px;
+	height: 34px;
+}
+legend.question + p.note, p.note {
+	font-size: 14px
+}
+
+.horizontalControls .qiconWrapper {
+    
+    background-size: 70px 70px !important;
+	background-position: center 14px !important;
+	
+
+}
+
+.horizontalControls .qiconWrapper:hover {
+    
+   
+	background-position: center 20px !important;
+
+}
+
+
+.reg-page fieldset table input, .reg-page fieldset table select {
+	font-size:13px
+}
+
+
+
+}
+
+
+
+
+@media (max-height:840px){
+
+
+.leftPage {
+	font-size: 85%;
+	margin-top: 3%;
+}
+
+.leftPage h1 img   {
+	 width: 70%;
+	 height:auto;
+}
+
+
+
+.logoFooter {
+	width: 228px;
+	height: 34px;
+}
+
+
+.buyersGuide p {
+	padding-top:1%;
+}
+.buyersGuide img {
+	width: 100px
+}
+
+
+
+span.links {
+	display: none
+}
+span.number {
+	display: block
+}
+#backNextRow {
+	margin-top: -38px;
+}
+
+
+
+
+}
+
+@media (max-height:745px) {
+.reg-page .nextLabel {
+	height: 110px
+}
+
+
+}
+
+@media (max-height:644px) {
+.leftPage {
+	font-size: 74%;
+
+}
+
+
+}
+
+@media (max-height:640px) {
+	.bg-img {
+		height:120%;
+	}
+}
+
+
+@media (max-height:585px) {
+
+.nextLabel {
+	height: 110px
+}
+.leftPage {
+	margin-top:3%;
+}
+.how {
+	display:none;
+}
+
+.leftPage ul {
+border-top:3px solid #3F91EC;	
+padding-top:20px
+}
+
+.logoFooter {display:none}
+
+
+}
+
+
+@media (max-height:520px) {
+.bg-img {
+		height:140%;
+	}
+.footer {display:none}
+
+}

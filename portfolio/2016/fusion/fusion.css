@@ -1,0 +1,703 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('/webfonts/raleway-regular-webfont.eot');
+    src: url('/webfonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/webfonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('/webfonts/raleway-regular-webfont.woff') format('woff'),
+         url('/webfonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('/webfonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('/webfonts/raleway-thin-webfont.eot');
+    src: url('/webfonts/raleway-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/webfonts/raleway-thin-webfont.woff2') format('woff2'),
+         url('/webfonts/raleway-thin-webfont.woff') format('woff'),
+         url('/webfonts/raleway-thin-webfont.ttf') format('truetype'),
+         url('/webfonts/raleway-thin-webfont.svg#ralewaythin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: none;
+	font-family: "ralewaythin", sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	padding: 0;
+	margin: 0;
+}
+
+div, label, span {
+	-webkit-user-select: text;  
+  -moz-user-select: text;     
+  -ms-user-select: text;      
+  user-select: text;    
+
+}
+h1, h2 {
+	font-weight: 100;
+	font-family: "ralewaythin", sans-serif;
+	text-transform: none;
+	margin: 0;
+	font-size: 34px;
+}
+h2 {
+	font-size: 17px;
+	color: #64C1FF;
+}
+.logoRow {
+	padding: 30px 30px 0 30px;
+	width: auto;
+	height: auto;
+}
+.logoRow img {
+	margin: 12px 0 0 20px;
+	float:right;
+}
+.bg-img {
+	width: 100%;
+	background: /*url(POS_large.png) no-repeat 500px,*/ linear-gradient(to bottom, #00243C, #004B7C, #0062A2, #0071BC);
+	background-position: bottom left;
+	color: #fff;
+}
+.ie9 .bg-img, .ie8 .bg-img {
+	background: #004B7C
+}
+.questionContainer {
+	border-top: 1px dashed #6A8189;
+	/*border-bottom:1px dashed #6A8189;*/
+	margin-top: 24px;
+	padding-bottom: 50px;
+}
+
+
+/* RFQ overides */
+
+
+.qs-container {
+	text-align: center
+}
+.contentCol {
+	background: none
+}
+.contentCol .rfq-box {
+	width: 80%;
+	background: none;
+	overflow: hidden;
+	padding: 40px 0 0 0;
+	margin: 0 auto;
+}
+.contentCol .rfq-box .page {
+	width: 93%
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.contentCol .rfq-box .page {
+	width: 93%
+}
+.contentCol .rfq-box {
+	padding: 30px
+}
+}
+
+#backNextRow {
+	border: none;
+	height:0
+}
+
+
+/* next  button styles */
+
+
+.nextWrapper {
+	position:absolute;
+	width: 135px;
+	height:75px;
+	top: 290px;
+	right: 10px;
+	background:url(http://cdn.buyerzone.com/images/mktg/utopia/forward_arrow.png) no-repeat right  !important;
+	background-size:100px 300px;
+	background-color: none !important;
+	border: none;
+	line-height: 0;
+	outline: none;
+	padding-right:17px;
+	
+	
+}
+.nextWrapper:hover {
+	color: #88B9EF
+}
+
+
+#rfq-continue { font-family: 'ralewayregular';}
+#rfq-continue:hover {
+	background: url(http://cdn.buyerzone.com/images/mktg/utopia/forward_arrow_o.png) no-repeat right  !important;
+	background-color: none !important;
+	color:#70CADA;
+}
+
+.nextLabel {
+	font-size: 17px;
+	font-family: "ralewaythin", sans-serif;
+	
+	position: relative;
+	line-height: 0;
+	margin-right: 10px;
+}
+
+.nextArrow {
+	display: none !important
+}
+
+
+#rfq-continue:active {
+	outline: none
+}
+
+
+/* back button styles */
+
+.backWrapper span, .nextWrapper span, .completionWrapper span {
+	line-height: 0
+}
+
+.backWrapper {
+	position: absolute;
+	width: 135px;
+	height:75px;
+	top: 290px;
+	left: 10px;
+	border: none;
+	background:url(http://cdn.buyerzone.com/images/mktg/utopia/backward_arrow.png) no-repeat left !important;
+	background-size:100px 300px;
+	background-color: none !important;
+	color: #fff;
+	line-height: 0;
+	outline: none;
+	text-align: left;
+	padding-left: 31px;
+}
+
+#rfq-back span {
+	font-size: 15px;
+	font-family: "ralewaythin", sans-serif;
+	margin-top: 37px;
+	position: relative;
+	line-height: 0;
+	margin-left:-30px
+}
+
+
+#rfq-back:hover {
+	background: url(http://cdn.buyerzone.com/images/mktg/utopia/backward_arrow_o.png) no-repeat left  !important;
+	background-color: none !important;
+	color:#70CADA;
+}
+
+
+
+#backNextRow.firstPage .nextWrapper {
+    width: 135px;
+}
+
+
+
+
+
+
+.progressBar {
+	margin-top: -20px
+}
+.progress-value {
+	color: #000;
+}
+.completionRow {
+	width: 50%;
+	margin: 0 auto
+}
+.completionWrapper {
+	background: none;
+	height: 20px;
+	border: 1px solid #fff;
+	float: none;
+	line-height: 16px;
+	width: 444px;
+	margin: 0 auto;
+}
+.completionBar {
+	border: 0;
+	background-color: #fff;
+}
+.completionMsg {
+	margin: 0 auto;
+	position: static;
+	color: #fff;
+}
+
+form legend {
+	text-align: center;
+	margin-bottom:0 !important;
+	
+}
+.question {
+	font-size: 30px;
+	color: #fff;
+	font-family: "ralewayregular", sans-serif !important;
+	font-weight: 400;
+	
+}
+legend.question + p.note, p.note {
+	text-align: center;
+	font-size: 18px
+}
+.q-help-link {
+	display: none
+}
+p.note + span.error {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+	color:#EF5818
+}
+form .question span.error, form legend span.error {
+	font-size: 18px;
+	color:#EF5818
+}
+/*.rfq-box {height:352px !important} */
+
+
+
+
+.rfq-box form .page > div.answersColumn div.checkbox, .rfq-box form .page > div.answersColumn div.radio {
+	display: inline-block;
+	margin: 6px;
+	border-radius: 6px;
+	width: 320px;
+	padding: 10px 10px 0 10px;
+	border: 1px solid #fff;
+	text-align: left;
+	cursor: pointer;
+}
+.rfq-box form .page > div.answersColumn div.checkbox:hover {
+	background: rgba(169,209,142,.82);
+}
+.rfq-box form .page > div.answersColumn div.radio:hover {
+	background: rgba(169,209,142,.82);
+}
+.rfq-box form .page > div.answersColumn input[type="radio"]:checked + div.radio {
+	background: #fff;
+}
+.rfq-box form .page > input[type="text"] {
+	margin: 42px auto;
+	display: block;
+	
+	font-size: 35px;
+	border-radius: 6px;
+	border: #0071BC 4px solid;
+	padding: 6px
+}
+input#email {
+	width: 600px;
+	text-align:center;
+}
+form fieldset.error {
+	background: none
+}
+form fieldset.error input[type="text"] {
+	border: 8px solid #EF5818 !important
+}
+
+.horizontalControls {
+    margin: 55px auto 0;
+}
+
+.horizontalControls.choose2 {
+	margin: 42px auto 0px;
+	width: 600px;
+}
+.horizontalControls.choose2 > div {
+	width: 49%
+}
+.horizontalControls label {
+	margin-top: -30px;
+}
+.rfq-box form .page > div.answersColumn {
+	width: 40%;
+	float: left;
+	display: block;
+}
+.answersColumn1 {
+	margin: 42px 0px 0px 85px;
+}
+.answersColumn2 {
+	margin: 0
+}
+
+
+input[type="radio"]:checked + div {
+	border-radius: 50%;
+	background: #70CADA;
+	
+	
+}
+
+
+input[type="radio"]:checked + label {
+	background: url(/residential/home-security-systems/radio_on.svg) no-repeat;
+	background-size: 26px 26px;
+	
+}
+
+input[type="radio"] + label {
+	background: url(/residential/home-security-systems/radio_off.svg) no-repeat;
+	background-size: 26px 26px;
+	padding: 0 0 4px 36px;
+}
+
+ 
+input[type="radio"] + div.multipleAnsOther > label, input[type="radio"] + label {
+	width: 100% !important;
+	height: 100%
+}
+input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + label {
+	width: 100% !important;
+	height: 100%
+}
+input[type="checkbox"]:checked + div.multipleAnsOther > label, input[type="checkbox"]:checked + label {
+	background: url(http://cdn.buyerzone.com/images/mktg/utopia/checkbox_on.svg) no-repeat;
+	background-size: 26px 26px;
+}
+input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + label {
+	background: url(http://cdn.buyerzone.com/images/mktg/utopia/checkbox_off.svg) no-repeat;
+	background-size: 26px 26px;
+}
+
+
+.horizontalControls .qiconContainer {
+	border-radius:50%;
+	height: 150px;
+	width: 150px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 0px 2px rgba(0, 113, 188, 1) inset;
+transition: box-shadow 1.1s ease 0s;
+}
+
+
+.horizontalControls .qiconContainer:hover {
+	
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 75px rgba(0, 113, 188, 1) inset;
+	transition: all 1.1s ease 0s;
+/*filter: brightness(5%);
+	-webkit-filter: brightness(110%);
+	-moz-filter: brightness(5%);
+	-ms-filter: brightness(110%)*/
+}
+
+
+
+.horizontalControls .qiconWrapper {
+	height: 150px;
+	width: 150px;
+	background-size: 150px;
+	
+	border-radius:50%;
+	
+	
+
+}
+
+.horizontalControls .onState {background:none !important}
+
+
+
+.loadingSpinner {
+	background-image: url('http://cdn.buyerzone.com/images/mktg/utopia/482.png');
+	background-repeat: no-repeat;
+	bottom: 7px;
+	display: none;
+	height: 64px;
+	position: absolute;
+	right: 0;
+	width: 64px;
+}
+
+
+.rfq-box form .page > div.radio {
+	margin: 17px;
+	display: inline-block;
+	padding: 12px;
+	border-radius: 24px;
+	width: 300px;
+	padding: 10px 0 0 10px;
+	text-align:left;
+	box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 1) inset;
+	font-weight:bold;
+	border: #fff 3px solid;
+	margin-top: 62px;
+	
+}
+
+.onState {
+	background:#70CADA;	
+	transition: all 0.6s ease 0s;
+	
+}
+
+.rfq-box form .page > div.radio:hover {
+	
+	box-shadow: 0px 0px 0px 75px rgba(0, 113, 188, 1) inset;
+	transition: all 0.8s ease 0s;
+	color:#fcfcfc;
+	
+	
+}
+
+.safari fieldset>div.answersColumn>div.radio input[type=radio]+label, .safari fieldset>div.radio input[type=radio]+div.multipleAnsOther>label, .safari fieldset>div.radio input[type=radio]+label {
+	display:inline-block;
+}
+
+
+.addReqs {display:none}
+
+
+.postalcode_input.zipUS {
+	width: 16%;
+    text-align: center;
+	}
+
+
+/* answer icons */
+
+
+
+.page-4 .radio:first-child .qiconWrapper {
+	background-image: url(http://cdn.buyerzone.com/images/mktg/utopia/icons/asap-icon-utopia.svg) !important
+}
+.page-4 .radio:nth-child(2) .qiconWrapper {
+	background-image: url(http://cdn.buyerzone.com/images/mktg/utopia/icons/month-1m-midnight.svg) !important
+}
+.page-4 .radio:nth-child(3) .qiconWrapper {
+	background-image: url(http://cdn.buyerzone.com/images/mktg/utopia/icons/2-month-icon-utopia.svg) !important
+}
+
+
+
+/* Reg page overrides */
+
+.reg-page table {
+	width: 45%;
+	margin: 0 auto;
+}
+.reg-page .progressBar {
+	margin-top: 0 !important
+}
+.reg-page fieldset table input, .reg-page fieldset table select {
+	line-height: normal;
+	font-size: 19px;
+	border-radius: 6px;
+	border: #0071BC 4px solid;
+	padding: 6px;
+	margin-bottom: 12px;
+}
+.reg-page form fieldset.error input[type="text"] {
+	border: 8px solid #EF58186 !important
+}
+.reg-page fieldset h3 {
+	font-size: 30px;
+	text-align: center;
+	font-family: "ralewayregular", sans-serif !important;
+	font-style: normal;
+	font-weight: 400;
+	width: 80%;
+	margin: 5px auto 30px;
+}
+div.newsLetter {
+	margin: 0 auto;
+	width: 495px;
+	color: #fff
+}
+.checkbox.newsLetter > label {
+	color: #fff
+}
+.tcpaWrapper {
+	display: block;
+	width: 600px;
+	margin: 24px auto;
+	font-size: 16px;
+	border: 0px none;
+}
+.tcpaWrapper .tcpa.reglast-show {
+	color: #fff;
+	background: none;
+	border: none;
+}
+.tcpa {
+	margin: 0
+}
+.tcpa-text, .tcpaBelow {
+	color: #fff;
+}
+
+.tcpaBelow {
+	font-size:13px;
+}
+
+.check-note, .note, .q-note, form .reg-page label {
+	font-size: 17px;
+	display: block;
+}
+td.error > span.error {
+	color: #FF9162;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: bold;
+}
+
+td.error input[type="text"] {
+	border: 4px solid #EF5818 !important
+}
+
+td.error select {
+	border: 4px solid #EF5818 !important
+}
+
+
+
+#processing-body {
+	position: fixed
+}
+.buyersGuide {
+	width: 275px;
+	float: right;
+	text-align: center;
+	padding-top: 50px;
+	color: #e4eef5;
+}
+.buyersGuide img {
+}
+.buyersGuide h2 {
+	color: #e4eef5;
+	font-family: "ralewayregular", sans-serif;
+	font-weight: 400;
+}
+.buyersGuide p {
+	font-size: 17px;
+	margin-bottom: 0;
+	line-height: 1.25em;
+}
+.buyersGuide h2 {
+	font-size: 28px;
+	width: 100%;
+}
+
+.imageContainer {
+	width:960px;
+	margin:-10px auto;
+}
+
+.image1 {
+	margin-bottom:-3px	
+}
+
+.image2 {
+	margin-left:-20px;
+	margin-bottom:-3px;
+}
+
+.why {
+	width: 960px;
+	margin: 90px auto 110px;
+	position: static;
+}
+.why img {
+}
+.why p {
+	font-size: .95em;
+	margin: 0;
+}
+.why h3 {
+	margin-bottom: 5px;
+}
+.why div {
+	width: 250px;
+	float: left;
+	text-align: center;
+	margin-right: 100px;
+	padding-bottom: 75px;
+}
+.why div:nth-child(3) {
+	margin-right: 0
+}
+footer {
+	background: #1e1e1e;
+	padding: 40px;
+	font-size: 12px;
+	margin-bottom: -20px;
+	clear: both;
+	color: #fff;
+}
+footer:before {
+	background: none;
+	height: 0
+}
+footer .credits {
+	width: 960px;
+	margin: 0 auto;
+}
+footer span {
+	margin-right: 20px;
+}
+footer span.number {
+	margin-left: 20px;
+	margin-right: 0;
+}
+footer img {
+	display: block;
+	float: right;
+	margin-top: -10px;
+}
+
+
+
+@media (max-width:1120px) {
+h1 {
+	font-size: 26px
+}
+h2 {
+	font-size: 14px
+}
+.horizontalControls .qiconWrapper {
+	height: 120px;
+	width: 120px;
+	background-size: 120px
+}
+
+.horizontalControls .qiconContainer {
+	height: 120px;
+	width: 120px;
+}
+
+.question {
+	font-size: 30px
+}
+.rfq-box form .page > div.answersColumn div.checkbox, .rfq-box form .page > div.answersColumn div.radio {
+	width: 265px
+}
+.reg-page fieldset h3 {
+	width: 100%
+}
+}
