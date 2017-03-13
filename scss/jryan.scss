@@ -11,7 +11,7 @@ html, body {
 	 font-family: 'oswaldlight';
 	font-size: 17px;
 	color:$black;
-	background: #fcfcfc;
+	background: $white;
 
 }
 
@@ -33,17 +33,18 @@ p.browsehappy{
 }
 
 .navbar-brand {
-	padding-top:90px;
+	padding-top:100px;
 	height:auto;
-	width:345px;
+	width:300px;
 }
 
 .brick-background {
 	width: 100%;
-	height: 80%;
+	height: 85%;
+	min-height: 450px;
 	font-family: 'oswaldbook';
-	background: url('/img/code_graffiti.png') right bottom no-repeat, url('/img/bg_brick.jpg') center center no-repeat;
-	background-size: 700px, cover;
+	background: url('/img/code_graffiti.png') center bottom no-repeat, url('/img/bg_brick.jpg') center center no-repeat;
+	background-size: 650px, cover;
 	color:#fff;
 	position:relative;
 
@@ -62,12 +63,22 @@ p.browsehappy{
 	}
 
 
-		.nav {
-			margin-top:30px;
-		}
-		.introText {
-			font-size:36px;
-		}
+	.nav {
+		margin-top:30px;
+	}
+	.introText {
+		font-size:36px;
+		margin:0 auto;
+		top:40%;
+		bottom:0;
+		right:0;
+		left:0;
+		float:none;
+
+		text-align:center;
+		position: absolute;
+		width:350px;
+	}
 
 }
 
@@ -199,6 +210,41 @@ p.browsehappy{
 
 footer {
 	background:url('/img/wild_oliva.png');
+	min-height: 600px;
+	color:$white;
+}
+
+
+@media (max-width: 992px) {
+	.navbar-brand {
+		width:230px;
+	}
+
+	.introText{
+		font-size:28px;
+	}
+
+	.portfolio {
+		width:96px;
+		height:96px;
+	}
+
+	.about {
+		width:100px;
+		height:100px;
+	}
+
+	.contact {
+		width:80px;
+		height:80px;
+	}
+
+	.recentWork {
+		width:140px;
+		height:140px;
+	}
+
+
 }
 
 
@@ -213,8 +259,21 @@ footer {
 	.navbar-collapse{
 		overflow:hidden;
 	}
+
+	.navbar-toggle{
+		border:none;
+		&:hover {
+			background:$siennaLight;
+			border-radius:40%;
+		}
+		.icon-bar{
+			border: 3px;
+			background-color:$white;
+		}
+	}
 	.introText {
 		font-size: 21px;
+
 	}
 }
 
