@@ -69,7 +69,7 @@ p.browsehappy{
 	.introText {
 		font-size:36px;
 		margin:0 auto;
-		top:40%;
+		top:35%;
 		bottom:0;
 		right:0;
 		left:0;
@@ -164,6 +164,10 @@ p.browsehappy{
 
 }
 
+.form-control:focus {
+    border-color: #cf66e9;
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
 
 .portfolio{
 	width:120px;
@@ -194,8 +198,10 @@ p.browsehappy{
 
 
 .carousel-indicators {
-	top:0;
+	top:-40px;
 	right:0;
+	left:auto;
+	width:150px
 
 }
 
@@ -344,6 +350,14 @@ footer {
 	.recentWork {
 		width:140px;
 		height:140px;
+	}
+
+	.carousel-indicators {
+		top:0;
+		right:auto;
+		left:0;
+		width:150px
+
 	}
 
   }
