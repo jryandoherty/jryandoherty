@@ -113,8 +113,8 @@ p.browsehappy {
   height: 85%;
   min-height: 450px;
   font-family: 'oswaldbook';
-  background: url("/img/code_graffiti.png") center bottom no-repeat, url("/img/bg_brick.jpg") center center no-repeat;
-  background-size: 650px, cover;
+  background: url("/img/code_graffiti.png") center bottom no-repeat, url("/img/graffiti_top.png") right bottom no-repeat, url("/img/bg_brick.jpg") center center no-repeat;
+  background-size: 650px, 450px, cover;
   color: #fff;
   position: relative; }
   .brick-background:before {
@@ -223,6 +223,17 @@ p.browsehappy {
   .portfolio svg:hover #sticker {
     fill: #524d21; }
 
+.recentWorkSection {
+  min-height: 700px;
+  background: url("/img/graffiti_bottom.png") right top no-repeat #fcfcf4;
+  background-size: 350px;
+  padding-top: 40px; }
+  .recentWorkSection h2 {
+    font-size: 40px; }
+
+.swatch {
+  width: 100px; }
+
 .carousel-indicators {
   top: -40px;
   right: 0;
@@ -249,13 +260,21 @@ p.browsehappy {
   background-size: cover;
   color: #524d21;
   position: relative;
-  min-height: 800px; }
+  min-height: 1000px; }
+  .aboutme:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #fff0c0, #b98d00, transparent, transparent, transparent, transparent); }
   .aboutme h2 {
     font-size: 5em; }
 
 .contactme {
   min-height: 450px;
-  background: #35311c; }
+  background: #ffcf00; }
   .contactme h2 {
     color: #a25d1a; }
 

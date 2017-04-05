@@ -43,8 +43,8 @@ p.browsehappy{
 	height: 85%;
 	min-height: 450px;
 	font-family: 'oswaldbook';
-	background: url('/img/code_graffiti.png') center bottom no-repeat, url('/img/bg_brick.jpg') center center no-repeat;
-	background-size: 650px, cover;
+	background: url('/img/code_graffiti.png') center bottom no-repeat, url('/img/graffiti_top.png') right bottom no-repeat, url('/img/bg_brick.jpg') center center no-repeat;
+	background-size: 650px, 450px, cover;
 	color:#fff;
 	position:relative;
 
@@ -194,7 +194,20 @@ p.browsehappy{
 }
 
 
+.recentWorkSection {
+	min-height:700px;
+	background: url('/img/graffiti_bottom.png') right top no-repeat #fcfcf4;
+	background-size:350px;
+	padding-top:40px;
 
+	h2{
+		font-size: 40px;
+	}
+}
+
+.swatch {
+	width:100px
+}
 
 
 .carousel-indicators {
@@ -231,7 +244,18 @@ p.browsehappy{
 	background-size: cover;
 	color:$blackGreen;
 	position:relative;
-	min-height:800px;
+	min-height:1000px;
+
+	&:before{
+
+			position: absolute;
+			content: '';
+			top:0;
+			bottom:0;
+			right:0;
+			left:0;
+			background-image: linear-gradient(to bottom right, #FFF0C0, #b98d00, transparent, transparent, transparent, transparent);
+	}
 
 	h2{
 		font-size:5em;
@@ -240,7 +264,7 @@ p.browsehappy{
 
 .contactme{
 	min-height:450px;
-	background:$black;
+	background:$yellow;
 
 	h2 {
 		color:$siennaLight;
