@@ -1,0 +1,427 @@
+[#compress]
+[#assign xhtmlCompliant = true in spring]
+[#import "spring.ftl" as spring /]
+[#include "macro/GlobalMacros.ftl" /]
+[#assign apiDomain]${APPLICATION_PROPERTIES["CONFIG.environment.api-host-prefix"]?string?trim}[#t][/#assign]
+<!doctype html>
+<html lang="en">
+<head>
+	<title>${categoryDisplayName!} Price Quotes From Qualified Sellers</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Answer a few questions about your purchase, we'll match you with pre-screened sellers, and receive customized ${categoryDisplayName!} price quotes today.">
+	<meta name="ROBOTS" content="NOINDEX, FOLLOW" >
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<link rel="canonical" href="${canonical!}" />
+
+	[@processOnce "/dist/css/bzMobileRfq.css"; fileUrl]<link rel="stylesheet" href="${fileUrl}" >[/@]
+
+	<script>
+
+	function switchVisible() {
+	            if (document.getElementById('callConnect').style.display == 'none') {
+	                document.getElementById('callConnect').style.display = 'block';
+	                document.getElementById('bz-form-container').style.visibility = 'hidden';
+	            }
+	            else {
+	                document.getElementById('callConnect').style.display = 'none';
+	                document.getElementById('bz-form-container').style.visibility = 'visible';
+									document.getElementById('bz-form-container').classList.add('fadeIn');
+									document.getElementById('bz-form-container').style.height = 'auto';
+									document.getElementById('mobileQuestions').classList.remove('zeroHeight');
+									window.scrollTo(0, 0);
+
+			            }
+
+						}
+
+	function switchVisible2() {
+	            if (document.getElementById('callConnect').style.display == 'none') {
+	                document.getElementById('callConnect').style.display = 'block';
+	                document.getElementById('zipCodeEntry').style.visibility = 'hidden';
+	            }
+	            else {
+	                document.getElementById('callConnect').style.display = 'none';
+	                document.getElementById('zipCodeEntry').style.visibility = 'visible';
+									document.getElementById('zipCodeEntry').classList.add('fadeIn');
+									document.getElementById("zipCodeEntry").classList.remove('zeroHeight');
+
+			            }
+
+						}
+
+	function switchVisible3() {
+
+	            if (document.getElementById('zipCodeEntry').style.display == 'none') {
+	                document.getElementById('zipCodeEntry').style.display = 'block';
+	                document.getElementById('companyList').style.visibility = 'hidden';
+	            }
+	            else {
+	                document.getElementById('zipCodeEntry').style.display = 'none';
+	                document.getElementById('companyList').style.visibility = 'visible';
+									document.getElementById('companyList').classList.add('fadeIn');
+									document.getElementById('companyList').classList.remove('zeroHeight');
+
+			            }
+
+						}
+
+	</script>
+
+<style>
+
+#bz-form-container {
+	height:0;
+	visibility:hidden;
+	opacity:0;
+	transition: all 1.5s ease;
+  transition-delay:0.2s;
+}
+
+.fadeIn {
+	opacity:1 !important;
+	transition: all 1.5s ease;
+}
+
+.zeroHeight {
+	height:0 !important;
+}
+
+#companyList {
+	visibility: hidden;
+	opacity:0;
+	transition: all 1.0s ease;
+}
+
+
+#zipCodeEntry {
+	visibility: hidden;
+	opacity:0;
+	transition: all 1.0s ease;
+}
+
+
+.spinwait__underlay {
+	border-radius:50%;
+	height:90px;
+	width:90px;
+	margin-left:-45px;
+	margin-top:-45px;
+}
+
+.spinwait__img {
+	margin-top: -35px;
+	margin-left: -35px;
+}
+
+.wrapper{
+	width: 90%;
+}
+
+
+h2 {
+	width:100%;
+	text-align:center;
+	border-bottom: 1px solid #000;
+	line-height:0.1em;
+	margin:10px 0 20px;
+	font-size:17px;
+ }
+
+h2 span {
+	background:#F9F7F5;
+	padding:0 10px;
+ }
+
+.title {
+	background-size:cover !important;
+	min-height: 140px !important;
+	padding-top: 21.58% !important;
+}
+
+@media (min-width:500px){
+	.title {
+		padding-top:18.58% !important;
+	}
+}
+
+.title__txt {
+	width:90%;
+}
+
+.progress-bar__remain {
+	background:#3a3a3a;
+	height:22px
+}
+
+.progress-bar__complete {
+    background: #469cff;
+    height: 22px;
+}
+
+.progress-bar__value {
+	font-size: 12px;
+	margin-left:10px;
+}
+
+.rfq-content {
+	margin-top:15px
+}
+
+legend {
+	font-size:21px;
+}
+
+.headline {
+	font-size:21px;
+	padding-bottom:8px;
+}
+
+.headlineZip {
+	font-size:21px;
+	margin-bottom:0;
+}
+
+.companyName{
+	font-size:21px;
+	color: #1170da;
+	margin:0;
+	font-weight:700;
+}
+
+.description{
+	line-height:26px;
+	margin-top:0;
+}
+
+.callButton {
+	background:url("/global-images/ic_phone_in_talk_white_3x.png") no-repeat 20px center / 30px #3F91EC;
+	border-radius:14px;
+	padding:20px;
+	color:#fff;
+	font-size:17px;
+	text-align:left;
+	width:100%;
+	border:none;
+	text-align:center;
+	margin-bottom:24px;
+}
+
+.callButton a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size:19px;
+	width:100%;
+	height:100%;
+	display:block;
+}
+
+.questionButton {
+	background:url("/global-images/q_icon.png") no-repeat 8px center / 50px #f98623;
+	border-radius:14px;
+	padding:20px;
+	padding-left:68px;
+	color:#fff;
+	font-size:17px;
+	text-align:left;
+	margin-top:18px;
+	border:none;
+}
+
+#zipCodeEntry input{
+	border: 3px solid #163353;
+	width: 100%;
+	font-size: 17px;
+	padding: 10px;
+	margin: 20px 0px;
+
+}
+
+/*#backNextRow {
+	position:fixed;
+	bottom:0;
+	width:100%;
+}*/
+
+
+</style>
+
+</head>
+
+<body id="mobileRfq" class="rfq mobile slide qs">
+
+	[#-- pre-load loader --]
+	<img src='//cdn.buyerzone.com/images/spinner_blue.gif' width='70' height='70' alt="Loading..." class="hidden">
+
+	<header class="header" id="header"></header>
+
+	<div class="content">
+
+
+		<div class="wrapper" id="callConnect">
+
+			<p class="headline"><strong>How would you like to proceed?</strong></p>
+			<!-- option to answer the questions -->
+			<button class="callButton" onclick="switchVisible2();">
+				<span>Call a seller right now</span>
+			</button>
+
+			<h2><span><strong>OR</strong></span></h2>
+
+			<!-- option to answer the questions -->
+			<button class="questionButton" onclick="switchVisible();">
+				<span>Answer a few quick questions to have sellers contact you with competing price quotes</span>
+			</button>
+
+		</div>
+
+		<div id="bz-form-container">
+
+				<div class="slideAnimation" id="bz-form">
+					<div id="rfq">
+						<div id="progressBar" class="progress"></div>
+						<div class="wrapper" style="margin-top:8px"><a href=""><< Start Over</a></div>
+						<div class="wrapper">
+							<div id="mobileQuestions" class="rfq-content rfq-box zeroHeight">
+								<form id="bwaRfqForm" class="[ form--rfq form ] [ js-form ] u-cf rfq-form qs" method="post" action="#">
+									[#include "/includes/sessionParam.ftl"]
+									<div class="qs-container"></div>
+								</form>
+							</div>
+						</div>
+
+						<div id="backNextRow" class="nav u-cf">
+							<div class="btn-wrap--back">
+
+								<button tabindex="2" id="rfq-back" class="btn--back btn"><div class="btn__icon"><img class="btn__icon" src="/bzng/images/mobile/left-tri.svg"></div> </button>
+							</div>
+
+
+							<div class="btn-wrap--advance">
+								<button tabindex="1" id="rfq-continue" class="btn--advance btn">
+									<span>NEXT</span>
+									<div class="btn__icon--advance btn__icon"><img src="/bzng/images/mobile/right-tri.svg"></div>
+								</button>
+							</div>
+							<button id="bwaSubmit" style="display: none;" class="btn btn--advance btn--submit u-size-full">Submit Form</button>
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+
+		<div id="zipCodeEntry" class="wrapper zeroHeight">
+			<p class="headlineZip"><strong>Please provide your zip code.</strong></p>
+			<p style="margin:0;font-size:14px;color:#8c8c8c">Your zip code will allow us to find additional sellers in your area.</p>
+			<input type="number" name="someid" />
+			<button class="callButton" onclick="switchVisible3();" style="background-image:none">
+				<span>Find Sellers &#x25B7;</span>
+			</button>
+			<a href=""><< Go Back</a>
+		</div>
+
+		<div id="companyList" class="wrapper zeroHeight">
+			<p class="headline"><strong>We've found a seller that can help you now!</strong></p>
+			<p class="companyName">Quick Attach Attachments</p>
+			<p class="description">Attachments is an ISO 9001 manufacturer of high quality skid steer, mini skid steer, and compact tractor attachments.</p>
+			<p class="description">Over 100 attachments including mowers, grapples, blades, tree, earth moving, concrete, and snow equipment. Made in Minnesota since 1948. Attachments are universal and fit most brands. Contact us today.</p>
+			<img src="https://www.buyerzone.com/incoming/marketingProfileLogos/35368_logo.jpeg" width="250">
+			<button class="callButton">
+				<a class="phonelnk" href="tel:888-993-6068">
+				888-993-6068</a>
+			</button>
+		</div>
+
+	</div>
+
+
+	<footer>
+		<div id="productImg"></div>
+		<div class="sub-footer">
+			<div class="trust sub-footer__row">
+				<a href="http://www.bbb.org/boston/business-reviews/administrative-services/buyerzone-com-llc-in-waltham-ma-87942/#bbbonlineclick">
+					<img src="/bzng/images/bluecrush/blue_seal.png" alt="BuyerZone.com, LLC BBB Business Review" />
+				</a>
+			</div>
+			<div class="sub-footer__row">
+				<a href="[@generateExternalUrl '/about-us/'/]">About Us</a>
+				<a class="sub-footer__cntr-lnk" href="[@generateExternalUrl '/about-us/disclaimer/'/]">Terms &amp; Conditions</a>
+				<a href="[@generateExternalUrl '/about-us/privacy/'/]">Privacy Policy</a><br/>
+			</div>
+			<div class="sub-footer__row">
+				<a href="#" title="Classic View" class="trackEvent" id="classicView">Full Site</a>
+			</div>
+			<div class="sub-footer__row">
+				<b><a href="tel:8883935000">Customer Care: 888-393-5000</a></b>
+			</div>
+			<div class="sub-footer__row">
+				<span>&copy; <script type="text/javascript"> document.write(new Date().getFullYear());</script> BuyerZone.com LLC. A Purch Brand. All Rights Reserved.</span>
+			</div>
+			<div class="sub-footer__row">
+				<input type="hidden" value="${BZ_APPLICATION_VERSION}" id="envBld">
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!-- pre-load for checkbox and radio icons -->
+	[#-- @todo please make me a sprite :) --]
+	<div id="controlImagePreload" class="hidden">
+		<img src="/bzng/images/mobile/radio-on.svg" />
+		<img src="/bzng/images/mobile/radio-off.svg" />
+		<img src="/bzng/images/mobile/check-on.svg" />
+		<img src="/bzng/images/mobile/check-off.svg" />
+	</div>
+
+
+	[#include "ajaxLoader.ftl" /]
+
+	<!-- analytics -->
+	[#include "/includes/siteStats.ftl"]
+
+	<!-- landing page pixels -->
+	[#if xmlTree('categoryElements.pixelsLanding')??]
+		<div class="tracking-pixels">
+			[@xmlRef 'categoryElements.pixelsLanding' /]
+		</div>
+	[/#if]
+
+	<!-- libs & plugins -->
+	[@processOnce '/dist/js/bzBlueCrush.js'; fileUrl]<script type="text/javascript" src="${fileUrl}"></script>[/@]
+
+	<script type="text/javascript" src="/bzng/dist/js/bzPhonePPCQuestionSetFlow.js"></script>
+
+	[#include "/includes/blueCrushQSTabletTpl.ftl"]
+	[#include "/includes/blueCrushProgressBarReverseTplMobile.ftl"]
+	[#include "blueCrushHeaderMobileTpl.ftl"]
+	[#include "blueCrushPIMobileTpl.ftl"]
+
+	<!-- initiate app -->
+	<script type="text/javascript">
+	$(document).ready(function() {
+		var catType = '${quoteRequest.category.categoryType.description?lower_case}',
+			flow = BZ.cflow = new BZ.flow.PhonePPCQuestionSetFlow({
+				apiDomain: '${apiDomain}',
+				categoryName: '${categoryDisplayName}',
+				categoryId: '${quoteRequest.category.categoryId}',
+				pageType: 'qs',
+				preselectedAnswers: {
+[#if firstQuestionAnswer?exists]
+	[#list firstQuestionAnswer?keys as key]
+				'${key}': '${firstQuestionAnswer[key]}'[#if key_has_next],[/#if]
+	[/#list]
+[/#if]
+				},
+				$renderTo: $('#bwaRfqForm').find('.qs-container')
+		});
+		flow.startup();
+	});
+	</script>
+
+</body>
+</html>
+[/#compress]

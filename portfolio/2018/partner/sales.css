@@ -1,0 +1,727 @@
+/* Created by J. Ryan Doherty
+ 	Date: 5/24/18 */
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width:100%;
+	background:#ffffff;
+	font-family: Proxima N W01 Reg,Arial,Titillium Web,Helvetica,"sans-serif";
+	color:#3a3a3a;
+}
+
+p {margin:0}
+
+
+#toggle {
+
+}
+
+.panel {
+  color: #330036;
+  background-color: #f6f6f6;
+  padding:0;
+  display: none;
+	border-top:3px solid #e1e1e1;
+}
+
+
+
+
+
+
+.hero {
+	background:radial-gradient(circle at center, rgba(210, 84, 8, .7) 10%, transparent, transparent), url(/jpgs/hero_home_alt.jpg) center center no-repeat #333;
+	background-size: cover;
+	height:100%;
+	color:#fff;
+	font-family: 'Titillium Web';font-weight:600;
+}
+
+
+.navigation {
+	display:flex;
+	align-content:center;
+	padding:40px;
+	font-family: 'Titillium Web';font-weight:600;
+}
+
+.navigation a {
+	text-decoration:none;
+	color:#fff;
+	margin: 0 6px;
+
+}
+
+.get-in-touch{
+	padding-left:25px;
+	background:url('pngs/talkbubble.png') no-repeat left/20px;
+}
+
+.navigation a:hover {
+	color:#80e1fd
+}
+
+.logo {
+	flex:1;
+}
+
+.logo img {
+	width:220px;
+}
+
+.links {
+	align-self: center;
+}
+
+.contentLinks {
+	text-align:right;
+	padding:0;
+}
+
+
+.contentHero {
+	background:radial-gradient(circle at center, rgba(210, 84, 8, .7) 10%, transparent, transparent) no-repeat, url(/jpgs/hero_second_2200.jpg) #333 no-repeat bottom left;
+	height:215px;
+	border-bottom:4px solid #ff863e;
+	margin-bottom:30px;
+	display:flex;
+	justify-content:center;
+}
+
+.contentHero img {
+	width:450px;
+	margin-top: 24px;
+	max-width:80%;
+}
+
+.marketingHero {
+	background:radial-gradient(circle at center, rgba(255, 184, 42, .7) 10%, transparent, transparent) no-repeat, url(/jpgs/hero_second_2200.jpg) #333 no-repeat bottom left;
+	height:215px;
+	border-bottom:4px solid #ffb82a;
+}
+
+.advertisingHero {
+	background:radial-gradient(circle at center, rgba(232, 90, 38, .7) 10%, transparent, transparent) no-repeat, url(/jpgs/hero_second_2200.jpg) #333 no-repeat bottom left;
+	height:215px;
+	border-bottom:4px solid #e85a26;
+}
+
+.contentNavigation {
+	background:#464646;
+	color:#fff;
+	position:fixed ;
+	width: inherit;
+	padding: 6px 0;
+	border-bottom:1px solid #969696;
+}
+
+.contentIntro {
+	align-items:center;
+	padding:20px 0;
+}
+
+.contentIntro img {
+	width: 240px;
+}
+
+.contentIntroText {
+	font-size:30px;
+	padding-right:85px;
+}
+
+
+
+.leadGenIntro {
+	border-top:18px solid #ff863e;
+	border-bottom:12px solid #ff863e;
+}
+
+.marketingIntro {
+	border-top:18px solid #ffb82a;
+	border-bottom:12px solid #ffb82a;
+}
+
+
+.product-offering {
+	margin-top:40px;
+	margin-bottom:30px;
+	border-bottom:1px solid #333;
+
+}
+
+
+
+
+
+.cta {
+	width:45vw;
+	max-width:700px;
+	position:absolute;
+	top:30%;
+	right:10%;
+	text-align:center;
+
+}
+
+.ctaText{
+	font-family: Proxima N W01 Reg,Arial,Titillium Web,Helvetica,"sans-serif";
+	font-weight:100;
+	font-size:110%;
+	margin-bottom:30px;
+	text-align:left;
+	padding-left:13%;
+	padding-top:10px;
+}
+
+
+.action.color1 {
+  background: #ff863e;
+  border: 2px solid #ef7c00;
+}
+.action.color2 {
+  background: #ffb82a;
+  border: 2px solid #ffb82a;
+}
+
+.action.color3 {
+  background: #e85a26;
+  border: 2px solid #e85a26;
+}
+
+
+.action.medium, .action.w320-medium {
+    font-size: 1em;
+    padding: .9em 1.5em;
+}
+.action {
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.15);
+}
+.action {
+    display: inline-block;
+    padding: .5em 1em;
+    font-size: .85em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    background: #686868;
+    border: none;
+    cursor: pointer;
+    transition: background-color .2s ease;
+
+}
+
+.action:hover {
+	  background: #e85700;
+}
+
+
+.testimonial {
+	width:100%;
+	margin-top:100px;
+	padding-top:55.94%;
+	background:url(/jpgs/hero_testimonial.jpg);
+	background-size: cover;
+	position:relative;
+}
+
+
+.testimonialText {
+	position:absolute;
+	width:60vw;
+	margin:0 auto;
+	top:30%;
+	bottom:0;
+	right:0;
+	left:0;
+	color:#fff;
+	font-size: 200%;
+
+}
+
+.container {
+	display:block;
+	width:1170px;
+	margin:0 auto;
+
+}
+
+.containerFlex {
+	display:flex;
+	width:1170px;
+	margin:0 auto;
+
+}
+
+
+h1, h2, h3, h4 {
+	font-family: abril-text, serif;
+	color:#020101;
+	margin:0;
+
+}
+
+.header-large {
+	font-size:60px;
+	font-weight: 800;
+	margin-bottom:20px;
+}
+
+.header-medium {
+	font-size:48px;
+	font-weight: 700;
+	/*line-height: 40px;*/
+	margin-bottom:10px;
+}
+
+.header-small {
+	font-size:36px;
+	/*line-height: 30px;*/
+	font-weight: 700;
+}
+
+.our-programs {
+	padding: 40px 0;
+}
+
+.our-programs p {
+	margin-bottom:20px
+}
+
+.our-programs h2 {
+	font-size:36px;
+	line-height: 36px;
+	color:#fff;
+}
+.our-programs h3 {
+	font-size:30px;
+	line-height: 30px;
+}
+
+
+/* our programs boxes */
+
+.lead-generation{
+	box-shadow: 2px 1px 5px #333;
+	border-left:15px solid #ff863e;
+	padding:0 20px 0 30px;
+	height:720px;
+	width:598px;
+	background:#fff;
+	margin-right:25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.lead-generation-title {
+	font-size:52px;
+	margin:0;
+	font-weight:800;
+	color:#ff863e;
+	line-height:44px;
+}
+
+.lead-generation-title span {
+	color:#525252;
+}
+
+.lead-generation-image {
+	text-align:right;
+	padding-right:20px;
+}
+
+.lead-generation-image img {
+	width:280px;
+}
+
+.advertising {
+	color:#fff;
+	height:420px;
+	width:410px;
+	background:url(/pngs/bg_display.png)repeat-y left #e85a26;
+	padding-left:40px;
+	padding-right:10px;
+	margin-bottom:25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.marketing {
+	border-left:10px solid #ffb82a;
+	height:274px;
+	width:394px;
+	box-shadow: 2px 1px 5px #333;
+	padding-left:28px;
+	padding-right:28px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+/* funnel section */
+
+.funnelText {
+
+
+	margin-right:25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex:1;
+	order:1;
+}
+
+.funnelText h4 {
+	font-size: 30px;
+}
+
+.funnelText p {
+	margin-bottom:100px
+}
+
+.funnelGraphic {
+	order:2;
+}
+
+
+/* our expertise section */
+
+.boxes {
+	box-shadow: 2px 1px 5px #333;
+	border-left:10px solid #ff863e;
+	padding:0 20px 0 30px;
+	background:#fff;
+	padding:40px;
+	display:inline-block;
+
+}
+
+.boxes h4 {
+	font-size:30px
+}
+.access {
+	width:585px;
+}
+
+.enablement {
+	width:530px;
+	height: auto;
+align-self: center;
+}
+
+.roi {
+	width:500px;
+}
+
+
+
+
+/* logos css */
+
+.atlas-logo, .advanced-md-logo, .toyota-logo, .safestep-logo, .five-9-logo, .kronos-logo, .paychex-logo, .pitney-bowes-logo, .ricoh-logo, .sharp-logo, .vonage-business-logo, .jacuzzi-logo{
+	background: url('//cdn.buyerzone.com/images/leads/sprites_logos.png') no-repeat;
+	background-size:300px;
+	display:inline-block;
+	width:150px;
+	height:50px;
+	margin: 14px;
+
+}
+
+.atlas-logo{
+	background-position: -150px -150px ;
+}
+
+.advanced-md-logo{
+	background-position: -150px -100px ;
+}
+
+.toyota-logo{
+	background-position: 0 -150px ;
+}
+
+.safestep-logo{
+	background-position: -150px -200px ;
+}
+
+.five-9-logo{
+	background-position: 0 -250px ;
+}
+
+.kronos-logo{
+	background-position: 0 -200px ;
+}
+
+.paychex-logo{
+	background-position: 0 -100px ;
+}
+
+.pitney-bowes-logo{
+	background-position: -150px -50px ;
+}
+
+.ricoh-logo{
+	background-position: 0 -50px ;
+}
+
+.sharp-logo{
+	background-position: -150px 0;
+}
+
+.vonage-business-logo{
+	background-position: 0 0;
+}
+
+.jacuzzi-logo{
+	background-position: -150px -250px ;
+}
+
+.neopost-logo {
+  background: url('//cdn.buyerzone.com/images/leads/neopost-gray_2.png') no-repeat;
+	background-size:150px;
+	display:inline-block;
+	width:150px;
+	height:50px;
+	margin: 14px;
+}
+
+.lets-talk {
+	background:linear-gradient(to bottom right,#f46c18,#f56e1f,#ef4943) ;
+	padding:40px 0;
+	color:#fff;
+	font-size:17px;
+
+}
+
+.lets-talk h3 {
+	font-family: abril-text, serif;
+	font-size:78px;
+	font-weight: 800;
+	color:#fff;
+}
+
+
+.marketingTalk {
+	background:linear-gradient(to bottom right,#f89a05,#ffb944,#ffd997) ;
+
+}
+
+
+.advertisingTalk {
+	background:linear-gradient(to bottom right,#e85a26,#cc4616,#9f320a) ;
+
+}
+
+
+
+
+
+/* product section */
+
+.breadcrumb {
+	margin-bottom:20px;
+}
+
+.productContainer {
+	align-items:center;
+	margin-bottom:10px;
+}
+
+.badge {
+	margin:10px 40px 10px 0;
+	flex:1;
+	max-width:240px;
+}
+
+
+.productName {
+	margin-right:100px;
+	flex:3;
+}
+
+.productTitle {
+	font-size:36px;
+	font-family: 'Titillium Web';
+}
+
+.productHow {
+	background:url(svgs/bulb.svg) left no-repeat;padding-left:100px;
+	font-size:42px;
+	font-weight:600;
+	height:200px;
+	background-size:200px 200px;
+	background-position-y:-30px;
+	margin-top: -3px;
+}
+
+.productHow span {
+	border-bottom:15px solid #ff863e;
+	display: inherit;
+	margin-left: 58px;
+	padding-top: 25px;
+}
+
+.productOne {
+	padding-left:125px;
+	margin-left:200px;
+	margin-bottom:100px;
+	background:url(pngs/one.png) left no-repeat;background-size: 100px;
+	background-position: top left;
+	width:44%;
+	padding-top:30px;
+}
+
+
+.advertisingBar {
+	color:#fff;
+	width:90%;
+	background:url(/pngs/bg_display_bar.png)repeat-y right #e85a26;
+	padding-left:40px;
+	padding-right:10px;
+	margin-bottom:25px;
+}
+
+
+footer {
+	background: #2c2c2c;
+	color:#fff;
+
+}
+
+.footer-purch-logo {
+    display: inline-block;
+    margin: 0 auto;
+    width: 160px;
+    height: 80px;
+    background: url(https://www.business.com/icons/purch_logo_gray.svg) 50% no-repeat;
+}
+
+
+
+@media (max-width:1200px) {
+	.container, .containerFlex {
+		width:950px
+	}
+
+	.advertising {
+		width:370px;
+	}
+
+	.marketing {
+		width:354px;
+	}
+}
+
+@media (max-width:960px){
+	.containerFlex, .container {
+		display:block;
+		width:90%;
+		max-width:500px;
+	}
+
+	.navigation {
+		display:block;
+		padding:20px;
+	}
+
+	.navigation a:first-child{
+		margin-left:0;
+	}
+
+	.logo img {
+		width:180px;
+	}
+
+	.cta {
+		width:55vw;
+
+	}
+
+	.lead-generation {
+		width:inherit;
+		margin-bottom:20px;
+		margin-right:0;
+		padding-right:5px;
+		padding-left:20px;
+		border-left:10px solid #ff8936;
+	}
+
+	.contentIntro img {
+		margin: 15px auto 0;
+		display: block;
+	}
+	.contentIntroText {
+		font-size: 19px;
+		padding-right:0;
+	}
+
+	.advertising {
+		width:inherit;
+	}
+
+	.marketing {
+		width:inherit;
+	}
+
+	.roi, .access {
+		width:80%;
+	}
+
+	.enablement {
+		width:78%;
+	}
+
+	.productContainer {
+		text-align:center;
+		margin:30px auto 70px;
+	}
+	.badge, .productName {
+		margin:auto;
+		margin-bottom:10px;
+	}
+
+	.product-offering {
+		text-align: center;
+	}
+}
+
+
+
+@media (max-width:768px) {
+	.hero {
+		background-position:-180px;
+	}
+
+	.hero {
+		background-position:-180px;
+	}
+
+	.cta {
+		width:85vw;
+		margin:0 auto;
+		left:0;
+		right:0;
+	}
+
+	.ctaText {
+		font-size:100%;
+		padding-left:13%
+	}
+
+	.testimonialText {
+		font-size:110%;
+		top:20%;
+	}
+
+	.container {
+		width:90%;
+	}
+
+
+}
