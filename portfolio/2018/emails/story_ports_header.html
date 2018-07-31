@@ -1,0 +1,154 @@
+<@
+var items_length = items.length;
+var idx;
+for (idx=0; idx
+< items_length; idx++)
+{
+item = items[idx];
+@>
+
+
+
+<style>
+.containerHero {
+	width:100%
+}
+</style>
+
+<!--[if (gte mso 9)|(IE)]>
+
+<style>
+    .containerHero {
+        width:30%
+
+    }
+</style>
+
+<![endif]-->
+
+
+<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+
+
+
+<table cellpadding="0" cellspacing="0" border="0" class="containerHero" align="center">
+  <tr>
+    <td height="300" align="center" background="#2a3448" style="background:linear-gradient(0deg ,rgba(30, 60, 101, 0.7),rgba(46, 46, 46, .7)), url(<@- getDefaultImage(); @>) no-repeat;background-position:center;background-size:cover" bgcolor="#2c3448"><!--[if gte mso 9]>
+               <v:image xmlns:v="urn:schemas-microsoft-com:vml" id="theImage" style="behavior: url(#default#VML); width: 540pt; height: 300pt; top: 0; left: 0; border: 0; z-index: 1;" src="<@- getDefaultImage(); @>" />
+                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: inline-block; position: absolute; width: 540pt; height: 300pt; top: 0; left: 0; right:0; margin:auto; border: 0; z-index: 2;">
+                <v:fill opacity="70%" color="#2a3448" style="z-index: 1;"/>
+                <div>
+                <![endif]-->
+      <!-- Containing Table -->
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="" align="center" valign="middle" height="340" style="height:340px"><!-- Contents -->
+
+            <!-- Headline -->
+
+            <table width="70%" align="center" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td class="editable_text_title" style="font-family:Georgia, serif;font-size:39px;font-weight:900;line-height:1.2;text-align:center;text-shadow:4px 4px 5px #000;color:#fff;padding-top:20px"  align="center"><@- getTitle(); @></td>
+              </tr>
+              <tr>
+                <td class="editable_text_description" align="center"><span style="max-width:300px;text-align:left">
+                  <@- getDescription(); @>
+                  </span></td>
+              </tr>
+            </table>
+
+            <!-- Headline END -->
+
+            <!-- Button - CTA -->
+
+            <table class="sp_layout_txt_only" width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td class="item_separator"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="item_container"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="editable_text_content" valign="top" align="left"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td class="editable_text_title"></td>
+                                        </tr>
+                                        <tr>
+                                          <td class="editable_author_details"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="editable_author_container" valign="top"><div class="editable_author"></div></td>
+                                                </tr>
+                                              </tbody>
+                                            </table></td>
+                                        </tr>
+                                        <tr>
+                                          <td class="editable_text_description"></td>
+                                        </tr>
+                                        <tr>
+                                          <td><table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="editable_button_wrapper" align="center"><table class="editable_button_wrapper_inner" cellspacing="0" cellpadding="0" border="0">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td><!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0"><tr><![endif]--><!--[if (gte mso 9)|(IE)]><td><![endif]-->
+                                                            <table class="editable_button_cont editable_button_view_cta" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td class="editable_button_spacer"><table class="editable_button_outer" cellspacing="0" cellpadding="0" border="0">
+                                                                      <tbody>
+                                                                        <tr>
+                                                                          <td class="editable_button">
+                                                                            <@- getCTAs(); @>
+
+                                                                           </td>
+                                                                        </tr>
+                                                                      </tbody>
+                                                                    </table></td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
+                                                            <!--[if (gte mso 9)|(IE)]></td><![endif]--><span class="edit_button_placeholder"></span><!--[if (gte mso 9)|(IE)]></tr></table><![endif]--></td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table></td>
+                                                </tr>
+                                              </tbody>
+                                            </table></td>
+                                        </tr>
+                                      </tbody>
+                                    </table></td>
+                                </tr>
+                              </tbody>
+                            </table></td>
+                        </tr>
+                      </tbody>
+                    </table></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- end Button - CTA -->
+
+            <!-- Contents END --></td>
+        </tr>
+      </table>
+
+      <!-- Containing Table END-->
+      <!--[if gte mso 9]>
+          </div></v:fill></v:rect><![endif]--></td>
+  </tr>
+</table>
+<@
+}
+@>
