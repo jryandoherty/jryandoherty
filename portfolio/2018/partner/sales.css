@@ -29,12 +29,9 @@ p {margin:0}
 
 
 
-
-
-
 .hero {
-	background:radial-gradient(circle at center, rgba(210, 84, 8, .7) 10%, transparent, transparent), url(/jpgs/hero_home_alt.jpg) center center no-repeat #333;
-	background-size: cover;
+	background:radial-gradient(circle at center, rgba(210, 84, 8, .7) 10%, transparent, transparent), url(jpgs/hero_home.jpg) center center no-repeat #333;
+	background-size: cover ;
 	height:100%;
 	color:#fff;
 	font-family: 'Titillium Web';font-weight:600;
@@ -83,7 +80,7 @@ p {margin:0}
 
 
 .contentHero {
-	background:radial-gradient(circle at center, rgba(210, 84, 8, .7) 10%, transparent, transparent) no-repeat, url(/jpgs/hero_second_2200.jpg) #333 no-repeat bottom left;
+	background:radial-gradient(circle at center, rgba(210, 84, 8, .7) 10%, transparent, transparent) no-repeat, url(jpgs/hero_second_2200.jpg) #333 no-repeat bottom left;
 	height:215px;
 	border-bottom:4px solid #ff863e;
 	margin-bottom:30px;
@@ -98,13 +95,13 @@ p {margin:0}
 }
 
 .marketingHero {
-	background:radial-gradient(circle at center, rgba(255, 184, 42, .7) 10%, transparent, transparent) no-repeat, url(/jpgs/hero_second_2200.jpg) #333 no-repeat bottom left;
+	background:radial-gradient(circle at center, rgba(255, 184, 42, .7) 10%, transparent, transparent) no-repeat, url(jpgs/hero_second_2200.jpg) #333 no-repeat bottom left;
 	height:215px;
 	border-bottom:4px solid #ffb82a;
 }
 
 .advertisingHero {
-	background:radial-gradient(circle at center, rgba(232, 90, 38, .7) 10%, transparent, transparent) no-repeat, url(/jpgs/hero_second_2200.jpg) #333 no-repeat bottom left;
+	background:radial-gradient(circle at center, rgba(232, 90, 38, .7) 10%, transparent, transparent) no-repeat, url(jpgs/hero_second_2200.jpg) #333 no-repeat bottom left;
 	height:215px;
 	border-bottom:4px solid #e85a26;
 }
@@ -223,7 +220,7 @@ p {margin:0}
 	width:100%;
 	margin-top:100px;
 	padding-top:55.94%;
-	background:url(/jpgs/hero_testimonial.jpg);
+	background:url(jpgs/hero_testimonial.jpg);
 	background-size: cover;
 	position:relative;
 }
@@ -425,7 +422,7 @@ align-self: center;
 /* logos css */
 
 .atlas-logo, .advanced-md-logo, .toyota-logo, .safestep-logo, .five-9-logo, .kronos-logo, .paychex-logo, .pitney-bowes-logo, .ricoh-logo, .sharp-logo, .vonage-business-logo, .jacuzzi-logo{
-	background: url('//cdn.buyerzone.com/images/leads/sprites_logos.png') no-repeat;
+	background: url('pngs/sprites_logos.png') no-repeat;
 	background-size:300px;
 	display:inline-block;
 	width:150px;
