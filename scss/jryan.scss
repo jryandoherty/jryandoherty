@@ -2,29 +2,41 @@
 
 "files/animations",
 
+"files/form",
+
 "files/fonts";
 
 
 html, body {
 	width: 100%;
 	height: 100%;
-	 font-family: 'oswaldlight';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
 	color:$black;
-	background: $white;
+	background: #442811;
 
 }
 
 p::-moz-selection { background-color: $siennaLight}
 p::selection { background-color: $siennaLight; }
 
-h1, h2, h3 {
+h1, h2 {
 	font-family: 'oswaldbold';
 }
+
+h3 {
+	font-family: 'oswaldlight';
+}
+
 
 p.browsehappy{
 	padding:50px 0 0 10px;
 
+}
+
+p {
+
+	font-size:16px;
 }
 
 .navbar {
@@ -42,10 +54,13 @@ p.browsehappy{
 	width: 100%;
 	height: 75%;
 	min-height: 450px;
-	background: url('/img/code_graffiti.png') center bottom no-repeat, url('/img/graffiti_top.png') right bottom no-repeat, url('/img/bg_brick.jpg') center center no-repeat;
-	background-size: 650px, 450px, cover;
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1596559779/graffiti_code_01_wd5hlw.png') center bottom no-repeat,
+
+	 url('https://res.cloudinary.com/jryandoherty/image/upload/v1596136886/bg_brick_lfahqt.jpg') #333 center center no-repeat;
+	background-size: 1120px, cover;
 	color:#fff;
 	position:relative;
+	overflow: hidden;
 
 	&:before {
 	content: '';
@@ -63,23 +78,35 @@ p.browsehappy{
 
 
 	.nav {
-		margin-top:30px;
+		margin-top:50px;
 	}
+
 	.introText {
-		font-size:34px;
-		font-family:'oswaldbook';
 		top:50%;
-
 		float:none;
-
 		text-align:left;
 		position: absolute;
+		visibility:hidden;
 		/*width:350px;*/
+	}
+
+	p {
+		font-size:28px;
+		font-family:'oswaldbook';
+	}
+
+	a {
+		color:$white;
+			&:hover {
+				text-decoration:underline;
+			}
 	}
 
 }
 
-p.browsehappy{
+
+
+p.browsehappy {
 	padding:50px 0 0 10px;
 	color:$bzOrange;
 }
@@ -89,8 +116,9 @@ p.browsehappy{
 	height:150px;
 }
 
+/* Navigation */
 
-.recentWork{
+.recentWork {
 	width:175px;
 	height:175px;
 	z-index: 700;
@@ -98,24 +126,25 @@ p.browsehappy{
 	position:relative;
 	float:right;
 	transform: rotate(0deg);
-	transition: .4s ease-in all;
+	visibility:hidden;
+
 
 	&:hover{
 
-		transform: rotate(15deg);
-		transition: .8s ease-in all;
+		transform: rotate(10deg);
+		transition: .3s ease-in all;
 
 	}
 
-	svg #sticker {fill:$green}
-	svg:hover #sticker { fill: $greenLight  }
+	svg #sticker4 {fill:$green}
+	svg:hover #sticker4 { fill: $greenLight  }
 
 }
 
 
 
 
-.about{
+.branding {
 	width:125px;
 	height:125px;
 	margin:105px -10px 0 -50px;
@@ -123,17 +152,19 @@ p.browsehappy{
 	position:relative;
 	float:right;
 	transform: rotate(0deg);
-	transition: .4s ease-in all;
+	visibility:hidden;
+
 
 	&:hover{
 
 		transform: rotate(15deg);
-		transition: .8s ease-in all;
+		transition: .3s ease-in all;
 
 	}
 
-	svg #sticker {fill:$sienna}
-	svg:hover #sticker { fill: $siennaLight  }
+	svg #sticker3 {fill:$sienna}
+	svg:hover #sticker3 { fill: $siennaLight  }
+
 }
 
 
@@ -147,26 +178,23 @@ p.browsehappy{
 	position:relative;
 	float:right;
 	transform: rotate(0deg);
-	transition: .4s ease-in all;
+	visibility:hidden;
 
 	&:hover{
 
 		transform: rotate(15deg);
-		transition: .8s ease-in all;
+
 
 	}
 
-	svg #sticker {fill:$yellow}
-	svg:hover #sticker { fill: $yellowLight  }
+	svg #sticker2 {fill:$yellow}
+	svg:hover #sticker2 { fill:$yellowLight  }
 
 }
 
-.form-control:focus {
-    border-color: #cf66e9;
-		box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
-}
 
-.portfolio{
+
+.about {
 	width:120px;
 	height:120px;
 	margin:50px 0 0 -37px;
@@ -174,33 +202,201 @@ p.browsehappy{
 	position:relative;
 	cursor:pointer;
 	float:right;
-	transform: rotate(1deg);
-	transition: .4s ease-in all;
 
-	&:hover{
+	visibility:hidden;
 
-		transform: rotate(15deg);
-		transition: .8s ease-in all;
+	/*&:hover {
 
-	}
+		-webkit-animation: spin 0.6s ease-out both;
+						animation: spin 0.6s ease-out both;
 
-	svg #sticker {fill:$black}
-	svg:hover #sticker { fill: $blackGreen }
+	}*/
 
 
+
+	svg #sticker1 {fill:$black}
+	svg:hover #sticker1 { fill: $blackGreen }
 }
 
 
 .recentWorkSection {
 	min-height:700px;
-	background: url('/img/graffiti_bottom.png') right top no-repeat #fcfcf4;
-	background-size:350px;
-	padding-top:40px;
+	/*background: url('/img/graffiti_bottom.png') right top no-repeat #fcfcf4;*/
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1596559778/graffiti_code_02_ifwfp0.png') center top no-repeat $cream;
+	background-size: 1120px;
 
-	h2{
+	padding-top:100px;
+	padding-bottom:200px;
+
+	.intro {
+		margin-bottom:80px;
+	}
+
+	h2 {
 		font-size: 40px;
 	}
+
+	img {
+		max-width:700px;
+		height:auto;
+		@media(max-width: 767px){
+			max-width:100%;
+		}
+	}
+
+	.full img {
+		max-width:100%;
+	}
+
+	.client {
+		padding-right:10px;
+		font-family: 'oswaldlight';
+	}
+
+	.col-lg-4 {
+		padding-left:5%;
+		@media(max-width:1199px){
+			padding-left:15px;
+		}
+	}
 }
+
+
+.brandingSection {
+	background: $cream;
+	border-top:3px dashed $sienna;
+	/*background: #ffdea9;*/
+	padding:5% 0;
+
+	h2 {
+		font-size: 40px;
+		margin-bottom:30px;
+	}
+
+	.modal-content {
+		background-color:#fcfdf5;
+	}
+
+	.row {
+	.col-md-2, .col-md-3, .col-md-4 {
+		min-height: 220px;
+		box-shadow: 2px 3px 1px #333;
+		background: #4c4b4b;
+		padding:10px;
+		height: 10em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		border: 2px solid #333;
+		@media (max-width: 1000px) {
+			flex-direction:column;
+
+		}
+
+		&:last-child {margin-bottom:30px;}
+
+
+
+		.logo {
+			width:80%;
+
+			max-height:240px;
+			margin: 0 auto;
+    	display: block;
+			&:hover {
+				width:95%;
+				transition: .2s ease-in all;
+				cursor:pointer;
+			}
+		}
+
+	}
+	@media (max-width: 768px) {
+		&:last-child {display:none;}
+
+	}
+}
+
+} /*end branding section */
+
+.modal {
+
+	img {
+
+		max-width:100%;
+		height:auto;
+
+	}
+
+	.modal-title {
+		display:inline;
+		margin: 0 10px;
+	}
+
+	.close {
+
+	}
+
+}
+
+
+.about-background {
+	width: 100%;
+	min-height: 300px;
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1596136886/bg_brick_lfahqt.jpg') #211e18;
+	position: relative;
+	padding:10% 0;
+	color:$white;
+
+	&:before {
+	content: '';
+	position: absolute;
+	height:100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image:radial-gradient(circle, #000, transparent);
+	background-repeat: no-repeat;
+	/*background-size:30% 30%;*/
+	opacity: .74;
+}
+
+	.col-sm-3 {
+
+		@media (max-width: 767px) {
+			margin-bottom:20%;
+		}
+	}
+
+	.glyphicon {
+		margin-right:15px
+	}
+
+	@media (max-width: 767px) {
+		padding:5% 8%;
+	}
+
+}
+
+.picture-background {
+	width: 100%;
+	min-height: 300px;
+	background: url('/img/bg_trash.jpg') #211e18;
+
+	padding:20% 5%;
+	color:#fff;
+
+}
+
+
+.form-control:focus {
+    border-color: #cf66e9;
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+
 
 .swatch {
 	width:100px
@@ -208,10 +404,7 @@ p.browsehappy{
 
 
 .carousel-indicators {
-	top:-40px;
-	right:0;
-	left:auto;
-	width:150px
+	bottom:-100px;
 
 }
 
@@ -230,6 +423,11 @@ p.browsehappy{
     background-color: rgba(0,0,0,0);
     border: 4px solid #0b0909;
     border-radius: 50%;
+}
+
+.carousel-control {
+	width:0;
+	color:#1e1e1e;
 }
 
 
@@ -259,12 +457,36 @@ p.browsehappy{
 	}
 }
 
-.contactme{
+.contactme {
 	min-height:450px;
 	background:$yellow;
+	padding:5% 0;
 
 	h2 {
-		color:$siennaLight;
+		color:$altblack;
+	}
+
+	h3 {
+		margin-bottom:24px;
+	}
+
+	input[type="text"], input[type="tel"], textarea {
+		width:80%;
+		@media (max-width: 767px){
+			width:100%;
+		}
+	}
+
+	.intro {
+		margin-bottom:4%;
+	}
+
+	@media (max-width: 767px) {
+		padding:5% 8%;
+	}
+
+	label {
+		font-family: "oswaldlight";
 	}
 
 }
@@ -272,10 +494,14 @@ p.browsehappy{
 
 
 footer {
-	background: url('/img/bg_brick.jpg');
-	background-size:1200px;
-	min-height: 600px;
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1596136886/bg_brick_lfahqt.jpg');
+	/*background-size:1200px;*/
+	min-height: 400px;
 	color:$white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'oswaldlight';
 }
 
 
@@ -288,14 +514,15 @@ footer {
 
 	.introText{
 		font-size:28px;
+		position:relative;
 	}
 }
-	.portfolio {
+	.about {
 		width:96px;
 		height:96px;
 	}
 
-	.about {
+	.branding {
 		width:100px;
 		height:100px;
 	}
@@ -310,6 +537,10 @@ footer {
 		height:140px;
 	}
 
+	.logo{
+		max-width: 400px;
+
+	}
 
 }
 
@@ -317,17 +548,25 @@ footer {
 @media (max-width: 767px) {
 
 .brick-background {
-	height:100%;
+	height:40%;
+
 
 	.nav {
 		margin-top: 0
 	}
 	.navbar-collapse{
 		overflow:hidden;
+		border:none;
+		box-shadow:none;
+	}
+
+	.navbar-header {
+		margin-top: 10px;
 	}
 
 	.navbar-toggle{
 		border:none;
+		margin-top: 18px;
 		&:hover {
 			background:$siennaLight;
 			border-radius:40%;
@@ -339,46 +578,51 @@ footer {
 	}
 	.introText {
 		font-size: 21px;
+		padding-top:20px;
+		position:relative;
 
 	}
 }
 
 	.navbar-brand {
-		padding-top:10px;
-		width:160px;
+		padding-top:15px;
+
 	}
 
 	.navbar-nav li div {
-
 		margin:0
 	}
 
-	.portfolio {
-		width:96px;
-		height:96px;
+	.nav > li {
+    display: inline-flex;
+    flex-direction: row-reverse;
 	}
 
-	.about {
-		width:100px;
-		height:100px;
+
+	.portfolio, .about, .contact, .recentWork {
+		width:110px;
+		height:110px;
 	}
 
-	.contact {
+	.logo {
+		max-width: 370px;
+
+	}
+
+
+}
+
+
+@media (max-width: 470px) {
+
+	.portfolio, .about, .contact, .recentWork {
 		width:80px;
 		height:80px;
 	}
 
-	.recentWork {
-		width:140px;
-		height:140px;
-	}
-
-	.carousel-indicators {
-		top:0;
-		right:auto;
-		left:0;
-		width:150px
+	.logo {
+		max-width: 290px;
 
 	}
 
-  }
+}
