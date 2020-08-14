@@ -117,9 +117,59 @@ $('.workLink').click(function(){
 });
 
 
-// animate logo on page load
+// animate navigation on page load
 
-$('.navbar-brand').delay(1900).queue(function() {
-                           $(this).addClass("bigEntrance");
+$('.about').delay(2500).queue(function() {
+                           $(this).addClass("roll-in-right");
                            $(this).dequeue();
                        });
+
+$('.recentWork').delay(1900).queue(function() {
+                          $(this).addClass("roll-in-right");
+													  $(this).dequeue();
+
+                      });
+
+$('.contact').delay(2300).queue(function() {
+                          $(this).addClass("roll-in-right");
+                          $(this).dequeue();
+                      });
+
+$('.branding').delay(2100).queue(function() {
+                          $(this).addClass("roll-in-right");
+                          $(this).dequeue();
+                      });
+
+
+$('.recentWork').delay(2700).queue(function() {
+													$(this).addClass("visibility");
+                      });
+
+
+
+// animate logo on page load
+
+$('.introText').delay(1200).queue(function() {
+                          $(this).addClass("scale-in-ver-bottom");
+                          $(this).dequeue();
+                      });
+
+
+
+// pause carousel on form interaction
+
+     $('input, textarea').focus(function(){
+        $("#carousel-example-generic").carousel('pause');
+     }).blur(function() {
+        $("#carousel-example-generic").carousel('cycle');
+     });
+
+		 $('input[type="radio"], input[type="checkbox"]').click(function(){
+				$("#carousel-example-generic").carousel('pause');
+		 });
+
+
+
+ /***************************************
+    Contact form
+ -------------------------------------- */
