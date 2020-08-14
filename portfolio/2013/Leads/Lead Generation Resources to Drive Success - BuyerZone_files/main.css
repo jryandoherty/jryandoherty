@@ -1,0 +1,836 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+body {background-color: #fdfdfd;
+  background-image: -moz-linear-gradient(top, #fdfdfd, #f0f0f0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fdfdfd), to(#f0f0f0));
+  background-image: -webkit-linear-gradient(top, #fdfdfd, #f0f0f0);
+  background-image: -o-linear-gradient(top, #fdfdfd, #f0f0f0);
+  background-image: linear-gradient(to bottom, #fdfdfd, #f0f0f0);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#f0f0f0');
+  font-family: 'AvenirLTStd-Light';
+  
+  color:#3b3b3b;}
+
+
+h1 {font-size:3.5em;font-family: 'AvenirLTStd-Roman';line-height:1em}
+ul {list-style-type:none;}
+
+#leadshome h1 {border:none}
+#leadshome h2{font-family: 'AvenirLTStd-Roman';}
+#leadshome h4{font-family: 'DesyrelRegular';font-size:30px;margin-top:30px}
+
+#leadshome .lowerPage a {color:#2E81B4}
+#leadshome .lowerPage a:hover {text-decoration:none}
+
+.hero-unit {background:none;top:340px;position:absolute;padding:0}
+#contact .hero-unit {background:none;top:100px;position:static;padding:0;}
+#contact iframe {padding:7px;background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_maps.jpg)}
+
+
+.primaryMessage {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_primary.png) center top no-repeat;width:100%;min-height:520px}
+.leadIntro {width:775px}
+
+#leadgeneration .primaryMessage {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/lead-generation.png) center 24px no-repeat;width:100%;}
+
+#contact .primaryMessage {background:none;padding-top:60px}
+#confirm .primaryMessage {padding-top:60px}
+
+.introMessage {width:700px;margin-top:100px}
+.introMessage h1 span {font-family: 'AvenirLTStd-Heavy';}
+.introMessage p.slogan {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/arrow_home.png) left no-repeat;padding-left:68px;font-size:21px;font-family: 'AvenirLTStd-Light';}
+.lt-ie9 .introMessage {position:absolute}
+.lt-ie8 .introMessage {position:absolute}
+.ie9 .introMessage {position:absolute}
+
+#leadgeneration .introMessage {width:530px}
+#leadgeneration .span6 ul, ol {margin: 0 0 10px 0; padding: 0;}
+#leadgeneration .span6 ul li, ol li {margin-bottom:30px}
+#leadgeneration .span4 ul, ol {margin: 0 0 10px 25px; padding: 0;}
+.whiteBox p, .whiteBox a{margin-left:115px}
+
+.blueBox {background:#163353;padding:20px;color:#FFF;font-size:16px;box-shadow:4px 4px 0 #2D5792;}
+.quoteConnect {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/quote_test.png) bottom right no-repeat #163353}
+.quoteConnectExpress {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/quote_connect_express2.png)bottom right no-repeat #163353}
+.emailConnect {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/email_connect2.png) bottom right no-repeat #163353}
+.contentConnect {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/content_connect3.png) bottom right no-repeat #163353;padding:20px;color:#FFF;font-size:16px;box-shadow:4px 4px 0 #2D5792;}
+.dataConnect {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/data_connect3.png) bottom right no-repeat #163353}
+#leadgeneration .span6 .dataConnect ul li {margin-bottom:10px}
+.blueBox p.secondaryHeader {margin-left:0}
+.blueBox li:first-child  {width:100%}
+.blueBox li:nth-child(2)  {width:100%}
+.blueBox li  {width:300px}
+.contentConnect li {width:260px}
+.contentConnect li:first-child {width:100%}
+
+.blueBox2 {margin:15px 0 0 60px;background:#204c7d}
+
+table.leadGenChart {margin:30px 0 60px 0;}
+table.leadGenChart td{width:15%;height:60px}
+table.leadGenChart th {color:#FFF;font-size:20px}
+
+.table-bordered {border:none}
+
+#resourceCenter textarea {width:80%}
+/*#resourceCenter .span8 li{font-size:25px;line-height:25px}*/
+#resourceCenter div.span5{min-height:225px}
+#resourceCenter .primaryMessage {padding-top:85px;min-height:360px;background:none}
+#resourceCenter .primaryMessage img {border:3px solid #163353}
+#resourceCenter h1 {margin-bottom:20px}
+#resourceCenter h1.primaryHeader {}
+#resourceCenter h1.primaryHeader span{font-family:'AvenirLTStd-Heavy'}
+#resourceCenter h5 {font-size:24px;line-height:1.25em}
+#resourceCenter .resource-thumb {float:left;margin-right:20px;margin-bottom:60px}
+#resourceCenter ul {margin:0}
+
+#infoGraphic .primaryMessage {padding-top:85px}
+#infoGraphic textarea {width:80%}
+
+a.call_today {display:none}
+
+#affiliates .primaryMessage{margin-top:60px;background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_affiliates.png) bottom right no-repeat;background-size:520px 520px}
+.ie8 #affiliates .primaryMessage {background:none}
+#affiliates #marketoForm {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_affiliates_form.png) no-repeat}
+#affiliates h2{margin-bottom:40px;color:#F49445}
+#affiliates h3 {line-height:1.25em}
+#affiliates h5 {font-size:21px}
+#affiliates .marketoForm h3{font-size:36px}
+
+
+#formForMarketo {float:right;margin-top:44px;}
+#marketoForm {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_formerase.png) top ;width:100%;clear:right}
+#marketoModal #marketoForm {background:none}
+#contact #marketoForm {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_featured.png) no-repeat}
+.lt-ie8 #marketoForm {width:400px;float:right} 
+.ie9 #marketoForm {width:400px;float:right} 
+
+#contact #marketoForm h6.subhead{display:none}
+
+
+.sellerLogin {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/lock.png) 6px 5px no-repeat;padding-left:40px;color:#FFF;text-shadow:none}
+.lt-ie9 .sellerLogin {background:none}
+.sellerLogin:hover {
+
+
+  background-position: -18px 0;
+  -webkit-transition: background-position 0.3s linear;
+     -moz-transition: background-position 0.3s width linear;
+       -o-transition: background-position 0.3s linear;
+          transition: background-position 0.3s linear;
+		  background-color:#ffc451;
+}
+
+
+
+.lowerPage {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_tray.png) top repeat-x #ffffff;padding:0 20px}
+.lowerPage h1 {padding-top:30px;border-bottom:1px solid #333}
+
+.marker_tray {}
+.marker_tray_mobile {display:none}
+
+.modalLinkMobile {display:none}
+.lt-ie9 .modalLink {display:none}
+.lt-ie9 .modalLinkMobile {display:block}
+
+
+
+.modal {width:480px}
+.modal-body {max-height:605px;padding:0}
+.modal-header {border:none}
+.modal.fade.in {
+    top: 2%;
+}
+
+/* Navbar overrides */
+
+.navbar-inverse .navbar-inner {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #F49445;
+  background-image:none;
+  /*background-image: -moz-linear-gradient(top, #f79646, #ef9244);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f79646), to(#ef9244));
+  background-image: -webkit-linear-gradient(top, #f79646, #ef9244);
+  background-image: -o-linear-gradient(top, #f79646, #ef9244);
+  background-image: linear-gradient(to bottom, #f79646, #ef9244);
+  background-repeat: repeat-x; */
+  border:none;
+ border-radius:none;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef9144', endColorstr='#f79646', GradientType=0);
+  *zoom: 1;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+
+
+.navbar .brand {padding:0;background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/logo_white2.png) no-repeat 6px 4px;background-size:180px 34px;width:200px;height:38px;margin-left:-7px}
+.lt-ie9 .brand {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/logo_white.png) no-repeat}
+
+.navbar .nav > li > a {
+    color: #f1f1f1;
+    float: none;
+    padding: 12px;
+    text-decoration: none;
+    text-shadow:none;
+}
+
+.lt-ie9 .navbar-inverse .nav-collapse .nav>li>a, .navbar-inverse .nav-collapse .dropdown-menu a {color:#fff;box-shadow:none}
+
+
+.navbar .nav > li > a:hover{  background-color: #f88221;
+}
+
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus {
+ 
+  background-color: #f88221;
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+  
+  background-color: #f88221;
+}
+
+.navbar-inverse .btn-navbar {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #0e0e0e;
+  *background-color: #040404;
+  background-image: -moz-linear-gradient(top, #F88221, #040404);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F88221), to(#040404));
+  background-image: -webkit-linear-gradient(top, #F88221, #040404);
+  background-image: -o-linear-gradient(top, #F88221, #040404);
+  background-image: linear-gradient(to bottom, #F88221, #040404);
+  background-repeat: repeat-x;
+  border-color: #040404 #040404 #000000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff151515', endColorstr='#ff040404', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.navbar-inverse .btn-navbar:hover,
+.navbar-inverse .btn-navbar:focus,
+.navbar-inverse .btn-navbar:active,
+.navbar-inverse .btn-navbar.active,
+.navbar-inverse .btn-navbar.disabled,
+.navbar-inverse .btn-navbar[disabled] {
+  color: #ffffff;
+  background-color: #040404;
+  *background-color: #000000;
+}
+
+.navbar-inverse .btn-navbar:active,
+.navbar-inverse .btn-navbar.active {
+  background-color: #000000 \9;
+}
+
+
+.navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a {
+    color: #ffffff;
+}
+
+
+.nav-collapse .btn {
+    padding: 4px 10px 4px 40px;
+}
+
+.navbar-inverse ul.socialSharing {margin-left:10px;padding-bottom:0}
+
+.secondaryHeader {font-family: 'DesyrelRegular';font-size:1.75em;margin-top:20px;}
+#leadshome .secondaryHeader {float:left;width:290px}
+#leadgeneration .secondaryHeader {margin-left:0}
+#resourceCenter .secondaryHeader {font-size:3.25em;padding-left:20px}
+#resourceCenter h3 {line-height:30px}
+.watch {float:left}
+
+.arrow-down {
+	width: 400px; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	
+	border-top: 20px solid #f00;
+}
+
+
+.getStartedMobile {display:none;background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_get_Started.png) repeat-x center !important;text-align:right;padding-right:25px;margin:20px 0}
+
+
+
+
+/*----------------------------------------------------------
+  == MARKETO ()
+----------------------------------------------------------*/
+	.marketoForm { border: 1px solid #09c; margin: 0 0 10px 10px; min-height: 530px; padding: 15px; width: 400px; }
+	.headline2 { display: none; } /* headline1 will be used for most pages, headline2 is used on resource center pages and will be displayed in page level css */
+	.sampleLead { background: url(/web/20140223133830im_/http://www.buyerzone.com/bzng/images/layout/postIt.png) no-repeat; bottom: 8px; float: right; font-size: .6875em; font-weight: bold; height: 40px; left: 2px; line-height: 1.3em; margin: 0; padding: 20px; position: relative; text-align: center; width: 39px; } /* sticky note link */
+	.sampleLead a { color: #069; text-decoration: none; }
+	.sampleLead a:hover { text-decoration: underline; }
+	.marketoForm h3 { margin-top: 0; }
+	.marketoBox { background: #fff; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; padding: 10px 15px; width: 310px; z-index: 200; } /* contains form and all related elements when form is showing */ 
+	.marketoForm input, .marketoForm textarea { font-family: Arial, Helvetica, sans-serif; margin: 0; padding-left: 0; padding-right: 0; width: 185px; }
+	.marketoForm li label { display: block; float: left; width: 142px; }
+	.marketoForm li select { width: 188px; }
+	.marketoForm textarea { font-size: 1em; }
+	.marketoForm form td { vertical-align: top; }
+	.marketoForm td input { width: auto; }
+	.marketoForm form ul { margin-bottom: 0; }
+	.marketoForm form li { padding: 4px 0; } /* li wrapped around each label/input pair */ 
+	.marketoForm ul table { font-size: 1em; margin: 0; } /* contains radio buttons */ 
+	.marketoForm .submitButton { background: url(/web/20140223133830im_/http://www.buyerzone.com/bzng/images/buttons/learnMore.png) no-repeat; border: 0; font-size: 0; height: 28px; line-height: 0; xmargin: 9px 0 0 120px; text-indent: -9999px; width: 143px; }
+	span.mktFormMsg { color: #f00; display: block; font-size: .916em; margin-left: 125px; }  /* error messages */
+
+
+/* new form */
+	
+	
+	.marketoBox { background:none; padding-left:  15px; width: 400px; font-size:1.025em; }
+	.marketoForm { float:none; padding:0; border:none; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+	.marketoForm ul {list-style: none outside none;margin:-20px 0 0 15px}
+	.marketoForm h3 { margin-left:0; font-size:1em; line-height:1.15em;  padding: 30px 15px 15px 25px;}
+	
+	.marketoForm li label { letter-spacing:0.025em;}
+	.mktError input, .mktError textarea, .mktError select { border:2px solid #FF993F; }
+	.marketoForm table input { border:none; }
+	.marketoForm .submitButton { cursor:pointer; background-image:none; text-indent:0 !important; height: 40px; padding:5px 4px; color:#fff !important; font-size:1.5em; font-weight:bold; line-height:auto; text-shadow:1px 1px 0 #333; border:1px solid #fff; background:#F26800; background:-moz-linear-gradient(0% 100% 90deg,#FE8B27, #D44E00); background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#D44E00), to(#FE8B27)); -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; font-family:'AvenirLTStd-Light'}
+	span.mktFormMsg { /*color:#f00; background:#fff;*/ color:#FF993F; font-weight:bold; display: block; font-size: 0.916em; margin-left: 145px;padding:0}
+	.sampleLead { display:none; } /* hide sample lead link at top of form */
+	h3.headline2 {display:none}
+	
+	.mktError {}
+
+
+#resourceCenter span.mktFormMsg {margin-left:0}
+
+
+
+.marketoForm input, .marketoForm textarea, .marketoForm select {
+    font-family: Arial,Helvetica,sans-serif;
+  	 margin-bottom:0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 185px;
+}
+
+
+
+.marketoShortBox .mktInput {float:none}
+
+
+
+
+.btnMarketo{background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/get_Started.png); background-position: 0 -12px;height:128px;width:368px;background-color:none;float: right;}
+
+.btnMarketo:hover,
+.btnMarketo:focus {
+  cursor:pointer;
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 0;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s width linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+
+.btn-custom { background-color: hsl(51, 34%, 60%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f8f7f1", endColorstr="#bbb176"); background-image: -khtml-gradient(linear, left top, left bottom, from(#f8f7f1), to(#bbb176)); background-image: -moz-linear-gradient(top, #f8f7f1, #bbb176); background-image: -ms-linear-gradient(top, #f8f7f1, #bbb176); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f7f1), color-stop(100%, #bbb176)); background-image: -webkit-linear-gradient(top, #f8f7f1, #bbb176); background-image: -o-linear-gradient(top, #f8f7f1, #bbb176); background-image: linear-gradient(#f8f7f1, #bbb176); border-color: #bbb176 #bbb176 hsl(51, 34%, 51%); color: #333 !important; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.59); -webkit-font-smoothing: antialiased; }
+
+.btn-custom2 { background-color: hsl(61, 100%, 43%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcff60", endColorstr="#d7db00"); background-image: -khtml-gradient(linear, left top, left bottom, from(#fcff60), to(#d7db00)); background-image: -moz-linear-gradient(top, #fcff60, #d7db00); background-image: -ms-linear-gradient(top, #fcff60, #d7db00); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcff60), color-stop(100%, #d7db00)); background-image: -webkit-linear-gradient(top, #fcff60, #d7db00); background-image: -o-linear-gradient(top, #fcff60, #d7db00); background-image: linear-gradient(#fcff60, #d7db00); border-color: #d7db00 #d7db00 hsl(61, 100%, 36.5%); color: #333 !important; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.42); -webkit-font-smoothing: antialiased; }
+
+.btn-custom3 { background-color: hsl(38, 100%, 47%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffcc75", endColorstr="#ef9700"); background-image: -khtml-gradient(linear, left top, left bottom, from(#ffcc75), to(#ef9700)); background-image: -moz-linear-gradient(top, #ffcc75, #ef9700); background-image: -ms-linear-gradient(top, #ffcc75, #ef9700); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffcc75), color-stop(100%, #ef9700)); background-image: -webkit-linear-gradient(top, #ffcc75, #ef9700); background-image: -o-linear-gradient(top, #ffcc75, #ef9700); background-image: linear-gradient(#ffcc75, #ef9700); border-color: #ef9700 #ef9700 hsl(38, 100%, 40.5%); color: #333 !important; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.42); -webkit-font-smoothing: antialiased; font-family: 'DesyrelRegular'; display: block;font-size:16px }
+
+.btn-custom4 { background-color: hsl(215, 57%, 26%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#467ecc", endColorstr="#1c3c68"); background-image: -khtml-gradient(linear, left top, left bottom, from(#467ecc), to(#1c3c68)); background-image: -moz-linear-gradient(top, #467ecc, #1c3c68); background-image: -ms-linear-gradient(top, #467ecc, #1c3c68); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #467ecc), color-stop(100%, #1c3c68)); background-image: -webkit-linear-gradient(top, #467ecc, #1c3c68); background-image: -o-linear-gradient(top, #467ecc, #1c3c68); background-image: linear-gradient(#467ecc, #1c3c68); border-color: #1c3c68 #1c3c68 hsl(215, 57%, 19%); color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.46); -webkit-font-smoothing: antialiased; }
+
+.btn-custom5 { background-color: hsl(191, 5%, 71%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcfcfc", endColorstr="#b1b7b8"); background-image: -khtml-gradient(linear, left top, left bottom, from(#fcfcfc), to(#b1b7b8)); background-image: -moz-linear-gradient(top, #fcfcfc, #b1b7b8); background-image: -ms-linear-gradient(top, #fcfcfc, #b1b7b8); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #b1b7b8)); background-image: -webkit-linear-gradient(top, #fcfcfc, #b1b7b8); background-image: -o-linear-gradient(top, #fcfcfc, #b1b7b8); background-image: linear-gradient(#fcfcfc, #b1b7b8); border-color: #b1b7b8 #b1b7b8 hsl(191, 5%, 64%); color: #333 !important; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.46); -webkit-font-smoothing: antialiased; }
+
+#resourceCenter .btn-large {margin-top:22px}
+
+
+/* Fluid Row and Span overrides */
+
+.row-fluid [class*="span3"] {min-height:268px} 
+#leadgeneration .row-fluid {margin-bottom:30px;border-bottom:3px dashed #e3e3e3;padding-bottom:30px}
+#leadgeneration .lowerPage .container > div:last-child {border:none}
+
+#leadgeneration footer .row-fluid {margin-bottom:0;border:none}
+#leadgeneration .row-fluid [class*="span3"] {min-height:0} 
+
+
+footer .row-fluid [class*="span3"] {min-height:100px} 
+
+.span3, .span12{background-image: -moz-linear-gradient(top, #ffffff, #f4f4f4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f4f4f4));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f4f4f4);
+  background-image: -o-linear-gradient(top, #ffffff, #f4f4f4);
+  background-image: linear-gradient(to bottom, #ffffff, #f4f4f4);
+  background-repeat: repeat-x;
+ 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f4f4f4', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	text-align:center;border: 4px solid #BFBFBF;color:#56473d;border-radius:12px;margin-bottom:10px}
+
+.span3 p{text-align:left;padding:10px}
+.span3 h2 {color:#163353}
+
+
+.span6 {}
+.callout {padding:10px;}
+.callout2 {background:#C1B3AA;border:none;border-radius:0;padding:10px;margin-bottom:20px}
+.callout3 {padding:10px}
+.span11 {text-align:left;}
+.span12 {text-align:left;}
+
+#resourceCenter .primaryMessage .span6 {margin-bottom:20px}
+#resourceCenter .header {text-align:center}
+#resourceCenter .span12{margin-bottom:20px}
+#resourceCenter .span11 {margin-bottom:20px;cursor:default;}
+#resourceCenter .span11 div.header{cursor:pointer;}
+#resourceCenter .span11 .span5 {padding-top:30px;margin-left:50px}
+#resourceCenter .span3 {border:none;background-image:none}
+#resourceCenter .span5 img{border:3px solid #163353}
+/*#resourceCenter .span4 {margin-top:14px}*/
+
+
+#leadgeneration .span6 ul {margin-bottom:30px}
+
+#leadgeneration .span5 ul{float:left}
+#leadgeneration .span3 {background:none;border:none;min-height:0}
+#leadgeneration .span2 {margin-top:15px}
+
+
+.quality {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/lead_pulse.png) top left no-repeat;padding-left:72px;font-size:12px;width:185px;float:right;margin-top:12px}
+.quality2 {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/high_standards.png) top left no-repeat}
+.quality3 {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/credit_window.png) top left no-repeat;padding-left:62px;padding-right:10px}
+
+#leadGenTable, #quoteConnect, #quoteConnectExpress, #emailConnect, #contentConnect, #dataConnect {display: block; position: relative; top: -50px; visibility: hidden;}
+.resourceDesc {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_resources.png) top right no-repeat;padding-right:40px}
+.resource-buttons {background-image:none}
+.quoteconnect {border-right:3px dotted #000}
+.leadFormats {float:right;margin-top: 16px;}
+.chart {float:right}
+.exclusiveLeads {margin-top:64px}
+.featuredResource {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_featured.png) repeat-y;padding-left:20px}
+.infoGraphicIntro {width:550px}
+
+
+/* Partner Logos */
+
+.logoContain {margin:50px 0;padding-bottom:50px}
+.logoText {width:150px;float:left;display:block;margin-right:50px}
+
+.logoScreen ul li {
+    float: left;
+}
+.logoScreen li {
+    background-image: url("/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/Client_logos_v2.png");
+    background-repeat: no-repeat;
+    height: 50px;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.partner-adt {
+    background-position: 0 0;
+}
+
+.partner-bobcat {
+    background-position: 0 -50px;
+}
+
+.partner-canon {
+    background-position: 0 -100px;
+}
+.partner-cisco {
+    background-position: 0 -150px;
+}
+
+.partner-sharp {
+    background-position: 0 -200px;
+}
+.partner-toyota {
+    background-position: 0 -250px;
+}
+
+/* Footer Styles */
+.footerLinks {background:none;text-align:left;border:none;}
+footer {padding:20px;background:#163353;clear:both}
+footer a {color:#fefefe}
+footer a:hover {color:#f79646}
+footer ul {color:#FFF;margin:0}
+footer p {color:#FFF;margin:0}
+footer .bzApp {color:#163353}
+footer ul li {border-bottom:2px dotted #204c7d;padding:8px 0}
+footer ul li.footHead {font-size:18px;font-weight:bold;border-bottom:2px solid #204c7d;}
+footer ul.bbbLogos {padding-top:60px}
+footer ul.bbbLogos li{border:none}
+
+footer .socialSharing .linkedIn a {
+    background-position: -80px 0;
+}
+footer .socialSharing .twitter a {
+    background-position: -120px 0;
+}
+footer .socialSharing .googlePlus a {
+    background-position: -160px 0;
+}
+footer .socialSharing .facebook a {
+    background-position: -200px 0;
+}
+
+.subfooter {padding-top:20px}
+.subfooter img {margin-top:-5px}
+
+
+/* Social Styles */
+ul.socialSharing {margin-left:0;padding-bottom:50px}
+.share-this {margin-bottom:20px}
+
+.socialSharing li {
+    border-radius: 2px 2px 2px 2px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+.socialSharing li a {
+    background-image: url("/web/20140223133830im_/http://www.buyerzone.com/bzng/images/icons/icons-small.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 20px;
+}
+.social-large .socialSharing li a {
+    background-image: url("/web/20140223133830im_/http://www.buyerzone.com/bzng/images/icons/icons-large.png");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+	
+}
+.social-large .socialSharing li {
+    margin-right: 10px;
+	padding:0;
+	border:none
+}
+.socialSharing li:hover {
+    opacity: 0.8;
+}
+.socialSharing .linkedIn {
+    background: none repeat scroll 0 0 #0183B4;
+}
+.socialSharing .twitter {
+    background-color: #00A0D1;
+}
+.socialSharing .googlePlus {
+    background-color: #DA583B;
+}
+
+.socialSharing .facebook {
+    background-color: #3B5998;
+}
+.socialSharing .linkToArticle, .socialSharing .email, .socialSharing .print {
+    display: none;
+}
+.socialSharing .facebook a {
+    background-position: -100px 0;
+}
+
+.socialSharing .googlePlus a {
+    background-position: -80px 0;
+	
+}
+.socialSharing .twitter a {
+    background-position: -60px 0;
+}
+
+.socialSharing .linkedIn a {
+    background-position: -40px 0;
+}
+
+
+
+
+
+
+
+/* Typography */
+@font-face {
+    font-family: 'DesyrelRegular';
+    src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/desyrel-webfont.eot');
+    src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/desyrel-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/desyrel-webfont.woff') format('woff'),
+         url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/desyrel-webfont.ttf') format('truetype'),
+         url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/desyrel-webfont.svg#DesyrelRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* @license
+ * MyFonts Webfont Build ID 2546143, 2013-05-02T11:24:47-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Avenir 35 Light by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/35-light/
+ * 
+ * Webfont: Avenir 55 Oblique by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/55-oblique/
+ * 
+ * Webfont: Avenir 55 Roman by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/55-roman/
+ * 
+ * Webfont: Avenir 85 Heavy Oblique by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/85-heavy-oblique/
+ * 
+ * Webfont: Avenir 35 Light Oblique by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/35-light-oblique/
+ * 
+ * Webfont: Avenir 85 Heavy by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/85-heavy/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2546143
+ * Webfonts copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * 
+ * � 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//web.archive.org/web/20140223133830cs_/http://hello.myfonts.net/count/26d9df");
+
+  
+@font-face {font-family: 'AvenirLTStd-Light';src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_0_0.eot');src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_0_0.eot#iefix') format('embedded-opentype'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_0_0.woff') format('woff'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirLTStd-Oblique';src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_1_0.eot');src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_1_0.eot#iefix') format('embedded-opentype'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_1_0.woff') format('woff'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirLTStd-Roman';src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_2_0.eot');src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_2_0.eot#iefix') format('embedded-opentype'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_2_0.woff') format('woff'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirLTStd-HeavyOblique';src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_3_0.eot');src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_3_0.eot#iefix') format('embedded-opentype'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_3_0.woff') format('woff'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirLTStd-LightOblique';src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_4_0.eot');src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_4_0.eot#iefix') format('embedded-opentype'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_4_0.woff') format('woff'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirLTStd-Heavy';src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_5_0.eot');src: url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_5_0.eot#iefix') format('embedded-opentype'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_5_0.woff') format('woff'),url('/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/css/26D9DF_5_0.ttf') format('truetype');}
+ 
+
+
+
+
+/* media queries */
+
+@media (max-width: 1200px) {
+	.primaryMessage {width:100%;min-height:480px}
+	h1{font-size:3em}
+	.navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a {font-size:12px}
+	
+	#leadgeneration .introMessage {width:432px}
+	#affiliates .primaryMessage {background-size:490px 490px}
+	.lowerPage {background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_tray2.png) top repeat-x #ffffff}
+	.hero-unit {top:325px}
+	.hero-unit img{width:200px;height:auto}
+	.lt-ie9 .hero-unit img {max-width:none}
+	img.chart {width:520px; height:auto}
+	.span3 h2 {font-size:1.75em}
+	.quality {width:120px}
+	.exclusiveLeads {margin-top:0;margin-left:160px}
+	.row-fluid [class*="span3"] {min-height:286px} 
+	.blueBox li  {width:180px}
+	.contentConnect {background-size:180px auto}
+	.contentConnect li:nth-child(2) {width:100%}
+	
+}
+
+
+@media (max-width: 980px) {
+	body{padding:0}
+	h1 {font-size:2.25em}
+	.navbar {margin:0}
+	.navbar-inverse .navbar-inner {padding-left:10px;padding-right:5px}
+	.navbar-inverse .nav-collapse .nav>li>a:hover {background:#f88221}
+	img.mobileTest {display:block}
+	.primaryMessage {min-height:0;background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_primary_mobile.png) center top no-repeat;}
+	.leadMessage {background:none;min-height:0}
+	.introMessage {width:95%;margin-top:20px;padding-left:5%}
+	.lt-ie8 .introMessage {width:95%;margin-top:20px;padding-left:5%;position:static}
+	.lt-ie9 .introMessage {width:95%;margin-top:20px;padding-left:5%;position:static}
+	.ie9 .introMessage {width:95%;margin-top:20px;padding-left:5%;position:static}
+	.dividerHome {display:none}
+	.leadIntro {width:95%}
+	
+	#leadgeneration .introMessage {width:95%;margin-top:20px;padding-left:5%}
+	#leadgeneration .primaryMessage {background:none;}
+	
+	a.call_today {display:block;clear:left;margin-top:14px}
+	
+	#quoteConnect {top:0;position:static;}
+	
+	img.chart {display:none}
+	
+	.lowerPage {background-image:none;background:#fff}
+	
+	.logoContain {margin:5px 0;padding-bottom:50px}
+	#contact .logoContain {margin:30px 0;}
+	#confirm .logoContain {margin:30px 0;}
+	
+	.marker_tray {display:none}
+	.marker_tray_mobile {display:block;width:100%;height:auto}
+	
+	.modalLink {display:none}
+	.modalLinkMobile {display:block}
+	
+	.logoText {width:95%;clear:left;margin-bottom:20px}
+	.logoScreen  {text-align: center;}
+	.logoScreen ul {display: inline-block;}
+	
+	.span6 iframe{display:none}
+	#formForMarketo {display:none}
+	
+	#contact .primaryMessage {padding-top:0;background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_primary_mobile.png) center top no-repeat;}
+	 #contact #marketoForm {background:none;margin-left:15px}
+	 #marketoForm .mktInput{float:none;width:auto}
+	 .marketoForm {width:90%}
+	 .marketoForm ul {margin:-20px 0 0 0}
+	 .marketoForm li label{width:100%}
+	 .marketoForm h3 {padding:30px 15px 15px 10px}
+	 span.mktFormMsg {margin-left:0}
+	 .marketoBox {width:90%}
+	#contact .contactInfo {display:none}
+	#contact .span6 {margin-left:-25px}
+	
+	.modal {width:90%}
+	
+	#confirm .primaryMessage {padding-top:0;background:url(/web/20140223133830im_/http://www.buyerzone.com/bzng/pages/leads/img/bg_primary_mobile.png) center top no-repeat;}
+	#confirm .span7 {padding:3%}
+	
+	.getStartedMobile {display:block;}
+	.getStartedMobile img{max-width:75%}
+	
+	img.arrow_graphic {display:none}
+	
+	.quality {display:block;float:none;width:auto;min-height:100px;}
+	.quality3 {padding-left:72px;padding-right:0}
+	.quoteconnect {border-right:none;border-bottom:3px dotted #000;margin-bottom:30px;padding-bottom:30px}
+	
+	.hero-unit {display:none;position:static;width:100%;}
+	.video {float:left}
+	.leadFormats {float:none}
+	
+	#affiliates .primaryMessage {background:none;margin-top:0;}
+	#affiliates .container{ padding-left:10px}
+	#affiliates #marketoForm {background:none}
+	
+	.sign_up_now {max-width:100%;height:auto}
+
+	
+	#resourceCenter .span11 .span5 {padding-top:30px;margin-left:0}
+	#resourceCenter .primaryMessage {min-height:150px;padding-top:10px;padding-bottom:20px;}
+	#resourceCenter div.span5 {min-height:0;padding-left:5%}
+	#resourceCenter div.span4 {padding-left:10px}
+	#resourceCenter h1 {padding-left:10px}
+	#resourceCenter h1.primaryHeader {padding-left:0}
+	#resourceCenter .lowerPage {padding-top:30px}
+	#resourceCenter .featuredResource {background:none;padding-left:5%}
+	#resourceCenter .secondaryHeader  {padding-left:0}
+
+	#resourceCenter .resource-thumb {float:none}
+	
+	#infoGraphic .primaryMessage {padding-top:0;}
+	#infoGraphic .primaryMessage h1 {padding-left:3%}
+	#infoGraphic .primaryMessage p {padding-left:3%}
+	
+	.infoGraphicIntro {width:90%}
+	
+	.resourceDesc {background:none;margin-top:20px}
+	.share-this {margin-left:10px}
+	
+	footer ul {margin-top:30px}
+	
+	#leadgeneration .span4 {width:100%;float:none}
+	#leadgeneration .span5 {width:100%}
+	#leadgeneration .span5 ul{float:none}
+	#leadgeneration .lowerPage .container > div.row1 {margin-top:60px}
+	
+	table.leadGenChart {display:none}
+	
+	.whiteBox p, .whiteBox a{margin-left:0}
+	.blueBox {margin-top:20px;background:#163353}
+	.blueBox li {width:95%}
+	.contentConnect  {margin-top:20px;background:#163353}
+	.contentConnect  li {width:95%}
+	.blueBox2 {margin:15px 0 0 0;background:#204c7d}
+	
+	
+	.exclusiveLeads {margin-top:10px;margin-left:0}
+	.sharedLeads {}
+	.row-fluid [class*="span3"] {min-height:0} 
+
+	footer ul li.footHead {font-size:16px}
+}
+
+
+@media only screen and (max-width: 800px) {
+	#leadgeneration table td:nth-child(5), 
+	#leadgeneration table th:nth-child(5) {display: none;}
+	#leadgeneration table td:nth-child(6), 
+	#leadgeneration table th:nth-child(6) {display: none;}
+}
+ 
+@media only screen and (max-width: 640px) {
+	#leadgeneration table td:nth-child(4),
+	#leadgeneration table th:nth-child(4),
+	#leadgeneration table td:nth-child(7),
+	#leadgeneration table th:nth-child(7),
+	#leadgeneration table td:nth-child(8),
+	#leadgeneration table th:nth-child(8){display: none;}
+}
+			
+
+@media (max-width: 767px) {
+.lowerPage h2{font-size:2.75em}
+footer ul li.footHead {font-size:18px}
+}
+
+/*
+     FILE ARCHIVED ON 13:38:30 Feb 23, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:31:29 Aug 08, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 178.765 (3)
+  esindex: 0.007
+  captures_list: 193.212
+  CDXLines.iter: 10.967 (3)
+  PetaboxLoader3.datanode: 124.696 (4)
+  exclusion.robots: 0.139
+  exclusion.robots.policy: 0.129
+  RedisCDXSource: 0.732
+  PetaboxLoader3.resolve: 405.971 (2)
+  load_resource: 389.583
+*/
