@@ -99,8 +99,8 @@
         </form>
 
         <div id="success_message" style="width:100%; height:100%; display:none;">
-            <h3>Thanks for getting in touch!</h3>
-            <p>I'll be in touch via email, and can always be reached at <a href="mailto:contact@jryandoherty.com">contact@jryandoherty.com</a></p>
+            <h3>Thanks for your message!</h3>
+            <p>I'll get back to you via email, and can always be reached at <a href="mailto:contact@jryandoherty.com">contact@jryandoherty.com</a></p>
         </div>
         <div id="error_message" style="width:100%; height:100%; display:none;">
             <h3>Error</h3>

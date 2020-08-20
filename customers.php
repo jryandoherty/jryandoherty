@@ -12,7 +12,7 @@
               </div>
               <div class="col-md-3">
                 <h2><span class="glyphicon glyphicon-education"></span>Nonprofits</h2>
-                  <p>If you have a nonprofit organization with a limited or non-existant budget, I can offer highly discounted rates and even pro bono work. </p>
+                  <p>If you have a nonprofit organization with a limited or nonexistent budget, I can offer highly discounted rates and even pro bono work.</p>
               </div>
             </div>
 
