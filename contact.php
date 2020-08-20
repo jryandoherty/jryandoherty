@@ -3,7 +3,7 @@
     <div class="row">
     <div class="col-md-12 intro">
         <h2>Get in touch</h2>
-        <p>Send us your message and we will get back to you as soon as possible</p>
+        <p>I'd love to hear from you about your design project. Drop me a line using this form and I'll get back to you as soon as possible.</p>
     </div>
 
 </div>
@@ -52,13 +52,13 @@
                   <div class="col-sm-6 form-group">
 
                   <div>
-                    <h3>How would you best describe yourself:.</h3>
+                    <h3>How would you best describe yourself:</h3>
                       <div class="switch-field">
-                        <input type="radio" id="radio-three" name="customer" value="small business" autocomplete="off">
+                        <input type="radio" id="radio-three" name="customer" value="small business">
                         <label for="radio-three">A small business</label>
-                        <input type="radio" id="radio-four" name="customer" value="individual" autocomplete="off">
+                        <input type="radio" id="radio-four" name="customer" value="individual">
                         <label for="radio-four">An individual</label>
-                        <input type="radio" id="radio-five" name="customer" value="non-profit" autocomplete="off">
+                        <input type="radio" id="radio-five" name="customer" value="non-profit">
                         <label for="radio-five">A non-profit organization</label>
                       </div>
                   </div>
@@ -99,7 +99,8 @@
         </form>
 
         <div id="success_message" style="width:100%; height:100%; display:none;">
-            <h3>Sent your message successfully!</h3>
+            <h3>Thanks for getting in touch!</h3>
+            <p>I'll be in touch via email, and can always be reached at <a href="mailto:contact@jryandoherty.com">contact@jryandoherty.com</a></p>
         </div>
         <div id="error_message" style="width:100%; height:100%; display:none;">
             <h3>Error</h3>

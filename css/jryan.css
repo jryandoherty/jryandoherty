@@ -607,9 +607,9 @@ p.browsehappy {
   /*background-size:30% 30%;*/
   opacity: 0.74;
 }
-@media (max-width: 767px) {
-  .about-background .col-sm-3 {
-    margin-bottom: 20%;
+@media (max-width: 992px) {
+  .about-background .col-md-3 {
+    margin-bottom: 10%;
   }
 }
 .about-background .glyphicon {
@@ -617,7 +617,7 @@ p.browsehappy {
 }
 @media (max-width: 767px) {
   .about-background {
-    padding: 5% 8%;
+    padding: 10% 8%;
   }
 }
 
@@ -708,7 +708,7 @@ p.browsehappy {
 }
 @media (max-width: 767px) {
   .contactme {
-    padding: 5% 8%;
+    padding: 5%;
   }
 }
 .contactme label {
@@ -744,6 +744,7 @@ footer {
   .branding {
     width: 100px;
     height: 100px;
+    margin: 95px -10px 0 -50px;
   }
 
   .contact {
@@ -754,6 +755,7 @@ footer {
   .recentWork {
     width: 140px;
     height: 140px;
+    margin: 10px 7px 0 0;
   }
 
   .logo {
@@ -806,7 +808,7 @@ footer {
     flex-direction: row-reverse;
   }
 
-  .portfolio, .about, .contact, .recentWork {
+  .branding, .about, .contact, .recentWork {
     width: 110px;
     height: 110px;
   }
@@ -816,7 +818,7 @@ footer {
   }
 }
 @media (max-width: 470px) {
-  .portfolio, .about, .contact, .recentWork {
+  .branding, .about, .contact, .recentWork {
     width: 80px;
     height: 80px;
   }

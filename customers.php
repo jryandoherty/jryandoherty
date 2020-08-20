@@ -1,18 +1,18 @@
 <div id="customers" class="about-background">
  	<div class="container">
             <div class="row">
-              <h1>Who I work with:</h1>
+
             	<div class="col-md-3">
                 <h2><span class="glyphicon glyphicon-briefcase"></span>Companies</h2>
-                <p>If you have a new company or and old company or perhaps a boring company -- you need a website that "pops". Ok, I hate that term. It's meaningless. What you really need is a custom design approach based on research, data and introspection.</p>
+                <p>Your business need a website that "pops". Ok, I hate that term. It's meaningless. What you really need is a custom design approach based on research and data-driven analysis.  I offer reasonable hourly pricing and flat rates based on project type.</p>
               </div>
               <div class="col-md-3">
                 <h2><span class="glyphicon glyphicon-user"></span>Individuals</h2>
-                    <p>So that Wordpress site and theme looked super-easy to get going. And logos are easy too. Well, guess what? That stuff is way harder than it looks. Calm down, I'll fix it.</p>
+                  <p>Want to take your side-hustle online? Or maybe you've always wanted to have a blog but don't know where to start. Whether you just need a logo or a fully-resposive pro site, I can help you get there.</p>
               </div>
               <div class="col-md-3">
-                <h2><span class="glyphicon glyphicon-education"></span>Non-profits</h2>
-                    <p>You broke muthafuckas</p>
+                <h2><span class="glyphicon glyphicon-education"></span>Nonprofits</h2>
+                  <p>If you have a nonprofit organization with a limited or non-existant budget, I can offer highly discounted rates and even pro bono work. </p>
               </div>
             </div>
 

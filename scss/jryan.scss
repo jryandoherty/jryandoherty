@@ -363,10 +363,10 @@ p.browsehappy {
 	opacity: .74;
 }
 
-	.col-sm-3 {
+	.col-md-3 {
 
-		@media (max-width: 767px) {
-			margin-bottom:20%;
+		@media (max-width: 992px) {
+			margin-bottom:10%;
 		}
 	}
 
@@ -375,7 +375,7 @@ p.browsehappy {
 	}
 
 	@media (max-width: 767px) {
-		padding:5% 8%;
+		padding:10% 8%;
 	}
 
 }
@@ -482,7 +482,7 @@ p.browsehappy {
 	}
 
 	@media (max-width: 767px) {
-		padding:5% 8%;
+		padding:5%;
 	}
 
 	label {
@@ -525,6 +525,7 @@ footer {
 	.branding {
 		width:100px;
 		height:100px;
+		margin: 95px -10px 0 -50px;
 	}
 
 	.contact {
@@ -535,6 +536,7 @@ footer {
 	.recentWork {
 		width:140px;
 		height:140px;
+		margin: 10px 7px 0 0;
 	}
 
 	.logo{
@@ -599,7 +601,7 @@ footer {
 	}
 
 
-	.portfolio, .about, .contact, .recentWork {
+	.branding, .about, .contact, .recentWork {
 		width:110px;
 		height:110px;
 	}
@@ -615,7 +617,7 @@ footer {
 
 @media (max-width: 470px) {
 
-	.portfolio, .about, .contact, .recentWork {
+	.branding, .about, .contact, .recentWork {
 		width:80px;
 		height:80px;
 	}

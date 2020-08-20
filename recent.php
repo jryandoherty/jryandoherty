@@ -15,7 +15,7 @@
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="4" class="hidden-xs"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
 
       </ol>
 
@@ -63,14 +63,13 @@
           <div class="col-lg-8"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1597339328/business_c96lt5.jpg"  alt="Responsive web site"></div>
         </div>
 
-        <div class="item hidden-xs">
-
-          <div class="col-lg-12 full"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1597349391/trucks_lampk6.jpg"  alt="email marketing campaign"></div>
+        <div class="item">
           <div class="col-lg-10">
             <p><strong>CLIENT:</strong> Buyerzone.com</p>
             <p><strong>PROJECT:</strong> Truck Portal Page</p>
             <p><a href="https://www.buyerzone.com/pages/portals/trucks.html" target="_blank">www.buyerzone.com/trucks</a></p>
           </div>
+          <div class="col-lg-12 full"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1597349391/trucks_lampk6.jpg"  alt="email marketing campaign"></div>
         </div>
 
         <!--<div class="item">

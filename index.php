@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/jryan.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <title>J. Ryan Doherty :: web desinger and developer</title>
+    <title>J. Ryan Doherty Web Design :: Design solutions for small business</title>
 
     <link rel="canonical" href="https://www.jryandoherty.com">
 
@@ -32,7 +32,7 @@
 
 <div class="col-md-4 introText">
   <!--<p class="glyphicon glyphicon-eject">ui/ux design</p>-->
-   <a href="#customers"><p>Affordable design solutions for small companies, non-profit organizations &amp; individuals.</p></a>
+   <a href="#customers"><p>Affordable design solutions for small companies, nonprofit organizations &amp; individuals.</p></a>
 <!--  <p>brand development</p> -->
 
 </div>
@@ -79,15 +79,8 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<script src="form.js"></script>
+<script src="jryan.js"></script>
 
-
-
-<script>
-	$("li.home").addClass("active");
-	$('#FirstName').focus();
-  $('.carousel').carousel();
-</script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125806401-1"></script>
