@@ -1,7 +1,7 @@
 <div id="contactme" class="contactme">
  	<div class="container">
     <div class="row">
-    <div class="col-md-12 intro">
+    <div class="col-md-6 intro">
         <h2>Get in touch</h2>
         <p>I'd love to hear from you about your design project. Drop me a line using this form and I'll get back to you as soon as possible.</p>
     </div>
@@ -59,7 +59,7 @@
                         <input type="radio" id="radio-four" name="customer" value="individual">
                         <label for="radio-four">An individual</label>
                         <input type="radio" id="radio-five" name="customer" value="non-profit">
-                        <label for="radio-five">A non-profit organization</label>
+                        <label for="radio-five">A nonprofit organization</label>
                       </div>
                   </div>
 

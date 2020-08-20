@@ -69,10 +69,10 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel4"><strong>CLIENT:</strong> Massachusetts Avian Records Comittee</h4> ||   <h4 class="modal-title"><strong>TYPEFACE:</strong> Industria Solid</h4>
+              <h4 class="modal-title" id="myModalLabel4"><strong>CLIENT:</strong> Massachusetts Avian Records Committee</h4> ||   <h4 class="modal-title"><strong>TYPEFACE:</strong> Industria Solid</h4>
               </div>
               <div class="modal-body">
-                <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1596558546/marc_izbqgz.png" alt="MARC">
+                <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1597949922/marc2_quyoia.png" alt="MARC">
               </div>
 
             </div>
@@ -111,7 +111,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel6"><strong>CLIENT:</strong>Amy Berenback Stylist</h4> ||   <h4 class="modal-title"><strong>TYPEFACE:</strong> Aire Pro</h4>
+                <h4 class="modal-title" id="myModalLabel6"><strong>CLIENT:</strong> Amy Berenback Stylist</h4> ||   <h4 class="modal-title"><strong>TYPEFACE:</strong> Aire Pro</h4>
               </div>
               <div class="modal-body">
                 <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1596558546/abstyle_yajzah.png" alt="Amy Berenbak Stylist">

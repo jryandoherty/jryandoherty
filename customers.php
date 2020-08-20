@@ -8,7 +8,7 @@
               </div>
               <div class="col-md-3">
                 <h2><span class="glyphicon glyphicon-user"></span>Individuals</h2>
-                  <p>Want to take your side-hustle online? Or maybe you've always wanted to have a blog but don't know where to start. Whether you just need a logo or a fully-resposive pro site, I can help you get there.</p>
+                  <p>Want to take your side-hustle online? Or maybe you've always wanted to have a blog but don't know where to start. Whether you just need a logo or a fully-responsive pro site, I can help you get there.</p>
               </div>
               <div class="col-md-3">
                 <h2><span class="glyphicon glyphicon-education"></span>Nonprofits</h2>
