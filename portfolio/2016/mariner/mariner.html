@@ -11,42 +11,14 @@
 	<meta charset="utf-8"/>
 	<title>${categoryDisplayName!} Price Quotes From Qualified Sellers</title>
 	<meta name="description" content="Answer a few questions about your purchase, we'll match you with pre-screened sellers, and receive customized ${categoryDisplayName!} price quotes today.">
-	<meta name="ROBOTS" content="NOINDEX, FOLLOW"> 
+	<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
 
 	<!--[if lt IE 9]>[@processOnce '/scripts/libs/html5shiv.js'; fileUrl]<script type="text/javascript" src="${fileUrl}"></script>[/@]<![endif]-->
-
-	<!-- libs & plugins -->
-	<script type="text/javascript" src="/bzng/dist/js/bzBlueCrush.js"></script>
-
-	<script type="text/javascript" src="/bzng/dist/js/bzPPCQuestionSetFlow.js"></script>
-
-	<!--[#include "blueCrushQSTpl2.ftl"]
-	[#include "/includes/semCallToAct.ftl"]
-	[#include "blueCrushProgressBarTpl2.ftl"]-->
-
-	<!-- initiate app -->
-	<script type="text/javascript">
-	$(document).ready(function() {
-		var catType = '${quoteRequest.category.categoryType.description?lower_case}',
-			flow = new BZ.flow.PPCQuestionSetFlow({
-				apiDomain: '${apiDomain}',
-				//apiDomain: '//bz-stg.buyerzone.com',
-				categoryName: '${categoryDisplayName}',
-				categoryId: '${quoteRequest.category.categoryId}',
-				flowType: '2277',
-				pageType: 'qs',
-				$renderTo: $('.rfq-form.qs .qs-container')
-		});
-		flow.startup();
-	 
-	});
-
-</script>
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="../blueCrush.css" type="text/css">
     <link rel="stylesheet" href="http://www.buyerzone.com/office-equipment/digital-copiers/mariner.css" type="text/css">
-    
+
 </head>
 
 
@@ -55,16 +27,16 @@
 <div class="bg-mariner">
 
     <div class="topContainer">
-    
-            <div class="ctaLeft"> 
-        
+
+            <div class="ctaLeft">
+
                 <div class="logoRow">
-                 <a href="[@generateExternalUrl '/'/]" title="BuyerZone" ><img src="http://cdn.buyerzone.com/images/BZ_logo_white.svg" width="290"  alt="BUYERZONE"></a>
-                    
+                 <a href="#" title="BuyerZone" ><img src="http://cdn.buyerzone.com/images/BZ_logo_white.svg" width="290"  alt="BUYERZONE"></a>
+
                 <h1>COMPARE COPIER QUOTES &amp; SAVE BIG</h1>
-                
+
                  </div>
-              
+
             <ul>
             <h3><em>Here's How:</em></h3>
                 <li>
@@ -79,131 +51,123 @@
                     <h2>Choose the best option.</h2>
                     <p>Compare the quotes you receive and choose the best deal based on your budget - it's fast, easy, and totally free.</p>
                 </li>
-                
+
             </ul>
-            
+
             </div>
 
 <div class="questionStrip">
-   
+
    <h4>Build Your Copier Quote Request</h4>
 
     <div class="progressBar" style="height:0; opacity:0; width:100%" ></div>
 
-                    
-<!-- form -->
-<form class="rfq-form qs" method="post" novalidate>
-<input name="bzngSessionId" id="bzngSessionId" value="vOy7oFFqthr-u8jnfqeL9LqE.undefined" type="hidden">
-<input name="hostUrl" id="hostUrl" value="http://local.buyerzone.com" type="hidden">
-<input name="viewType" id="viewType" value="RFQ_WEB" type="hidden">
-<div class="qs-container">
-<fieldset class="page page-1 qid-4ed7a6e8-18c8-2eb5-8343-4314ed0f8be1 qs qs-container" style="display: none; left: 420px;">
-<!-- question -->
-<legend class="question required">
-<!-- question text -->
-Do you need to make color copies?
-<!-- question number -->
-<span class="hidden">1</span>
-<!-- required / optional status -->
-<span class="required">*</span>
-</legend>
-<!-- // question -->
+						<!-- form -->
+						<form class="rfq-form qs" method="post" novalidate>
 
-<div class="radio">
-<input id="bz_03470aa0-e323-a062-2aba-9b155bffccec" name="4ed7a6e8-18c8-2eb5-8343-4314ed0f8be1" value="03470aa0-e323-a062-2aba-9b155bffccec" class="required radio valid" type="radio">
-<label for="bz_03470aa0-e323-a062-2aba-9b155bffccec">No, black and white only
-</label>
-</div>
+						<div class="qs-container">
+						<fieldset class="page page-1 qs qs-container" style="display: none; left: 420px;">
+						<!-- question -->
+						<legend class="question required">
+						<!-- question text -->
+						Do you need to make color copies?
+						<!-- question number -->
+						<span class="hidden">1</span>
+						<!-- required / optional status -->
 
-<div class="radio">
-<input id="bz_4b2b8adc-52b0-2eca-3828-ef39baa15cfc" name="4ed7a6e8-18c8-2eb5-8343-4314ed0f8be1" value="4b2b8adc-52b0-2eca-3828-ef39baa15cfc" class="redirect required radio valid" onclick="document.location='/office-equipment/color-copiers/rfqz/?redirect=true';" type="radio">
-<label for="bz_4b2b8adc-52b0-2eca-3828-ef39baa15cfc">Yes, mainly color copies  
-</label>
-</div>
+						</legend>
+						<!-- // question -->
 
-<div class="radio">
-<input id="bz_b8a7f89c-6e38-b00c-0e81-d31baced0d8f" name="4ed7a6e8-18c8-2eb5-8343-4314ed0f8be1" value="b8a7f89c-6e38-b00c-0e81-d31baced0d8f" class="required radio valid" type="radio">
-<label for="bz_b8a7f89c-6e38-b00c-0e81-d31baced0d8f">Both color and black and white copies  
-</label>
-</div>
+						<div class="radio">
+						<input class="required radio valid" type="radio">
+						<label>No, black and white only
+						</label>
+						</div>
 
-<div class="radio">
-<input id="bz_23602122-2a3c-9c85-d07a-56b8b90f7bfe" name="4ed7a6e8-18c8-2eb5-8343-4314ed0f8be1" value="23602122-2a3c-9c85-d07a-56b8b90f7bfe" class="required radio valid" type="radio">
-<label for="bz_23602122-2a3c-9c85-d07a-56b8b90f7bfe">Not sure
-</label>
-</div>
-</fieldset>
-<fieldset class="page page-2 qid-02fb5b03-301a-74a5-44b1-5ced49e62a01 qs qs-container" style="display: block; left: 30px;">
-<!-- question -->
-<legend class="question required">
-<!-- question text -->
-How many copiers do you need?
-<!-- question number -->
-<span class="hidden">2</span>
-<!-- required / optional status -->
-<span class="required">*</span>
-</legend>
-<!-- // question -->
+						<div class="radio">
+						<input class="redirect required radio valid" onclick="document.location='/office-equipment/color-copiers/rfqz/?redirect=true';" type="radio">
+						<label>Yes, mainly color copies
+						</label>
+						</div>
 
-<div class="radio">
-<input id="bz_5578a294-b9e5-cca5-969d-ac2fe2c9f9e3" name="02fb5b03-301a-74a5-44b1-5ced49e62a01" value="5578a294-b9e5-cca5-969d-ac2fe2c9f9e3" class=" required autoSlide radio" type="radio">
-<label for="bz_5578a294-b9e5-cca5-969d-ac2fe2c9f9e3">1
-</label>
-</div>
+						<div class="radio">
+						<input class="required radio valid" type="radio">
+						<label>Both color and black and white copies
+						</label>
+						</div>
 
-<div class="radio">
-<input id="bz_293303c4-6170-3f92-180c-596707087c5f" name="02fb5b03-301a-74a5-44b1-5ced49e62a01" value="293303c4-6170-3f92-180c-596707087c5f" class=" required autoSlide radio" type="radio">
-<label for="bz_293303c4-6170-3f92-180c-596707087c5f">2
-</label>
-</div>
+						<div class="radio">
+						<input class="required radio valid" type="radio">
+						<label>Not sure
+						</label>
+						</div>
+						</fieldset>
+						<fieldset class="page page-2 qs qs-container" style="display: block; left: 30px;">
+						<!-- question -->
+						<legend class="question required">
+						<!-- question text -->
+						How many copiers do you need?
+						<!-- question number -->
+						<span class="hidden">2</span>
+						<!-- required / optional status -->
+						</legend>
+						<!-- // question -->
 
-<div class="radio">
-<input id="bz_580fff70-ac90-921f-3b5d-0bff824072ba" name="02fb5b03-301a-74a5-44b1-5ced49e62a01" value="580fff70-ac90-921f-3b5d-0bff824072ba" class=" required autoSlide radio" type="radio">
-<label for="bz_580fff70-ac90-921f-3b5d-0bff824072ba">3
-</label>
-</div>
+						<div class="radio">
+						<input class="required autoSlide radio" type="radio">
+						<label>1
+						</label>
+						</div>
 
-<div class="radio">
-<input id="bz_421bfd4b-6fcd-6c43-09dd-1ea114a6bd38" name="02fb5b03-301a-74a5-44b1-5ced49e62a01" value="421bfd4b-6fcd-6c43-09dd-1ea114a6bd38" class=" required autoSlide radio" type="radio">
-<label for="bz_421bfd4b-6fcd-6c43-09dd-1ea114a6bd38">4+
-</label>
-</div>
-</fieldset>
+						<div class="radio">
+						<input class=" required autoSlide radio" type="radio">
+						<label>2
+						</label>
+						</div>
 
+						<div class="radio">
+						<input class=" required autoSlide radio" type="radio">
+						<label>3
+						</label>
+						</div>
 
+						<div class="radio">
+						<input class=" required autoSlide radio" type="radio">
+						<label>4+
+						</label>
+						</div>
+						</fieldset>
+
+						</div>
+						</form>
+						<!-- // form -->
 
 
+                <div class="loadingSpinner"></div>
 
-</div>
-<input name="flow" value="2277" type="hidden"></form>
-<!-- // form -->
-
-         
-                <div class="loadingSpinner"></div>            
-                
                 <div id="backNextRow">
                     <button class="nextWrapper" id="rfq-continue"><span class="nextLabel">NEXT</span> </button>
                     <button class="backWrapper" id="rfq-back">back</button>
                 </div>
 
-             
-            
-   
+
+
+
         </div> <!-- end questionStrip -->
-        
+
    </div> <!-- end topContainer -->
 
 </div><!-- end bgMariner -->
-    
+
 <div class="buyersGuide">
     <img src="http://cdn.buyerzone.com/images/mktg/mariner/BG_Icon_Mariner.svg" width="250" alt="Buyer's Guide">
     <p><strong>FREE Buyer's Guide</strong></p>
     <p>We'll also provide you with a free Digital Copier Buyer's Guide upon completion to help you make the right decision.</p>
 </div>
-    
+
 
 <div class="whyContainer">
-	
+
     <div class="why">
         <img src="http://cdn.buyerzone.com/images/mktg/mariner/Copier_Icon_Mariner3.svg" width="300" alt="Digital Copiers">
         <p><strong>WHY IT MAKES SENSE</strong></p>
@@ -212,44 +176,25 @@ How many copiers do you need?
     </div>
 
 </div>
-  
+
  <footer>
-     <div class="credits"> 
-        <p><a href="[@generateExternalUrl '/about-us/'/]">About Us</a> |
-        <a href="[@generateExternalUrl '/about-us/disclaimer/'/]">Terms &amp; Conditions</a> |
-        <a href="[@generateExternalUrl '/about-us/privacy/'/]">Privacy Policy</a>
+     <div class="credits">
+        <p><a href="#">About Us</a> |
+        <a href="#">Terms &amp; Conditions</a> |
+        <a href="#">Privacy Policy</a>
         <span class="number">Customer Care: 888-393-5000</span></p>
         <p>&copy; 2016 BuyerZone.com LLC. A Purch Brand. All Rights Reserved.</p>
     </div>
 </footer>
 
 
-	<!-- alternate close button for info dialog -->
-	<div id="dialogCloseAlt">
-		<div class="closeWrapper">
-			<span>CLOSE</span>
-		</div>
-	</div>
-
-	<!-- move images here to bring them out of the flow -->
-	<div id="questionPopupImages">
-	</div>
-
-	<!-- pre-load for checkbox and radio icons -->
-	<div id="controlImagePreload">
-		<img src="http://cdn.buyerzone.com/images/mktg/utopia/radio_on.svg">
-		<img src="http://cdn.buyerzone.com/images/mktg/utopia/radio_off.svg">
-		<img src="http://cdn.buyerzone.com/images/mktg/utopia/checkbox_on.svg">
-		<img src="http://cdn.buyerzone.com/images/mktg/utopia/checkbox_off.svg">
-	</div>
-    
-  <script> 
+<script>
 
 // Create a closure
 (function(){
 	var originalAddClassMethod = jQuery.fn.toggleClass;
 	jQuery.fn.toggleClass = function(){
-		
+
 		// Execute the original method.
 		var result = originalAddClassMethod.apply( this, arguments );
 
@@ -262,35 +207,32 @@ How many copiers do you need?
 })();
 
 $(function(){
-	
+
 	$('#rfq-continue, #rfq-back').click(function(){
     $("html, body").animate({ scrollTop: 0 }, 600);
     return false;
 
-	
+
  });
-	
-	$("#backNextRow").bind('cssClassChanged', function(){ 
+
+	$("#backNextRow").bind('cssClassChanged', function(){
 		// $('.progressBar').toggleClass('hide', $(this).hasClass('firstPage'));
 		if ($(this).hasClass('firstPage')) {
 			$('.progressBar').animate({
 				height: '0px',
-				opacity: 0		
-			}, 500);		
+				opacity: 0
+			}, 500);
 		} else {
 			$('.progressBar').animate({
 				height: '48px',
-				opacity: 1		
+				opacity: 1
 			}, 500);
 		}
 	});
 });
 
 </script>
-   
-	
 
 </body>
 
 </html>
-

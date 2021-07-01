@@ -11,39 +11,39 @@ html, body {
 
 
 div, label, span {
-	-webkit-user-select: text;  
-	-moz-user-select: text;     
-	-ms-user-select: text;      
-	user-select: text;    
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
 
 }
 
 @font-face{
 	font-family:"Avenir LT W01 55 Roman";
-	src:url("/bzng/styles/bz/fonts/avenir/2f5a6074-badc-4e08-83f1-ed67fe5c3d7c.eot?#iefix");
+	src:url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/2f5a6074-badc-4e08-83f1-ed67fe5c3d7c.eot?#iefix");
 	src:
-		url("/bzng/styles/bz/fonts/avenir/2f5a6074-badc-4e08-83f1-ed67fe5c3d7c.eot?#iefix") format("eot"),
-		url("/bzng/styles/bz/fonts/avenir/b9ebb19d-88c1-4cbd-9baf-cf51972422ec.woff") format("woff"),
-		url("/bzng/styles/bz/fonts/avenir/5ed4f98e-9044-4810-88ff-74d412c1351f.ttf") format("truetype"),
-		url("/bzng/styles/bz/fonts/avenir/4cb16859-16ca-4342-b89c-292dc83266af.svg#4cb16859-16ca-4342-b89c-292dc83266af") format("svg");
+		url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/2f5a6074-badc-4e08-83f1-ed67fe5c3d7c.eot?#iefix") format("eot"),
+		url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/b9ebb19d-88c1-4cbd-9baf-cf51972422ec.woff") format("woff"),
+		url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/5ed4f98e-9044-4810-88ff-74d412c1351f.ttf") format("truetype"),
+		url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/4cb16859-16ca-4342-b89c-292dc83266af.svg#4cb16859-16ca-4342-b89c-292dc83266af") format("svg");
 }
 
 @font-face{
 		font-family:"Avenir LT W01 65 Medium";
-		src:url("/bzng/styles/bz/fonts/avenir/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix");
-		src:url("/bzng/styles/bz/fonts/avenir/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix") format("eot"),
-		url("/bzng/styles/bz/fonts/avenir/2cac77ec-9bc0-4ee7-87e4-27650190744f.woff") format("woff"),
-		url("/bzng/styles/bz/fonts/avenir/aaf11848-aac2-4d09-9a9c-aac5ff7b8ff4.ttf") format("truetype"),
-		url("/bzng/styles/bz/fonts/avenir/294099f3-8d00-4676-afc5-5e9d8d43ad69.svg#294099f3-8d00-4676-afc5-5e9d8d43ad69") format("svg");
+		src:url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix");
+		src:url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/212ab03d-5db2-4d6a-b94c-171cc702aa51.eot?#iefix") format("eot"),
+		url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/2cac77ec-9bc0-4ee7-87e4-27650190744f.woff") format("woff"),
+		url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/aaf11848-aac2-4d09-9a9c-aac5ff7b8ff4.ttf") format("truetype"),
+		url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/294099f3-8d00-4676-afc5-5e9d8d43ad69.svg#294099f3-8d00-4676-afc5-5e9d8d43ad69") format("svg");
 }
 
 @font-face{
 		font-family:"Avenir LT W01 85 Heavy";
-		src:url("/bzng/styles/bz/fonts/avenir/f61bf0f6-c193-4100-b940-12a1a01dcee5.eot?#iefix");
-		src:url("/bzng/styles/bz/fonts/avenir/f61bf0f6-c193-4100-b940-12a1a01dcee5.eot?#iefix") format("eot"),
-		url("/bzng/styles/bz/fonts/avenir/7147ec3a-8ff8-4ec9-8c5c-bd1571dc6ae6.woff") format("woff"),
-		url("/bzng/styles/bz/fonts/avenir/d1dc54b2-878d-4693-8d6e-b442e99fef68.ttf") format("truetype"),
-		url("/bzng/styles/bz/fonts/avenir/731dd4d3-64da-427d-ba61-01575b3cf3f7.svg#731dd4d3-64da-427d-ba61-01575b3cf3f7") format("svg");
+		src:url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/f61bf0f6-c193-4100-b940-12a1a01dcee5.eot?#iefix");
+		src:url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/f61bf0f6-c193-4100-b940-12a1a01dcee5.eot?#iefix") format("eot"),
+		url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/7147ec3a-8ff8-4ec9-8c5c-bd1571dc6ae6.woff") format("woff"),
+		url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/d1dc54b2-878d-4693-8d6e-b442e99fef68.ttf") format("truetype"),
+		url("https://www.buyerzone.com/bzng/styles/bz/fonts/avenir/731dd4d3-64da-427d-ba61-01575b3cf3f7.svg#731dd4d3-64da-427d-ba61-01575b3cf3f7") format("svg");
 }
 
 
@@ -69,9 +69,9 @@ h3 {
 }
 
 .logoRow {
-	
+
 	height: auto;
-	
+
 	/*padding-top:27px;*/
 }
 
@@ -81,7 +81,7 @@ h3 {
 
 .bg-mariner {
 	width: 100%;
-	background: url('//cdn.buyerzone.com/images/mktg/mariner/Mariner_Background_Image_DC.jpg') center center no-repeat #464646;
+	background: url('https://cdn.buyerzone.com/images/mktg/mariner/Mariner_Background_Image_DC.jpg') center center no-repeat #464646;
 	background-size:cover;
 	height:100%;
 	color: #fff;
@@ -114,17 +114,17 @@ h3 {
 	list-style-type:none;
 	margin:28px 0 0 0 ;
 	padding:0;
-	
+
 
 }
 
 .ctaLeft ul li {
 	width:450px;
 	padding-left:100px;
-	background:url('//cdn.buyerzone.com/images/mktg/mariner/one.svg') no-repeat left;
+	background:url('https://cdn.buyerzone.com/images/mktg/mariner/one.svg') no-repeat left;
 	margin-top:28px;
-	
-	
+
+
 
 }
 
@@ -133,13 +133,13 @@ h3 {
 }
 
 .ctaLeft ul li:nth-child(3) {
-	
-	background:url('//cdn.buyerzone.com/images/mktg/mariner/two.svg') no-repeat left;
+
+	background:url('https://cdn.buyerzone.com/images/mktg/mariner/two.svg') no-repeat left;
 }
 
 .ctaLeft ul li:nth-child(4) {
-	
-	background:url('//cdn.buyerzone.com/images/mktg/mariner/three.svg') no-repeat left;
+
+	background:url('https://cdn.buyerzone.com/images/mktg/mariner/three.svg') no-repeat left;
 }
 
 .questionStrip {
@@ -147,13 +147,13 @@ h3 {
 	display:inline-block;
 	margin:0;
 	height:100%;
-	background:url('//cdn.buyerzone.com/images/mktg/mariner/arrow_blue.png') no-repeat 0 20px #374958;
+	background:url('https://cdn.buyerzone.com/images/mktg/mariner/arrow_blue.png') no-repeat 0 20px #374958;
 	background-size: 40px 137px;
 }
 
 .questionStrip h4{
 	color:#fff;
-	text-align:center; 
+	text-align:center;
 	font-size:23px;
 	margin:68px 0 0 20px;
 	min-height:50px;
@@ -179,15 +179,15 @@ h3 {
 	margin:0 auto;
 	border-radius: 0;
 	box-shadow: none;
-	
-	
+
+
 }
 .rfq-box .page {
 	width: 85%;
 
 	position:static;
 	margin-left:23px;
-	
+
 }
 
 
@@ -198,7 +198,7 @@ h3 {
 	height:0;
 	text-align:center;
 	padding:0 20px;
-	
+
 }
 
 
@@ -211,7 +211,7 @@ h3 {
 	font-weight:normal;
 	height: 50px;
 	line-height: normal;
-	
+
 }
 
 
@@ -220,8 +220,8 @@ h3 {
 
 #backNextRow.firstPage .nextWrapper {
 	width: 270px;
-	
-	
+
+
 }
 
 
@@ -289,7 +289,7 @@ h3 {
 	-moz-transition:  0.8s linear;
 	-webkit-transition: 0.8s linear;
 	transform: 0.8s linear;
-	
+
 }
 .completionMsg {
 	position: static;
@@ -298,7 +298,7 @@ h3 {
 	width:auto !important;
 	height:0;
 	margin:-8px 10px 0 0 ;
-	
+
 }
 
 
@@ -310,7 +310,7 @@ form legend, form .question {
 
 .safari form legend, .safari form .question {
 	/*margin:0 0 35px 0 !important;*/
-	
+
 }
 
 
@@ -319,7 +319,7 @@ form legend, form .question {
 	color: #fff;
 	font-family: "Avenir LT W01 55 Roman", sans-serif !important;
 	font-weight: 400;
-	
+
 }
 legend.question + p.note, p.note {
 	text-align: center;
@@ -351,7 +351,7 @@ form fieldset.error {
 	background: none
 }
 form fieldset.error input[type="text"] {
-	
+
 }
 
 
@@ -360,7 +360,7 @@ form fieldset.error input[type="text"] {
 
 
 .rfq-box form .page > div.radio {
-	margin-top:58px	
+	margin-top:58px
 }
 
 
@@ -381,7 +381,7 @@ form fieldset.error input[type="text"] {
 	border-radius: 6px;
 	border: #79CEEB 4px solid;
 	font-size:21px;
-	
+
 }
 
 input#email {
@@ -402,7 +402,7 @@ input#email {
 
 .horizontalControls {
     margin: 22px auto 0;
-	
+
 }
 
 .horizontalControls > div {
@@ -410,13 +410,13 @@ input#email {
 }
 
 .horizontalControls label {
-	
+
 	line-height: 18px;
 	padding:0 !important
 }
 
 .horizontalControls>div+div {
-	
+
 	padding-left: 0
 }
 
@@ -436,10 +436,10 @@ input#email {
 
 .horizontalControls.choose3> div {
 	width:100%;
-	
+
 }
 
-.horizontalControls.choose5 { 
+.horizontalControls.choose5 {
 	padding-left:0;
 }
 
@@ -463,21 +463,21 @@ input#email {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	
+
 	-ms-transition: background 0.44s linear;
 	-moz-transition: background 0.44s linear;
 	-webkit-transition: background 0.44s linear;
 	transition: background 0.44s linear;
-	
+
 }
 
 .ie9 .horizontalControls .qiconWrapper {padding-top:15px;height:35px}
 
 .horizontalControls .qiconWrapper:hover {
-	
+
 	background:#3686FB;
-	
-	
+
+
 }
 
 .horizontalControls .qiconWrapper:active {
@@ -486,8 +486,8 @@ input#email {
 
 
 .answersColumn {
-	
-	
+
+
 	display: block;
 	clear:left;
     margin-top: 6px !important;
@@ -503,7 +503,7 @@ input[type="radio"]:checked + div {
 	-webkit-transition: background 0.6s linear;
 	transition: background 0.6s linear;
 	background: #3686FB;
-	
+
 }
 
 /*.rfq-box form .page > div.answersColumn .radio input[type="radio"] ~ label, .page4 .radio input[type="radio"] ~ div.multipleAnsOther > label {
@@ -532,10 +532,10 @@ input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + 
 }
 
 input[type="checkbox"]:checked + div.multipleAnsOther > label, input[type="checkbox"]:checked + label {
-	
+
 }
 input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + label {
-	
+
 }
 
 
@@ -543,15 +543,15 @@ input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + 
 
 input[type="checkbox"] + label {
 	display: inline-block;
-	background: url('//cdn.buyerzone.com/images/mktg/utopia/checkbox_off.svg') no-repeat 10px center;
+	background: url('https://cdn.buyerzone.com/images/mktg/utopia/checkbox_off.svg') no-repeat 10px center;
 	background-size: 26px 26px;
-	
+
 	padding: 15px 0 10px 42px;
 	border-radius: 5px;
 	border:2px solid #fff;
     text-align: left;
     margin: 3px auto;
-	
+
 }
 
 
@@ -560,23 +560,23 @@ input[type="checkbox"]:checked + label {
 	-moz-transition: background-color 0.6s linear;
 	-webkit-transition: background-color 0.6s linear;
 	transition: background-color 0.6s linear;
-	
-	background: url('//cdn.buyerzone.com/images/mktg/utopia/checkbox_on.svg') no-repeat 10px center;
+
+	background: url('https://cdn.buyerzone.com/images/mktg/utopia/checkbox_on.svg') no-repeat 10px center;
 	background-color: #3686FB;
 	background-size: 26px 26px;
 	/*background-position-y: center;
 	background-position-x: 10px;*/
 	padding: 15px 0 10px 42px;
-	
-	
-	
+
+
+
 }
 
 
 
 
 .loadingSpinner {
-	background-image: url('//cdn.buyerzone.com/images/mktg/mariner/loader.gif');
+	background-image: url('https://cdn.buyerzone.com/images/mktg/mariner/loader.gif');
 	background-repeat: no-repeat;
 	display: none;
 	height: 80px;
@@ -605,14 +605,14 @@ rfq-box .warning {
 	font-size: 12px;
 }
 
-	
+
 /* fix for other field */
-	
+
 .seoRfq .multipleAnsOther {
 	width: 200px !important;
 	margin: 0 auto;
 	float:none;
-	
+
 }
 
 .safari .horizontalControls .multipleAnsOther input.other-input {
@@ -674,13 +674,13 @@ form .pag-3 label {font-size:13px !important}
 }
 
 .reg-page fieldset h3 {
-	    margin: -30px auto 10px;		
+	    margin: -30px auto 10px;
     font-size: 1.25em;
     font-weight: 400;
 }
 div.newsLetter {
 	margin: 0 auto;
-	
+
 	color: #fff
 }
 
@@ -698,7 +698,7 @@ div.newsLetter {
 .truste {
 	width: auto;
 	margin:0;
-	
+
 }
 
 .checkbox.newsLetter > label {
@@ -733,10 +733,10 @@ div.newsLetter {
 }
 
 p ~ .tcpa-logos {
-	text-align: center; 
+	text-align: center;
 	width: auto;
 	float:none;
-	margin:20px 0 
+	margin:20px 0
 }
 
 
@@ -746,7 +746,7 @@ p ~ .tcpa-logos {
 }
 td.error > span.error {
 	color: #FB4C36;
-	
+
 	margin-top: -10px;
 	margin-bottom: 10px;
 	display: block;
@@ -760,7 +760,7 @@ td.error > span.error {
 }
 
 .image1 {
-	margin-bottom:-45px	
+	margin-bottom:-45px
 }
 
 .image2 {
@@ -774,7 +774,7 @@ td.error > span.error {
 	width:100%;
 	padding:110px 0;
 	color:#fff;
-	
+
 }
 
 .why {
@@ -804,7 +804,7 @@ td.error > span.error {
 .buyersGuide img {
 	float:right;
 	margin-left:20px;
-	
+
 }
 
 .buyersGuide p {
@@ -816,7 +816,7 @@ td.error > span.error {
 
 
 footer {
-	
+
 	padding: 40px;
 	font-size: 12px;
 	margin-bottom: -20px;
@@ -835,7 +835,7 @@ footer p {
 }
 
 footer .credits {
-	
+
 	margin: 0 auto;
 	text-align:center;
 }
@@ -858,8 +858,8 @@ footer img {
 .bg-mariner {
 		height:130%;
 	}
-	
-	
+
+
 }
 
 
@@ -867,7 +867,7 @@ footer img {
 	.bg-mariner {
 		height:150%;
 	}
-	
+
 	.ctaLeft {
 	padding-top:3%;
 }
@@ -876,7 +876,7 @@ footer img {
 	.bg-mariner {
 		height:190%;
 	}
-	
+
 }
 
 
@@ -906,13 +906,13 @@ footer img {
 .ctaLeft ul li {
 	width:300px;
 	padding-left:120px;
-	
+
 }
 
 
 
 .imageContainer {
-	
+
 	height:500px;
 }
 
@@ -925,7 +925,7 @@ h1 {
 }
 
 h2 {
-	
+
 	font-size:17px;
 }
 
@@ -934,7 +934,7 @@ h3 {
 }
 
 .contentCol .rfq-box {
-	padding:20px 0 0;	
+	padding:20px 0 0;
 }
 
 
@@ -965,7 +965,7 @@ legend.question + p.note, p.note {
 	float:none;
 }
 .why div:nth-child(3) {
-margin:0 auto;	
+margin:0 auto;
 }
 
 

@@ -18,7 +18,7 @@
             Name:</label>
         <input type="text" class="form-control" id="name" name="name" required  maxlength="50">
     </div>
-    <div class="form-group">
+    <!--<div class="form-group">
         <label for="company">
           Company/Organization:</label>
         <input type="text" class="form-control" id="company" name="company"  maxlength="50">
@@ -28,7 +28,7 @@
         <label for="website">
           Website:</label>
         <input type="text" class="form-control" id="website" name="website"  maxlength="50">
-    </div>
+    </div>-->
 
     <div class="form-group">
         <label for="email">
@@ -78,13 +78,13 @@
                         <input type="checkbox" id="email-marketing" name="email-marketing" value="yes" class="toggle"><span>Email Marketing</span>
                     </label>
 
-                    <label>
+                  <!--  <label>
                         <input type="checkbox" id="Wordpress-help" name="Wordpress-help" value="yes" class="toggle"><span>Help with a Wordpress site</span>
                     </label>
 
                     <label>
                         <input type="checkbox" id="Wix-help" name="Wix-help" value="yes" class="toggle"><span>Help with a Wix/Squarespace site</span>
-                    </label>
+                    </label> -->
 
                   </div>
 

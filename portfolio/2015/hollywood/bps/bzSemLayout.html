@@ -1,0 +1,127 @@
+<!doctype html>
+<!--[if lt IE 7 ]>             <html lang="en" class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]>                <html lang="en" class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]>                <html lang="en" class="ie ie8"> <![endif]-->
+<!--[if IE 9 ]>                <html lang="en" class="ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en">                <!--<![endif]-->
+
+<head>
+    <title>Get Free Price Quotes on ${categoryDisplayName} with the help of BuyerZone.com</title>
+
+  <meta charset="utf-8">
+  <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+
+    <!--[if lt IE 9]><script type="text/javascript" src="/scripts/libs/html5shiv.js"></script><![endif]-->
+
+	<link rel="stylesheet" href="https://use.typekit.net/ott2klv.css">
+
+
+    <link rel="stylesheet" href="hollywood.css" type="text/css" />
+
+</head>
+
+<body>
+
+<section class="videoContainer">
+
+    <div class="white-logo">
+    	<a href="/"><img src="https://www.buyerzone.com/telecom-equipment/business-phone-systems/bz_logo_white_retina.png" width="350" height="50" alt=""/></a>
+    </div>
+
+    <div class="message">
+        <img src="https://www.buyerzone.com/telecom-equipment/business-phone-systems/headline2.png" width="600" height="281" alt=""/>
+        <a href="#questionSet" class="getQuotes smoothscroll" >Get pricing on a phone system &#9661;</a>
+    </div>
+
+    <video autoplay poster="https://www.buyerzone.com/telecom-equipment/business-phone-systems/phone-system-poster.jpg" >
+        <source src="3130123-mac.mp4" type="video/mp4">
+        <source src="3130123_3.webm" type="video/webm">
+    </video>
+
+
+</section>
+
+
+
+<section class="lowerPage">
+
+   <div class="container">
+    <a name="questionSet" id="questionSet"></a>
+
+   <div class="callToAction">
+       <p>Answer these quick questions and we'll provide you with multiple price quotes so you know you're getting the best deal.</p>
+       <p class="arrowCallToAction"><img src="https://www.buyerzone.com/images/bluecrush/sharedetails_arrow.png" width="148" height="49" alt=""/></p>
+   </div>
+
+
+
+  </div>
+
+
+</section>
+
+<footer>
+
+<div class="clearLeft credits">
+        <p><a href="#">About Us</a> |
+        <a href="#">Terms &amp; Conditions</a> |
+        <a href="#">Privacy Policy</a></p>
+        <p>Customer Care: 888-393-5000</p>
+        <p>&copy; 2015 BuyerZone.com LLC. A Purch Brand. All Rights Reserved.</p>
+        <p><span class="build">${BZ_APPLICATION_VERSION}</span></p>
+</div>
+
+<img src="https://www.buyerzone.com/telecom-equipment/business-phone-systems/BZ_logo_buyer.png" width="350" height="50" alt=""/><br>
+<a href="http://www.bbb.org/boston/business-reviews/administrative-services/buyerzone-com-llc-in-waltham-ma-87942/#bbbonlineclick">
+<img src="http://www.buyerzone.com/images/bluecrush/blue_seal.png" alt="BuyerZone.com, LLC BBB Business Review">
+</a>
+</footer>
+
+
+
+<!-- javascript -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+<script>
+ $("a.smoothscroll").click(function(){
+			$('html, body').animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top
+			}, 400);
+			return false;
+			});
+
+$(document).on("pageRendered", function(evt) {
+				if (/reviewingRFQ/.test(window.location.search.toString())) {
+				$('html, body').animate({ scrollTop: $('.rightContent').offset().top, scrollLeft: 0 });
+				}
+				});
+
+$(function() {
+    $(window).scroll( function(){
+
+
+        $('.rightContent').each( function(i){
+
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window + 200;
+
+            if( bottom_of_window > bottom_of_object ){
+
+                $(this).animate({'opacity':'1'},900);
+
+
+            }
+        });
+
+    });
+});
+</script>
+
+
+</body>
+</html>

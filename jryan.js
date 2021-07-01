@@ -87,9 +87,6 @@ $('.branding').delay(2100).queue(function() {
                       });
 
 
-$('.recentWork').delay(2700).queue(function() {
-													$(this).addClass("visibility");
-                      });
 
   //  $('.recentWork').hover(
   //function(){ $(this).addClass('visibility') },
@@ -119,9 +116,12 @@ $('.introText').delay(1200).queue(function() {
 				$("#carousel-example-generic").carousel('pause');
 		 });
 
-     /* 4.)
-     // Smooth scroll/
-     */
+
+
+
+
+ // Smooth scroll/
+
 
    $('a[href^="#"]').click(function(){
          var that = this;
@@ -130,6 +130,39 @@ $('.introText').delay(1200).queue(function() {
          }, 400);
          return false;
    });
+
+
+
+ // $(window).scrollTop(800); // returns pixel value
+//   $(window).scroll(function () {
+
+//  $("#carousel-example-generic").carousel('pause');
+
+
+// });
+
+ // pause carousel on scroll/
+
+ $(window).scroll(function() {
+ 		$('#carousel-example-generic').each(function(){
+ 		var imagePos = $(this).offset().top;
+
+ 		var topOfWindow = $(window).scrollTop();
+ 			if (imagePos < topOfWindow+1) {
+ 				$(this).carousel('pause');
+        $(this).dequeue();
+
+      }
+        else $("#carousel-example-generic").carousel('cycle');
+ 		});
+ 	});
+
+
+
+
+
+
+
 
 // lazy loader
 

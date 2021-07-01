@@ -1,0 +1,176 @@
+.desktop {
+
+	@media(max-width: 767px){
+		display:none;
+	}
+}
+
+.mobile {
+	max-width:400px;
+}
+
+.webpage {
+	position:relative;
+
+	@media(max-width:768px) {
+		width:95%;
+	}
+
+	@media(min-width:1400px) {
+		width:1280px;
+	}
+
+	@media(min-width:1600px) {
+		width:1480px;
+	}
+
+}
+
+.screenshot {
+	position:relative;
+	img {
+		box-shadow: 1px 2px 3px $sienna;
+		margin-bottom:10px;
+	}
+
+}
+
+.legend {
+	position:absolute;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	width:370px;
+	height:auto;
+	background: $sienna;
+	right:33px;
+	bottom:-100px;
+	color:$white;
+	border: 3px solid $white;
+	padding:20px 0;
+
+	@media (max-width:768px) {
+			position:static;
+			margin:20px auto;
+	}
+
+	h2 {
+		font-size: 1.3em;
+		font-family: 'Oswald', sans-serif;
+		margin-bottom:12px;
+		margin: 0 auto;
+	}
+
+	ul {
+		list-style-type: none;
+		text-align: left;
+		margin: 10px 0 0 0;
+	}
+	p {
+		margin:10px 0 0 0;
+	}
+
+	a {
+	 color:$siennaLight
+	}
+
+	.carousel-indicators {
+		position:static;
+		margin-left: 20px;
+		text-align:left;
+
+	}
+
+
+	.carousel-indicators li {
+	    width:15px;
+	    height: 15px;
+			margin:0;
+	    background-color: #222;
+			border:0;
+	    border-radius: 50%;
+	}
+
+	.carousel-indicators .active {
+	    width: 15px;
+	    height: 15px;
+			border:0;
+	    background-color: $siennaLight;
+	}
+
+	.carousel-control {
+		width:0;
+		color:#1e1e1e;
+	}
+
+	.carousel img {
+		max-width:100%;
+
+	}
+
+}
+
+
+.thumbnail-webpage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+		max-width:500px;
+		margin-top:20px;
+
+		img {
+			width:150px;
+			height:100px;
+			box-shadow: 1px 2px 3px $sienna;
+		}
+
+		p {
+			padding:20px 0;
+		}
+
+		& >* {
+			flex: 1 1 140px;
+		}
+}
+
+.legend-thumbnails {
+
+}
+
+iframe {
+	box-shadow: 1px 2px 3px $sienna;
+}
+
+.carousel-indicators {
+	position:static;
+	margin-left: 20px;
+	text-align:left;
+
+}
+
+
+.carousel-indicators li {
+    width:15px;
+    height: 15px;
+		margin:0;
+    background-color: #222;
+		border:0;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+		border:0;
+    background-color: $siennaLight;
+}
+
+.carousel-control {
+	width:0;
+	color:#1e1e1e;
+}
+
+.carousel img {
+	max-width:100%;
+
+}

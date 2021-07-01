@@ -4,25 +4,6 @@
 <head>
 	<meta charset='utf-8' />
 
-	<!-- Google Tag Manager -->
-	<script>
-		(function(w, d, s, l, i) {
-			w[l] = w[l] || [];
-			w[l].push({
-				'gtm.start': new Date().getTime(),
-				event: 'gtm.js'
-			});
-			var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s),
-				dl = l != 'dataLayer' ? '&l=' + l : '';
-			j.async = true;
-			j.src =
-				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'bzDataLayer', 'GTM-PJ3KVC');
-	</script>
-	<!-- End Google Tag Manager -->
-
 	<title>${categoryDisplayName!} Price Quotes From Qualified Sellers</title>
 	<meta name='description' content="Answer a few questions about your purchase, we'll match you with pre-screened sellers, and receive customized ${categoryDisplayName!} price quotes today." />
 
@@ -30,17 +11,11 @@
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
 
+	<link rel="stylesheet" href="https://use.typekit.net/dov2kgu.css">
 	<link rel="stylesheet" href="sales.css">
 	<link rel="stylesheet" href="marketo.css">
-
-	<link rel="stylesheet" href="https://use.typekit.net/dti3jwr.css">
-	<link rel="stylesheet" href="https://fast.fonts.net/cssapi/4646ef96-2037-40c9-8fb6-66ff19a1b2c4.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,700">
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
-
 
 </head>
 
@@ -53,7 +28,7 @@
 	</div>
 
 	<div class="contentHero marketingHero">
-		<img src="svgs/CTA_marketing.svg" />
+		<a href="home.html"><img src="svgs/CTA_marketing.svg"></a>
 	</div>
 
 
@@ -64,7 +39,7 @@
 			<div class="marketingIntro">
 				<div class="containerFlex contentIntro">
 					<p class="contentIntroText">Reach engaged B2B decision makers in the discovery and comparison stages of the path to purchase utilizing our unique intention and relevance-based targeting capabilities. </p>
-					<p><img src="/svgs/icons/marketing_icon.svg"></p>
+					<p><img src="svgs/icons/marketing_icon.svg"></p>
 				</div>
 			</div>
 		</div>
@@ -79,7 +54,7 @@
 	<div style="margin-bottom:60px">
 
 		<div class="containerFlex productContainer">
-			<div class="badge"><img src="/svgs/badges/badge_mrl.svg" /></div>
+			<div class="badge"><img src="svgs/badges/badge_mrl.svg"></div>
 			<div class="productName">
 				<p class="productTitle"><strong>Marketing Ready Leads</strong></p>
 				<p>Fill your sales funnel with potential buyers who have expressed direct interest in your content.</p>
@@ -89,7 +64,7 @@
 		</div>
 
 		<div class="containerFlex productContainer">
-			<div class="badge"><img src="/svgs/badges/badge_email_marketing.svg"></div>
+			<div class="badge"><img src="svgs/badges/badge_email_marketing.svg"></div>
 			<div class="productName">
 				<p class="productTitle"><strong>Email Marketing</strong></p>
 				<p>Sponsor long-form small business guides created by Business.com and sent to an engaged audience of B2B decision makers.</p>
@@ -98,9 +73,7 @@
 
 		</div>
 
-
 	</div>
-
 
 
 	<div id="lets-talk" class="lets-talk marketingTalk">
@@ -272,22 +245,6 @@
 							</div>
 							<!-- end flex container -->
 
-
-
-							<!-- hidden fields from the Buyerzone implementation -->
-
-					<input type="hidden" name="lpId" value="1809" />
-					<input type="hidden" name="subId" value="78" />
-					<input type="hidden" name="lpurl" value="//info.buyerzone.com/BDC_Partner_Form.html?cr={creative}&amp;kw={keyword}" />
-					<input type="hidden" name="formid" value="98" />
-					<input type="hidden" name="ret" value="" />
-					<input type="hidden" name="munchkinId" value="457-YRZ-504"/>
-					<input type="hidden" name="kw" value=""/>
-					<input type="hidden" name="cr" value=""/>
-					<input type="hidden" name="searchstr" value=""/>
-					<input type="hidden" name="_mkt_disp" value="return"/>
-					<input type="hidden" name="_mkt_trk" value=""/>
-
 					</form>
 
 					</div>
@@ -297,24 +254,9 @@
 		</div>
 		<!-- end container -->
 	</div>
-
-	<!-- Marketo tracking -->
-	<script src="marketoValidator.js" type="text/javascript"></script>
-	<script src="https://munchkin.marketo.net/munchkin.js" type="text/javascript"></script>
-	<script>
-		mktoMunchkin("457-YRZ-504");
-	</script>
-
-<!--<script>
-			$(document).ready(function() {
-					$("#mktoForm_98").submit(function(e) {
-					$("#marketoForm").hide();
-					$("#successAndErrorMessages").show();
-				});
-			});
-
-	</script>-->
-
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="sales.js" type="text/javascript"></script>
 
 </html>

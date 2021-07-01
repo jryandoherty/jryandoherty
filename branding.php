@@ -1,7 +1,10 @@
 <div class="brandingSection" id="branding">
   <div class="container">
-
-    <h2>Logos / Branding</h2>
+    <div class="row">
+    <div class="col-md-7 intro">
+        <h2>Logos / Branding</h2>
+    </div>
+    </div>
 
     <div class="row">
       <div class="col-md-3"><a href="#" data-toggle="modal" data-target="#modal1"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1596559502/BZ_logo_buyer_xt3xu7.svg" alt="Buyerzone" width="200" height="150" class="logo"></a>

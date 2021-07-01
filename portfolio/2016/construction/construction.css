@@ -1,3 +1,6 @@
+/* Created by J. Ryan Doherty
+ 	Date: 4.20.2016 */
+
 html, body {
 	width: 100%;
 	height: 100%;
@@ -11,7 +14,7 @@ html, body {
 .bg-img {
 	width: 100%;
 	height: 100%;
-	background: url('//cdn.buyerzone.com/images/mktg/portals/bg_construction.jpg') center center no-repeat #919594;
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/bg_construction.jpg') center center no-repeat #919594;
 	background-size: cover;
 	background-position:center 60px;
 	color:#fff;
@@ -25,7 +28,7 @@ html, body {
 	bottom: 0;
 	left: 0;
 	background-image: linear-gradient(to bottom right,#ffeb3b,#464646, #636363, #464646);
-	opacity: .74; 
+	opacity: .74;
 }
 
 
@@ -42,7 +45,7 @@ html, body {
 
 .headLine p {
 	margin-bottom:40px;
-	
+
 }
 
 .headLine a {
@@ -69,7 +72,7 @@ html, body {
 	bottom:0;
 	width:70%;
 	left: 3%;
-	
+
 }
 
 .tagline h1 {
@@ -88,11 +91,11 @@ html, body {
 	width:82%;
 	height:auto;
 	border:none;
-	
+
 }
 
 .tagline a {
-	border:0;	
+	border:0;
 }
 
 
@@ -106,7 +109,7 @@ html, body {
 	right:2%;
 	top:6%;
 	width:775px;
-	
+
 }
 
 .rightContent a {
@@ -116,26 +119,26 @@ html, body {
 	-webkit-transform: skew(-5deg);
 	width:220px;
 	height:220px;
-	
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	float:left;
-	
+
 	font-size: 23px;
 	color:#fff;
 	text-decoration:none;
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
 	text-align:center;
-	
+
 	margin:0 12px 12px 0;
-	
+
 	z-index:99;
-	
+
 	border:3px solid #231F20;
 	box-shadow: 0px 0px 0px 0px rgba(208, 159, 0, 1) inset;
 	transition: box-shadow 0.8s ease 0s;
-	
+
 }
 
 .rightContent a:hover {
@@ -167,56 +170,56 @@ html, body {
 
 
 a.aerialLifts {
-	background: url('//cdn.buyerzone.com/images/mktg/portals/aerial_lift2.jpg') no-repeat center;
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/aerial_lift2.jpg') no-repeat center;
 	background-size: 220px 220px;
-	
+
 }
 a.skidSteerLoaders {
-	background: url('//cdn.buyerzone.com/images/mktg/portals/skid_steer.jpg') no-repeat center rgba(254,209,23, .8);
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/skid_steer.jpg') no-repeat center rgba(254,209,23, .8);
 	background-size: 170px 170px;
 	width:170px;
 	height:170px;
 }
 
 a.skidSteerAttach {
-	background: url('//cdn.buyerzone.com/images/mktg/portals/skid_steer_attach.jpg') no-repeat center rgba(254,209,23, .8);
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/skid_steer_attach.jpg') no-repeat center rgba(254,209,23, .8);
 	background-size: 170px 170px;
-	
+
 	width:170px;
 	height:170px;
 }
 
 a.bulldozers {
-	background: url('//cdn.buyerzone.com/images/mktg/portals/bulldozers.jpg') no-repeat center;
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/bulldozers.jpg') no-repeat center;
 	background-size: 140px 140px;
 	width:140px;
 	height:140px;
 }
 a.miniExcavators {
-	background: url('//cdn.buyerzone.com/images/mktg/portals/mini_excavator.jpg') no-repeat center rgba(254,209,23, .8);
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/mini_excavator.jpg') no-repeat center rgba(254,209,23, .8);
 	width:170px;
 	height:170px;
-	
-	
+
+
 }
 
 a.excavators {
-	background: url('//cdn.buyerzone.com/images/mktg/portals/excavators2.jpg') no-repeat center rgba(254,209,23, .8);
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/excavators2.jpg') no-repeat center rgba(254,209,23, .8);
 	background-size: 140px 140px;
-	
+
 	width:140px;
 	height:140px;
 }
 
 a.wheelLoaders {
-	background: url('//cdn.buyerzone.com/images/mktg/portals/wheel_loader.jpg') no-repeat center rgba(254,209,23, .8);
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/wheel_loader.jpg') no-repeat center rgba(254,209,23, .8);
 	background-size:140px 140px;
 	width:140px;
 	height:140px;
 
 }
 a.backhoeLoaders {
-	background: url('//cdn.buyerzone.com/images/mktg/portals/backhoe.jpg') no-repeat center;
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/backhoe.jpg') no-repeat center;
 	background-size:165px 165px;
 	height:165px;
 	width:165px;
@@ -225,7 +228,7 @@ a.backhoeLoaders {
 
 
 a.airCompressors {
-	background: url('//cdn.buyerzone.com/images/mktg/portals/air_compressors.png') no-repeat center rgba(254,209,23, .8);
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/air_compressors.png') no-repeat center rgba(254,209,23, .8);
 	background-size: 170px 170px;
 	width:110px;
 	height:110px;
@@ -234,7 +237,7 @@ a.airCompressors {
 
 
 a.containers {
-	background: url('//cdn.buyerzone.com/images/mktg/portals/storage.jpg') no-repeat center rgba(254,209,23, .8);
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/storage.jpg') no-repeat center rgba(254,209,23, .8);
 	width:90px;
 	height:90px;
 	font-size:14px
@@ -258,7 +261,7 @@ a.containers {
 .why p {
 	font-size:1.25em;
 	margin:0;
-	
+
 }
 
 .why strong{
@@ -276,7 +279,7 @@ a.containers {
 	color:#ffffff;
 	text-align:center;
 	margin-bottom:-20px;
-	
+
 }
 
 .footer img {
@@ -290,9 +293,9 @@ a.containers {
 @media (min-width: 1600px){
 .headLine {
 	width:570px
-		
+
 }
-	
+
 .rightContent {
 	right:4%
 }
@@ -308,7 +311,7 @@ a.containers {
 
 .rightContent {
 	width:555px;
-	
+
 }
 
 .rightContent a{
@@ -345,14 +348,14 @@ a.wheelLoaders {
 }
 
 a.airCompressors {
-	
+
 	width:80px;
 	height:80px;
 	font-size:11px
 }
 
 a.containers {
-	
+
 	width:80px;
 	height:80px;
 	font-size:11px
@@ -367,14 +370,14 @@ a.containers {
 }
 
 @media (max-width: 882px){
-	
+
 .bg-img {
 	height:auto;
-	background: url('//cdn.buyerzone.com/images/mktg/portals/bg_construction_mobile2.jpg') center center no-repeat #919594;
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/bg_construction_mobile2.jpg') center center no-repeat #919594;
 	background-size: cover;
 	padding-top: 8px;
 	padding-bottom: 16px;
-	
+
 }
 
 .bg-img:before {
@@ -385,8 +388,8 @@ a.containers {
 	position:static;
 	width:300px;
 	margin:auto;
-	
-	
+
+
 }
 
 .headLine img {
@@ -394,10 +397,10 @@ a.containers {
 	width:100%;
 }
 
-.headLine a img {	
+.headLine a img {
 	margin:0 auto;
 	display:block;
-	
+
 }
 
 .tagline {
@@ -418,9 +421,9 @@ a.containers {
 	display: inline-block;
 	text-align: center;
 	width:100%;
-	
-    
-	
+
+
+
 }
 
 .rightContent a{
@@ -441,17 +444,17 @@ a.containers {
 @media (max-width: 515px), (max-height: 480px) {
 
 .why {
-	
+
 	margin:0 auto 30px;
 
 
-	
+
 }
 
 .footer img {
 	width:100%;
 	height:auto;
-	
+
 }
 
 }

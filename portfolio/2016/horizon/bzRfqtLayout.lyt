@@ -1,9 +1,3 @@
-[#compress]
-
-[#assign xhtmlCompliant = true in spring]
-[#import "spring.ftl" as spring /]
-[#include "macro/GlobalMacros.ftl" /]
-[#assign apiDomain]${APPLICATION_PROPERTIES["CONFIG.environment.api-host-prefix"]?string?trim}[#t][/#assign]
 <!doctype html>
 
 <!--[if lt IE 7]> <html class="ie6 ie" lang="en"> <![endif]-->
@@ -17,7 +11,7 @@
 
 	<title>${categoryDisplayName!} Price Quotes From Qualified Sellers</title>
 	<meta name="description" content="Answer a few questions about your purchase, we'll match you with pre-screened sellers, and receive customized ${categoryDisplayName!} price quotes today.">
-	<meta name="ROBOTS" content="NOINDEX, FOLLOW"> 
+	<meta name="ROBOTS" content="NOINDEX, FOLLOW">
 
 	<!--[if lt IE 9]>[@processOnce '/scripts/libs/html5shiv.js'; fileUrl]<script type="text/javascript" src="${fileUrl}"></script>[/@]<![endif]-->
 
@@ -44,10 +38,10 @@
 				$renderTo: $('.rfq-form.qs .qs-container')
 		});
 		flow.startup();
-	 	
+
 		$(document).on('pageRendered.bzFlow', function(){
 			$('#bz_4ce894b0-bc2e-e760-ca5f-593e8b767724').attr("onclick", "location='/construction-equipment/rough-terrain-forklifts/rfqt'");
-			
+
 		});
 
 	});
@@ -59,7 +53,7 @@
 	<!-- stylesheet -->
     <link rel="stylesheet" href="/dist/css/blueCrush.css" type="text/css">
     <link rel="stylesheet" href="/industrial/forklifts/horizon.css" type="text/css">
-	
+
     <!-- Begin Inspectlet Embed Code -->
 	<script type="text/javascript" id="inspectletjs">
     window.__insp = window.__insp || [];
@@ -70,15 +64,15 @@
     })();
     </script>
     <!-- End Inspectlet Embed Code -->
-    
+
 	<script src="//cdn.optimizely.com/js/6869001.js"></script>
-    
+
 </head>
 
 <body>
 
     <div class="horizon">
-    
+
     <a href="[@generateExternalUrl '/'/]" title="BuyerZone" style="position:absolute;padding:10px 0 10px 30px;width:200px;height:30px">
 	<svg
 	 viewBox="14.7 134.6 1377.5 206.7" enable-background="new 14.7 134.6 1377.5 206.7" xml:space="preserve">
@@ -107,78 +101,78 @@
 		C1058.3,225.4,1050.3,206.1,1037.1,191.8z"/>
 </g>
 <text transform="matrix(1.0678 0 0 1 1362.6931 169.0356)" fill="#000000" font-family="'Arial'" font-size="35.8474" letter-spacing="-0.9">®</text>
-</svg></a> 
+</svg></a>
 
 
-    
-    
-   
-        
+
+
+
+
         <div class="cta">
-            
+
             <h1>Leave the heavy lifting to us</h1>
             <h2><span>&#8679;</span> We'll help you get the best price on a forklift</h2>
-        
+
         </div>
-        
+
         <div class="progress-value"></div>
-        
+
     </div>
-    
+
  <div class="bg-img">
 
   <div class="questionContainer" id="questionSet">
-				
+
          <div class="contentCol">
-				
+
                 <div class="valueProp">
-                
+
                     <div class="valuePropContainer">
-                        
+
                        <p>Answer a few easy questions and we'll connect you with reputable dealers who will provide competitive price quotes.</p>
-                    
+
                         <img src="//cdn.buyerzone.com/images/mktg/hornet/buyersGuide.png" width="170" alt="Buyer's Guide">
                         <h2 style="color:#2F2F2F">FREE Buyer's Guide</h2>
                         <p>We'll also provide you with a free forklifts Buyer's Guide to help you make the right decision.</p>
                     </div>
-                    
+
                     <!--<div class="progressBar"></div>-->
                 </div>
-                
+
                     <div class="contentWrapper rfq-box">
-                    
+
                         <!-- form -->
                         <form class="rfq-form qs" method="post">
                         [#include "/includes/sessionParam.ftl"]
-                   	
+
                         <div class="qs-container"></div>
                         </form>
                         <!-- // form -->
                     <div class="loadingSpinner"></div>
-                	
-                
+
+
                     <div id="backNextRow">
                         <button class="backWrapper" id="rfq-back">back</button>
                         <button class="nextWrapper" id="rfq-continue"><span class="nextLabel">NEXT</span> </button>
                     </div>
-                               
+
                 </div>
-    
+
 		  </div>
-				  
+
     <!-- zip code city list -->
     [#include "/includes/zipCityList.ftl"]
-   
+
    </div>
-               
+
 </div>
 
 <div class="footer">
-    
+
     <div style="padding:30px 0 30px 30px">
-    
-    <a href="[@generateExternalUrl '/'/]" title="BuyerZone" ><img src="//cdn.buyerzone.com/images/BZ_logo_buyer.svg" style="padding-bottom:10px" width="270" alt="BUYERZONE" /></a> 
-    
+
+    <a href="[@generateExternalUrl '/'/]" title="BuyerZone" ><img src="//cdn.buyerzone.com/images/BZ_logo_buyer.svg" style="padding-bottom:10px" width="270" alt="BUYERZONE" /></a>
+
         <div class="credits">
             <span>&copy; 2016 BuyerZone.com LLC. A Purch Brand. All Rights Reserved.</span><br><br>
             <a href="[@generateExternalUrl '/about-us/'/]">About Us</a> |
@@ -186,12 +180,12 @@
             <a href="[@generateExternalUrl '/about-us/privacy/'/]">Privacy Policy</a>
             <span class="number">Customer Care: 888-393-5000</span>
         </div>
-    
+
     </div>
 
 </div>
 
-    
+
 	<!-- alternate close button for info dialog -->
 	<div id="dialogCloseAlt">
 		<div class="closeWrapper">
@@ -210,33 +204,8 @@
 		<img src="//cdn.buyerzone.com/images/mktg/midnight/checkbox_on.svg">
 		<img src="//cdn.buyerzone.com/images/mktg/midnight/checkbox_off.svg">
 	</div>
-    
-    
-<script>
 
-	$(document).on('click', 'div.radio', function(e){
-		var parentPage = $(this).closest('.page');
-		var allRadioDivs = parentPage.find('div.radio');
-		var checkedRadios = allRadioDivs.find('input:checked');
-		
-		//clear all style1 classes
-		allRadioDivs.removeClass('onState');
-		//add style1 class only to checked radios
-		checkedRadios.closest('div.radio').addClass('onState');	
-	});
 
-</script> 
-
-	<!-- analytics -->
-	[#include "/includes/siteStats.ftl"]
-
-	<!-- landing page pixels -->
-	[#if xmlTree('categoryElements.pixelsLanding')??]
-		<div class="tracking-pixels">
-			[@xmlRef 'categoryElements.pixelsLanding' /]
-		</div>
-	[/#if]
 </body>
 
 </html>
-[/#compress]

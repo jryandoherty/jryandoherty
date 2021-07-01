@@ -8,15 +8,20 @@ html, body {
 	height: 100%;
 	width:100%;
 	background:#ffffff;
-	font-family: Proxima N W01 Reg,Arial,Titillium Web,Helvetica,"sans-serif";
+	font-family: proxima-nova, sans-serif;
 	color:#3a3a3a;
+	--scrollbarBG: #211e18;
+	--thumbBG: #ff863e;
+		scrollbar-width: thin;
+		scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 
-p {margin:0}
+p {
+	margin:0;
+}
 
-
-#toggle {
-
+img {
+	max-width: 100%;
 }
 
 .panel {
@@ -27,14 +32,11 @@ p {margin:0}
 	border-top:3px solid #e1e1e1;
 }
 
-
-
 .hero {
 	background:radial-gradient(circle at center, rgba(210, 84, 8, .7) 10%, transparent, transparent), url(jpgs/hero_home.jpg) center center no-repeat #333;
 	background-size: cover ;
 	height:100%;
 	color:#fff;
-	font-family: 'Titillium Web';font-weight:600;
 }
 
 
@@ -42,7 +44,8 @@ p {margin:0}
 	display:flex;
 	align-content:center;
 	padding:40px;
-	font-family: 'Titillium Web';font-weight:600;
+	font-family:  titillium-web, sans-serif;
+	font-weight: 300;
 }
 
 .navigation a {
@@ -90,8 +93,9 @@ p {margin:0}
 
 .contentHero img {
 	width:450px;
-	margin-top: 24px;
-	max-width:80%;
+	height:245px;
+	/*margin-top: 24px;*/
+
 }
 
 .marketingHero {
@@ -113,6 +117,8 @@ p {margin:0}
 	width: inherit;
 	padding: 6px 0;
 	border-bottom:1px solid #969696;
+	font-family:  titillium-web, sans-serif;
+	font-weight: 300;
 }
 
 .contentIntro {
@@ -150,9 +156,6 @@ p {margin:0}
 }
 
 
-
-
-
 .cta {
 	width:45vw;
 	max-width:700px;
@@ -164,7 +167,7 @@ p {margin:0}
 }
 
 .ctaText{
-	font-family: Proxima N W01 Reg,Arial,Titillium Web,Helvetica,"sans-serif";
+	font-family: proxima-nova, sans-serif;
 	font-weight:100;
 	font-size:110%;
 	margin-bottom:30px;
@@ -186,6 +189,10 @@ p {margin:0}
 .action.color3 {
   background: #e85a26;
   border: 2px solid #e85a26;
+}
+
+.action.color2:hover {
+	background: #f9ac12;
 }
 
 
@@ -222,21 +229,24 @@ p {margin:0}
 	padding-top:55.94%;
 	background:url(jpgs/hero_testimonial.jpg);
 	background-size: cover;
+	/*display:flex;
+	justify-content: center;
+	align-items: center;
+	height:900px;*/
 	position:relative;
 }
 
 
 .testimonialText {
-	position:absolute;
 	width:60vw;
-	margin:0 auto;
-	top:30%;
-	bottom:0;
-	right:0;
-	left:0;
 	color:#fff;
 	font-size: 200%;
-
+	font-family: abril-text, serif;
+	position: absolute;
+	right:0;
+	left:0;
+	margin: 0 auto;
+	top:35%;
 }
 
 .container {
@@ -348,6 +358,22 @@ h1, h2, h3, h4 {
 	justify-content: center;
 }
 
+.advertising div{
+	align-items:center;
+	display:flex;
+}
+
+.advertising h2 {
+	flex:1;
+}
+.advertising img {
+	width:120px;
+}
+
+.advertising .button {
+	background:#fff;color:#200100
+}
+
 .marketing {
 	border-left:10px solid #ffb82a;
 	height:274px;
@@ -360,18 +386,47 @@ h1, h2, h3, h4 {
 	justify-content: center;
 }
 
+.marketing div {
+	display:flex;
+	align-items:center;
+}
+
+.marketing div:nth-child(2) {
+	display:inline-block;
+
+}
+
+.marketing h3 {
+	flex:1;
+	padding-right:25px;
+	color:#656565;
+}
+.marketing img {
+	width:100px;
+}
+.marketing h3 span {
+	color:#ffb82a;
+}
+
+.marketing .button {
+	background:#ffb82a;
+}
+
 
 /* funnel section */
 
 .funnelText {
-
-
 	margin-right:25px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	flex:1;
 	order:1;
+}
+
+.funnelHeader {
+	margin-top:60px;
+	margin-bottom:60px;
 }
 
 .funnelText h4 {
@@ -386,8 +441,28 @@ h1, h2, h3, h4 {
 	order:2;
 }
 
+.funnelGraphic img{
+	width:500px;
+	max-width:100%;
+}
+
+
 
 /* our expertise section */
+
+.our-expertise h1{
+	margin-top:40px;
+}
+
+.intro {
+	width:70%;
+}
+
+.boxes-container {
+	display: flex;
+	flex-direction: column;
+	margin-right:20px;
+}
 
 .boxes {
 	box-shadow: 2px 1px 5px #333;
@@ -404,22 +479,46 @@ h1, h2, h3, h4 {
 }
 .access {
 	width:585px;
+	margin: 20px 0;
+}
+
+.access img {
+	float:left;
+	margin-right:20px;
 }
 
 .enablement {
 	width:530px;
 	height: auto;
-align-self: center;
+	align-self: center;
+}
+
+.enablement img {
+	width:75px;
+	display:block;
+	margin:0 auto;
 }
 
 .roi {
 	width:500px;
+	margin-left:auto;
+}
+.roi img {
+	float:right;
 }
 
 
 
-
 /* logos css */
+
+.logos {
+	text-align:center;
+	margin-top:120px;
+}
+
+.logos h2 {
+	margin-bottom: 30px;
+}
 
 .atlas-logo, .advanced-md-logo, .toyota-logo, .safestep-logo, .five-9-logo, .kronos-logo, .paychex-logo, .pitney-bowes-logo, .ricoh-logo, .sharp-logo, .vonage-business-logo, .jacuzzi-logo{
 	background: url('pngs/sprites_logos.png') no-repeat;
@@ -480,7 +579,7 @@ align-self: center;
 }
 
 .neopost-logo {
-  background: url('//cdn.buyerzone.com/images/leads/neopost-gray_2.png') no-repeat;
+  background: url('https://cdn.buyerzone.com/images/leads/neopost-gray_2.png') no-repeat;
 	background-size:150px;
 	display:inline-block;
 	width:150px;
@@ -578,7 +677,7 @@ align-self: center;
 .advertisingBar {
 	color:#fff;
 	width:90%;
-	background:url(/pngs/bg_display_bar.png)repeat-y right #e85a26;
+	background:url(pngs/bg_display_bar.png)repeat-y right #e85a26;
 	padding-left:40px;
 	padding-right:10px;
 	margin-bottom:25px;
@@ -615,7 +714,7 @@ footer {
 	}
 }
 
-@media (max-width:960px){
+@media (max-width:970px){
 	.containerFlex, .container {
 		display:block;
 		width:90%;
@@ -637,16 +736,63 @@ footer {
 
 	.cta {
 		width:55vw;
+	}
 
+	.intro {
+		width:100%;
 	}
 
 	.lead-generation {
-		width:inherit;
+		width:100%;
 		margin-bottom:20px;
 		margin-right:0;
-		padding-right:5px;
-		padding-left:20px;
+		padding:0;
+		border-left:none;
+		height:inherit;
+	}
+
+	.lead-generation div {
+		padding:35px 15px 0 15px;
 		border-left:10px solid #ff8936;
+	}
+
+	.lead-generation div:nth-child(2){
+		padding: 0 15px 10px 0;
+	}
+
+	.marketing div {
+		padding:15px 15px;
+		border-left:10px solid #ffb82a;
+	}
+
+
+	.advertising div {
+		padding:15px 32px;
+	}
+
+
+	.advertising p {
+		padding:0 32px;
+	}
+
+	.advertising {
+		height:inherit;
+		width:100%;
+		padding-left:0;
+		padding-right:0;
+
+	}
+
+	.marketing {
+		height:inherit;
+		width:100%;
+		padding:0;
+		border-left:none;
+	}
+
+	.contentLinks {
+		text-align:center;
+		padding:0;
 	}
 
 	.contentIntro img {
@@ -658,21 +804,36 @@ footer {
 		padding-right:0;
 	}
 
-	.advertising {
-		width:inherit;
+
+
+	.boxes-container {
+		margin-right:0;
 	}
 
-	.marketing {
-		width:inherit;
+	.boxes {
+		padding: 0 0 0 7px;
 	}
 
-	.roi, .access {
-		width:80%;
+	.boxes h4 {
+    padding: 10px 10px 0 10px;
 	}
 
-	.enablement {
-		width:78%;
+	.boxes p {
+		padding: 0 10px 10px 10px;
 	}
+
+	.roi, .access, .enablement {
+		width:100%;
+		margin: 20px 0;
+		margin-left: -10px;
+	}
+
+	.roi img, .access img, .enablement img {
+		float:none;
+		margin: 12px auto 0;
+		display: block;
+	}
+
 
 	.productContainer {
 		text-align:center;
@@ -695,10 +856,17 @@ footer {
 		background-position:-180px;
 	}
 
-	.hero {
-		background-position:-180px;
+	.header-large {
+		font-size:48px;
 	}
 
+	.lead-generation-title {
+    font-size: 42px;
+	}
+
+	.contentHero img {
+		width:320px;
+	}
 	.cta {
 		width:85vw;
 		margin:0 auto;
@@ -720,5 +888,16 @@ footer {
 		width:90%;
 	}
 
+	.boxes {
+		padding:0;
+	}
+
+	.lets-talk h3 {
+		font-size:48px;
+	}
+
+	.lets-talk .containerFlex {
+		width:100%;
+	}
 
 }

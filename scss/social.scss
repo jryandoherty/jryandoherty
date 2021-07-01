@@ -1,0 +1,50 @@
+.socials {
+		padding:15px;
+		background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1596136886/bg_brick_lfahqt.jpg') #333;
+		border-radius: 0!important;
+		color:$white;
+		h1 {
+			margin:0;
+		}
+		h2 {
+			font-family: 'Montserrat', sans-serif;
+			font-size:.7521367521367521em;
+			padding-left:60px;
+			}
+		svg {
+			width:30px;
+			fill:#fff;
+			&:hover.twitter {
+				fill:#00ACEE;
+			}
+			&:hover.linkedIn {
+				fill:#00a0dc;
+			}
+			&:hover.github {
+				fill:#6cc644;
+			}
+			&:hover.flickr {
+				fill:#216bd6;
+			}
+			&:hover.behance {
+				fill:#1769ff;
+			}
+
+		}
+
+		a {
+			color:white;
+			text-decoration: none;
+			padding-right:0!important;
+			padding-left:0;
+			&:hover {
+				color:$white;
+				text-decoration: none;
+				background:none;
+			}
+		}
+
+
+
+
+	} /* end navigation */

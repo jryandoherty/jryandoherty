@@ -1,8 +1,8 @@
 <div id="recentwork" class="recentWorkSection">
   <div class="container">
 
-      <div class="col-lg-7 intro">
-        <h2>Website Design</h2>
+      <div class="col-md-7 intro">
+        <h2>Sites</h2>
         <p>Give your company a modern look and web presence that will attract customers no matter what device they are using to browse the web.</p>
         <!--<p>Whether you are individual, sole proprietor, small business, or mid-sized business, I can help get you a modern, responsive web presence that to attract customers, clients, or users.</p>-->
       </div>
@@ -37,7 +37,7 @@
             <p><strong>CLIENT:</strong> Louis W. Mian, Inc.</p>
             <p><strong>PROJECT:</strong> Site redesign</p>
             <p>Louis W. Mian, one of the leading stone fabricators in New England, needed to upgrade their website to be mobile-friendly and wanted to be able to add new stories about their kitchen, bath, and living space remodel projects. </p>
-            <p><a href="https://www.louismian.com/wordpress" target="_blank">www.louismian.com</a></p>
+            <p><a href="https://www.louismian.com/" target="_blank">www.louismian.com</a></p>
           </div>
           <div class="col-lg-8"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1597339298/mian_htv1gt.jpg" alt="Louis W. Mian site design"></div>
 
@@ -81,7 +81,7 @@
 
       </div>
 
-      <!-- Controls -->
+      <!-- Controls
         <a class="left carousel-control" data-target="#carousel-example-generic" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -89,8 +89,24 @@
         <a class="right carousel-control" data-target="#carousel-example-generic" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
-        </a>
+        </a> -->
 
+    </div><!-- end carousel -->
+
+    <div class="thumbnails">
+      <h2>Landing/Conversion Pages</h2>
+      <p>
+        <a href="/portfolio/conversion/bdc_price_quotes.php"><img src="/portfolio/thumbnails/bdc_price_quotes.png" alt="" ></a>
+        <a href="/portfolio/conversion/hornet.php"><img src="/portfolio/thumbnails/hornet.jpg" alt="" ></a>
+        <a href="/portfolio/conversion/hollywood.php"><img src="/portfolio/thumbnails/hollywood.jpg" alt="" ></a>
+          <a href="/portfolio/conversion/fusion.php"><img src="/portfolio/thumbnails/fusion.jpg" alt="" ></a>
+
+
+        <a href="/portfolio/onversion/mariner.php"><img src="/portfolio/thumbnails/mariner.jpg" alt="" ></a>
+        <a href="/portfolio/conversion/copernicus.php"><img src="/portfolio/thumbnails/copernicus.jpg" alt="" ></a>
+        <a href="/portfolio/conversion/immersion.php"><img src="/portfolio/thumbnails/immersion.jpg" alt="" ></a>
+          <a href="/portfolio/conversion/horizon.php"><img src="/portfolio/thumbnails/fusion.jpg" alt="" ></a></p>
+      <!--<p>Whether you are individual, sole proprietor, small business, or mid-sized business, I can help get you a modern, responsive web presence that to attract customers, clients, or users.</p>-->
     </div>
 
   </div><!-- end container -->

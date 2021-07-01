@@ -1,3 +1,6 @@
+/* Created by J. Ryan Doherty
+ 	Date: 9.29.2016 */
+
 html, body {
 	width: 100%;
 	height: 100%;
@@ -6,13 +9,17 @@ html, body {
 	font-family: "neuzeit-grotesk",sans-serif;
 	font-style: normal;
 	font-weight: 300;
- 
+	--scrollbarBG: #CFD8DC;
+	--thumbBG: #90A4AE;
+		scrollbar-width: thin;
+		scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+
 }
 
 .bg-img {
 	width: 100%;
 	height: 100%;
-	background: url('//cdn.buyerzone.com/images/mktg/portals/trucks_bg2.jpg') center center no-repeat;
+	background: url('https://cdn.buyerzone.com/images/mktg/portals/trucks_bg2.jpg') center center no-repeat;
 	background-size: cover;
 	color:#fff;
 }
@@ -25,7 +32,7 @@ html, body {
 	bottom: 0;
 	left: 0;
 	background-image: linear-gradient(to bottom right,#607C9D,#464646, #636363, #0060CE);
-	opacity: .74; 
+	opacity: .74;
 }
 
 .headLine {
@@ -39,7 +46,7 @@ html, body {
 
 .headLine p {
 	margin-bottom:40px;
-	
+
 }
 
 .headLine a {
@@ -66,7 +73,7 @@ html, body {
 	bottom:0;
 	width:65%;
 	left: 3%;
-	
+
 }
 
 .tagline h1 {
@@ -81,11 +88,11 @@ html, body {
 	width:82%;
 	height:auto;
 	border:none;
-	
+
 }
 
 .tagline a {
-	border:0;	
+	border:0;
 }
 
 
@@ -99,7 +106,7 @@ html, body {
 	right:2%;
 	top:14%;
 	width:675px;
-	
+
 }
 
 .rightContent div {
@@ -126,26 +133,26 @@ html, body {
 }
 
 .circleOne {
-	background-image:url('//cdn.buyerzone.com/images/mktg/portals/box.jpg');
+	background-image:url('https://cdn.buyerzone.com/images/mktg/portals/box.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	cursor: pointer;
 	display: block;
-	
+
 	border-radius: 50%;
 	height: 411px;
 	width: 411px;
 	background-size:426px;
-	
+
 	margin: 0 auto;
 	box-shadow: 0px 0px 0px 6px rgba(208, 159, 0, 1) inset;
 	transition: box-shadow 0.6s ease 0s;
 	float:left;
-	
+
 	text-align: center;
 	vertical-align: middle;
-	line-height: 411px;  
-	
+	line-height: 411px;
+
 	font-size: 54px;
 	color:#fff;
 	text-decoration:blink;
@@ -158,32 +165,32 @@ html, body {
 }
 
 .circleTwo {
-	background-image:url('//cdn.buyerzone.com/images/mktg/portals/highway.jpg');
+	background-image:url('https://cdn.buyerzone.com/images/mktg/portals/highway.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-	
+
 	cursor: pointer;
 	display: block;
 	border-radius: 50%;
-	
+
 	height: 254px;
 	width: 254px;
 	background-size: 138%;
 	background-position: -95px;
-	
+
 	box-shadow: 0px 0px 0px 6px rgba(173, 201, 245, .7) inset;
 	transition: box-shadow 0.6s ease 0s;
-	
+
 	float:left;
-	
+
 	text-align: center;
 	vertical-align: middle;
-	line-height: 34px;  
-	
+	line-height: 34px;
+
 	font-size: 38px;
 	color:#fff;
 	text-decoration:blink;
-	text-shadow: 2px 2px 1px rgba(0, 0, 0, 1); 
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
 }
 
 .circleTwo:hover {
@@ -192,7 +199,7 @@ html, body {
 	transition: all 0.6s ease 0s;
 }
 
-.circleTwo span {    
+.circleTwo span {
 	top: 92px;
 	position: relative;
 }
@@ -204,25 +211,25 @@ html, body {
 
 
 .circleThree {
-    background-image:url('//cdn.buyerzone.com/images/mktg/portals/bucket.jpg');
+    background-image:url('https://cdn.buyerzone.com/images/mktg/portals/bucket.jpg');
 	background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
     display: block;
     border-radius: 50%;
-   
+
     margin: 0 auto;
     box-shadow: 0px 0px 0px 4px rgba(166, 143, 0, 1) inset;
     transition: box-shadow 0.6s ease 0s;
 	float:left;
-   
+
     height: 157px;
     width: 157px;
     background-size:158px;
-	
+
 	text-align: center;
 	vertical-align: middle;
-	line-height: 28px; 
+	line-height: 28px;
 
 	font-size: 30px;
 	color:#fff;
@@ -231,7 +238,7 @@ html, body {
 }
 
 
-.circleThree span {    
+.circleThree span {
 	top: 50px;
 	position: relative;
 }
@@ -244,17 +251,17 @@ html, body {
 
 
 .circleFour {
-	background-image:url('//cdn.buyerzone.com/images/mktg/portals/bucket.jpg');
+	background-image:url('https://cdn.buyerzone.com/images/mktg/portals/bucket.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	cursor: pointer;
 	display: block;
 	border-radius: 50%;
-	
+
 	height: 97px;
 	width: 97px;
 	background-size:97px;
-	
+
 	box-shadow: 0px 0px 0px 4px rgba(55, 47, 10, 1) inset;
 	transition: box-shadow 0.6s ease 0s;
 	float:left;
@@ -264,8 +271,8 @@ html, body {
 
 	text-align: center;
 	vertical-align: middle;
-	line-height: 97px;  
-	
+	line-height: 97px;
+
 	font-size: 21px;
 	color:#fff;
 	text-decoration:blink;
@@ -311,7 +318,7 @@ html, body {
 	color:#ffffff;
 	text-align:center;
 	margin-bottom:-20px;
-	
+
 }
 
 .footer img {
@@ -325,9 +332,9 @@ html, body {
 @media (min-width: 1600px){
 	.headLine {
 		width:670px
-		
+
 	}
-	
+
 	.rightContent {
 		right:4%
 	}
@@ -339,23 +346,23 @@ html, body {
 	.headLine {
 		width:34%;
 	}
-	
+
 	.rightContent {
 		width:510px;
 	}
-	
+
 	.rightContent h1 {
 		font-size:21px;
 	}
-	
-	
+
+
 	.circleOne {
 		height: 310px;
 		width: 310px;
 		line-height:310px;
 		font-size:40px;
 	}
-	
+
 	.circleTwo {
 		height: 180px;
 		width: 180px;
@@ -363,20 +370,20 @@ html, body {
 		line-height:28px;
 		font-size:30px;
 	}
-	
+
 	.circleTwo span {
 		top:64px;
 	}
-	
+
 	.circleThree {
 		margin-top: 7px;
 	}
-	
+
 	.circleFour {
 		margin-left: 216px !important;
 		margin-top: -58px !important;
 	}
-	
+
 	.why img {
 		display: block;
 		margin: 26px auto 26px;
@@ -386,37 +393,37 @@ html, body {
 }
 
 @media (max-width: 882px){
-		
+
 	.bg-img {
 		height:auto;
-		background: url('//cdn.buyerzone.com/images/mktg/portals/bg_trucks_mobile.jpg') center center no-repeat #919594;
+		background: url('https://cdn.buyerzone.com/images/mktg/portals/bg_trucks_mobile.jpg') center center no-repeat #919594;
 		background-size: cover;
 		padding-top: 8px;
 		padding-bottom: 24px;
-		
+
 	}
-	
+
 	.bg-img:before {
 		position: static;
 	}
-	
+
 	.headLine {
 		position:static;
 		width:300px;
 		margin:auto;
 	}
-	
+
 	.headLine img {
 		padding-top:10px;
 		width:100%;
 	}
-	
-	.headLine a img {	
+
+	.headLine a img {
 		margin:0 auto;
 		display:block;
-		
+
 	}
-	
+
 	.tagline {
 		position:static;
 		width:95%;
@@ -424,24 +431,24 @@ html, body {
 		text-align:center;
 		clear: left;
 	}
-	
+
 	.tagline h1 {
 		font-size:1.65em
 	}
-	
+
 	.rightContent {
 		position:static;
 		display: inline-block;
 		text-align: center;
 		width:100%;
 	}
-	
-	
+
+
 	.rightContent a{
 		float: none !important;
-		display:inline-block;	
+		display:inline-block;
 	}
-	
+
 	.circleOne {
 		height: 210px;
 		width: 210px;
@@ -449,12 +456,12 @@ html, body {
 		font-size:30px;
 		line-height:210px;
 	}
-	
+
 	.circleFour{
 		margin:0 !important
 	}
 
-	
+
 }
 
 
@@ -467,7 +474,7 @@ html, body {
 		background-position: -48px;
 		font-size:28px;
 	}
-	
+
 	.circleTwo span {
 		top: 50px;
 	}
@@ -480,11 +487,11 @@ html, body {
 	.circleThree span {
 		top: 38px;
 	}
-	
+
 	.why {
 		margin:0 auto 30px;
 	}
-	
+
 	.footer img {
 		width:100%;
 		height:auto;
@@ -494,12 +501,12 @@ html, body {
 
 @media (max-height: 668px){
 	.tagline {
-		width:65%;	
+		width:65%;
 	}
-	
+
 	.rightContent {
 		right: 0%;
-		top: 10%;	
+		top: 10%;
 	}
 
 }

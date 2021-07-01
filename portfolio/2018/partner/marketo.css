@@ -1,0 +1,313 @@
+#successAndErrorMessages {
+	/*min-height: 500px;*/
+}
+
+
+
+input[type="text"], input[type="tel"], textarea, select {
+
+		font-family: 'Titillium Web';
+
+}
+
+input[type=checkbox], input[type=radio] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+	margin-right:14px;
+
+}
+
+.marketoForm ul {
+	list-style-type: none;
+	margin:0;
+	padding:0
+ }
+
+.leftForm {
+	flex:1
+}
+
+.rightForm {
+	width:550px;
+}
+
+@media (max-width: 960px){
+	.rightForm {
+			width:100%;
+	}
+}
+
+ul.leftForm li {
+	margin-bottom:32px;
+}
+
+ul.rightForm li {
+	margin-bottom:22px;
+
+}
+
+.interest td {
+	padding-top:14px;
+	padding-left:15px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: first baseline;
+}
+
+.interest {
+	margin-left:20px;
+	font-family: 'Titillium Web';
+
+}
+
+
+
+label {
+	display:block
+}
+
+.mktError input, .mktError textarea, .mktError select {
+	border:4px solid #4c4c4c;
+}
+
+
+.marketoForm table input {
+	border:none;
+}
+
+
+.marketoForm .submitButton {
+
+	width:50%;
+	border-radius:6px;
+	cursor:pointer;
+	border:4px solid #fff;
+	color:white;
+	font-size:24px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	font-weight:700;
+	background:none;
+	/*margin:-4px auto 30px 49px;*/
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.marketoForm .submitButton {
+
+	}
+ }
+
+
+
+
+
+span.mktFormMsg {
+    color: #3a3a3a;
+    font-weight: bold;
+    display: table;
+    font-size: 0.916em;
+    padding: 0px;
+}
+
+
+textarea {
+	background-color: #fbfbfb;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+	padding:13px;
+	height: 150px;
+	width:70%;
+	font-size:19px;
+}
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	textarea {
+		vertical-align:middle;
+	}
+ }
+
+
+.phoneNumber {
+	font-size:36px;
+	margin:30px auto 0;
+	text-align:center;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 5px solid #FABF3A;
+	color: #DD9833;
+	outline: none;
+  	padding: 13px 13px 13px 50px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px;
+}
+
+
+
+/* Change Autocomplete styles in Chrome
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid green;
+
+
+
+	background-image: url('//cdn.buyerzone.com/images/leads/company.png') !important;
+}
+*/
+
+
+/* Icons ---------------------------------- */
+.company{
+	background-image: url('//cdn.buyerzone.com/images/leads/company.png');
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+
+}
+
+.company:focus{
+	background-image: url('//cdn.buyerzone.com/images/leads/company.png');
+	background-size: 30px 30px;
+	background-position: 11px center;
+	background-repeat: no-repeat;
+}
+
+.website{
+	background-image: url('//cdn.buyerzone.com/images/leads/computer.png');
+	background-size: 30px 30px;
+	background-position: 11px center;
+	background-repeat: no-repeat;
+
+}
+
+.website:focus{
+	background-image: url('//cdn.buyerzone.com/images/leads/computer.png');
+	background-size: 30px 30px;
+	background-position: 11px center;
+	background-repeat: no-repeat;
+
+}
+
+.state, .state:focus{
+	background-image: url('//cdn.buyerzone.com/images/leads/us.png');
+	background-size: 30px 30px;
+	background-position: 11px center;
+	background-repeat: no-repeat;
+
+}
+
+.phone{
+	background-image: url('//cdn.buyerzone.com/images/leads/phone.png');
+	background-size: 30px 30px;
+	background-position: 11px center;
+	background-repeat: no-repeat;
+}
+
+.phone:focus{
+	background-image: url('//cdn.buyerzone.com/images/leads/phone.png');
+	background-size: 30px 30px;
+	background-position: 11px center;
+	background-repeat: no-repeat;
+}
+
+
+
+.name, .name:focus, .name:active{
+	background-image: url('//cdn.buyerzone.com/images/leads/name.png');
+	background-size: 30px 30px;
+	background-position: 11px center;
+	background-repeat: no-repeat;
+}
+
+
+.email{
+	background-image: url('//cdn.buyerzone.com/images/leads/email.png');
+	background-size: 30px 30px;
+	background-position: 11px center;
+	background-repeat: no-repeat;
+
+}
+
+.email:focus{
+	background-image: url('//cdn.buyerzone.com/images/leads/email.png');
+	background-size: 30px 30px;
+  background-position: 11px center;
+	background-repeat: no-repeat;
+}
+
+
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+
+
+.submit:hover {
+	color: #333;
+	background:#fff;
+}
+
+.ease {
+	width: 0px;
+	height: 74px;
+
+	-webkit-transition: .9s ease;
+	-moz-transition: .9s ease;
+	-o-transition: .9s ease;
+	-ms-transition: .9s ease;
+	transition: .9s ease;
+}
+
+.submit:hover .ease{
+	width:100%;
+
+}
