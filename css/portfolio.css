@@ -286,6 +286,11 @@ input[type=checkbox]:focus {
 }
 
 /* Navigation */
+.logo {
+  width: 200px;
+  display: block;
+}
+
 .recentWork {
   width: 175px;
   height: 175px;
@@ -342,7 +347,7 @@ input[type=checkbox]:focus {
   transform: rotate(15deg);
 }
 .contact svg #sticker2 {
-  fill: #FFCF00;
+  fill: #FFE800;
 }
 .contact svg:hover #sticker2 {
   fill: #FFEC00;
@@ -399,7 +404,6 @@ input[type=checkbox]:focus {
 }
 .recentWorkSection .client {
   padding-right: 10px;
-  font-family: "oswaldlight";
 }
 @media (max-width: 1199px) {
   .recentWorkSection .col-lg-4 {
@@ -473,7 +477,7 @@ input[type=checkbox]:focus {
 .crumbs {
   text-align: right;
   font-size: 0.95em;
-  padding: 0 0 12px 0;
+  padding: 0 14px 12px 0;
 }
 @media (max-width: 768px) {
   .crumbs {
@@ -489,15 +493,19 @@ nav {
   padding: 15px;
   background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1596136886/bg_brick_lfahqt.jpg") #333;
   border-radius: 0 !important;
+  box-shadow: 1px 2px 3px #824A14;
   color: #fcfcfc;
+  margin-bottom: 2% !important;
 }
 nav h1 {
   margin: 0;
+  font-size: 2.1em;
 }
 nav h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 0.7521367521em;
   padding-left: 60px;
+  margin: 0;
 }
 nav svg {
   width: 30px;
@@ -565,6 +573,10 @@ nav a:hover {
   max-width: 400px;
 }
 
+.email .row:nth-child(1) {
+  border-bottom: 1px solid #ccc;
+}
+
 .webpage {
   position: relative;
 }
@@ -584,6 +596,25 @@ nav a:hover {
   }
 }
 
+iframe, object {
+  box-shadow: 1px 2px 3px #824A14;
+  max-height: 768px;
+}
+
+.iframe {
+  -ms-zoom: 0.85;
+  -moz-transform: scale(0.85);
+  -moz-transform-origin: top center;
+  -webkit-transform: scale(0.85);
+  -webkit-transform-origin: top center;
+}
+.iframe .legend {
+  font-size: 110%;
+}
+.iframe .crumbs {
+  font-size: 110%;
+}
+
 .screenshot {
   position: relative;
 }
@@ -593,17 +624,16 @@ nav a:hover {
 }
 
 .legend {
-  position: absolute;
+  /*position:absolute;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 370px;
   height: auto;
-  background: #824A14;
   right: 33px;
   bottom: -100px;
-  color: #fcfcfc;
-  border: 3px solid #fcfcfc;
+  /*color:$white;
+  border: 3px solid $white;
+  background: $sienna;*/
   padding: 20px 0;
 }
 @media (max-width: 768px) {
@@ -616,12 +646,12 @@ nav a:hover {
   font-size: 1.3em;
   font-family: "Oswald", sans-serif;
   margin-bottom: 12px;
-  margin: 0 auto;
 }
 .legend ul {
   list-style-type: none;
   text-align: left;
-  margin: 10px 0 0 0;
+  margin: 0;
+  padding: 0;
 }
 .legend p {
   margin: 10px 0 0 0;
@@ -668,15 +698,18 @@ nav a:hover {
   height: 100px;
   box-shadow: 1px 2px 3px #824A14;
 }
+.thumbnail-webpage img:hover {
+  scale: 1.33;
+  transition: 0.5s;
+}
+.thumbnail-webpage a:hover {
+  width: 1200px;
+}
 .thumbnail-webpage p {
   padding: 20px 0;
 }
 .thumbnail-webpage > * {
   flex: 1 1 140px;
-}
-
-iframe {
-  box-shadow: 1px 2px 3px #824A14;
 }
 
 .carousel-indicators {
@@ -741,12 +774,17 @@ p.browsehappy {
   padding: 50px 0 0 10px;
 }
 
+.divider {
+  width: 100%;
+  height: 4px;
+}
+
 /*.container {
 	margin:50px auto
 }*/
 .brick {
-  background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1596136886/bg_brick_lfahqt.jpg") center center no-repeat #333;
-  background-size: cover;
+  background: url("/img/graffiti_top.png") right bottom no-repeat, url("https://res.cloudinary.com/jryandoherty/image/upload/v1596136886/bg_brick_lfahqt.jpg") center center no-repeat #333;
+  background-size: 420px, cover;
   overflow: hidden;
   color: #fcfcfc;
   position: relative;
@@ -756,22 +794,44 @@ p.browsehappy {
   justify-content: center;
   /* end brick nav */
 }
-.brick img {
-  width: 60px;
+.brick:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: radial-gradient(circle, #f06d06, transparent);
+  background-repeat: no-repeat;
+  /*background-size:30% 30%;*/
+  opacity: 0.14;
 }
 .brick h1 {
   font-size: 4em;
-  margin-top: revert;
-  margin-bottom: 0;
+  /*margin-top: revert;
+  margin-bottom: 0;*/
+}
+@media (max-width: 768px) {
+  .brick h1 {
+    font-size: 2.5em;
+  }
 }
 .brick h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
-  padding-left: 62px;
+  padding-left: 108px;
   padding-bottom: 10px;
   /*border-bottom:1px solid $white;*/
-  letter-spacing: 0.17em;
-  margin: 0 auto;
+  letter-spacing: 0.18em;
+  /*line-height: .2;*/
+  margin-top: -5px;
+}
+@media (max-width: 768px) {
+  .brick h2 {
+    padding-left: 35px;
+    font-size: 0.8em;
+  }
 }
 .brick a {
   color: white;
@@ -797,20 +857,83 @@ p.browsehappy {
 .brick nav .nav > li > a:hover {
   background: none;
 }
+.brick .container-fluid {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .brick .container-fluid {
+    flex-direction: column;
+  }
+}
+.brick .col-lg-6 {
+  width: auto;
+}
+.brick .logo {
+  min-width: 400px;
+}
+@media (max-width: 768px) {
+  .brick .logo {
+    min-width: auto;
+  }
+}
+.brick .logo img {
+  width: 320px;
+}
+@media (max-width: 768px) {
+  .brick .logo img {
+    width: 270px;
+  }
+}
 
 /* end brick section */
-.portfolioPage h2 {
-  margin: 0 auto;
+.portfolio {
+  /* [5] */
 }
-
+.portfolio .scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */
+}
+.portfolio .scroll::-webkit-scrollbar {
+  background: transparent;
+  /* Chrome/Safari/Webkit */
+  width: 0px;
+}
+.portfolio .btn-group {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  /* IE 10+ */
+}
+.portfolio .btn {
+  width: 20%;
+  text-transform: uppercase;
+  min-width: 150px;
+}
+/* end portfolio section */
 .thumbnails {
   text-align: center;
-  padding: 5% 0;
+  padding: 5%;
+}
+.thumbnails div {
+  display: block;
+  margin: 0 auto 40px;
 }
 .thumbnails h2 {
+  padding: 0px 10px 3px 17px;
+  font-size: 32px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   text-transform: uppercase;
-  padding: 30px 17px;
-  text-decoration: underline;
+  display: inline;
 }
 .thumbnails a {
   width: 150px;
@@ -858,7 +981,27 @@ p.browsehappy {
 }
 
 .about-section {
-  background: linear-gradient(to bottom right, #2f4e85, #496aa0, #5877ad, #7b97bf, #a3b3ca, #eeddcb, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent), url("/img/sunset.jpg") center center no-repeat;
+  background: url("/img/graffiti_bottom.png") right top no-repeat;
+  background-size: 420px;
+  font-size: 1.5em;
+  padding: 5%;
+}
+.about-section img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+.about-section .bio {
+  padding: 5% 0;
+}
+.about-section div:nth-child(2) {
+  background-size: 600px;
+}
+
+.about-old {
+  background: linear-gradient(to bottom right, #333, #333, #333, transparent, transparent, transparent, transparent, transparent, transparent), url("/img/sunset.jpg") center center no-repeat;
   background-size: cover;
   height: 100%;
   min-height: 500px;
@@ -868,14 +1011,39 @@ p.browsehappy {
 footer {
   background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1596136886/bg_brick_lfahqt.jpg");
   /*background-size:1200px;*/
-  min-height: 100px;
+  padding: 5% 0;
   color: #fcfcfc;
+  margin-top: 2%;
+  overflow: hidden;
+}
+footer nav {
+  background: none;
+  padding: 0;
+}
+footer .navbar-nav {
+  float: right;
+}
+footer .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "oswaldlight";
-  margin-top: 200px;
-  overflow: hidden;
+}
+@media (max-width: 768px) {
+  footer .container {
+    flex-direction: column;
+  }
+}
+footer .col-lg-4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+footer .col-lg-4 a:hover {
+  background: none;
+}
+
+.homepage .socials {
+  display: none;
 }
 
 /*# sourceMappingURL=portfolio.css.map */
