@@ -1,13 +1,14 @@
 <footer>
 <div class="container">
 
-	<div class="col-lg-2">
-    <p>&copy; <script>document.write(new Date().getFullYear());</script> J. Ryan Doherty</p>
+	<div class="col-lg-4">
+		<div><?php include "socials.php"; ?></div>
+		<div>&copy; <script>document.write(new Date().getFullYear());</script> J. Ryan Doherty</div>
   </div>
 
-  <div class="col-lg-8">
-    <?php include "stickers.php"; ?>
-  </div>
+	<div class="col-lg-8">
+		<?php include "stickers.php"; ?>
+	</div>
 
 </div><!-- /.container -->
 </footer><!-- end footer -->

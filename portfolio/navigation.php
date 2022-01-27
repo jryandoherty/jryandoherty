@@ -8,9 +8,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <!--<a class="navbar-brand" href="#"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1596733831/logo_qlypql.svg" alt="j. ryan doherty"></a>-->
-      <h1><a href="/portfolio/">j. ryan doherty</a></h1>
-      <h2>designer & developer</h2>
+    <h1><a href="/">j. ryan doherty</a></h1>
+    <h2>designer & developer</h2>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

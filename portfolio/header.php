@@ -9,7 +9,7 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/portfolio.css?v=20301">
+    <link rel="stylesheet" href="/css/portfolio.css?v=203013">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
 
     <title>J. Ryan Doherty :: Portfolio </title>
