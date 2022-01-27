@@ -3,7 +3,7 @@
 <div class="container screenshot">
   <div class="row">
     <div class="col-md-4"></div>
-    <div class="col-md-4 col-md-offset-4 crumbs">
+    <div class="col-md-8 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->

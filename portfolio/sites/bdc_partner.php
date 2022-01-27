@@ -1,18 +1,18 @@
 <?php include "../header.php"; ?>
 
-<div class="container webpage">
+<div class="container webpage iframe">
   <div class="row">
     <div class="col-md-4"></div>
-    <div class="col-md-4 col-md-offset-4 crumbs">
+    <div class="col-md-8 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
 
   <div class="row">
-    <iframe name="frame" src="../2018/partner/home.html"
+    <object name="frame" data="../2018/partner/home.html"
             width="100%" height="640" frameborder="2"
             allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
-    </iframe>
+    </object>
   </div>
 
 <div class="row">
@@ -35,6 +35,11 @@
 </div>
 
 </div><!-- end container -->
+
+
+
+
+
 
 
 <?php include "../footer.php"; ?>

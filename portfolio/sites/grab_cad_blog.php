@@ -35,9 +35,10 @@
       </ol>
     </div>
 
-  <div class="col-sm-6">Wordpress blog for GrabCAD, an online community of engineers, designers, manufacturers. </div>
+
 
   </div><!-- end carousel -->
+</div><!-- end row -->
 
   <div class="legend">
     <h2>PROJECT</h2>
@@ -48,8 +49,9 @@
       <li><strong>Theme:</strong> Unicon</li>
       <li><a href="https://www.grabcad.com/blog/" target="_blank">Live page</a></li>
     </ul>
+      <p>Wordpress blog for GrabCAD, an online community of engineers, designers, manufacturers. </p>
   </div>
 
 </div><!-- end container -->
-</div>
+
 <?php include "../footer.php"; ?>
