@@ -424,8 +424,33 @@ p.browsehappy {
 }
 
 .carousel-control {
-	width:0;
+
 	color:#1e1e1e;
+	font-size: 67px;
+	width: 50%;
+
+}
+
+.carousel-inner {
+	background:#4c4b4b;
+	color:#fff;
+	padding:20px;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background: none;
+}
+
+
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	left:0;
+
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev {
+	right:0;
+
 }
 
 .sunsetGradient {
