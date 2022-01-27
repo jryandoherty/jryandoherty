@@ -3,7 +3,7 @@
 <div class="container screenshot">
   <div class="row">
     <div class="col-md-4"></div>
-    <div class="col-md-4 col-md-offset-4 crumbs">
+    <div class="col-md-8 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
@@ -38,6 +38,7 @@
 
 
   </div><!-- end carousel -->
+</div><!-- end row -->
 
   <div class="legend">
     <h2>PROJECT</h2>
@@ -45,11 +46,8 @@
       <li><strong>Category:</strong> Conversion pages</li>
       <li><strong>Client:</strong> Business.com</li>
       <li><strong>Date:</strong> 2018</li>
-        <li><strong>Date:</strong> 2018</li>
-          <li><strong>Date:</strong> 2018</li>
     </ul>
   </div>
 
 </div><!-- end container -->
-</div>
 <?php include "../footer.php"; ?>

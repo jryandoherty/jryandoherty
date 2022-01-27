@@ -1,20 +1,18 @@
 <?php include "../header.php"; ?>
 
-<div class="container webpage">
+<div class="container webpage iframe">
   <div class="row">
     <div class="col-md-4"></div>
-    <div class="col-md-4 col-md-offset-4 crumbs">
+    <div class="col-md-8 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
 
   <div class="row">
-    <iframe src="../2016/hornet/skidsteer.html"
+    <object data="../2016/hornet/skidSteer.html"
             name="frame" width="100%" height="700" frameborder="2"
             allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
-    </iframe>
-  
-
+    </object>
 
     <div class="legend">
       <h2>PROJECT</h2>
@@ -25,6 +23,7 @@
         <p>Construction themed conversion page.</p>
       </ul>
     </div>
+
   </div>
 </div><!-- end container -->
 <?php include "../footer.php"; ?>

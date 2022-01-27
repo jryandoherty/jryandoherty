@@ -1,6 +1,6 @@
 <?php include "../header.php"; ?>
 
-<div class="container screenshot">
+<div class="container screenshot iframe">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-4 col-md-offset-4 crumbs">
@@ -48,9 +48,9 @@
 </div><!-- end container -->
 
 <div class="container" style="margin-top:25%">
-  <iframe src="../2015/fusion/index.html"
+  <object data="../2015/fusion/index.html"
           width="100%" height="700" frameborder="2"
           allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
-  </iframe>
+  </object>
  </div>
 <?php include "../footer.php"; ?>

@@ -3,7 +3,7 @@
 <div class="container screenshot">
   <div class="row">
     <div class="col-md-4"></div>
-    <div class="col-md-4 col-md-offset-4 crumbs">
+    <div class="col-md-8 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
@@ -23,13 +23,13 @@
       <ol class="carousel-indicators">
         <li data-target="#carousel-port" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-port" data-slide-to="1"></li>
-
       </ol>
     </div>
 
     <div class="col-md-4">Conversion page for residential shoppers.</div>
 
   </div><!-- end carousel -->
+  </div><!-- end row -->
 
   <div class="legend">
     <h2>PROJECT</h2>
@@ -40,6 +40,6 @@
     </ul>
   </div>
 
-</div><!-- end row -->
+
 </div><!-- end container -->
 <?php include "../footer.php"; ?>

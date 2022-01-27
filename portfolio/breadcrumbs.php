@@ -6,7 +6,7 @@ function breadcrumbs($separator = ' / ', $home = 'Home') {
     $path = array_filter(explode('/', parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)));
 
     // This will build our "base URL" ... Also accounts for HTTPS :)
-    $base = ($_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/portfolio/';
+    $base = ($_SERVER['HTTPS'] ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
 
     // Initialize a temporary array with our breadcrumbs. (starting with our home page, which I'm assuming will be the base URL)
     $breadcrumbs = Array("<a href=\"$base\">$home</a>");

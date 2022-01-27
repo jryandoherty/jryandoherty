@@ -1,20 +1,20 @@
 <?php include "../header.php"; ?>
 
-<div class="container webpage">
+<div class="container webpage iframe">
   <div class="row">
     <div class="col-md-4"></div>
-    <div class="col-md-4 col-md-offset-4 crumbs">
+    <div class="col-md-8 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
 
   <div class="row">
-    <iframe src="../2015/copernicus/copernicus.html"
+    <object data="../2015/copernicus/copernicus.html"
             width="100%" height="700" frameborder="2"
             allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
-    </iframe>
+    </object>
 
-  <div class="col-md-4">Conversion page for digital copier shoppers. </div>
+
 
     <div class="legend">
       <h2>PROJECT</h2>
@@ -23,6 +23,7 @@
         <li><strong>Client:</strong> Buyerzone.com</li>
         <li><strong>Date:</strong> 2015</li>
       </ul>
+      <p>Conversion page for digital copier shoppers. </p>
     </div>
   </div>
 </div><!-- end container -->

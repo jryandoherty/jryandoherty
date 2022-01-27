@@ -3,7 +3,7 @@
 <div class="container webpage">
   <div class="row">
     <div class="col-md-4"></div>
-    <div class="col-md-4 col-md-offset-4 crumbs">
+    <div class="col-md-8 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
@@ -30,9 +30,10 @@
         </ol>
       </div>
 
-    <div class="col-lg-12">Conversion pages for Buyerzone.com.</div>
+
 
     </div><!-- end carousel -->
+    </div><!-- end row -->
 
     <div class="legend">
       <h2>PROJECT</h2>
@@ -40,10 +41,11 @@
         <li><strong>Category:</strong> Conversion pages</li>
         <li><strong>Client:</strong> Buyerzone.com</li>
         <li><strong>Date:</strong> 2015</li>
+        <p>Conversion pages for Buyerzone.com.</p>
         https://www.buyerzone.com/office-equipment/digital-copiers/rfqt
       </ul>
     </div>
 
-  </div><!-- end rowr -->
+
 </div><!-- end container -->
 <?php include "../footer.php"; ?>
