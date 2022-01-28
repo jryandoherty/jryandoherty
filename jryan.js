@@ -141,7 +141,7 @@ $('.introText').delay(1200).queue(function() {
 
 // });
 
- // pause carousel on scroll/
+ // pause carousel on scroll
 
  $(window).scroll(function() {
  		$('#carousel-example-generic').each(function(){
