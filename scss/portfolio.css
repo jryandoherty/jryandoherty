@@ -383,7 +383,7 @@ input[type="checkbox"] {
 .crumbs {
   text-align: right;
   font-size: .95em;
-  padding: 0 0 12px 0; }
+  padding: 0 14px 12px 0; }
   @media (max-width: 768px) {
     .crumbs {
       font-size: .7521367521367521em;
@@ -395,7 +395,9 @@ nav {
   padding: 15px;
   background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1596136886/bg_brick_lfahqt.jpg") #333;
   border-radius: 0 !important;
-  color: #fcfcfc; }
+  box-shadow: 1px 2px 3px #824A14;
+  color: #fcfcfc;
+  margin-bottom: 2% !important; }
   nav h1 {
     margin: 0;
     font-size: 2.1em; }
@@ -453,6 +455,9 @@ nav {
 .mobile {
   max-width: 400px; }
 
+.email .row:nth-child(1) {
+  border-bottom: 1px solid #ccc; }
+
 .webpage {
   position: relative; }
   @media (max-width: 768px) {
@@ -465,12 +470,20 @@ nav {
     .webpage {
       width: 1480px; } }
 
+iframe, object {
+  box-shadow: 1px 2px 3px #824A14;
+  max-height: 768px; }
+
 .iframe {
   -ms-zoom: 0.85;
   -moz-transform: scale(0.85);
   -moz-transform-origin: top center;
   -webkit-transform: scale(0.85);
   -webkit-transform-origin: top center; }
+  .iframe .legend {
+    font-size: 110%; }
+  .iframe .crumbs {
+    font-size: 110%; }
 
 .screenshot {
   position: relative; }
@@ -497,12 +510,12 @@ nav {
   .legend h2 {
     font-size: 1.3em;
     font-family: 'Oswald', sans-serif;
-    margin-bottom: 12px;
-    margin: 0 auto; }
+    margin-bottom: 12px; }
   .legend ul {
     list-style-type: none;
     text-align: left;
-    margin: 10px 0 0 0; }
+    margin: 0;
+    padding: 0; }
   .legend p {
     margin: 10px 0 0 0; }
   .legend a {
@@ -539,13 +552,15 @@ nav {
     width: 150px;
     height: 100px;
     box-shadow: 1px 2px 3px #824A14; }
+    .thumbnail-webpage img:hover {
+      scale: 1.33;
+      transition: .5s; }
+  .thumbnail-webpage a:hover {
+    width: 1200px; }
   .thumbnail-webpage p {
     padding: 20px 0; }
   .thumbnail-webpage > * {
     flex: 1 1 140px; }
-
-iframe {
-  box-shadow: 1px 2px 3px #824A14; }
 
 .carousel-indicators {
   position: static;
@@ -599,7 +614,8 @@ p.browsehappy {
   padding: 50px 0 0 10px; }
 
 .divider {
-  width: 100%; }
+  width: 100%;
+  height: 4px; }
 
 /*.container {
 	margin:50px auto
@@ -637,14 +653,16 @@ p.browsehappy {
   .brick h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    padding-left: 105px;
+    padding-left: 108px;
     padding-bottom: 10px;
     /*border-bottom:1px solid $white;*/
-    letter-spacing: .17em;
-    line-height: .2; }
+    letter-spacing: .18em;
+    /*line-height: .2;*/
+    margin-top: -5px; }
     @media (max-width: 768px) {
       .brick h2 {
-        padding-left: 0; } }
+        padding-left: 35px;
+        font-size: .8em; } }
   .brick a {
     color: white;
     text-decoration: none; }
@@ -683,102 +701,46 @@ p.browsehappy {
 
 /* end brick section */
 .portfolio {
-  /*.btn {
-    top: 0;
-    left: 0;
-    transition: all .15s linear 0s;
-    position: relative;
-    display: inline-block;
-    padding: 15px 25px;
-    background-color: $yellow;
-  
-    text-transform: uppercase;
-    color: $brown;
-    font-family: arial;
-    letter-spacing: 1px;
-  
-    box-shadow: -6px 6px 0 $brown;
-    text-decoration: none;
-  
-  	margin-right:20px;
-  
-    &:hover {
-  		z-index: auto;
-      top: 3px;
-      left: -3px;
-      box-shadow: -3px 3px 0 $brown;
-  
-      &::after {
-        top: 1px;
-        left: -2px;
-        width: 4px;
-        height: 4px;
-      }
-  
-      &::before {
-        bottom: -2px;
-        right: 1px;
-        width: 4px;
-        height: 4px;
-      }
-    }
-  
-    &::after {
-      transition: all .15s linear 0s;
-      content: '';
-      position: absolute;
-      top: 2px;
-      left: -4px;
-      width: 8px;
-      height: 8px;
-      background-color: $brown;
-      transform: rotate(45deg);
-      z-index: -1;
-  
-    }
-  
-    &::before {
-      transition: all .15s linear 0s;
-      content: '';
-      position: absolute;
-      bottom: -4px;
-      right: 2px;
-      width: 8px;
-      height: 8px;
-      background-color: $brown;
-      transform: rotate(45deg);
-      z-index: -1;
-    }
-  }
-  
-  a.btn { position: relative; }
-  
-  a:active.btn {
-    top: 6px;
-    left: -6px;
-    box-shadow: none;
-  
-    &:before {
-      bottom: 1px;
-      right: 1px;
-    }
-  
-    &:after {
-      top: 1px;
-      left: 1px;
-    }
-  } */ }
+  /* [5] */ }
+  .portfolio .scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */ }
+    .portfolio .scroll::-webkit-scrollbar {
+      background: transparent;
+      /* Chrome/Safari/Webkit */
+      width: 0px; }
   .portfolio .btn-group {
     margin: 0 auto;
-    display: block; }
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    /* IE 10+ */ }
+  .portfolio .btn {
+    width: 16.66%;
+    text-transform: uppercase;
+    min-width: 120px; }
 
 /* end portfolio section */
 .thumbnails {
   text-align: center;
   padding: 5%; }
+  .thumbnails div {
+    display: block;
+    margin: 0 auto 40px; }
   .thumbnails h2 {
-    padding: 30px 17px;
-    font-size: 43px; }
+    padding: 0px 10px 3px 17px;
+    font-size: 32px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    display: inline; }
   .thumbnails a {
     width: 150px;
     height: auto;
@@ -825,7 +787,11 @@ p.browsehappy {
   .about-section img {
     width: 100%;
     max-width: 600px;
-    height: auto; }
+    height: auto;
+    margin: 0 auto;
+    display: block; }
+  .about-section .bio {
+    padding: 5% 0; }
   .about-section div:nth-child(2) {
     background-size: 600px; }
 
@@ -841,7 +807,7 @@ footer {
   /*background-size:1200px;*/
   padding: 5% 0;
   color: #fcfcfc;
-  margin-top: 200px;
+  margin-top: 2%;
   overflow: hidden; }
   footer nav {
     background: none;
