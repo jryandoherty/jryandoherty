@@ -12,29 +12,21 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-
-            <div class="col-lg-12">
-
-              <picture>
-                 <source srcset="/portfolio/2015/homepage/image-1.webp"  type="image/webp" >
-                 <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/bzhome2015_bjatis.jpg"   type="image/jpeg"   alt="test">
-              </picture>
-
-
-
-            </div>
-
-        </div>
-        <div class="item">
-
           <div class="col-lg-12">
             <picture>
                <source srcset="/portfolio/2015/homepage/image-1.webp"  type="image/webp" >
-               <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/bzhome2015_bjatis.jpg"   type="image/jpeg"   alt="test">
+               <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/bzhome2015_bjatis.jpg" type="image/jpeg" alt="image-1">
             </picture>
-            <img src="/portfolio/2015/homepage/image-2.jpg" alt="image 2">
           </div>
+        </div>
 
+        <div class="item">
+          <div class="col-lg-12">
+            <picture>
+               <source srcset="/portfolio/2015/homepage/image-2.webp"  type="image/webp" >
+               <img src="/portfolio/2015/homepage/image-2.jpg" type="image/jpeg" alt="image 2">
+            </picture>
+          </div>
         </div>
 
         <div class="item">
@@ -57,9 +49,7 @@
         </ol>
       </div>
 
-
     </div><!-- end carousel -->
-
 
   </div><!-- end row -->
 

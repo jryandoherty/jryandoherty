@@ -554,6 +554,7 @@ iframe, object {
 }
 .iframe .crumbs {
   font-size: 100%;
+  padding-right: 0 !important;
 }
 
 .screenshot {

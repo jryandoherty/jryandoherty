@@ -30,10 +30,6 @@
     <div class="col-lg-6 intro">
         <h1>j. ryan doherty</h1>
         <h2>designer & developer</h2>
-        <picture>
-           <source srcset="portfolio/thumbnails/bzhome2015.webp"  type="image/webp" >
-           <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/bzhome2015_bjatis.jpg"   type="image/jpeg"   alt="test">
-        </picture>
     </div>
 
     <div class="col-lg-6">
@@ -53,8 +49,12 @@
  When I'm not designing or writing code, you can find me out <a href="https://en.wikipedia.org/wiki/Birdwatching" target="_blank">birding</a> or playing guitar.
     </div>
 
-  <div class="col-lg-6" >
-    <img src="/img/portrait.jpg" alt="me">
+  <div class="col-lg-6">
+    <picture>
+       <source srcset="/img/portrait.webp" type="image/webp" >
+       <img src="/img/portrait.jpg" type="image/jpeg" alt="me">
+    </picture>
+
   </div>
 
   </div><!-- end container -->

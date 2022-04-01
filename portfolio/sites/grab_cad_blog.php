@@ -9,7 +9,7 @@
   </div> <!--end breadcrumb row -->
 
 <div class="row">
-    <object data="https://www.grabcad.com/blog/"></object>
+    <object data="https://www.grabcad.com/blog/" type=""></object>
 </div><!-- end row -->
 
   <div class="legend">
