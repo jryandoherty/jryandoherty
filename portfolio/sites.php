@@ -10,9 +10,6 @@
         <a href="/portfolio/sites/roger_buttles.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/roger_yhrdix.jpg" alt="Roger Buttles" ></a>
         <a href="/portfolio/sites/cryptids.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/cryptids_qhtzj3.jpg" alt="Cryptids" ></a>
         <a href="/portfolio/sites/bdc_community.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573008/thumbs_sites/bdc_community_vrusch.jpg" alt="Business.com Community" ></a>
-
-
-
         <a href="/portfolio/sites/buyerzone_home_2015.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/bzhome2015_bjatis.jpg" alt="Buyerzone Home" ></a>
         <a href="/portfolio/sites/buyerzone_home_2013.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573017/thumbs_sites/bzhome2013_fa3qrx.jpg" alt="Buyerzone Home" ></a>
 
