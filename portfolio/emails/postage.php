@@ -1,29 +1,27 @@
 <?php include "../header.php"; ?>
 
-<div class="container">
+<div class="container email">
 
   <div class="row">
     <div class="col-md-4"></div>
-    <div class="col-md-4 col-md-offset-4 crumbs">
+    <div class="col-md-8 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
 
 <div class="container">
   <div class="col-lg-8 desktop">
+    <object data="/portfolio/2016/emails/apr/apr_12.html"
+            width="100%" height="500">
+    </object>
     <p>Desktop layout</p>
-    <iframe src="/portfolio/2016/emails/apr/apr_12.html"
-            width="100%" height="500" frameborder="0"
-            allowfullscreen sandbox>
-    </iframe>
   </div>
 
   <div class="col-lg-4 mobile">
-      <p>Mobile layout</p>
-    <iframe src="/portfolio/2016/emails/apr/apr_12.html"
-            width="100%" height="500" frameborder="0"
-            allowfullscreen sandbox>
-    </iframe>
+    <object data="/portfolio/2016/emails/apr/apr_12.html"
+            width="100%" height="500">
+    </object>
+    <p>Mobile layout</p>
   </div>
 </div>
 </div><!-- end container -->

@@ -26,7 +26,7 @@ $('a[href^="#"]').click(function(){
 
 
 /* 2.)
-// Smooth scroll/
+// focus /
 */
 
 $('.workLink').click(function(){

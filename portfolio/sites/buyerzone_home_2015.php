@@ -13,12 +13,27 @@
       <div class="carousel-inner" role="listbox">
         <div class="item active">
 
-            <div class="col-lg-12"><img src="/portfolio/2015/homepage/image-1.jpg" alt="image 1"></div>
+            <div class="col-lg-12">
+
+              <picture>
+                 <source srcset="/portfolio/2015/homepage/image-1.webp"  type="image/webp" >
+                 <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/bzhome2015_bjatis.jpg"   type="image/jpeg"   alt="test">
+              </picture>
+
+
+
+            </div>
 
         </div>
         <div class="item">
 
-          <div class="col-lg-12"><img src="/portfolio/2015/homepage/image-2.jpg" alt="image 2"></div>
+          <div class="col-lg-12">
+            <picture>
+               <source srcset="/portfolio/2015/homepage/image-1.webp"  type="image/webp" >
+               <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/bzhome2015_bjatis.jpg"   type="image/jpeg"   alt="test">
+            </picture>
+            <img src="/portfolio/2015/homepage/image-2.jpg" alt="image 2">
+          </div>
 
         </div>
 
@@ -46,17 +61,15 @@
     </div><!-- end carousel -->
 
 
-
   </div><!-- end row -->
 
   <div class="legend">
     <h2>PROJECT</h2>
     <ul>
-      <li><strong>Category:</strong> Sites & Mini-sites</li>
       <li><strong>Client:</strong> Buyerzone.com</li>
       <li><strong>Date:</strong> September 2015</li>
       <li><strong>Platform:</strong> FreeMarker/Java</li>
-      <li><a href="https://www.buyerzone.com/" target="_blank">Live page</a></li>
+      <li><a href="https://www.buyerzone.com/" target="_blank">Full site</a></li>
     </ul>
   </div>
 

@@ -1640,12 +1640,15 @@ span.build {
   .menuContainer {
     position: absolute;
     top: 0;
-    right: 10px;
     float: none
   }
 
   .navbar-nav {
     padding-bottom: 45px
+  }
+
+  .logo img {
+    position: static;
   }
 
   .logo img {

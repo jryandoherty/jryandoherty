@@ -6,7 +6,7 @@
 
 input[type="text"], input[type="tel"], textarea, select {
 
-		font-family: 'Titillium Web';
+		font-family:  titillium-web, sans-serif;
 
 }
 
@@ -59,7 +59,7 @@ ul.rightForm li {
 
 .interest {
 	margin-left:20px;
-	font-family: 'Titillium Web';
+	font-family:  titillium-web, sans-serif;
 
 }
 

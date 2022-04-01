@@ -1,25 +1,22 @@
 <div id="contactme" class="contactme">
  	<div class="container">
     <div class="row">
-    <div class="col-md-6 intro">
-        <h2>Get in touch</h2>
-
+      <div class="col-md-12">
+          <h2>Get in touch</h2>
+      </div>
     </div>
+<form method="post" id="reused_form">
+<div class="row">
 
-</div>
-<form role="form" method="post" id="reused_form">
-  <div class="row">
-
-
-<div class="col-md-5 col-md-offset-3  form-group">
-
+<div class="col-md-5 col-offset-2 form-group">
 
   <div class="form-group">
       <label for="message">
           Message:</label>
       <textarea class="form-control" id="message" name="message" placeholder="" maxlength="6000" rows="7"></textarea>
   </div>
-
+</div>
+<div class="col-md-5 col-md-offset-1 form-group">
     <div class="form-group">
         <label for="name">
             Name:</label>
@@ -42,27 +39,23 @@
         <input type="tel" class="form-control" id="phone" name="phone" maxlength="50">
     </div>
 
-    <div class="col-sm-5  form-group">
+    <div class="form-group">
         <button type="submit" class="btn btn-lg btn-block" id="btnContactUs">Send</button>
     </div>
 
+  </div><!-- end from group -->
 
-                </div>
+</div><!-- end row -->
 
+</form>
 
-
-
-            </div>
-
-        </form>
-
-        <div id="success_message" style="width:100%; height:100%; display:none;">
-            <h3>Thanks for your message!</h3>
-            <p>I'll get back to you via email, and can always be reached at <a href="mailto:contact@jryandoherty.com">contact@jryandoherty.com</a></p>
-        </div>
-        <div id="error_message" style="width:100%; height:100%; display:none;">
-            <h3>Error</h3>
-            Sorry there was an error sending your form.
-        </div>
+<div id="success_message" style="width:100%; height:100%; display:none;">
+    <h3>Thanks for your message!</h3>
+    <p>I'll get back to you as soon as possible.</p>
+</div>
+<div id="error_message" style="width:100%; height:100%; display:none;">
+    <h3>Error</h3>
+    Sorry there was an error sending your form.
+</div>
     </div> <!-- /.container -->
 </div> <!-- end contact section -->

@@ -97,7 +97,7 @@ $('.branding').delay(2100).queue(function() {
 
 // animate slogan on page load
 
-$('.introText').delay(1200).queue(function() {
+$('.intro').delay(1200).queue(function() {
                           $(this).addClass("scale-in-ver-bottom");
                           $(this).dequeue();
                       });
@@ -123,13 +123,17 @@ $('.introText').delay(1200).queue(function() {
  // Smooth scroll/
 
 
-   $('a[href^="#"]').click(function(){
+   $('a[href^="/"]').click(function(){
          var that = this;
          $('html, body').animate({
                  scrollTop: $( $(that).attr('href') ).offset().top
          }, 400);
          return false;
    });
+
+
+
+
 
 
 
@@ -159,9 +163,45 @@ $('.introText').delay(1200).queue(function() {
 
 
 
+  $('#myTabs a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+    $(this).addClass('active').siblings().removeClass("active");
+  })
+
+// enable link to tab
+  var hash = location.hash.replace(/^#/, '');  // ^ means starting, meaning only match the first hash
+  if (hash) {
+      $('.nav-tabs a[href="#' + hash + '"]').tab('show').addClass('active').siblings().removeClass("active");
+  }
+
+ //Change hash for page-reload
+ //$('.nav-tabs a').on('shown.bs.tab', function (e) {
+  // window.location.hash = e.target.hash;
+//  })
 
 
+// swipe carousel on mobile
+$('.carousel').on('touchstart', function(event){
+    const xClick = event.originalEvent.touches[0].pageX;
+    $(this).one('touchmove', function(event){
+        const xMove = event.originalEvent.touches[0].pageX;
+        const sensitivityInPx = 5;
 
+        if( Math.floor(xClick - xMove) > sensitivityInPx ){
+            $(this).carousel('next');
+        }
+        else if( Math.floor(xClick - xMove) < -sensitivityInPx ){
+            $(this).carousel('prev');
+        }
+    });
+    $(this).on('touchend', function(){
+        $(this).off('touchmove');
+    });
+});
+
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
 // lazy loader

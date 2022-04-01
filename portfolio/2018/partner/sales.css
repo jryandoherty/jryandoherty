@@ -152,7 +152,6 @@ img {
 	margin-top:40px;
 	margin-bottom:30px;
 	border-bottom:1px solid #333;
-
 }
 
 
@@ -163,7 +162,6 @@ img {
 	top:30%;
 	right:10%;
 	text-align:center;
-
 }
 
 .ctaText{
@@ -253,14 +251,12 @@ img {
 	display:block;
 	width:1170px;
 	margin:0 auto;
-
 }
 
 .containerFlex {
 	display:flex;
 	width:1170px;
 	margin:0 auto;
-
 }
 
 
@@ -268,7 +264,6 @@ h1, h2, h3, h4 {
 	font-family: abril-text, serif;
 	color:#020101;
 	margin:0;
-
 }
 
 .header-large {
@@ -280,13 +275,11 @@ h1, h2, h3, h4 {
 .header-medium {
 	font-size:48px;
 	font-weight: 700;
-	/*line-height: 40px;*/
 	margin-bottom:10px;
 }
 
 .header-small {
 	font-size:36px;
-	/*line-height: 30px;*/
 	font-weight: 700;
 }
 
@@ -393,7 +386,6 @@ h1, h2, h3, h4 {
 
 .marketing div:nth-child(2) {
 	display:inline-block;
-
 }
 
 .marketing h3 {
@@ -471,7 +463,6 @@ h1, h2, h3, h4 {
 	background:#fff;
 	padding:40px;
 	display:inline-block;
-
 }
 
 .boxes h4 {
@@ -508,7 +499,6 @@ h1, h2, h3, h4 {
 }
 
 
-
 /* logos css */
 
 .logos {
@@ -527,7 +517,6 @@ h1, h2, h3, h4 {
 	width:150px;
 	height:50px;
 	margin: 14px;
-
 }
 
 .atlas-logo{
@@ -592,7 +581,6 @@ h1, h2, h3, h4 {
 	padding:40px 0;
 	color:#fff;
 	font-size:17px;
-
 }
 
 .lets-talk h3 {
@@ -605,17 +593,12 @@ h1, h2, h3, h4 {
 
 .marketingTalk {
 	background:linear-gradient(to bottom right,#f89a05,#ffb944,#ffd997) ;
-
 }
 
 
 .advertisingTalk {
 	background:linear-gradient(to bottom right,#e85a26,#cc4616,#9f320a) ;
-
 }
-
-
-
 
 
 /* product section */
@@ -643,7 +626,7 @@ h1, h2, h3, h4 {
 
 .productTitle {
 	font-size:36px;
-	font-family: 'Titillium Web';
+	font-family:  titillium-web, sans-serif;
 }
 
 .productHow {
@@ -780,7 +763,6 @@ footer {
 		width:100%;
 		padding-left:0;
 		padding-right:0;
-
 	}
 
 	.marketing {
@@ -803,8 +785,6 @@ footer {
 		font-size: 19px;
 		padding-right:0;
 	}
-
-
 
 	.boxes-container {
 		margin-right:0;

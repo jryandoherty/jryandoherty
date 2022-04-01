@@ -1,15 +1,9 @@
-<section class="thumbnails" id="emails">
-  <div>
+<section class="thumbnails tab-pane fade" id="emails" role="tabpanel">
     <h2>Emails</h2>
-  </div>
-    <a href="/portfolio/emails/cloud.php"><img src="/portfolio/2016/emails/may/doc_management2.jpg" alt="" ></a>
-    <a href="/portfolio/emails/trucks.php"><img src="/portfolio/2016/emails/may/box_trucks2.jpg" alt="" ></a>
-    <a href="/portfolio/emails/postage.php"><img src="/portfolio/2016/emails/apr/postage.jpg" alt="" ></a>
-    <a href="/portfolio/emails/bdc.php"><img src="/portfolio/thumbnails/bdc_email.png" alt="" ></a>
-    <a href="/portfolio/emails/surveillance.php"><img src="/portfolio/thumbnails/surveillance.png" alt="" ></a>
-    <a href="/portfolio/emails/postage.php"><img src="/portfolio/2016/emails/may/bucket.jpg" alt="" ></a>
-
-    <a href="conversion/bdc_price_quotes.php"><img src="/portfolio/2015/emails/apr/outbound_telemarketing.jpg" alt="" ></a>
-    <a href="conversion/bdc_price_quotes.php"><img src="/portfolio/2015/emails/apr/mini_excavator.jpg" alt="" ></a>
-
+    <a href="/portfolio/emails/cloud.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573426/thumbs_email/doc_management2_ud8uee.jpg" alt="email-1" ></a>
+    <a href="/portfolio/emails/bucket.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573426/thumbs_email/bucket_q5jlbq.jpg" alt="email-2" ></a>
+    <a href="/portfolio/emails/trucks.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573397/thumbs_email/box_trucks2_c9bife.jpg" alt="email-3" ></a>
+    <a href="/portfolio/emails/postage.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573469/thumbs_email/postage_jwsdhr.jpg" alt="email-4" ></a>
+    <a href="/portfolio/emails/bdc.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573319/thumbs_email/bdc_email_sdbc5l.png" alt="email-5" ></a>
+    <a href="/portfolio/emails/office_cubicles.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573519/thumbs_email/office-cubes_tdceiy.jpg" alt="email-6" ></a>
 </section>

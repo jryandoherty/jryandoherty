@@ -1,6 +1,6 @@
 <?php include "../header.php"; ?>
 
-<div class="container webpage">
+<div class="container screenshot">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
@@ -41,8 +41,9 @@
         <li><strong>Category:</strong> Conversion pages</li>
         <li><strong>Client:</strong> Buyerzone.com</li>
         <li><strong>Date:</strong> 2015</li>
+        <li><a href="https://www.buyerzone.com/office-equipment/digital-copiers/rfqt">Archive Page</a></li>
         <p>Conversion pages for Buyerzone.com.</p>
-        https://www.buyerzone.com/office-equipment/digital-copiers/rfqt
+
       </ul>
     </div>
 

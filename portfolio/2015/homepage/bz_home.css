@@ -1,0 +1,937 @@
+
+/* Created by J. Ryan Doherty September 2015 */
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+p.browsehappy {
+  padding: 10px 0 0 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+h2,
+h3,
+h4 {
+  font-size: 48px;
+}
+
+h3,
+h4 {
+  font-size: 34px;
+  margin: 14px 0;
+}
+
+h2 span,
+h3 span,
+h4 span {
+  font-size: 55px;
+  margin-top: -10px;
+}
+
+nav {
+  margin-top: 70px;
+}
+
+nav li {
+  margin-left: 24px;
+}
+
+.navbar-nav a.textlink {
+  color: #fff;
+  font-size: 17px;
+  padding-top: 5px;
+  display: block;
+}
+
+.navbar-nav a.textlink:hover {
+  color: #FBD157 !important;
+}
+
+.bg-img {
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  background: linear-gradient(to bottom right, #607C9D, #464646, #636363, #0060CE), url("https://cdn.buyerzone.com/images/home/home-hero.jpg") center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+
+}
+.bg-img #circle {
+  transition: 1s;
+}
+.bg-img svg:hover #circle {
+  fill: rgba(63, 145, 236, 0.9);
+}
+
+.ie8 .bg-img,
+.ie9 .bg-img {
+  background: url("https://cdn.buyerzone.com/images/home/new_home_ie.jpg") center center no-repeat;
+}
+
+.searchContainer {
+  /*top: 32%;*/
+  max-width: 960px;
+  width: 40%;
+  /*height: 360px;*/
+  margin: 60px auto;
+  text-align: center;
+}
+.searchContainer h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 100;
+  margin-bottom: 16px;
+}
+.searchContainer p {
+  margin-bottom: 40px;
+}
+.searchContainer a {
+  color: #a6d0ff;
+}
+
+input.searchBox {
+  width: 480px;
+  font-size: 35px !important;
+  padding: 8px 8px 8px 15px;
+  color: #464646;
+  background: rgba(249, 247, 245, 0.7);
+  border-bottom-left-radius: 4px;
+  border-right: medium none;
+  border-top-left-radius: 4px;
+  border: none;
+  margin-right: -10px;
+}
+
+#searchButton {
+  height: 66px;
+  width: 115px;
+  margin-top: -15px;
+  font-size: 21px;
+  background: #f49445;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #searchButton {
+    margin-top: -16px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #searchButton {
+    margin-top: -24px;
+    height: 58px;
+  }
+}
+.ie9 #searchButton {
+  margin-top: -25px;
+  height: 57px;
+}
+
+.learn-more {
+  bottom: 60px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: #fff;
+}
+.learn-more:hover {
+  text-decoration: none;
+  color: #3F91EC;
+}
+.learn-more span {
+  font-family: "ralewayregular", sans-serif;
+  font-size: 17px;
+}
+
+/* About section */
+#aboutSection {
+  width: 100%;
+  background: #f9f7f5;
+  padding: 48px 0;
+  font-size: 23px;
+}
+#aboutSection h2 {
+  font-size: 55px;
+}
+#aboutSection h3,
+#aboutSection h4 {
+  color: #F49445;
+  font-size: 24px;
+}
+#aboutSection p {
+  font-size: 18px;
+  padding: 0 36px;
+}
+#aboutSection iframe {
+  border: 2px solid #ccc;
+  display: block;
+  margin: 0 auto;
+}
+#aboutSection .row {
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+#aboutSection .how_banner {
+  width: 100%;
+}
+#aboutSection .aboutVideo {
+  text-align: center;
+}
+#aboutSection .aboutVideo p {
+  color: #163353;
+  font-size: 24px;
+}
+#aboutSection .col-lg-3,
+#aboutSection .col-lg-4 {
+  text-align: center;
+  padding-top: 42px;
+}
+
+#aboutSection .howit {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  max-width: 90%;
+}
+#aboutSection .howit img {
+  max-width: 100%;
+  height: auto;
+}
+#aboutSection .howit h2 {
+  text-align: center;
+}
+#aboutSection .howit p {
+  margin-top: 30px;
+}
+
+#aboutSection .quote {
+  float: none;
+  margin: 0 auto;
+}
+
+.quote .attribution {
+  float: right;
+  clear: both;
+  font-weight: bold;
+}
+
+/* Purchases section */
+#purchases {
+  width: 100%;
+  color: #fff;
+  background: #565962;
+}
+
+#purchases h2 {
+  color: #fff;
+  margin-top: 10%;
+  font-size: 46px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+#purchases .row div ul {
+  margin: 20px 0 0 -15px;
+  padding: 0;
+  list-style-type: none;
+}
+
+#purchases li a {
+  color: #84BFFF;
+  font-size: 21px;
+  padding: 12px 12px 12px 0;
+  border: none;
+  -o-transition: color 0.2s ease-out, border 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out, border 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out, border 0.2s ease-out;
+  -webkit-transition: color 0.2s ease-out, border 0.2s ease-out;
+  /* ...and now override with proper CSS property */
+  transition: color 0.2s ease-out, border 0.2s ease-out;
+}
+
+#purchases .row div ul li {
+  margin: 20px;
+}
+
+#purchases li a:hover {
+  color: #fff;
+  border: 4px solid #fff;
+  background-color: rgba(63, 145, 236, 0.8);
+}
+
+.view {
+  width: 280px;
+  height: 400px;
+  margin: 10px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+}
+
+.view .content,
+.view .mask {
+  width: 280px;
+  height: 400px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.view img {
+  display: block;
+  position: relative;
+}
+
+.view h3 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 28px;
+  padding: 10px;
+  margin: 60px 0 0;
+}
+
+.view p {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 15px;
+  position: relative;
+  color: #fff;
+  padding: 10px 20px 20px;
+  text-align: center;
+}
+
+.view a.info {
+  position: absolute;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #F49445;
+  color: #fff;
+  text-transform: uppercase;
+  bottom: 0;
+  font-size: 21px;
+  width: 100%;
+  text-align: center;
+}
+
+.view a.info:active,
+.view a.info:focus,
+.view a.info:hover {
+  background: #ff7300;
+}
+
+.view-first img {
+  transition: all 0.2s linear;
+}
+
+.view-first .mask {
+  opacity: 0;
+  background-color: rgba(63, 145, 236, 0.8);
+  transition: all 0.4s ease-in-out;
+}
+
+.view-first h3 {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.view-first p {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.view-first a.info {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.view-first:hover img {
+  transform: scale(1.1);
+}
+
+.view-first:hover .mask {
+  opacity: 1;
+}
+
+.view-first:hover a.info,
+.view-first:hover h3,
+.view-first:hover p {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.view-first:hover p {
+  transition-delay: 0.1s;
+}
+
+.view-first:hover a.info {
+  transition-delay: 0.2s;
+}
+
+.touchevents .view-first .mask,
+.touchevents .view-first a.info,
+.touchevents .view-first h3,
+.touchevents .view-first p {
+  opacity: 1;
+  transform: none;
+  font-weight: 400;
+}
+
+#purchases .seeAll {
+  margin: 100px auto;
+}
+
+#purchases .seeAll a {
+  display: block;
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+  padding: 19px 15px;
+  color: #fff;
+  border: 4px solid #fff;
+  background: rgba(63, 145, 236, 0.4);
+  o-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -ms-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -moz-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -webkit-transition: color 0.2s ease-out, background 0.5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition: color 0.2s ease-out, background 0.5s ease-out;
+}
+
+#purchases .seeAll a:hover {
+  background: rgba(63, 145, 236, 0.9);
+  text-decoration: none;
+}
+
+/* about section */
+#aboutUs {
+  background: url("https://cdn.buyerzone.com/images/home/home_about.jpg");
+  background-size: cover;
+  color: white;
+  padding: 100px 50px;
+  height: 100%;
+  position: relative;
+}
+#aboutUs p {
+  padding: 30px;
+  font-size: 20px;
+  text-align: left;
+}
+#aboutUs .col-sm-4 {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+#aboutUs .col-sm-4 p {
+  font-size: 21px;
+}
+#aboutUs h2 {
+  font-size: 42px;
+  margin: 0;
+}
+#aboutUs .title-container {
+  top: 24%;
+  right: 3%;
+  width: 40%;
+  text-align: center;
+  color: #fff;
+}
+#aboutUs a {
+  display: block;
+  margin: 30px auto;
+  padding: 19px 15px;
+  color: #fff;
+  border: 4px solid #fff;
+  width: 60%;
+  font-size: 24px;
+  background: rgba(63, 145, 236, 0.4);
+  o-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -ms-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -moz-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -webkit-transition: color 0.2s ease-out, background 0.5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition: color 0.2s ease-out, background 0.5s ease-out;
+}
+#aboutUs a.active,
+#aboutUs a:active,
+#aboutUs a:focus,
+#aboutUs a:hover {
+  background: rgba(63, 145, 236, 0.9);
+  text-decoration: none;
+}
+
+/* residential section */
+#residential {
+  background: url("https://cdn.buyerzone.com/images/home/residential.jpg") #FCB15F;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+#residential p {
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+#residential h1 {
+  font-size: 55px;
+}
+#residential h2,
+#residential h3,
+#residential h4 {
+  font-family: "ralewayregular", sans-serif;
+}
+#residential .text-bottom {
+  z-index: 1000;
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+#residential a {
+  display: block;
+  margin: 30px auto;
+  padding: 19px 15px;
+  color: #fff;
+  border: 4px solid #fff;
+  width: 35%;
+  font-size: 24px;
+  font-family: "ralewayregular", sans-serif;
+  background: rgba(22, 51, 83, 0.4);
+  o-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -ms-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -moz-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -webkit-transition: color 0.2s ease-out, background 0.5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition: color 0.2s ease-out, background 0.5s ease-out;
+}
+#residential a.active,
+#residential a:active,
+#residential a:focus,
+#residential a:hover {
+  background: rgba(63, 145, 236, 0.9);
+  text-decoration: none;
+}
+
+/* work section */
+#workSection {
+  background: #f49445;
+  padding: 100px 0;
+  text-align: center;
+}
+#workSection .dartboard {
+  margin: 0 auto;
+  display: block;
+}
+#workSection .logos {
+  margin: 0 auto;
+  display: block;
+  width: 838px;
+  max-width: 95%;
+  height: auto;
+}
+#workSection h2 {
+  font-size: 50px;
+  font-family: "ralewaythin", sans-serif;
+  color: #fff;
+  margin-bottom: 0;
+}
+#workSection p {
+  /*margin:0 0 100px 312px;
+  	width:525px;
+  	padding:30px;*/
+  font-size: 21px;
+  margin-top: 10px;
+  padding: 0 105px;
+}
+#workSection a {
+  display: block;
+  margin: 30px auto;
+  padding: 19px 15px;
+  color: #fff;
+  border: 4px solid #fff;
+  width: 250px;
+  font-size: 24px;
+  background: rgba(221, 152, 51, 0.4);
+  o-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -ms-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -moz-transition: color 0.2s ease-out, background 0.5s ease-out;
+  -webkit-transition: color 0.2s ease-out, background 0.5s ease-out;
+  /* ...and now override with proper CSS property */
+  transition: color 0.2s ease-out, background 0.5s ease-out;
+}
+#workSection a:hover {
+  background: rgba(250, 191, 58, 0.9);
+  text-decoration: none;
+}
+
+/* auto complete styles */
+.autocomplete-suggestion strong {
+  font-family: "ralewayregular", sans-serif;
+  font-weight: bolder;
+}
+
+.autocomplete-suggestions {
+  background: #464646;
+  border: 1px solid #E9E2D7;
+  overflow: auto;
+  padding: 20px;
+  color: #faebd7;
+}
+.autocomplete-suggestions .autocomplete-suggestion {
+  font-size: 0.8125em;
+  line-height: 1.1282051282;
+  padding: 4px 10px;
+}
+.autocomplete-suggestions .autocomplete-suggestion.autocomplete-selected, .autocomplete-suggestions .autocomplete-suggestion:active, .autocomplete-suggestions .autocomplete-suggestion:focus, .autocomplete-suggestions .autocomplete-suggestion:hover {
+  background: #9ADFFF;
+  cursor: pointer;
+  color: #1e1e1e;
+}
+
+.ui-autocomplete {
+  border: 4px solid #CCCCCC;
+  margin-right: 2px;
+  max-height: 210px;
+  overflow: auto;
+  width: 175px;
+  background: #FFF;
+  list-style: none;
+  padding: 0;
+}
+
+.ui-autocomplete li {
+  margin: 1em 0.25em;
+  line-height: 1.25em;
+}
+
+.ui-helper-hidden-accessible {
+  display: none;
+}
+
+.btn-small {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-top: 0;
+  border: none;
+  background: #3f91ec;
+  padding: 4px 8px;
+  -o-transition: background 0.2s ease-in;
+  -ms-transition: background 0.2s ease-in;
+  -moz-transition: background 0.2s ease-in;
+  -webkit-transition: background 0.2s ease-in;
+  /* ...and now override with proper CSS property */
+  transition: background 0.8s ease-in;
+}
+
+.btn-small:hover {
+  background: #3f91ec;
+}
+
+.ie btn-small {
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .searchContainer {
+    top: 22%;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 36px;
+  }
+
+  h1 span {
+    font-size: 50px;
+  }
+
+  #mainMessage {
+    height: 422px;
+    padding-top: 14px;
+  }
+
+  .navbar button {
+    font-size: 12px;
+  }
+
+  #aboutSection .col-sm-4 {
+    font-size: 21px;
+  }
+
+  #aboutUs .title-container {
+    width: 50%;
+  }
+}
+@media (max-height: 668px) {
+  .learn-more {
+    visibility: hidden;
+  }
+}
+@media (max-width: 992px) {
+  body {
+    background-position: center 122px;
+    background-size: 1350px 452px;
+  }
+
+  #aboutUs {
+    height: auto;
+  }
+
+  #aboutUs .title-container {
+    width: 90%;
+  }
+
+  #aboutUs .col-sm-4 {
+    position: static;
+    float: none;
+    width: 90%;
+  }
+
+  #forHome .col-sm-4 a,
+#purchases .col-sm-4 a {
+    min-height: 246px;
+    text-align: center;
+  }
+
+  #forHome .col-sm-4 span,
+#purchases .col-sm-4 span {
+    clear: left;
+    float: left;
+  }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */
+  #purchases .row:nth-child(2) {
+    padding-left: 12%;
+  }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+  #purchases .row:nth-child(2) {
+    padding-left: 4%;
+  }
+}
+@media (max-width: 767px) {
+  .aboutVideo {
+    display: none;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .searchContainer {
+    width: 80%;
+    min-width: 0;
+    top: 15%;
+    overflow: visible;
+  }
+
+  input.searchBox {
+    width: 70%;
+  }
+
+  input.searchButton {
+    width: 20%;
+  }
+
+  .col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-sm-7 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .btn-custom,
+.btn-custom2 {
+    margin: 0;
+    border-radius: 0;
+    font-size: 18px;
+  }
+
+  #purchases {
+    padding: 14px 0 0;
+  }
+
+  #purchases .col-lg-5 {
+    width: 100%;
+  }
+
+  #aboutUs {
+    padding: 38px 20px;
+    height: auto;
+  }
+
+  #aboutUs h2 {
+    font-size: 28px;
+  }
+
+  #aboutUs .title-container {
+    width: auto;
+  }
+
+  #aboutUs p {
+    padding: 8px;
+    font-size: 15px;
+  }
+
+  #aboutUs a {
+    width: 85%;
+  }
+
+  #aboutUs .col-sm-4 {
+    position: static;
+    float: none;
+  }
+
+  #residential h2 {
+    font-size: 26px;
+  }
+
+  #residential h4 {
+    font-size: 20px;
+  }
+
+  #residential a {
+    width: 85%;
+  }
+
+  #residential .text-bottom {
+    width: 95%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .altproduct {
+    display: none;
+  }
+
+  .view {
+    float: none;
+    margin: 20px auto;
+  }
+
+  .view-first .mask {
+    opacity: 1;
+    background-color: rgba(63, 145, 236, 0.8);
+  }
+
+  .view-first a.info,
+.view-first h3,
+.view-first p {
+    transform: none;
+    opacity: 1;
+  }
+
+  #purchases .seeAll a {
+    width: 85%;
+  }
+}
+/*@media (max-width: 736px) and (orientation : landscape) {
+	.searchContainer h1 {
+		font-size: 24px;
+	}
+
+	.searchContainer p {
+		margin-bottom: 20px;
+	}
+
+	.learn-more {
+		display: none;
+	}
+
+
+	#residential .text-bottom h2,
+	#residential .text-bottom h4 {
+		background: rgba(22,51,83,.8);
+		display: inline-block;
+		margin: 0;
+		padding: 12px;
+	}
+}*/
+@media (max-width: 500px) {
+  .searchContainer {
+    top: 12%;
+  }
+
+  .searchContainer p {
+    margin-bottom: 25px;
+    font-size: 13px;
+    font-family: "ralewayregular", sans-serif;
+  }
+
+  .searchContainer h1 {
+    font-size: 24px;
+    font-family: "ralewayregular", sans-serif;
+  }
+
+  input.searchBox {
+    margin-right: 0;
+    width: 100%;
+    border-radius: 0;
+    font-size: 16px !important;
+  }
+
+  .btn-small {
+    width: 100% !important;
+    margin-top: 0 !important;
+    border-radius: 0;
+    height: 40px !important;
+    font-size: 19px !important;
+  }
+
+  .learn-more {
+    bottom: 11px;
+    width: 70px;
+    visibility: visible;
+  }
+
+  .learn-more span {
+    font-size: 13px;
+  }
+
+  #residential .text-bottom h2,
+#residential .text-bottom h4 {
+    background: rgba(22, 51, 83, 0.8);
+    display: inline-block;
+    margin: 0;
+    padding: 12px;
+  }
+
+  #workSection p {
+    padding: 0 20px;
+  }
+}
+
+/*# sourceMappingURL=bz_home.css.map */

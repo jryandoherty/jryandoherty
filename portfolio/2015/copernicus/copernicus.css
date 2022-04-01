@@ -1,3 +1,5 @@
+/* created by J. Ryan Doherty 2015 */
+
 html, body {
   margin: 0;
   min-width: 0;
@@ -64,7 +66,7 @@ h2 {}
 }
 
 #intro {
-  background: linear-gradient(to bottom right, rgba(0, 53, 110, 0.5), rgba(7, 110, 221, 0.5)), url(https://www.buyerzone.com/office-equipment/digital-copiers/copier2.jpg) 50% 0 no-repeat fixed;
+  background: linear-gradient(to bottom right, rgba(0, 53, 110, 0.5), rgba(7, 110, 221, 0.5)), url("https://www.buyerzone.com/office-equipment/digital-copiers/copier2.jpg") 50% 0 no-repeat fixed;
 	background-size:cover;
 	color: #fff;
 	height:90%;
@@ -76,7 +78,7 @@ h2 {}
 }
 
 #second {
-  background: url(https://www.buyerzone.com/office-equipment/digital-copiers/copier1.jpg) 50% 0 no-repeat fixed;
+  background: url("https://www.buyerzone.com/office-equipment/digital-copiers/copier1.jpg") 50% 0 no-repeat fixed;
   color: white;
   margin: 0 auto;
   overflow: hidden;
@@ -94,9 +96,7 @@ h2 {}
 }
 
 .rightCTA {
-
   width: 350px;
-
 	text-align:center;
 }
 
@@ -140,7 +140,7 @@ h2 {}
   text-shadow: 4px 3px 0px rgb(46, 46, 46);
   margin:0;
   padding:0;
-  line-height:40px;
+  line-height:1em;
 }
 
 .startButton:hover {

@@ -1,7 +1,7 @@
 <?php
 
 // This function will take $_SERVER['REQUEST_URI'] and build a breadcrumb based on the user's current path
-function breadcrumbs($separator = ' / ', $home = 'Home') {
+function breadcrumbs($separator = ' &#8741; ', $home = 'Home') {
     // This gets the REQUEST_URI (/path/to/file.php), splits the string (using '/') into an array, and then filters out any empty values
     $path = array_filter(explode('/', parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)));
 

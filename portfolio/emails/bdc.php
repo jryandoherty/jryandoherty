@@ -11,19 +11,17 @@
 
 <div class="container">
   <div class="col-lg-8 desktop">
-    <p>Desktop layout</p>
     <object data="/portfolio/2017/emails_bdc/template_Nov.html"
-            width="100%" height="500" frameborder="0"
-            allowfullscreen sandbox>
+            width="100%" height="500">
     </object>
+      <p>Desktop layout</p>
   </div>
 
   <div class="col-lg-4 mobile">
-      <p>Mobile layout</p>
     <object data="/portfolio/2017/emails_bdc/template_Nov.html"
-            width="100%" height="500" frameborder="0"
-            allowfullscreen sandbox>
+            width="100%" height="500">
     </object>
+    <p>Mobile layout</p>
   </div>
 </div>
 </div><!-- end container -->

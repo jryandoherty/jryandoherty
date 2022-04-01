@@ -9,9 +9,7 @@
   </div> <!--end breadcrumb row -->
 
   <div class="row">
-    <object data="../2016/hornet/skidSteer.html"
-            name="frame" width="100%" height="700" frameborder="2"
-            allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
+    <object data="../2016/hornet/skidSteer.html">
     </object>
 
     <div class="legend">
@@ -20,8 +18,8 @@
         <li><strong>Category:</strong> Conversion pages</li>
         <li><strong>Client:</strong> Buyerzone.com</li>
         <li><strong>Date:</strong> 2016</li>
-        <p>Construction themed conversion page.</p>
       </ul>
+      <p>Construction themed conversion page.</p>
     </div>
 
   </div>
