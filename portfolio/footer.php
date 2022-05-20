@@ -2,14 +2,14 @@
 <div class="container">
 
 	<div class="col-lg-4">
-		
+
 		<div><a href="mailto:ryan@jryandoherty.com">ryan@jryandoherty.com</a></div>
 		<div>617-312-0522</div>
-		<div>&copy; <script>document.write(new Date().getFullYear());</script> J. Ryan Doherty</div>
+		<div>&copy; <span id="year"></span> J. Ryan Doherty</div>
   </div>
 
 	<div class="col-lg-8">
-		<?php include "stickers.php"; ?>
+		<?php include "stickers_footer.php"; ?>
 	</div>
 
 </div><!-- end container -->

@@ -218,7 +218,7 @@ html, body {
     display: block;
     border-radius: 50%;
 
-    margin: 0 auto;
+
     box-shadow: 0px 0px 0px 4px rgba(166, 143, 0, 1) inset;
     transition: box-shadow 0.6s ease 0s;
 		float:left;
@@ -228,13 +228,14 @@ html, body {
     background-size:158px;
 
 		text-align: center;
-		vertical-align: middle;
+
 		line-height: 28px;
 
 		font-size: 30px;
 		color:#fff;
 		text-decoration:blink;
 		text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+		margin-left:-15px;
 }
 
 
@@ -441,6 +442,7 @@ html, body {
 		display: inline-block;
 		text-align: center;
 		width:100%;
+		min-width: 370px;
 	}
 
 
@@ -457,16 +459,6 @@ html, body {
 		line-height:210px;
 	}
 
-	.circleFour{
-		margin:0 !important
-	}
-
-
-}
-
-
-@media (max-width: 515px){
-
 	.circleTwo {
 		height: 150px;
 		width: 150px;
@@ -479,14 +471,35 @@ html, body {
 		top: 50px;
 	}
 
-	.circleThree {
+	.circleThree{
+		vertical-align: middle;
+		margin-left:0;
 		height: 130px;
 		width: 130px;
+		font-size:21px;
+		line-height:21px;
 	}
 
 	.circleThree span {
-		top: 38px;
+		top: 45px;
 	}
+
+}
+
+
+@media (max-width: 515px){
+
+	.circleTwo {
+		margin-bottom: -95px;
+	}
+
+
+
+	.circleThree {
+		margin-top:-12px;
+	}
+
+
 
 	.why {
 		margin:0 auto 30px;

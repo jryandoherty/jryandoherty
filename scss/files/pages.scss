@@ -1,5 +1,4 @@
 .desktop {
-
 	@media(max-width: 767px){
 		display:none;
 	}
@@ -14,7 +13,7 @@
 	position:relative;
 
 	@media(max-width:768px) {
-		width:95%;
+		width:100%;
 	}
 
 	@media(min-width:1400px) {
@@ -25,13 +24,23 @@
 		width:1480px;
 	}
 
+	.col-lg-6:last-of-type {
+		text-align:right;
+		@media(max-width:1199px) {
+		text-align:center;
+		}
+	}
+	 .row:last-of-type {
+		margin-top:2%;
+	}
+
 }
 
 iframe, object {
-	box-shadow: 1px 2px 3px $sienna;
-	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-	height:700px;
-	max-height:768px;
+	box-shadow:1px 2px 3px $sienna;
+	/*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*/
+	min-height:700px;
+	height:768px;
 	width:100%;
 }
 
@@ -41,7 +50,7 @@ iframe, object {
 	-moz-transform-origin: top center;
 	-webkit-transform: scale(0.85);
 	-webkit-transform-origin: top center;
-	margin-bottom:-100px;
+	margin-bottom:-10%;
 
 	.legend {
 		font-size:110%;
@@ -50,6 +59,9 @@ iframe, object {
 	.crumbs {
 		font-size:100%;
 		padding-right:0!important;
+		@media(max-width:480px){
+			font-size:90%;
+		}
 	}
 }
 
@@ -99,6 +111,13 @@ iframe, object {
 		margin:0 0 4px 0;
 	}
 
+	a:not([href*="github"]){
+    background: transparent url('/img/new-window-svgrepo-com.svg') no-repeat top right;
+		background-size:18px;
+		padding-right:24px;
+
+	}
+
 	p {
 		margin:10px 0 0 0;
 	}
@@ -115,11 +134,18 @@ iframe, object {
 		}
 	}
 
-
 }
 
 .three-screens {
-	width:600px;
+	width:700px;
+	height:auto;
+	max-width: 100%;
+	margin-top:35px;
+
+}
+
+.four-screens {
+	width:1000px;
 	height:auto;
 	max-width: 100%;
 	display:block;
@@ -156,17 +182,11 @@ iframe, object {
 		}
 }
 
-.legend-thumbnails {
-
-}
-
 .carousel-indicators {
 	position:static;
 	margin-left: 20px;
 	text-align:left;
-
 }
-
 
 .carousel-indicators li {
     width:15px;
@@ -186,10 +206,30 @@ iframe, object {
 
 .carousel-control {
 	width:0;
-
 }
 
 .carousel img {
 	max-width:100%;
+}
 
+.project-flow {
+	display:flex;
+  max-width: 1200px;
+  align-items:center;
+	margin:20px auto 0;
+
+	.item {
+	  flex:1;
+	  text-align:center;
+		font-size:1.35em;
+		@media(max-width:768px){
+			font-size:1em;
+		}
+	}
+}
+.project-flow-img {
+	max-width:100%;
+	width:1200px;
+	margin:20px auto 0;
+	display:block;
 }

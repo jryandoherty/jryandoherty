@@ -1,4 +1,18 @@
-// form validation
+
+// 1. validator
+// 2. animations for navigation
+// 3. animation for title
+// 4. pause carousel on form interaction
+// 5. pause form on scroll
+// 6. smooth scroll
+// 7. active tabs for portfolio
+// 8. link to tab
+// 9. swipe carousel on mobile
+// 10. Date
+// 11. lazy loader (not used currently)
+
+
+// 1. form validation
 
 $(function()
 {
@@ -63,7 +77,7 @@ $(function()
       });
 });
 
-// animate navigation on page load
+// 2. animate navigation on page load
 
 $('.about').delay(2500).queue(function() {
                            $(this).addClass("roll-in-right");
@@ -88,23 +102,16 @@ $('.branding').delay(2100).queue(function() {
 
 
 
-  //  $('.recentWork').hover(
-  //function(){ $(this).addClass('visibility') },
-  //function(){ $(this).removeClass('roll-in-right') }
-  //)
-
-
-
-// animate slogan on page load
+// 3. animate slogan on page load
 
 $('.intro').delay(1200).queue(function() {
-                          $(this).addClass("scale-in-ver-bottom");
+                          $(this).addClass("focus-in-expand");
                           $(this).dequeue();
                       });
 
 
 
-// pause carousel on form interaction
+// 4. pause carousel on form interaction
 
      $('input, textarea').focus(function(){
         $("#carousel-example-generic").carousel('pause');
@@ -117,35 +124,7 @@ $('.intro').delay(1200).queue(function() {
 		 });
 
 
-
-
-
- // Smooth scroll/
-
-
-   $('a[href^="/"]').click(function(){
-         var that = this;
-         $('html, body').animate({
-                 scrollTop: $( $(that).attr('href') ).offset().top
-         }, 400);
-         return false;
-   });
-
-
-
-
-
-
-
- // $(window).scrollTop(800); // returns pixel value
-//   $(window).scroll(function () {
-
-//  $("#carousel-example-generic").carousel('pause');
-
-
-// });
-
- // pause carousel on scroll
+// 5. pause carousel on scroll
 
  $(window).scroll(function() {
  		$('#carousel-example-generic').each(function(){
@@ -162,26 +141,31 @@ $('.intro').delay(1200).queue(function() {
  	});
 
 
+// 6. Smooth scroll/
 
+    $('a[href^="#"]').click(function(){
+           var that = this;
+           $('html, body').animate({
+                   scrollTop: $( $(that).attr('href') ).offset().top
+           }, 400);
+           return false;
+    });
+
+
+// 7. active tabs
   $('#myTabs a').click(function (e) {
     e.preventDefault()
     $(this).tab('show')
     $(this).addClass('active').siblings().removeClass("active");
   })
 
-// enable link to tab
+// 8. enable link to tab
   var hash = location.hash.replace(/^#/, '');  // ^ means starting, meaning only match the first hash
   if (hash) {
       $('.nav-tabs a[href="#' + hash + '"]').tab('show').addClass('active').siblings().removeClass("active");
   }
 
- //Change hash for page-reload
- //$('.nav-tabs a').on('shown.bs.tab', function (e) {
-  // window.location.hash = e.target.hash;
-//  })
-
-
-// swipe carousel on mobile
+// 9. swipe carousel on mobile
 $('.carousel').on('touchstart', function(event){
     const xClick = event.originalEvent.touches[0].pageX;
     $(this).one('touchmove', function(event){
@@ -200,11 +184,11 @@ $('.carousel').on('touchstart', function(event){
     });
 });
 
-
+// 10. date
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
 
-// lazy loader
+// 11. lazy loader
 
    document.addEventListener("DOMContentLoaded", function() {
      var lazyloadImages = document.querySelectorAll("img.lazy");

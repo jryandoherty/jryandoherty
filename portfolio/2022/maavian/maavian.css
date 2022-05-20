@@ -1,0 +1,358 @@
+/* Created 2022 by J. Ryan Doherty
+auxillary stylesheet for MA Avian Records site */
+
+h1 {
+	font-size:3.2em!important;
+		/*font-size:3.8vw!important;*/
+}
+
+@media(max-width:480px){
+	h1 {
+	font-size:2.2em!important;
+	}
+}
+
+.home h1 {
+	max-width: 634px;
+}
+
+.h-logo__image {
+	max-height:100px !important;
+}
+
+@media(max-width:1042px){
+	.h-logo__image {
+	max-height:90px !important;
+	}
+}
+
+@media(max-width:480px){
+	.h-logo__image {
+		max-height:70px !important;
+	}
+}
+
+.h-navigation_sticky {
+	background-color:#dbc494!important;
+}
+
+input[type=submit] {
+  -webkit-appearance: none;
+	-moz-appearance:none;
+}
+
+@media (max-width:700px){
+	.home #hero {
+		background-position:right -200px top!important
+	}
+}
+
+.wp-caption {
+	background:#8d867c!important;
+	margin-bottom:30px!important;
+}
+
+.wp-caption-text {
+	font-size:.8em!important;
+	color:#fff!important;
+}
+
+/* database page */
+
+.database-key {
+	float:right;
+	background:#ececec;
+	padding:10px!important;
+}
+
+@media (max-width:1024px){
+	.database-key {
+		float:none;
+		margin-bottom:20px!important;
+	}
+}
+
+.searchBox {
+	padding:7px!important;
+	font-size:17px;
+}
+
+.searchButton {
+	border-radius: 6px;
+	font-size: 17px;
+  padding: 9px 1.5em!important;
+	background:#f26559;
+	color:#fff;
+	margin-left:10px;
+	cursor:pointer;
+	border:none;
+}
+
+.searchButton:hover {
+	background:#f98379
+}
+
+@media (max-width:992px){
+.database-results {
+		display: block;
+		width: 100%;
+		overflow-x: auto;
+	}
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid #999;
+}
+
+th {
+	background-color: #121212;
+	color:#fff;
+	text-align:center;
+	padding:5px!important;
+}
+
+td {
+	padding:20px !important;
+}
+
+tr:nth-child(odd) {
+  background-color:#ececec ;
+}
+tr:nth-child(even) {
+  background-color:#f6f6f6;
+}
+
+.page-id-432 .post-432 ul{
+	list-style-type:none;
+}
+
+.page-id-432 .post-432 li{
+	margin-bottom:5px;
+}
+
+/* hero overrides */
+.post-template-default #hero {
+	background-color:#dbc494!important;
+	background-image:url(https://maavianrecords.com/wp-content/uploads/2022/01/DSC_0822-scaled-e1642702929198.jpg)!important;
+	box-shadow: 1px 10px 0 #333!important;
+}
+
+.post-template-default .colibri-post-thumbnail-shortcode {
+	display:none;
+}
+
+.post-template-default .photo-credit {
+	display:none;
+}
+
+@media (min-width:1024px){
+	.post-template-default #hero {
+	background-position:center top -220px !important;
+	}
+}
+
+@media (min-width:1400px){
+	.post-template-default #hero {
+	background-position:center top -320px !important;
+	}
+}
+
+.page-id-16 #hero {
+	background-image:url(https://maavianrecords.com/wp-content/uploads/2022/01/7861685120_26a18fd75b_o-scaled.jpg)!important
+}
+
+@media (min-width:1200px){
+	.page-id-16 #hero {
+		background-position:center -200px!important
+	}
+}
+.page-id-14 #hero {
+	background-image:url(https://maavianrecords.com/wp-content/uploads/2022/01/23257461275_2edbe64e24_k.jpg)!important;
+	background-position:center top!important
+}
+
+@media (min-width:1000px){
+.page-id-14 #hero {
+	background-position:center top -115px !important
+	}
+}
+
+.page-id-432 #hero {
+	background-image:linear-gradient(to bottom, rgba(55,56,57,.4) 5%, transparent, transparent), url(https://maavianrecords.com/wp-content/uploads/2022/01/8472050754_77a8297030_o.jpg)!important;
+	background-position:center center, center bottom -190px!important;
+}
+
+@media (min-width:1700px) {
+	.page-id-432 #hero {
+	background-image:linear-gradient(to bottom, rgba(55,56,57,.4) 5%, transparent, transparent),  url(https://maavianrecords.com/wp-content/uploads/2022/01/8472050754_77a8297030_o.jpg)!important;
+	background-position:center center,center bottom -325px !important
+	}
+}
+
+@media (max-width:1100px) {
+	.page-id-432 #hero {
+	background-image:linear-gradient(to bottom, rgba(55,56,57,.4) 5%, transparent, transparent), url(https://maavianrecords.com/wp-content/uploads/2022/01/8472050754_77a8297030_o.jpg)!important;
+	background-position:center bottom !important
+	}
+}
+
+.parent-pageid-14 #hero {
+	min-height:50vh!important;
+	background-image:url(https://maavianrecords.com/wp-content/uploads/2022/01/11489150983_05e76f513e_o-scaled.jpg)!important;
+		background-color:#dbc494!important;
+}
+
+/* review list */
+
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.review-item {
+  width: 33%;
+  padding-bottom: 5% !important;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+
+@media (max-width:768px){
+	.review-item {width:100%}
+}
+
+/* official state list */
+
+.page-id-16 th {
+	background-color: #121212;
+	color:#fff;
+	text-align:left;
+	padding:20px!important;
+}
+
+.flex-cols {
+	display:flex;
+	flex-direction:row;
+}
+
+.flex-cols .child {
+	width:50%;
+}
+
+.flex-cols  .child:nth-child(2) {
+	padding-left:5%;
+}
+
+.flex-cols  .child:nth-child(3) {
+	padding-left:5%;
+}
+
+@media(max-width:1024px){
+	.flex-cols {
+	flex-direction:column;
+}
+
+	.flex-cols .child {
+		width:100%;
+	}
+
+	.flex-cols  .child:nth-child(2) {
+		padding:0;
+	}
+
+	.flex-cols  .child:nth-child(3) {
+		padding:0;
+	}
+}
+
+/* annual reports */
+.page-id-12 .review-item {
+	width:50%;
+	padding-right:5%;
+}
+.page-id-12 .post-12 img {
+	border-radius:50%;
+	float:left;
+	margin: 0 10px 30px 0;
+}
+
+@media (max-width:768px){
+	.page-id-12 .review-item {width:100%}
+}
+
+
+/* footer */
+
+footer{
+	background:rgba(55,56,57,1);
+}
+
+footer p{
+	font-size:.75em!important;
+	color:#e2e2e2!important
+}
+
+footer p:nth-child(2){
+	font-size:.62em!important;
+}
+
+footer p:nth-child(3){
+	font-size:.62em!important;
+	color:#ccc!important;
+}
+
+footer ul {
+	list-style-type:none;
+}
+
+footer li {
+	padding:4px!important;
+	font-size:.75em!important;
+}
+
+footer a {
+	color:#e2e2e2!important
+}
+
+footer img{
+	max-width:270px!important;
+}
+
+.footer-container {
+	max-width:1170px;
+	margin:0 auto !important;
+	display:flex;
+	flex-wrap: wrap;
+  justify-content:space-between;
+	padding: 50px 0!important;
+}
+
+.footer-menu, .footer-credits {
+	width:30%
+}
+
+@media (max-width:768px) {
+	footer img{
+		margin:0 auto!important;
+		display:block!important;
+	}
+
+	.footer-menu {
+		width:100%;
+		padding-top:5%!important;
+	}
+
+	.footer-credits {
+		width:100%;
+		padding:5% 0 0!important;
+	}
+
+	.footer-logo {
+		width:100%;
+	}
+}

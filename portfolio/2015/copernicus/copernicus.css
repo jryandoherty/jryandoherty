@@ -115,7 +115,7 @@ h2 {}
 }
 
 .leftCTA strong {
-  color:#54dc3c;
+  color:#ffe16c;
 }
 
 .leftCTA h2:nth-child(1) {
@@ -125,7 +125,6 @@ h2 {}
 
 .leftCTA h2:nth-child(2) {
   font-size:47px ;
-  line-height:32px ;
 }
 
 .leftCTA h2:nth-child(3) {
@@ -201,8 +200,6 @@ h2 {}
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
 }
 
 .qs-container {
@@ -248,9 +245,7 @@ h2 {}
   width: 80%;
   left: 25%;
   border-radius: 18px;
-
 }
-
 
 .backWrapper {
   width: 18%;
@@ -627,13 +622,17 @@ footer:before {
   margin: 6px 0 20px
 }
 
+.credits p a img {
+  width:200px;
+  height:auto;
+}
+
 
 @media (max-width:1024px) {
   .horizontalControls .qiconWrapper {
     height: 120px;
     width: 120px;
     background-size: 120px
-
   }
 
 	#intro {
@@ -662,8 +661,10 @@ footer:before {
 	}
 
 	.leftCTA, .rightCTA {
-
 		width:100%;
-
 	}
+
+  .rightCTA {
+    margin-top: 30px;
+  }
 }

@@ -8,9 +8,10 @@
     </div>
   </div> <!--end breadcrumb row -->
   <div class="row">
-    <object data="../2016/construction/construction.html">
-    </object>
+    <object data="../2016/construction/construction.html"></object>
+  </div>
 
+  <div class="row">
     <div class="legend">
       <h2>PROJECT</h2>
       <ul>
@@ -22,9 +23,20 @@
         Code</a></li>
         <p>Portal page for Buyerzone.com's construction category conversion pages.</p>
       </ul>
-
     </div>
-  </div>
+
+    <picture>
+       <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649345376/construction_skktvt.webp" type="image/webp" class="project-flow-img">
+       <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649345376/construction_rdftbc.jpg" alt="project flow" class="project-flow-img">
+    </picture>
+
+    <div class="project-flow">
+      <div class="item">Promotional email</div>
+      <div class="item">Portal page</div>
+      <div class="item">Conversion page</div>
+    </div>
+
+  </div><!-- end row -->
 </div><!-- end container -->
 
 <?php include "../footer.php"; ?>

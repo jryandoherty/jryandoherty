@@ -9,7 +9,7 @@
     </div>
   </div> <!--end breadcrumb row -->
 
-<div class="container">
+<div class="row">
   <div class="col-lg-8 desktop">
     <object data="/portfolio/2016/emails/may/may_10.html"
             width="100%" height="500">

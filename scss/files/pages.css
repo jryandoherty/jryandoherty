@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$sienna".
-        on line 31 of /Users/ryandoherty/Documents/websites/epicsea_2.0/jryan/scss/files/pages.scss
+        on line 40 of /Users/jryandoherty/Documents/GitHub/jryandoherty/scss/files/pages.scss
 
-26: 	}
-27: 
-28: }
-29: 
-30: iframe, object {
-31: 	box-shadow: 1px 2px 3px $sienna;
-32: 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-33: 	height:700px;
-34: 	max-height:768px;
-35: 	width:100%;
-36: }
+35: 	}
+36: 
+37: }
+38: 
+39: iframe, object {
+40: 	box-shadow:1px 2px 3px $sienna;
+41: 	/*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*\/
+42: 	min-height:700px;
+43: 	height:768px;
+44: 	width:100%;
+45: }
 
 Backtrace:
-/Users/ryandoherty/Documents/websites/epicsea_2.0/jryan/scss/files/pages.scss:31
+/Users/jryandoherty/Documents/GitHub/jryandoherty/scss/files/pages.scss:40
 /Applications/Adobe Dreamweaver 2020/Adobe Dreamweaver 2020.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Adobe Dreamweaver 2020/Adobe Dreamweaver 2020.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Adobe Dreamweaver 2020/Adobe Dreamweaver 2020.app/Contents/Resources/gems/rubygems/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -65,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$sienna\".\A         on line 31 of /Users/ryandoherty/Documents/websites/epicsea_2.0/jryan/scss/files/pages.scss\A \A 26: 	}\A 27: \A 28: }\A 29: \A 30: iframe, object {\A 31: 	box-shadow: 1px 2px 3px $sienna;\A 32: 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;\A 33: 	height:700px;\A 34: 	max-height:768px;\A 35: 	width:100%;\A 36: }"; }
+  content: "Error: Undefined variable: \"$sienna\".\A         on line 40 of /Users/jryandoherty/Documents/GitHub/jryandoherty/scss/files/pages.scss\A \A 35: 	}\A 36: \A 37: }\A 38: \A 39: iframe, object {\A 40: 	box-shadow:1px 2px 3px $sienna;\A 41: 	/*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*/\A 42: 	min-height:700px;\A 43: 	height:768px;\A 44: 	width:100%;\A 45: }"; }

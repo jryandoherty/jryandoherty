@@ -13,21 +13,16 @@
   <div id="carousel-port" class="carousel slide" data-ride="carousel" data-interval="3000">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
+
       <div class="item active">
-
           <div class="col-lg-12"><img src="/portfolio/2018/community/image-1.png" alt="image 1"></div>
-
       </div>
       <div class="item">
-
         <div class="col-lg-12"><img src="/portfolio/2018/community/image-2.png" alt="image 2"></div>
-
       </div>
 
       <div class="item">
-
         <div class="col-lg-12"><img src="/portfolio/2018/community/image-3.png" alt="image 3"></div>
-
       </div>
 
       <ol class="carousel-indicators">
@@ -35,8 +30,7 @@
         <li data-target="#carousel-port" data-slide-to="1"></li>
         <li data-target="#carousel-port" data-slide-to="2"></li>
       </ol>
-    </div>
-
+    </div><!-- end carousel inner -->
 
   </div><!-- end carousel -->
   </div><!-- end row -->

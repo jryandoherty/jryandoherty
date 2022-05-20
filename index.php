@@ -7,11 +7,16 @@
   <meta name="description" content="Website for designer and developer J. Ryan Doherty">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+  <link rel="author" href="humans.txt">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/portfolio.css?v=343435">
+  <link rel="stylesheet" href="css/portfolio.css?v=3434358">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;600;700&display=swap" rel="stylesheet">
 
   <title>J. Ryan Doherty :: Designer and Developer</title>
 
@@ -24,7 +29,7 @@
           <p class="chromeframe">Your browser is dangerously, dangerously out of date. I'm surprised your computer has not exploded yet. To prevent a black hole from opening up in your living room and/or office, please <a href="http://browsehappy.com/" target="_blank" onclick="s.tl(this,'e','AnotherSite',null)">upgrade your browser</a> right now! Do not pass go, and whatever you do, do not collect 200 dollars, euros, rubles or other currency.</p>
       <![endif]-->
 
-<section class="brick">
+<header class="brick">
 
 <div class="container-fluid">
     <div class="col-lg-6 intro">
@@ -37,7 +42,7 @@
     </div>
 </div>
 
-</section><!-- end brick hero section -->
+</header><!-- end brick hero section -->
 
 <section class="about-section" id="about">
 
@@ -51,14 +56,12 @@
 
   <div class="col-lg-6">
     <picture>
-       <source srcset="/img/portrait.webp" type="image/webp" >
-       <img src="/img/portrait.jpg" type="image/jpeg" alt="me">
+       <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1650997088/portrait_tbsdrz.webp" type="image/webp" >
+       <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1650997088/portrait_jci1ne.jpg" alt="me">
     </picture>
-
   </div>
 
   </div><!-- end container -->
-
 
 </section><!-- end about me -->
 
@@ -85,7 +88,6 @@
     <?php include "portfolio/ads.php"; ?>
 
     <?php include "portfolio/logos.php"; ?>
-
   </div>
 
 </section>

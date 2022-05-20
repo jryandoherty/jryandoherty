@@ -42,6 +42,8 @@
       <li><strong>Category:</strong> Conversion pages</li>
       <li><strong>Client:</strong> Buyerzone.com</li>
       <li><strong>Date:</strong> 2015</li>
+      <li><a href="https://www.buyerzone.com/residential/home-security-systems/rfqt" target="_blank">Archive page</a></li>
+      <li><a href="https://www.buyerzone.com/security/monitored-alarm-systems/rfqt" target="_blank">Archive page</a></li>
     </ul>
   </div>
 

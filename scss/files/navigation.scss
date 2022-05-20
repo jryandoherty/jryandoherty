@@ -142,7 +142,7 @@
 
 nav {
 		padding:15px;
-		background: radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('https://res.cloudinary.com/jryandoherty/image/upload/v1648574954/brick_nav_yu8ae1.jpg') $altblack;
+		background: radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp') $altblack;
 		background-size: cover cover;
 		border-radius: 0!important;
 
@@ -199,11 +199,13 @@ nav {
 				text-decoration: none;
 			}
 		}
+
+		.navbar-toggle {
+			margin-right:0;
+		}
 		.icon-bar {
 			border:2px solid $white;
 		}
-
-
 
 
 	} /* end navigation */
@@ -229,21 +231,21 @@ nav {
 		}
 
 		.recentWork {
-			width: 134px;
-			height: 134px;
-			transition: 1s ease-out;
+			width: 108px;
+			height: 108px;
+			transition:all 1s ease-out;
 		}
 
 		.contact {
-				width: 89px;
-				height: 89px;
-				transition: 1s ease-out;
+				width: 108px;
+				height: 108px;
+				transition:all 1s ease-out;
 		}
 
 		.branding{
-			width: 113px;
-			height: 113px;
-			transition: 1s ease-out;
+			width: 108px;
+			height: 108px;
+			transition:all 1s ease-out;
 		}
 
 		.logo {

@@ -1,4 +1,4 @@
-/* J. Ryan Doherty */
+/* created by J. Ryan Doherty 2016 */
 
 html, body {
 	font-family: 'Raleway', sans-serif;
@@ -17,7 +17,7 @@ div, label, span {
 	height: 100%;
 	min-height: 680px;
 	background: linear-gradient(to bottom, rgba(25, 25, 25, 0.8), rgba(65, 65, 65, 0.5)),
-	url('http://cdn.buyerzone.com/images/mktg/hornet/bg_skid_steer_low.jpg') center no-repeat;
+	url('https://cdn.buyerzone.com/images/mktg/hornet/bg_skid_steer_low.jpg') center no-repeat;
 	background-size: cover;
 	color: #fff;
 	margin-bottom: -20px;
@@ -37,8 +37,6 @@ div, label, span {
 #backNextRow button {
 	cursor: pointer;
 }
-
-
 
 .firstPage .buttonContainer {
 	display: none
@@ -62,10 +60,10 @@ div, label, span {
 	border: none;
 	margin-top: 20px;
 }
+
 #rfq-back:hover {
 	background-color: #E8E82A;
 }
-
 
 .progress-value {
 	color: #fff;
@@ -73,7 +71,6 @@ div, label, span {
 	right: 0px;
 	margin: 20px;
 	font-size: 36px;
-
 }
 
 .completionRow {
@@ -95,6 +92,7 @@ div, label, span {
 	transform: 0.8s linear;
 
 }
+
 .completionMsg {
 	position: static;
 	color: #fff;
@@ -105,14 +103,10 @@ div, label, span {
 	font-family: "ralewayregular", sans-serif;
 }
 
-
-
-
 .questionContainer {
 	top: 10%;
 	position: relative;
 }
-
 
 .leftPage {
 	width: 28%;
@@ -125,9 +119,7 @@ div, label, span {
 .leftPage ul {
 	margin:0;
 	padding: 0 42px;
-
 }
-
 
 .leftPage img {
  	max-width: 295px;
@@ -160,9 +152,6 @@ div, label, span {
 	font-size:13px;
 }
 
-
-
-
 .rfq-box {
 	width: 47%;
 	overflow: hidden;
@@ -172,11 +161,14 @@ div, label, span {
 	transform: skew(-5deg);
 	height:410px;
 	color: #464646;
+}
 
-}
 .rfq-box .page {
-	width: 93%
+	width: 95%;
+	position: static;
+	padding-left: 20px;
 }
+
 .rfq-box .qiconWrapper {
 	transform: skew(5deg);
 }
@@ -185,36 +177,31 @@ div, label, span {
 	display:inline-block;
 }
 
-
 /* answer icons */
 
-.page-1 .radio:first-child .qiconWrapper {background-image:url(https://cdn.buyerzone.com/images/mktg/hornet/ssl-new-icon.svg) !important}
-
-.page-1 .radio:nth-child(2) .qiconWrapper {background-image:url(https://cdn.buyerzone.com/images/mktg/hornet/ssl-recon-icon.svg) !important}
-
-.page-1 .radio:nth-child(3) .qiconWrapper {background-image:url(https://cdn.buyerzone.com/images/mktg/midnight/icons/common/unsure-md-midnight.svg) !important}
-
-.page-5 .radio:first-child .qiconWrapper {
-	background-image: url(//cdn.buyerzone.com/images/mktg/midnight/icons/common/asap-icon-midnight.svg) !important
+.page-1 .radio:first-child .qiconWrapper {
+	background-image:url(https://cdn.buyerzone.com/images/mktg/hornet/ssl-new-icon.svg) !important
 }
-.page-5 .radio:nth-child(2) .qiconWrapper {
-	background-image: url(//cdn.buyerzone.com/images/mktg/midnight/icons/common/month-1-midnight.svg) !important
+.page-1 .radio:nth-child(2) .qiconWrapper {
+	background-image:url(https://cdn.buyerzone.com/images/mktg/hornet/ssl-recon-icon.svg) !important
 }
-.page-5 .radio:nth-child(3) .qiconWrapper {
-	background-image: url(//cdn.buyerzone.com/images/mktg/midnight/icons/common/month-dk-gt-2-midnight.svg) !important
+.page-1 .radio:nth-child(3) .qiconWrapper {
+	background-image:url(https://cdn.buyerzone.com/images/mktg/midnight/icons/common/unsure-md-midnight.svg) !important
 }
-.page-5 .radio:first-child label {display:none}
 
-
-
+.page-5 .radio:first-child label {
+	display:none
+}
 
 form legend {
 	text-align: left;
 	transform: skew(5deg);
 
 }
+
 form label {
 }
+
 span.error {
 	color: #CC1B69 !important;
 	font-weight: bold;
@@ -230,10 +217,12 @@ span.error {
 
 	line-height:1em;
 }
+
 legend.question + p.note, p.note {
 	color: #5E5E5E;
 	font-size: 16px
 }
+
 .rfq-box form .page > input[type="text"] {
 	display: block;
 	width: 60%;
@@ -243,6 +232,7 @@ legend.question + p.note, p.note {
 	padding: 6px;/*transform: skew(10deg);*/
 
 }
+
 input#email {
 	width: 80%;
 }
@@ -345,9 +335,6 @@ input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + 
 	background-size: 26px 26px;
 }
 
-
-
-
 .footer {
 	padding: 5px;
 	font-size: 12px;
@@ -418,7 +405,15 @@ input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + 
 		height:auto;
 	}
 
-	.leftPage{
+	.bg-img div {
+
+	}
+
+	.progress-value {
+		font-size:21px;
+	}
+
+	.leftPage {
 		width:70%;
 		float:none;
 		margin:10% auto;
@@ -441,12 +436,30 @@ input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + 
 	.footer {
 		position:static;
 		margin-left: 5%;
-		margin-top: 50px;
+		margin-top: 100px;
 	}
 }
 
-@media (max-height:802px) {
+@media (max-width:768px) {
+	.leftPage {
+		width:90%;
+	}
 
+	.nextLabel {
+		transform: skew(0)
+	}
+	.backWrapper {
+		transform: skew(0)
+	}
+
+	.bulletList {
+		margin:2em 0;
+		padding:4%;
+	}
+
+}
+
+@media (max-height:802px) {
 
 .nextLabel {
 	height: 110px
@@ -456,8 +469,6 @@ input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + 
 	width: 228px;
 	height: 34px;
 }
-
-
 
 .questionContainer {
 	top: 10%;
@@ -476,7 +487,7 @@ span.number {
 
 
 
-@media (max-height:640px) {
+@media (max-height:740px) {
 
 	.buyersGuide  {
 		display: none;
@@ -492,11 +503,12 @@ span.number {
 	.how {
 		display:none;
 	}
-
 }
 
 @media (max-height:555px) {
 
-	.logoFooter {display:none}
+	.logoFooter {
+		display:none
+	}
 
 }

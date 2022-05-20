@@ -1,9 +1,4 @@
-@import "files/colors",
-"files/animations",
-"files/form",
-"files/navigation",
-"files/pages";
-
+@import "files/colors";
 
 html, body {
 	width: 100%;
@@ -12,17 +7,16 @@ html, body {
 	font-size: 17px;
 	color:$black;
 	background: $cream;
-	scroll-behavior: smooth;
-	image-rendering: -webkit-optimize-contrast;
-
+	/*scroll-behavior: smooth;*/
+	/*image-rendering: -webkit-optimize-contrast;*/
 }
 
-::-moz-selection { background-color: $siennaLight}
-::selection { background-color: $siennaLight; }
 
 h1, h2 {
+	font-family: 'Jost', sans-serif;
 	font-family: 'Oswald', sans-serif;
-	 font-weight: 500;
+	font-weight: 500;
+	font-size: 2.2em;
 }
 
 h3 {
@@ -36,24 +30,13 @@ p.browsehappy{
 
 .divider {
 	width:100%;
-	height:4px;
+	height:6px;
 }
-
-@media(max-width:1100px) {
-
-
-}
-
-
-/*.container {
-	margin:50px auto
-}*/
-
 
 .brick {
 
 	background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent),url('/img/images/graffiti_new_01.png') right bottom no-repeat,
-	url('https://res.cloudinary.com/jryandoherty/image/upload/v1596136886/bg_brick_lfahqt.jpg') center center no-repeat $altblack;
+	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
 	background-size:  cover,1600px,cover;
 	overflow:hidden;
 	color:$white;
@@ -62,6 +45,7 @@ p.browsehappy{
 	display:flex;
 	align-items: center;
 	justify-content: center;
+  /*mix-blend-mode: hard-light;*/
 	@media(max-width:768px) {
 		background-size: cover, 900px, cover;
 	}
@@ -116,9 +100,8 @@ p.browsehappy{
 		background:none;
 
 		ul {
-			float:none }
-
-
+			float:none
+		}
 
 		.navbar-right {
 			float:left!important;
@@ -182,18 +165,12 @@ p.browsehappy{
 	scrollbar-width: none; /* Firefox */
 	-ms-overflow-style: none;  /* IE 10+ */
 
-
-
   &::-webkit-scrollbar {
     background: transparent; /* Chrome/Safari/Webkit */
     width: 0px;
 		height:0px;
 	}
 }
-
-
-
-
 
 .btn {
 	width: 16.66%;
@@ -203,16 +180,14 @@ p.browsehappy{
 	height:50px;
 	padding:12px;
 
-
 	&:hover{
 		filter: brightness(1.2);
-
 	}
-
 
 	&:nth-child(1){
 		background:$sienna;
 	}
+
 	&:nth-child(2){
 		background:$siennaLight;
 	}
@@ -224,6 +199,7 @@ p.browsehappy{
 	&:nth-child(4){
 		background:$greenLight;
 	}
+
 	&:nth-child(5){
 		background:$yellowDark;
 		color:#333;
@@ -234,10 +210,7 @@ p.browsehappy{
 		color:#333;
 	}
 
-
-}
-
-
+} /* end button */
 
 } /* end portfolio section */
 
@@ -256,7 +229,6 @@ p.browsehappy{
 	/*transform: scale(1, 1.5);*/
 	transition:  height .5s linear;
 
-
 	&:first-child {
 		border-left:none;
 	}
@@ -268,36 +240,23 @@ p.browsehappy{
 .tab-pane.active {
 	border-top:2px solid $blackGreen;
 	background:$creamDark!important;
-	margin-top:-2px;
+	margin-top:-3px;
 	transition:  margin .5s linear;
-
 }
 
 
 .thumbnails {
-
 	padding:5%;
 	text-align: center;
 
-
-	div {
-		display:block;
-		margin:0 auto 40px;
-	}
-
 	h2 {
-		padding: 0px 10px 3px 17px;
-		font-size: 2.2em;
-
-	/*	border-top: 2px solid black;
-		border-bottom: 2px solid black;
-		text-transform: uppercase;
-		display: inline;*/
-
+		margin:0 auto 40px;
+		@media (max-width:768px){
+			margin:30px auto 40px;
+		}
 	}
 
 	a {
-
     margin:10px 13px;
 		display: inline-block;
 
@@ -322,11 +281,31 @@ p.browsehappy{
 		border:1px solid $sienna;
 	}
 
+	img:hover {
+		transform: scale(1.08);
+		transition: all .5s ease-out;
+	}
+
+	img.mobile {
+		border:none;
+		box-shadow:none;
+		display:block;
+	}
+
+	a.mobile {
+		display:block;
+	}
+
 }
 
 .ads {
 	padding:5%;
 	text-align: center;
+
+	h2 {
+		margin:0 auto 40px;
+		font-size: 2.2em;
+	}
 
 	img {
 		margin: 0 10px 10px 0;
@@ -350,15 +329,14 @@ p.browsehappy{
 	padding:5% 0;
 
 	h2 {
-
 		padding: 0px 10px 3px 17px;
 		font-size: 2.2em;
-
 	}
-  img {
+
+	img {
     width:240px;
     height:auto;
-    margin:40px 43px;
+    margin:30px 33px;
 		display: inline-block;
 
 		/*	&:nth-child(3n) {
@@ -377,14 +355,11 @@ p.browsehappy{
 .about-section {
 	background:url('/img/images/graffiti_new_02.png') right top no-repeat;
 	background-size: 1600px;
-	font-size:1.5em;
 	padding:5%;
 	@media(max-width:768px) {
 		background-size: 900px;
 	}
-	@media (max-width:500px){
-		font-size: 1em;
-	}
+
 
 	img {
 		width:100%;
@@ -394,43 +369,42 @@ p.browsehappy{
 		display:block;
 	}
 
-
 	.bio {
 		padding:0 0 4% 0;
+		font-size:1.5em;
+		@media (max-width:500px){
+			font-size: 1em;
+		}
 	}
 
 	div:nth-child(2){
-
 		background-size: 600px;
 	}
 }
 
-
-.about-old {
-
-		background:linear-gradient(to bottom right, #333, #333, #333, transparent, transparent, transparent, transparent, transparent, transparent),
-		url('/img/sunset.jpg') center center no-repeat;
-		background-size:cover;
-		height:100%;
-		min-height:500px;
-		color:$white;
-
-}
-
 .contactme {
 	.col-md-5 {
-
 		margin-top:20px;
 	}
 	.btn-block {
 		width:50%;
 		float:right;
 	}
+	:required {
+
+	}
+	:focus {
+
+	}
+	label {
+		font-weight:400;
+	}
+
 }
 
 
 footer {
-	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1596136886/bg_brick_lfahqt.jpg');
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
 	/*background-size:1200px;*/
 	padding:2% 0;
 	color:$white;
@@ -453,9 +427,10 @@ footer {
 
 	.navbar-nav {
 		float:right;
+		@media(max-width:768px) {
+			float:none;
+		}
 	}
-
-
 
 	.container {
 		display: flex;
@@ -463,9 +438,7 @@ footer {
 		justify-content: center;
 		@media(max-width:768px) {
 			flex-direction:column;
-
 			}
-
 		}
 
 .col-lg-4 {
@@ -491,21 +464,39 @@ footer {
 			}
 	}
 
+	.col-lg-12 {
+	 	@media(max-width:768px){
+			text-align:center;
+		}
+	}
+
 .recentWork {
   width: 126px;
   height: 126px;
+		@media(max-width:768px){
+			width: 108px;
+			height: 108px;
+		}
 }
 
 .contact {
   width: 71px;
   height: 71px;
 	margin: 32px 0 0 -49px;
+	@media(max-width:768px){
+		width: 108px;
+		height: 108px;
+	}
 }
 
 .branding{
 	width: 90px;
 	height: 90px;
 	margin:85px -10px 0 -45px;
+	@media(max-width:768px){
+		width: 108px;
+		height: 108px;
+	}
 }
 
 
@@ -514,3 +505,8 @@ footer {
 .homepage .socials{
 	display:none;
 }
+
+@import "files/navigation",
+"files/form",
+"files/pages",
+"files/animations";

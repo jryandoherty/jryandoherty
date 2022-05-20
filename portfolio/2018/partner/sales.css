@@ -32,6 +32,10 @@ img {
 	border-top:3px solid #e1e1e1;
 }
 
+.panel img {
+	width:200px;
+}
+
 .hero {
 	background:radial-gradient(circle at center, rgba(210, 84, 8, .7) 10%, transparent, transparent), url(jpgs/hero_home.jpg) center center no-repeat #333;
 	background-size: cover ;
@@ -154,7 +158,6 @@ img {
 	border-bottom:1px solid #333;
 }
 
-
 .cta {
 	width:45vw;
 	max-width:700px;
@@ -257,6 +260,7 @@ img {
 	display:flex;
 	width:1170px;
 	margin:0 auto;
+	align-items: center;
 }
 
 
@@ -581,6 +585,7 @@ h1, h2, h3, h4 {
 	padding:40px 0;
 	color:#fff;
 	font-size:17px;
+
 }
 
 .lets-talk h3 {
@@ -608,20 +613,22 @@ h1, h2, h3, h4 {
 }
 
 .productContainer {
-	align-items:center;
-	margin-bottom:10px;
+	margin-bottom:30px;
 }
 
 .badge {
-	margin:10px 40px 10px 0;
+	margin:0 40px 0 0;
 	flex:1;
-	max-width:240px;
+	max-width
 }
 
+.badge img {
+	width:240px;
+}
 
 .productName {
-	margin-right:100px;
 	flex:3;
+	padding-right:30px;
 }
 
 .productTitle {
@@ -630,42 +637,53 @@ h1, h2, h3, h4 {
 }
 
 .productHow {
-	background:url(svgs/bulb.svg) left no-repeat;padding-left:100px;
 	font-size:42px;
 	font-weight:600;
-	height:200px;
 	background-size:200px 200px;
 	background-position-y:-30px;
-	margin-top: -3px;
+	margin-bottom:30px;
 }
 
 .productHow span {
-	border-bottom:15px solid #ff863e;
+	border-bottom:6px solid #ff863e;
 	display: inherit;
-	margin-left: 58px;
 	padding-top: 25px;
 }
 
-.productOne {
+.productOne, .productTwo {
 	padding-left:125px;
-	margin-left:200px;
 	margin-bottom:100px;
-	background:url(pngs/one.png) left no-repeat;background-size: 100px;
+	background:url(pngs/one.png) no-repeat top left/100px;
 	background-position: top left;
-	width:44%;
 	padding-top:30px;
 }
 
+.productOne > p, .productTwo > p {
+	margin-bottom:30px;
+}
+
+.productTwo {
+	background:url(pngs/two.png) no-repeat top left/100px;
+
+}
+
+video {
+	width:620px;
+	height:auto;
+	box-shadow:1px 3px 4px #333;
+	max-width:100%;
+}
 
 .advertisingBar {
 	color:#fff;
 	width:90%;
 	background:url(pngs/bg_display_bar.png)repeat-y right #e85a26;
-	padding-left:40px;
-	padding-right:10px;
-	margin-bottom:25px;
+	padding-left:5%;
 }
 
+.advertisingBar img {
+	width:140px;
+}
 
 footer {
 	background: #2c2c2c;
@@ -681,11 +699,22 @@ footer {
     background: url(https://www.business.com/icons/purch_logo_gray.svg) 50% no-repeat;
 }
 
-
+@media (max-width:1330px) {
+	.advertisingBar	.containerFlex {
+			width:1050px;
+	}
+	.advertisingBar {
+		padding-left:0;
+	}
+}
 
 @media (max-width:1200px) {
 	.container, .containerFlex {
 		width:950px
+	}
+
+	.advertisingBar {
+	width:100%;
 	}
 
 	.advertising {
@@ -695,11 +724,18 @@ footer {
 	.marketing {
 		width:354px;
 	}
+
+	.advertisingBar	.containerFlex {
+			width:950px;
+	}
+
+
+
 }
 
 @media (max-width:970px){
-	.containerFlex, .container {
-		display:block;
+	.containerFlex, .container, .advertisingBar	.containerFlex  {
+		flex-direction: column;
 		width:90%;
 		max-width:500px;
 	}
@@ -814,18 +850,26 @@ footer {
 		display: block;
 	}
 
-
 	.productContainer {
 		text-align:center;
 		margin:30px auto 70px;
 	}
+
 	.badge, .productName {
 		margin:auto;
 		margin-bottom:10px;
+		text-align: left;
 	}
 
 	.product-offering {
 		text-align: center;
+	}
+
+	.productOne, .productTwo {
+		padding-top: 120px;
+		padding-left:0;
+		background-position:top center;
+		width:100%;
 	}
 }
 

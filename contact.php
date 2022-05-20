@@ -54,7 +54,7 @@
                   <div>
                     <h3>How would you best describe yourself:</h3>
                       <div class="switch-field">
-                        <input type="radio" id="radio-three" name="customer" value="small business">
+                        <input type="radio" id="radio-three" name="customer" value="small business" checked>
                         <label for="radio-three">A small business</label>
                         <input type="radio" id="radio-four" name="customer" value="individual">
                         <label for="radio-four">An individual</label>
