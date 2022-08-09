@@ -12,11 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/portfolio.css?v=3434358">
+  <link rel="stylesheet" href="css/portfolio.css?v=34343584">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;600;700&display=swap" rel="stylesheet">
+
 
   <title>J. Ryan Doherty :: Designer and Developer</title>
 
@@ -62,6 +60,16 @@
   </div>
 
   </div><!-- end container -->
+
+<!--  <div class="container-fluid">
+    <h2>DESIGN + DEV</h2>
+    <div class="col-lg-12 bio">
+ I've been working on the web since the early 2000s doing freelance, corporate, and non-profit work ranging from full site
+ design, landing pages, conversion pages, and marketing emails. So many changes during that time! But that's the fun part.
+ When I'm not designing or writing code, you can find me out <a href="https://en.wikipedia.org/wiki/Birdwatching" target="_blank">birding</a> or playing guitar.
+    </div>
+
+  </div> -->
 
 </section><!-- end about me -->
 
