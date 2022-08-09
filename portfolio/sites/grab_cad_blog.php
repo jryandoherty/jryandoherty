@@ -1,6 +1,6 @@
 <?php include "../header.php"; ?>
 
-<div class="container webpage iframe">
+<div class="container webpage">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
@@ -8,7 +8,7 @@
     </div>
   </div> <!--end breadcrumb row -->
 
-<div class="row">
+<div class="row iframe" >
     <object data="https://blog.grabcad.com/" type=""></object>
 </div><!-- end row -->
 

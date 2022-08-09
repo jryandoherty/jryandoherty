@@ -254,3 +254,24 @@ nav {
 		}
 
 	}
+
+		@media (max-width: 568px) {
+			.recentWork {
+				width: 94px;
+				height: 94px;
+				transition:all 1s ease-out;
+			}
+
+			.contact {
+					width: 94px;
+					height: 94px;
+					transition:all 1s ease-out;
+			}
+
+			.branding{
+				width: 94px;
+				height: 94px;
+				transition:all 1s ease-out;
+			}
+
+		}
