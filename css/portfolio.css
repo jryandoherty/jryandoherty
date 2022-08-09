@@ -53,12 +53,14 @@ p.browsehappy {
 }
 @media (max-width: 768px) {
   .brick h1 {
-    font-size: 3.5em;
+    font-size: 3.3em;
+    transition: all 0.5s ease-out;
   }
 }
 @media (max-width: 568px) {
   .brick h1 {
-    font-size: 2.5em;
+    font-size: 2.75em;
+    transition: all 0.5s ease-out;
   }
 }
 .brick h2 {
@@ -73,16 +75,18 @@ p.browsehappy {
 }
 @media (max-width: 768px) {
   .brick h2 {
-    padding-left: 94px;
-    font-size: 0.92em;
-    letter-spacing: 0.15em;
+    padding-left: 88px;
+    font-size: 0.88em;
+    letter-spacing: 0.13em;
+    transition: all 0.5s ease-out;
   }
 }
 @media (max-width: 568px) {
   .brick h2 {
-    padding-left: 35px;
+    padding-left: 71px;
     font-size: 0.8em;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.11em;
+    transition: all 0.5s ease-out;
   }
 }
 .brick a {
@@ -365,6 +369,11 @@ footer {
   overflow: hidden;
   clear: both;
 }
+@media (max-width: 768px) {
+  footer {
+    padding: 10%;
+  }
+}
 footer nav {
   background: none;
   padding: 0;
@@ -429,6 +438,12 @@ footer .recentWork {
     height: 108px;
   }
 }
+@media (max-width: 568px) {
+  footer .recentWork {
+    width: 94px;
+    height: 94px;
+  }
+}
 footer .contact {
   width: 71px;
   height: 71px;
@@ -440,6 +455,12 @@ footer .contact {
     height: 108px;
   }
 }
+@media (max-width: 568px) {
+  footer .contact {
+    width: 94px;
+    height: 94px;
+  }
+}
 footer .branding {
   width: 90px;
   height: 90px;
@@ -449,6 +470,12 @@ footer .branding {
   footer .branding {
     width: 108px;
     height: 108px;
+  }
+}
+@media (max-width: 568px) {
+  footer .branding {
+    width: 94px;
+    height: 94px;
   }
 }
 
@@ -674,6 +701,25 @@ nav .icon-bar {
 
   .logo {
     max-width: 290px;
+  }
+}
+@media (max-width: 568px) {
+  .recentWork {
+    width: 94px;
+    height: 94px;
+    transition: all 1s ease-out;
+  }
+
+  .contact {
+    width: 94px;
+    height: 94px;
+    transition: all 1s ease-out;
+  }
+
+  .branding {
+    width: 94px;
+    height: 94px;
+    transition: all 1s ease-out;
   }
 }
 .btn {
