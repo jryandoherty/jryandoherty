@@ -147,16 +147,24 @@ p.browsehappy {
 
 /* end brick section */
 .portfolio {
+  background: #e2e6e8;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 2px 0px, rgba(60, 64, 67, 0.15) 0px -1px 3px 1px;
   /* end button */
+}
+.portfolio .divider {
+  margin-bottom: -14px;
 }
 .portfolio .scroll {
   white-space: nowrap;
   overflow-x: scroll;
   webkit-overflow-scrolling: touch;
   scrollbar-width: none;
-  /* Firefox */
+  /* firefox */
   -ms-overflow-style: none;
   /* IE 10+ */
+  padding: 4px 0;
+  text-align: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .portfolio .scroll::-webkit-scrollbar {
   background: transparent;
@@ -164,13 +172,23 @@ p.browsehappy {
   width: 0px;
   height: 0px;
 }
+@media (max-width: 850px) {
+  .portfolio .scroll {
+    scrollbar-width: auto;
+    /* firefox */
+    -ms-overflow-style: auto;
+    /* IE 10+ */
+  }
+}
 .portfolio .btn {
-  width: 16.66%;
+  width: 15%;
   text-transform: uppercase;
-  min-width: 120px;
-  border-radius: 0;
-  height: 50px;
-  padding: 12px;
+  min-width: 130px;
+  border-radius: 17px;
+  margin: 10px 3px;
+  /*height:50px;
+  padding:12px;*/
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .portfolio .btn:hover {
   filter: brightness(1.2);
@@ -203,12 +221,12 @@ p.browsehappy {
 
 .nav-tabs a.active {
   color: #211e18;
-  background: #fdfde9 !important;
-  border: 2px solid #524d21;
+  background: #e2e6e8 !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px inset, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px inset;
   border-bottom: none;
-  padding: 17px 0 17px 0;
+  /*padding: 17px 0 17px 0;
   height: 62px;
-  box-shadow: none !important;
+  box-shadow: none!important;*/
   /*transform: scale(1, 1.5);*/
   transition: height 0.5s linear;
 }
@@ -220,9 +238,9 @@ p.browsehappy {
 }
 
 .tab-pane.active {
-  border-top: 2px solid #524d21;
-  background: #fdfde9 !important;
-  margin-top: -3px;
+  /*border-top:2px solid $blackGreen;
+  background:$creamDark!important;
+  margin-top:-3px;*/
   transition: margin 0.5s linear;
 }
 
@@ -321,12 +339,15 @@ p.browsehappy {
 .about-section {
   background: url("/img/images/graffiti_new_02.png") right top no-repeat;
   background-size: 1600px;
-  padding: 5%;
+  padding: 10% 5%;
 }
 @media (max-width: 768px) {
   .about-section {
     background-size: 900px;
   }
+}
+.about-section h1 {
+  margin-top: 0;
 }
 .about-section img {
   width: 100%;

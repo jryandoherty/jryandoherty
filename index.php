@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/portfolio.css?v=34343584">
+  <link rel="stylesheet" href="css/portfolio.css?v=34343582">
 
 
 
@@ -74,17 +74,19 @@
 </section><!-- end about me -->
 
 <section class="portfolio" id="portfolio">
-
-  <div class="scroll tabs nav-tabs" role="tablist" id="myTabs">
-      <a href="#sites" class="btn active" aria-controls="sites" role="tab" data-toggle="tab">Sites</a>
-      <a href="#conversion" class="btn" aria-controls="conversion" role="tab" data-toggle="tab">Conversion</a>
-      <a href="#emails" class="btn" aria-controls="emails" role="tab" data-toggle="tab">Emails</a>
-      <a href="#brochures" class="btn" aria-controls="brochures" role="tab" data-toggle="tab">Brochures</a>
-      <a href="#ads" class="btn" aria-controls="ads" role="tab" data-toggle="tab">Ads</a>
-      <a href="#logos" class="btn" aria-controls="logos" role="tab" data-toggle="tab">Logos</a>
-  </div>
+  
 
   <div class="tab-content">
+
+    <div class="scroll tabs nav-tabs" role="tablist" id="myTabs">
+        <a href="#sites" class="btn active" aria-controls="sites" role="tab" data-toggle="tab">Sites</a>
+        <a href="#conversion" class="btn" aria-controls="conversion" role="tab" data-toggle="tab">Conversion</a>
+        <a href="#emails" class="btn" aria-controls="emails" role="tab" data-toggle="tab">Emails</a>
+        <a href="#brochures" class="btn" aria-controls="brochures" role="tab" data-toggle="tab">Brochures</a>
+        <a href="#ads" class="btn" aria-controls="ads" role="tab" data-toggle="tab">Ads</a>
+        <a href="#logos" class="btn" aria-controls="logos" role="tab" data-toggle="tab">Logos</a>
+    </div>
+
     <?php include "portfolio/sites.php"; ?>
 
     <?php include "portfolio/conversion.php"; ?>
@@ -98,8 +100,9 @@
     <?php include "portfolio/logos.php"; ?>
   </div>
 
+  <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648691942/border_ayevlo.png" alt="" class="divider">
+
 </section>
-<img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648691942/border_ayevlo.png" alt="" class="divider">
 
 <?php include "contact_alt.php"; ?>
 
