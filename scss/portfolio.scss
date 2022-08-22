@@ -459,6 +459,7 @@ footer {
 		float:right;
 		@media(max-width:768px) {
 			float:none;
+			width:auto;
 		}
 	}
 
@@ -468,6 +469,7 @@ footer {
 		justify-content: center;
 		@media(max-width:768px) {
 			flex-direction:column;
+			width:100%;
 			}
 		}
 

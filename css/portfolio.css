@@ -411,6 +411,7 @@ footer .navbar-nav {
 @media (max-width: 768px) {
   footer .navbar-nav {
     float: none;
+    width: auto;
   }
 }
 footer .container {
@@ -421,6 +422,7 @@ footer .container {
 @media (max-width: 768px) {
   footer .container {
     flex-direction: column;
+    width: 100%;
   }
 }
 footer .col-lg-4 {
