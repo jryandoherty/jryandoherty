@@ -1,14 +1,14 @@
 <div id="contactme" class="contactme">
- 	<div class="container">
+ 	<div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-          <h2>Get in touch</h2>
+          <h2>Contact</h2>
       </div>
     </div>
 <form method="post" id="reused_form">
 <div class="row">
 
-<div class="col-md-5 col-offset-2 form-group">
+<div class="col-md-6 form-group">
 
   <div class="form-group">
       <label for="message">
@@ -16,7 +16,7 @@
       <textarea class="form-control" id="message" name="message" placeholder="" maxlength="6000" rows="7"></textarea>
   </div>
 </div>
-<div class="col-md-5 col-md-offset-1 form-group">
+<div class="col-md-6  form-group">
     <div class="form-group">
         <label for="name">
             Name:</label>
