@@ -1,19 +1,18 @@
 <?php include "../header.php"; ?>
 
-<div class="container webpage iframe">
-  <div class="row">
+<div class="container webpage">
+  <div class="row iframe">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
 
-  <div class="row">
-    <object name="frame" data="../2018/partner/home.html">
-    </object>
+  <div class="row iframe">
+    <object name="frame" data="../2018/partner/home.html"></object>
   </div>
 
-<div class="row">
+<div class="row iframe">
   <div class="col-md-6 thumbnail-webpage">
       <a href="../2018/partner/leadGen.html" target="frame"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_lead_mv5h11.png" alt="image-1" ></a>
       <a href="../2018/partner/marketing.html" target="frame"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_marketing_nkwfbt.png" alt="image-2" ></a>
@@ -21,7 +20,7 @@
   </div>
 </div>
 
-<div class="row">
+<div class="row iframe" >
 <div class="col-lg-6">
   <div class="legend legend-thumbnails">
     <h2>PROJECT</h2>

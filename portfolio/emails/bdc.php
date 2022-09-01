@@ -1,6 +1,6 @@
 <?php include "../header.php"; ?>
 
-<div class="container email">
+<div class="container emails">
 
   <div class="row">
     <div class="col-md-4"></div>
@@ -14,14 +14,12 @@
     <object data="/portfolio/2017/emails_bdc/template_Nov.html"
             width="100%" height="500">
     </object>
-      <p>Desktop layout</p>
   </div>
 
   <div class="col-lg-4 mobile">
     <object data="/portfolio/2017/emails_bdc/template_Nov.html"
             width="100%" height="500">
     </object>
-    <p>Mobile layout</p>
   </div>
 </div>
 </div><!-- end container -->

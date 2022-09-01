@@ -6,7 +6,9 @@ html, body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
 	color:$black;
-	background: $cream;
+	background:$cream;
+
+
 	/*scroll-behavior: smooth;*/
 	/*image-rendering: -webkit-optimize-contrast;*/
 }
@@ -178,6 +180,7 @@ p.browsehappy{
 	text-align: center;
 
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+	background:$gray;
 
   &::-webkit-scrollbar {
     background: transparent; /* Chrome/Safari/Webkit */
@@ -444,12 +447,22 @@ footer {
 	/*background-size:1200px;*/
 	padding:2% 0;
 	color:$white;
-	font-size: .87em;
-	margin-top:2%;
+	font-size: .86em;
+	/*margin-top:2%;*/
 	overflow:hidden;
 	clear:both;
 	@media(max-width:768px) {
 		padding:10%;
+	}
+
+	&:before {
+		 content: '';
+		background: url('/img/footer-spike.png') no-repeat;
+		position:relative;
+    bottom:0px;
+    left:0px;
+		width:100vw;
+		height:55px;
 	}
 
 	nav {

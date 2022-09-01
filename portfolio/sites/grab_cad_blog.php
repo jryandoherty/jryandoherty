@@ -1,6 +1,7 @@
 <?php include "../header.php"; ?>
 
-<div class="container webpage">
+<div class="webpage" style="background:url('/img/wave-haikei.svg')no-repeat center bottom/100% ">
+<div class="container iframe">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
@@ -8,7 +9,7 @@
     </div>
   </div> <!--end breadcrumb row -->
 
-<div class="row iframe" >
+<div class="row">
     <object data="https://blog.grabcad.com/" type=""></object>
 </div><!-- end row -->
 
@@ -38,5 +39,5 @@
   </div>
 </div><!-- end row -->
 </div><!-- end container -->
-
+</div>
 <?php include "../footer.php"; ?>
