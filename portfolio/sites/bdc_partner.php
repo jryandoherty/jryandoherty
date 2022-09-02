@@ -1,6 +1,8 @@
 <?php include "../header.php"; ?>
 
-<div class="container webpage">
+<div class="webpage-container">
+
+<div class="webpage">
   <div class="row iframe">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
@@ -8,19 +10,19 @@
     </div>
   </div> <!--end breadcrumb row -->
 
-  <div class="row iframe">
+  <div class="row">
     <object name="frame" data="../2018/partner/home.html"></object>
   </div>
 
-<div class="row iframe">
-  <div class="col-md-6 thumbnail-webpage">
-      <a href="../2018/partner/leadGen.html" target="frame"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_lead_mv5h11.png" alt="image-1" ></a>
-      <a href="../2018/partner/marketing.html" target="frame"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_marketing_nkwfbt.png" alt="image-2" ></a>
-      <a href="../2018/partner/advertising.html" target="frame"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_ad_cpwlnl.png" alt="image-3" ></a>
+  <div class="row">
+    <div class="col-md-6 thumbnail-webpage">
+        <a href="../2018/partner/leadGen.html" target="frame"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_lead_mv5h11.png" alt="image-1" ></a>
+        <a href="../2018/partner/marketing.html" target="frame"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_marketing_nkwfbt.png" alt="image-2" ></a>
+        <a href="../2018/partner/advertising.html" target="frame"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648574309/thumbs_sites/partner_ad_cpwlnl.png" alt="image-3" ></a>
+    </div>
   </div>
-</div>
 
-<div class="row iframe" >
+<div class="row">
 <div class="col-lg-6">
   <div class="legend legend-thumbnails">
     <h2>PROJECT</h2>
@@ -42,6 +44,6 @@
     </picture>
   </div>
 </div>
+</div><!-- end webpage -->
 </div><!-- end container -->
-
 <?php include "../footer.php"; ?>

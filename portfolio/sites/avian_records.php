@@ -1,6 +1,6 @@
 <?php include "../header.php"; ?>
-
-<div class="container webpage iframe">
+<div class="webpage-container">
+<div class="webpage">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
@@ -36,6 +36,6 @@
   </picture>
 </div>
 </div><!-- end row -->
+</div><!-- end webpage -->
 </div><!-- end container -->
-
 <?php include "../footer.php"; ?>

@@ -1,8 +1,8 @@
 <?php include "../header.php"; ?>
 
-<div style="background:url('/img/wave-haikei.svg')no-repeat center bottom/100% ">
+<div class="webpage-container">
 
-<div class="container webpage iframe" >
+<div class="webpage">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
@@ -36,10 +36,8 @@
       </picture>
     </div>
 
-
-
   </div><!-- end row -->
-</div><!-- end container -->
+</div><!-- end webpager -->
 
-</div>
+</div><!-- end container -->
 <?php include "../footer.php"; ?>

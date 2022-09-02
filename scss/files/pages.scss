@@ -45,7 +45,6 @@
 	object {
 
 		margin: 110px auto 0;
-
 		border: 1px gray solid;
 		height: 589px;
 		width:332px;
@@ -59,10 +58,19 @@
 }
 
 
+.webpage-container {
+	background:url('/img/wave-haikei.svg')no-repeat center bottom/100%;
+}
 
 
 .webpage {
-	
+
+	margin:0 auto;
+	-ms-zoom: 0.85;
+ -moz-transform: scale(0.85);
+ -moz-transform-origin: top center;
+ -webkit-transform: scale(0.85);
+ -webkit-transform-origin: top center;
 
 	@media(max-width:768px) {
 		width:100%;
@@ -87,13 +95,13 @@
 	 .row:last-of-type {
 		margin-top:2%;
 
-		@media(min-width:1200px) {
-			padding-bottom:100px;
-		}
+			@media(min-width:1200px) {
+				padding-bottom:100px;
+			}
 
-		@media(min-width:1500px) {
-			padding-bottom:150px;
-		}
+			@media(min-width:1500px) {
+				padding-bottom:150px;
+			}
 
 	}
 
@@ -114,45 +122,13 @@
 			 7px 7px $sienna;
 
 
+
+
 		/*border-right: 8px outset $siennaLight;
 		border-bottom: 10px outset $sienna;*/
 
 
 	}
-
-
-}
-
-
-
-
-
-.block{
-  height: 400px;
-  width: 100%;
-  position: relative;
-  background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
-}
-.block::after{
-  content: '';
-  width: 120%;
-  height: 120%;
-  position: absolute;
-  background: inherit;
-  z-index: -1;
-  bottom: 0;
-  transform-origin: left bottom;
-  transform: skewY(3deg);
-}
-
-
-.iframe {
-	-ms-zoom: 0.85;
-	-moz-transform: scale(0.85);
-	-moz-transform-origin: top center;
-	-webkit-transform: scale(0.85);
-	-webkit-transform-origin: top center;
-
 
 	.legend {
 		font-size:110%;
@@ -165,6 +141,15 @@
 			font-size:90%;
 		}
 	}
+
+}/* end webpage */
+
+
+.iframe {
+
+
+
+
 } /* end scale */
 
 .screenshot {

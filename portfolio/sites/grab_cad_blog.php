@@ -1,7 +1,7 @@
 <?php include "../header.php"; ?>
 
-<div class="webpage" style="background:url('/img/wave-haikei.svg')no-repeat center bottom/100% ">
-<div class="container iframe">
+<div class="webpage-container">
+<div class="webpage">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
