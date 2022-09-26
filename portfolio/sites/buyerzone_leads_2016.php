@@ -1,18 +1,21 @@
 <?php include "../header.php"; ?>
 
-<div class="container webpage iframe">
+<div class="webpage-container">
+
+<div class="webpage">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
-  <div class="row">
 
+  <div class="row">
     <object data="../2016/leads/indexNew.html"></object>
   </div><!-- end row -->
-    <div class="row">
-      <div class="col-lg-6">
+
+  <div class="row">
+    <div class="col-lg-6">
     <div class="legend">
       <h2>PROJECT</h2>
       <ul>
@@ -25,7 +28,7 @@
         <li>Partnership landing page for Buyerzone.com. This fully responsive page was built with the Bootstrap framework and features embedded SVGs and multiple animations triggered on scroll.</li>
       </ul>
     </div>
-</div>
+  </div>
     <div class="col-lg-6">
       <picture>
          <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649434829/leads_l_mjtbpn.webp" type="image/webp" class="three-screens">
@@ -33,10 +36,8 @@
       </picture>
     </div>
 
-
-
   </div><!-- end row -->
+</div><!-- end webpager -->
+
 </div><!-- end container -->
-
-
 <?php include "../footer.php"; ?>

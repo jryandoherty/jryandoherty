@@ -1,6 +1,6 @@
 <?php include "../header.php"; ?>
-
-<div class="container webpage iframe">
+<div class="webpage-container">
+<div class="webpage">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
@@ -11,7 +11,7 @@
   <div class="row">
       <object data="https://rogerbuttles.com"></object>
   </div><!-- end row -->
-
+<div class="row">
   <div class="legend">
     <h2>PROJECT</h2>
     <ul>
@@ -24,7 +24,8 @@
     </ul>
       <p>Portfolio site for artist Roger Buttles.</p>
   </div>
+</div>
 
+</div><!-- end webpage -->
 </div><!-- end container -->
-
 <?php include "../footer.php"; ?>

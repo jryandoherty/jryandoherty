@@ -10,6 +10,7 @@
 // 9. swipe carousel on mobile
 // 10. Date
 // 11. lazy loader (not used currently)
+// 12. back button to last tab
 
 
 // 1. form validation
@@ -219,3 +220,23 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
      window.addEventListener("resize", lazyload);
      window.addEventListener("orientationChange", lazyload);
    });
+
+
+
+// 12. back button to last tab
+
+   $(document).ready(function() {
+  // add a hash to the URL when the user clicks on a tab
+  $('a[data-toggle="tab"]').on('click', function(e) {
+    history.pushState(null, null, $(this).attr('href'));
+  });
+  // navigate to a tab when the history changes
+  window.addEventListener("popstate", function(e) {
+    var activeTab = $('[href=' + location.hash + ']');
+    if (activeTab.length) {
+      activeTab.tab('show');
+    } else {
+      $('.nav-tabs a:first').tab('show');
+    }
+  });
+});

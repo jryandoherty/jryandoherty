@@ -445,6 +445,10 @@ input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + 
 		width:90%;
 	}
 
+	h2 {
+		font-size:1.3em;
+	}
+
 	.nextLabel {
 		transform: skew(0)
 	}
@@ -453,8 +457,13 @@ input[type="checkbox"] + div.multipleAnsOther > label, input[type="checkbox"] + 
 	}
 
 	.bulletList {
-		margin:2em 0;
-		padding:4%;
+		margin: 3em 0;
+		padding: 4%;
+	}
+
+	.bulletList h3{
+		margin: .3em 0 .8em;
+
 	}
 
 }
