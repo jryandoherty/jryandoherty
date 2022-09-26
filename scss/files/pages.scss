@@ -59,7 +59,11 @@
 
 
 .webpage-container {
-	background:url('/img/wave-haikei.svg')no-repeat center bottom/100%;
+	background:url('/img/wave-haikei.svg')no-repeat bottom center/100%;
+	/*mask-image:url('/img/branding.svg');
+	mask-size: 100vmin;
+  mask-repeat: no-repeat;
+  mask-position: center;*/
 }
 
 
@@ -77,7 +81,7 @@
 	}
 
 	@media(min-width:1400px) {
-		width:1280px;
+		width:1380px;
 	}
 
 	@media(min-width:1600px) {
@@ -112,14 +116,14 @@
 		height:768px;
 		width:100%;
 
-		border: 1px solid $sienna;
-	 	box-shadow:  1px 1px $sienna,
-	 		 2px 2px $sienna,
-	 		 3px 3px $sienna,
-	 		 4px 4px $sienna,
-	 		 5px 5px $sienna,
-			 6px 6px $sienna,
-			 7px 7px $sienna;
+		border: 1px solid $portfolioDark;
+	 	box-shadow:  1px 1px $portfolioDark,
+	 		 2px 2px $portfolioDark,
+	 		 3px 3px $portfolioDark,
+	 		 4px 4px $portfolioDark,
+	 		 5px 5px $portfolioDark,
+			 6px 6px $portfolioDark,
+			 7px 7px $portfolioDark;
 
 
 

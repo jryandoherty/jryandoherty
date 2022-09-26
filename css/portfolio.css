@@ -934,7 +934,11 @@ input[type=checkbox]:focus {
 }
 
 .webpage-container {
-  background: url("/img/wave-haikei.svg") no-repeat center bottom/100%;
+  background: url("/img/wave-haikei.svg") no-repeat bottom center/100%;
+  /*mask-image:url('/img/branding.svg');
+  mask-size: 100vmin;
+   mask-repeat: no-repeat;
+   mask-position: center;*/
 }
 
 .webpage {
@@ -952,7 +956,7 @@ input[type=checkbox]:focus {
 }
 @media (min-width: 1400px) {
   .webpage {
-    width: 1280px;
+    width: 1380px;
   }
 }
 @media (min-width: 1600px) {
@@ -987,8 +991,8 @@ input[type=checkbox]:focus {
   min-height: 700px;
   height: 768px;
   width: 100%;
-  border: 1px solid #824A14;
-  box-shadow: 1px 1px #824A14, 2px 2px #824A14, 3px 3px #824A14, 4px 4px #824A14, 5px 5px #824A14, 6px 6px #824A14, 7px 7px #824A14;
+  border: 1px solid #5a4538;
+  box-shadow: 1px 1px #5a4538, 2px 2px #5a4538, 3px 3px #5a4538, 4px 4px #5a4538, 5px 5px #5a4538, 6px 6px #5a4538, 7px 7px #5a4538;
   /*border-right: 8px outset $siennaLight;
   border-bottom: 10px outset $sienna;*/
 }
