@@ -1,4 +1,9 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Sites :: GrabCAD Blog";
+require("../header.php");
+
+?>
 
 <div class="webpage-container">
 <div class="webpage">

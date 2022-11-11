@@ -1,4 +1,10 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Sites :: BuyerZone Leads";
+require("../header.php");
+
+?>
+
 
 <div class="container webpage iframe">
   <div class="row">

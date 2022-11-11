@@ -1,10 +1,14 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Email :: Reach New Heights";
+require("../header.php");
+
+?>
 
 <div class="container emails">
 
   <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-8 crumbs">
+    <div class="col-md-12 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->

@@ -1,4 +1,9 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Sites :: Roger Buttles";
+require("../header.php");
+
+?>
 <div class="webpage-container">
 <div class="webpage">
   <div class="row">

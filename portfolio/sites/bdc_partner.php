@@ -1,4 +1,9 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Sites :: BDC Partner";
+require("../header.php");
+
+?>
 
 <div class="webpage-container">
 
@@ -46,4 +51,4 @@
 </div>
 </div><!-- end webpage -->
 </div><!-- end container -->
-<?php include "../footer.php"; ?>
+<?php require ("../footer.php"); ?>

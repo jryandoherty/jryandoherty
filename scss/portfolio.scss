@@ -15,7 +15,6 @@ html, body {
 
 
 h1, h2 {
-	font-family: 'Jost', sans-serif;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 500;
 	font-size: 2.2em;
@@ -37,7 +36,7 @@ p.browsehappy{
 
 .brick {
 
-	background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent),url('/img/images/graffiti_new_01.png') right bottom no-repeat,
+	background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent),url('/img/images/graffiti_home_01.png') right bottom no-repeat,
 	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
 	background-size:  cover,1600px,cover;
 	overflow:hidden;
@@ -76,7 +75,7 @@ p.browsehappy{
 		/*border-bottom:1px solid $white;*/
 		letter-spacing: .18em;
 		/*line-height: .2;*/
-		margin-top:-5px;
+		margin-top:-7px;
 
 
 		@media(max-width:768px) {
@@ -162,7 +161,7 @@ p.browsehappy{
 
 
 .portfolio {
-	background: $portfolioGray;
+	background: #ded6cc;
 	box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 2px 0px, rgba(60, 64, 67, 0.15) 0px -1px 3px 1px;
 
 .divider {
@@ -189,10 +188,24 @@ p.browsehappy{
 	}
 
 	@media (max-width: 850px){
+		&::-webkit-scrollbar-thumb{
+			background:#757575;
+			border-radius: 20px;
+			height:3px;
+		}
+
+		&::-webkit-scrollbar {
+			background: $gray; /* Chrome/Safari/Webkit */
+			width:auto;
+			height:auto;
+
+		}
 			scrollbar-width:auto; /* firefox */
 			-ms-overflow-style:auto;  /* IE 10+ */
 	}
-}
+
+
+}/* end scroll classes */
 
 .btn {
 	width: 15.00%;
@@ -333,7 +346,7 @@ p.browsehappy{
 	}
 
 	img {
-		margin: 0 10px 10px 0;
+		margin: 10px 13px;
 		box-shadow: 1px 2px 3px $sienna;
 		border:1px solid $sienna;
 	}
@@ -378,7 +391,7 @@ p.browsehappy{
 }
 
 .about-section {
-	background:url('/img/images/graffiti_new_02.png') right top no-repeat;
+	background:url('/img/images/graffiti_home_02.png') right top no-repeat;
 	background-size: 1600px;
 	padding:10% 5%;
 	@media(max-width:768px) {
@@ -443,27 +456,19 @@ p.browsehappy{
 
 
 footer {
-	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
-	/*background-size:1200px;*/
+	background: url('/img/images/graffiti_bottom_02.png')no-repeat top center,url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
+	background-size:  1250px,cover;
 	padding:2% 0;
 	color:$white;
 	font-size: .86em;
-	/*margin-top:2%;*/
+	/*margin-top:-12%;*/
 	overflow:hidden;
 	clear:both;
 	@media(max-width:768px) {
 		padding:10%;
 	}
 
-	&:before {
-		 content: '';
-		background: url('/img/footer-spike.png') no-repeat;
-		position:relative;
-    bottom:0px;
-    left:0px;
-		width:100vw;
-		height:55px;
-	}
+
 
 	nav {
 		background:none;

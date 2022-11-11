@@ -1,4 +1,9 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Email :: BDC Question Alert";
+require("../header.php");
+
+?>
 
 <div class="container emails">
 

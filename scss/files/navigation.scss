@@ -142,8 +142,8 @@
 
 nav {
 		padding:15px;
-		background: radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp') $altblack;
-		background-size: cover cover;
+		background: radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('/img/images/graffiti_new_01.png') center bottom no-repeat, url('https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp') $altblack;
+		background-size: cover, 1100px, cover;
 		border-radius: 0!important;
 
 		color:$white;

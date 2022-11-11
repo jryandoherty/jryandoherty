@@ -1,4 +1,9 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Sites :: Louis W. Mian, inc.";
+require("../header.php");
+
+?>
 <div class="webpage-container">
 <div class="webpage">
   <div class="row">

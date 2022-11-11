@@ -1,4 +1,10 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Email :: Setting Your Office Up For Success";
+require("../header.php");
+
+?>
+
 
 <div class="container emails">
 

@@ -1,4 +1,10 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Sites :: BuyerZone Homepage 2015";
+require("../header.php");
+
+?>
+
 
 <div class="container screenshot">
   <div class="row">

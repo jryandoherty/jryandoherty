@@ -1,4 +1,9 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Conversion :: BDC Price Quotes";
+require("../header.php");
+
+?>
 
 <div class="container screenshot">
   <div class="row">

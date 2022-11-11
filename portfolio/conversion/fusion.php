@@ -1,4 +1,9 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Conversion :: Home Security Systems";
+require("../header.php");
+
+?>
 
 <div class="container screenshot">
   <div class="row">

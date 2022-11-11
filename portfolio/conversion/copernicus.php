@@ -1,4 +1,9 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Conversion :: Digital Copiers";
+require("../header.php");
+
+?>
 
 <div class="container webpage iframe">
   <div class="row">

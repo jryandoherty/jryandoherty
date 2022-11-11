@@ -1,4 +1,9 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Conversion :: Construction Equipment";
+require("../header.php");
+
+?>
 
 <div class="container webpage iframe">
   <div class="row">
