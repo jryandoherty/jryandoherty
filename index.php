@@ -14,8 +14,6 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/portfolio.css?v=34343585">
 
-
-
   <title>J. Ryan Doherty :: Designer and Developer</title>
 
   <link rel="canonical" href="https://www.jryandoherty.com/">
@@ -49,7 +47,7 @@
     <div class="col-lg-6 bio">
  I've been working on the web since the early 2000s doing freelance, corporate, and non-profit work ranging from full site
  design, landing pages, conversion pages, and marketing emails. So many changes during that time! But that's the fun part.
- When I'm not designing or writing code, you can find me out <a href="https://en.wikipedia.org/wiki/Birdwatching" target="_blank">birding</a> or playing guitar.
+ When I'm not designing or writing code, you can find me out <a href="https://en.wikipedia.org/wiki/Birdwatching" target="_blank">birding</a>.
     </div>
 
   <div class="col-lg-6">

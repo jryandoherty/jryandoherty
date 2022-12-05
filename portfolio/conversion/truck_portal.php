@@ -1,6 +1,12 @@
-<?php include "../header.php"; ?>
+<?php
 
-<div class="container webpage iframe">
+$title = "Conversion :: Trucking Portal";
+require("../header.php");
+
+?>
+
+<div class="webpage-container">
+<div class="webpage">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
@@ -12,7 +18,6 @@
     <object data="../2016/trucks/trucks.html"></object>
   </div>
 
-  <div class="row">
     <div class="legend">
       <h2>PROJECT</h2>
       <ul>
@@ -37,7 +42,6 @@
         <div class="item">Conversion page</div>
     </div>
 
-  </div><!-- end row -->
+  </div><!-- end webpage -->
 </div><!-- end container -->
-
 <?php include "../footer.php"; ?>

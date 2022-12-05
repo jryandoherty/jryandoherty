@@ -1,27 +1,30 @@
-<?php include "../header.php"; ?>
+<?php
 
-<div class="container emails">
+$title = "Email :: Reach New Heights";
+require("../header.php");
 
-  <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-8 crumbs">
+?>
+
+<div class="emails-container">
+
+  <div class="container">
+    <div class="crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
 
-<div class="row">
-  <div class="col-lg-8 desktop">
+<div class="emails">
+  <div class="desktop">
     <object data="/portfolio/2016/emails/may/may_10.html">
     </object>
-
   </div>
 
-  <div class="col-lg-4 mobile">
+  <div class="mobile">
     <object data="/portfolio/2016/emails/may/may_10.html">
     </object>
-
   </div>
-</div>
-</div><!-- end container -->
+
+</div><!-- end emails -->
+</div><!-- end emails-container -->
 
 <?php include "../footer.php"; ?>

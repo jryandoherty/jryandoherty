@@ -1,4 +1,9 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Conversion :: BDC Price Quotes";
+require("../header.php");
+
+?>
 
 <div class="container screenshot">
   <div class="row">
@@ -42,6 +47,7 @@
       <li><strong>Client:</strong> Business.com</li>
       <li><strong>Date:</strong> 2018</li>
     </ul>
+    <p>Prototype for Business.com's B2B conversion pages.</p>
   </div>
 
 </div><!-- end container -->

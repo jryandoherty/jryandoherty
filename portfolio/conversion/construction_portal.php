@@ -1,17 +1,22 @@
-<?php include "../header.php"; ?>
+<?php
 
-<div class="container webpage iframe">
+$title = "Conversion :: BuyerZone Construction Portal";
+require("../header.php");
+
+?>
+
+<div class="webpage-container">
+  <div class="webpage">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-8 crumbs">
+        <?php include "../breadcrumbs.php"; ?>
+      </div>
+    </div> <!--end breadcrumb row -->
   <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-8 crumbs">
-      <?php include "../breadcrumbs.php"; ?>
-    </div>
-  </div> <!--end breadcrumb row -->
-  <div class="row">
-    <object data="../2016/construction/construction.html"></object>
+    <object name="frame" data="../2016/construction/construction.html"></object>
   </div>
 
-  <div class="row">
     <div class="legend">
       <h2>PROJECT</h2>
       <ul>
@@ -36,7 +41,7 @@
       <div class="item">Conversion page</div>
     </div>
 
-  </div><!-- end row -->
+  </div><!-- end webpage -->
 </div><!-- end container -->
 
 <?php include "../footer.php"; ?>

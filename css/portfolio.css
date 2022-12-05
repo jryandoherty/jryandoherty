@@ -4,13 +4,17 @@ html, body {
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   color: #35311C;
-  background: #fcfcf4;
+  background: url("/img/images/graffiti_home_02.png") no-repeat center 94px/700px #fcfcf4;
   /*scroll-behavior: smooth;*/
   /*image-rendering: -webkit-optimize-contrast;*/
 }
+@media (max-width: 1024px) {
+  html, body {
+    background: #fcfcf4;
+  }
+}
 
 h1, h2 {
-  font-family: "Jost", sans-serif;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 2.2em;
@@ -31,8 +35,8 @@ p.browsehappy {
 }
 
 .brick {
-  background: radial-gradient(circle, rgba(240, 109, 6, 0.14), transparent), url("/img/images/graffiti_new_01.png") right bottom no-repeat, url("https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp") center center no-repeat #211e18;
-  background-size: cover, 1600px, cover;
+  background: radial-gradient(circle, rgba(240, 109, 6, 0.14), transparent), url("https://res.cloudinary.com/jryandoherty/image/upload/v1670017100/graffiti_home_01_ut13fm.png") center bottom no-repeat, url("https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp") center center no-repeat #211e18;
+  background-size: cover, 1410px, cover;
   overflow: hidden;
   color: #ffffff;
   position: relative;
@@ -71,7 +75,7 @@ p.browsehappy {
   /*border-bottom:1px solid $white;*/
   letter-spacing: 0.18em;
   /*line-height: .2;*/
-  margin-top: -5px;
+  margin-top: -7px;
 }
 @media (max-width: 768px) {
   .brick h2 {
@@ -146,9 +150,45 @@ p.browsehappy {
 }
 
 /* end brick section */
+.about-section {
+  background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1670017100/graffiti_home_02_qajgxw.png") center top no-repeat;
+  background-size: 1410px;
+  padding: 12% 5%;
+}
+@media (max-width: 768px) {
+  .about-section {
+    background-size: 900px;
+  }
+}
+.about-section h1 {
+  margin-top: 0;
+}
+.about-section img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+.about-section .bio {
+  padding: 0 0 4% 0;
+  font-size: 1.5em;
+}
+@media (max-width: 500px) {
+  .about-section .bio {
+    font-size: 1em;
+  }
+}
+.about-section div:nth-child(2) {
+  background-size: 600px;
+}
+
+/* end about section */
 .portfolio {
-  background: #e2e6e8;
+  /*background: #ded6cc;*/
+  background: #f2e7d9;
   box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 2px 0px, rgba(60, 64, 67, 0.15) 0px -1px 3px 1px;
+  /* end scroll classes */
   /* end button */
 }
 .portfolio .divider {
@@ -180,6 +220,17 @@ p.browsehappy {
     -ms-overflow-style: auto;
     /* IE 10+ */
   }
+  .portfolio .scroll::-webkit-scrollbar-thumb {
+    background: #757575;
+    border-radius: 20px;
+    height: 3px;
+  }
+  .portfolio .scroll::-webkit-scrollbar {
+    background: #222;
+    /* Chrome/Safari/Webkit */
+    width: auto;
+    height: auto;
+  }
 }
 .portfolio .btn {
   width: 15%;
@@ -208,11 +259,11 @@ p.browsehappy {
 }
 .portfolio .btn:nth-child(5) {
   background: #fec800;
-  color: #333;
+  color: #222;
 }
 .portfolio .btn:nth-child(6) {
   background: #FFE800;
-  color: #333;
+  color: #222;
 }
 
 /* end portfolio section */
@@ -222,7 +273,7 @@ p.browsehappy {
 
 .nav-tabs a.active {
   color: #211e18;
-  background: #e2e6e8 !important;
+  background: #f2e7d9 !important;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px inset, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px inset;
   border-bottom: none;
   /*padding: 17px 0 17px 0;
@@ -300,7 +351,7 @@ p.browsehappy {
   font-size: 2.2em;
 }
 .ads img {
-  margin: 0 10px 10px 0;
+  margin: 10px 13px;
   box-shadow: 1px 2px 3px #824A14;
   border: 1px solid #824A14;
 }
@@ -337,41 +388,9 @@ p.browsehappy {
   }*/
 }
 
-.about-section {
-  background: url("/img/images/graffiti_new_02.png") right top no-repeat;
-  background-size: 1600px;
-  padding: 10% 5%;
-}
-@media (max-width: 768px) {
-  .about-section {
-    background-size: 900px;
-  }
-}
-.about-section h1 {
-  margin-top: 0;
-}
-.about-section img {
-  width: 100%;
-  max-width: 520px;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-}
-.about-section .bio {
-  padding: 0 0 4% 0;
-  font-size: 1.5em;
-}
-@media (max-width: 500px) {
-  .about-section .bio {
-    font-size: 1em;
-  }
-}
-.about-section div:nth-child(2) {
-  background-size: 600px;
-}
-
 .contactme {
-  padding: 5%;
+  padding: 10%;
+  background: url("/img/images/graffiti_bottom_01.png") no-repeat bottom center/1250px;
 }
 @media (max-width: 992px) {
   .contactme {
@@ -393,12 +412,12 @@ p.browsehappy {
 }
 
 footer {
-  background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp") #211e18;
-  /*background-size:1200px;*/
+  background: url("/img/images/graffiti_bottom_02.png") no-repeat top center, url("https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp") #211e18;
+  background-size: 1250px, cover;
   padding: 2% 0;
   color: #ffffff;
   font-size: 0.86em;
-  /*margin-top:2%;*/
+  /*margin-top:-12%;*/
   overflow: hidden;
   clear: both;
 }
@@ -406,15 +425,6 @@ footer {
   footer {
     padding: 10%;
   }
-}
-footer:before {
-  content: "";
-  background: url("/img/footer-spike.png") no-repeat;
-  position: relative;
-  bottom: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 55px;
 }
 footer nav {
   background: none;
@@ -651,11 +661,11 @@ footer .branding {
 
 nav {
   padding: 15px;
-  background: radial-gradient(circle, rgba(240, 109, 6, 0.24), transparent), url("https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp") #211e18;
-  background-size: cover cover;
+  background: radial-gradient(circle, rgba(240, 109, 6, 0.24), transparent), url("https://res.cloudinary.com/jryandoherty/image/upload/v1670017100/graffiti_home_01_ut13fm.png") center bottom no-repeat, url("https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp") #211e18;
+  background-size: cover, 700px, cover;
   border-radius: 0 !important;
   color: #ffffff;
-  margin-bottom: 2% !important;
+  margin-bottom: 5% !important;
 }
 nav h1 {
   margin: 0;
@@ -709,6 +719,12 @@ nav .navbar-toggle {
 }
 nav .icon-bar {
   border: 2px solid #ffffff;
+}
+@media (max-width: 1024px) {
+  nav {
+    background: radial-gradient(circle, rgba(240, 109, 6, 0.24), transparent), url("https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp") #211e18;
+    background-size: cover, cover;
+  }
 }
 
 /* end navigation */
@@ -880,16 +896,46 @@ input[type=checkbox]:focus {
   transform: translatex(20px);
 }
 
-@media (max-width: 768px) {
-  .emails .crumbs {
+.emails-container {
+  background: url("/img/images/graffiti_bottom_01.png") no-repeat bottom center/1250px;
+  /*background:url('/img/triangleAsymmetrical.svg')no-repeat center 64px/100% $cream;*/
+}
+.emails-container .container {
+  max-width: 1024px !important;
+}
+.emails-container .crumbs {
+  font-size: 85%;
+  padding: 0 0 12px 0;
+}
+@media (max-width: 1100px) {
+  .emails-container .crumbs {
     text-align: center;
+  }
+}
+
+.emails {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+@media (max-width: 1100px) {
+  .emails {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 1600px) {
+  .emails {
+    max-width: 1170px;
   }
 }
 
 .desktop {
   height: 594px;
   width: 740px;
-  background: url(/img/email-client.png) no-repeat top center;
+  background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1667588066/email-client_uxawba.png") no-repeat top center;
   -ms-zoom: 0.85;
   -moz-transform: scale(0.85);
   -moz-transform-origin: top center;
@@ -898,11 +944,18 @@ input[type=checkbox]:focus {
   padding: 0;
   box-shadow: 0 0 5px #824A14;
   border-radius: 5px;
+  margin-top: 2%;
 }
 .desktop object {
   margin: 115px auto 0;
   height: 478px;
   width: 740px;
+}
+@media (max-width: 1100px) {
+  .desktop {
+    -moz-transform-origin: top center;
+    -webkit-transform-origin: top center;
+  }
 }
 @media (max-width: 767px) {
   .desktop {
@@ -911,9 +964,9 @@ input[type=checkbox]:focus {
 }
 
 .mobile {
-  width: 400px;
+  width: 430px;
   min-height: 808px;
-  background: url(/img/phone.png) no-repeat top center;
+  background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1667588066/phone_wguetm.png") no-repeat top center;
   -ms-zoom: 0.7;
   -moz-transform: scale(0.7);
   -moz-transform-origin: top center;
@@ -925,20 +978,17 @@ input[type=checkbox]:focus {
   border: 1px gray solid;
   height: 589px;
   width: 332px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .mobile {
-    margin: 0 auto;
+    -moz-transform-origin: top center;
+    -webkit-transform-origin: top center;
   }
 }
 
 .webpage-container {
-  background: url("/img/wave-haikei.svg") no-repeat bottom center/100%;
-  /*mask-image:url('/img/branding.svg');
-  mask-size: 100vmin;
-   mask-repeat: no-repeat;
-   mask-position: center;*/
+  background: url("/img/images/graffiti_bottom_01.png") no-repeat bottom center/1250px;
 }
 
 .webpage {
@@ -972,29 +1022,18 @@ input[type=checkbox]:focus {
     text-align: center;
   }
 }
+.webpage .row:first-of-type {
+  margin-top: 4%;
+}
 .webpage .row:last-of-type {
-  margin-top: 2%;
-}
-@media (min-width: 1200px) {
-  .webpage .row:last-of-type {
-    padding-bottom: 100px;
-  }
-}
-@media (min-width: 1500px) {
-  .webpage .row:last-of-type {
-    padding-bottom: 150px;
-  }
+  margin-top: 4%;
 }
 .webpage iframe, .webpage object {
-  box-shadow: 1px 2px 3px #824A14;
-  /*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*/
   min-height: 700px;
   height: 768px;
   width: 100%;
-  border: 1px solid #5a4538;
-  box-shadow: 1px 1px #5a4538, 2px 2px #5a4538, 3px 3px #5a4538, 4px 4px #5a4538, 5px 5px #5a4538, 6px 6px #5a4538, 7px 7px #5a4538;
-  /*border-right: 8px outset $siennaLight;
-  border-bottom: 10px outset $sienna;*/
+  border: 1px solid #211e18;
+  box-shadow: 1px 1px #211e18, 2px 2px #211e18, 3px 3px #211e18, 4px 4px #211e18, 5px 5px #211e18, 6px 6px #211e18, 7px 7px #211e18;
 }
 .webpage .legend {
   font-size: 110%;
@@ -1010,9 +1049,9 @@ input[type=checkbox]:focus {
 }
 
 /* end webpage */
-/* end scale */
 .screenshot {
   position: relative;
+  padding-bottom: 2%;
 }
 .screenshot img {
   box-shadow: 1px 2px 3px #824A14;
@@ -1023,6 +1062,10 @@ input[type=checkbox]:focus {
 }
 .screenshot .legend {
   font-size: 85%;
+}
+.screenshot + footer {
+  background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp") #211e18;
+  background-size: cover;
 }
 
 .legend {
@@ -1053,7 +1096,7 @@ input[type=checkbox]:focus {
   margin: 0 0 4px 0;
 }
 .legend a:not([href*=github]) {
-  background: transparent url("/img/new-window-svgrepo-com.svg") no-repeat top right;
+  background: transparent url("https://res.cloudinary.com/jryandoherty/image/upload/v1669751611/new-window-svgrepo-com_uzxb5h.svg") no-repeat top right;
   background-size: 18px;
   padding-right: 24px;
 }

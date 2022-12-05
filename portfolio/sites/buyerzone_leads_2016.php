@@ -1,4 +1,10 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Sites :: BuyerZone Leads 2016";
+require("../header.php");
+
+?>
+
 
 <div class="webpage-container">
 

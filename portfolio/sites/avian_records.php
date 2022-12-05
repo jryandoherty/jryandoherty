@@ -1,4 +1,10 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Sites :: MA Avian Records Committee";
+require("../header.php");
+
+?>
+
 <div class="webpage-container">
 <div class="webpage">
   <div class="row">

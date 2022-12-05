@@ -1,27 +1,32 @@
-<?php include "../header.php"; ?>
+<?php
 
-<div class="container emails">
+$title = "Email :: Take Documents to the Cloud";
+require("../header.php");
 
-  <div class="row iframe">
+?>
 
-    <div class="col-md-12 crumbs">
+
+<div class="emails-container">
+
+  <div class="container">
+    <div class="crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
 
-<div class="container">
-  <div class="col-lg-6 desktop">
+<div class="emails">
+
+  <div class="desktop">
     <object data="/portfolio/2016/emails/may/may12.html">
     </object>
-
   </div>
 
-  <div class="col-lg-3 mobile">
+  <div class="mobile">
     <object data="/portfolio/2016/emails/may/may12.html">
     </object>
-
   </div>
-</div>
-</div><!-- end container -->
+
+</div><!-- end emails -->
+</div><!-- end emails-container -->
 
 <?php include "../footer.php"; ?>

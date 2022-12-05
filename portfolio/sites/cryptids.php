@@ -1,4 +1,9 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Sites :: Cryptids LLC";
+require("../header.php");
+
+?>
 
 <div class="container screenshot">
   <div class="row">
@@ -36,7 +41,7 @@
         <li><strong>Platform:</strong> Wordpress</li>
       <li><a href="https://www.cryptidscannabis.com" target="_blank">Live page</a></li>
     </ul>
-
+    <p>Wordpress site for cannabis retailer Cryptids LLC.</p>
   </div>
 
 </div><!-- end container -->

@@ -1,4 +1,10 @@
-<?php include "../header.php"; ?>
+<?php
+
+$title = "Sites :: BDC Community";
+require("../header.php");
+
+?>
+
 
 <div class="container screenshot">
   <div class="row">
@@ -42,6 +48,7 @@
       <li><strong>Client:</strong> Business.com</li>
       <li><strong>Date:</strong> 2018</li>
     </ul>
+    <p>Redesign of Business.com's community page.</p>
   </div>
 
 
