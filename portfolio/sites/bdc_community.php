@@ -48,6 +48,7 @@ require("../header.php");
       <li><strong>Client:</strong> Business.com</li>
       <li><strong>Date:</strong> 2018</li>
     </ul>
+    <p>Redesign of Business.com's community page.</p>
   </div>
 
 

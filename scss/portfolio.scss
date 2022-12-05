@@ -6,9 +6,13 @@ html, body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
 	color:$black;
-	background:$cream;
+	background:url('/img/images/graffiti_home_02.png')no-repeat center 94px/700px $cream;
 
 
+
+	@media (max-width: 1024px) {
+		background:$cream;
+	}
 	/*scroll-behavior: smooth;*/
 	/*image-rendering: -webkit-optimize-contrast;*/
 }
@@ -36,9 +40,9 @@ p.browsehappy{
 
 .brick {
 
-	background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent),url('/img/images/graffiti_home_01.png') right bottom no-repeat,
+	background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent),url('https://res.cloudinary.com/jryandoherty/image/upload/v1670017100/graffiti_home_01_ut13fm.png') center bottom no-repeat,
 	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
-	background-size:  cover,1600px,cover;
+	background-size:  cover,1410px,cover;
 	overflow:hidden;
 	color:$white;
 	position:relative;
@@ -158,10 +162,43 @@ p.browsehappy{
 
 }   /* end brick section */
 
+.about-section {
+	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670017100/graffiti_home_02_qajgxw.png') center top no-repeat;
+	background-size: 1410px;
+	padding:12% 5%;
+	@media(max-width:768px) {
+		background-size: 900px;
+	}
+
+	h1 {
+		margin-top:0;
+	}
+
+	img {
+		width:100%;
+		max-width:520px;
+		height:auto;
+		margin: 0 auto;
+		display:block;
+	}
+
+	.bio {
+		padding:0 0 4% 0;
+		font-size:1.5em;
+		@media (max-width:500px){
+			font-size: 1em;
+		}
+	}
+
+	div:nth-child(2){
+		background-size: 600px;
+	}
+} /* end about section */
 
 
 .portfolio {
-	background: #ded6cc;
+	/*background: #ded6cc;*/
+	background: $portfolioPink;
 	box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 2px 0px, rgba(60, 64, 67, 0.15) 0px -1px 3px 1px;
 
 .divider {
@@ -240,12 +277,12 @@ p.browsehappy{
 
 	&:nth-child(5){
 		background:$yellowDark;
-		color:#333;
+		color:$gray;
 	}
 
 	&:nth-child(6){
 		background:$yellow;
-		color:#333;
+		color:$gray;
 	}
 
 } /* end button */
@@ -258,7 +295,7 @@ p.browsehappy{
 
 .nav-tabs a.active {
   color: $altblack;
-	background:$portfolioGray!important;
+	background:$portfolioPink!important;
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px inset, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px inset;
 	border-bottom: none;
 	/*padding: 17px 0 17px 0;
@@ -390,43 +427,11 @@ p.browsehappy{
 
 }
 
-.about-section {
-	background:url('/img/images/graffiti_home_02.png') right top no-repeat;
-	background-size: 1600px;
-	padding:10% 5%;
-	@media(max-width:768px) {
-		background-size: 900px;
-	}
-
-	h1 {
-		margin-top:0;
-	}
-
-	img {
-		width:100%;
-		max-width:520px;
-		height:auto;
-		margin: 0 auto;
-		display:block;
-	}
-
-	.bio {
-		padding:0 0 4% 0;
-		font-size:1.5em;
-		@media (max-width:500px){
-			font-size: 1em;
-		}
-	}
-
-	div:nth-child(2){
-		background-size: 600px;
-	}
-}
-
 
 .contactme {
 
-	padding:5%;
+	padding:10%;
+	background:url('/img/images/graffiti_bottom_01.png')no-repeat bottom center/1250px;
 	@media (max-width:992px){
 		padding:10%;
 	}

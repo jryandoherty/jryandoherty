@@ -1,21 +1,50 @@
-.emails {
-		.crumbs {
+.emails-container {
+	background:url('/img/images/graffiti_bottom_01.png')no-repeat bottom center/1250px;
+	/*background:url('/img/triangleAsymmetrical.svg')no-repeat center 64px/100% $cream;*/
+
+	.container {
+		max-width:1024px!important;
+
+	}
+
+	.crumbs {
 			font-size:85%;
+			padding:0 0 12px 0;
 		}
 
-
-		@media(max-width:1199px){
+		@media(max-width:1100px){
 			.crumbs{
 			text-align:center;
+
 			}
 		}
 }
+
+.emails {
+
+	margin:0 auto;
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
+
+	@media(max-width:1100px) {
+		width:95%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	@media(min-width:1600px) {
+		max-width:1170px;
+	}
+
+}
+
 
 
 .desktop {
 	height:594px;
 	width:740px;
-	background: url(/img/email-client.png)no-repeat top center;
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1667588066/email-client_uxawba.png')no-repeat top center;
 	-ms-zoom: 0.85;
 	-moz-transform: scale(0.85);
 	-moz-transform-origin: top center;
@@ -26,22 +55,21 @@
 	border-radius: 5px;
 	margin-top:2%;
 
-
 	object {
 		margin: 115px auto 0 ;
 		height: 478px;
 		width:740px;
-
 	}
 
-	@media(max-width:1199px) {
+	@media(max-width:1100px) {
 
 		-moz-transform-origin: top center;
 		-webkit-transform-origin: top center;
+
 	}
 
 	@media(max-width: 767px){
-		display: none;
+		display:none;
 	}
 }
 
@@ -49,43 +77,33 @@
 .mobile {
 	width:430px;
 	min-height:808px;
-	background: url(/img/phone.png)no-repeat top center;
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1667588066/phone_wguetm.png')no-repeat top center;
 	-ms-zoom: 0.70;
-	-moz-transform: scale(0.80);
-	-moz-transform-origin: top right;
-	-webkit-transform: scale(0.80);
-	-webkit-transform-origin: top right;
+	-moz-transform: scale(0.70);
+	-moz-transform-origin: top center;
+	-webkit-transform: scale(0.70);
+	-webkit-transform-origin: top center;
 
 	object {
 		margin: 110px auto 0;
 		border: 1px gray solid;
 		height: 589px;
 		width:332px;
-		margin-left: 35px;
+		margin-left: 50px;
 	}
 
 
-	@media(max-width:1199px) {
+	@media(max-width:1100px) {
 
 		-moz-transform-origin: top center;
 		-webkit-transform-origin: top center;
 	}
-
-	@media(max-width:768px) {
-		margin:0 auto;
-	}
-
-
 
 }
 
 
 .webpage-container {
 	background:url('/img/images/graffiti_bottom_01.png')no-repeat bottom center/1250px;
-	/*mask-image:url('/img/branding.svg');
-	mask-size: 100vmin;
-  mask-repeat: no-repeat;
-  mask-position: center;*/
 }
 
 
@@ -117,23 +135,16 @@
 		}
 	}
 
+	.row:first-of-type {
+	 margin-top:4%;
+ 	}
 
-	 .row:last-of-type {
-		margin-top:2%;
-
-			@media(min-width:1200px) {
-				padding-bottom:100px;
-			}
-
-			@media(min-width:1500px) {
-				padding-bottom:150px;
-			}
-
+	.row:last-of-type {
+		margin-top:4%;
 	}
 
 	iframe, object {
 
-		/*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*/
 		min-height:700px;
 		height:768px;
 		width:100%;
@@ -146,11 +157,6 @@
 	 		 5px 5px $altblack,
 			 6px 6px $altblack,
 			 7px 7px $altblack;
-
-		/*border-right: 8px outset $siennaLight;
-		border-bottom: 10px outset $sienna;*/
-
-
 	}
 
 	.legend {
@@ -168,15 +174,11 @@
 }/* end webpage */
 
 
-.iframe {
-
-
-
-
-} /* end scale */
 
 .screenshot {
+
 	position:relative;
+	padding-bottom:2%;
 	img {
 		box-shadow: 1px 2px 3px $sienna;
 		margin-bottom:10px;
@@ -188,6 +190,10 @@
 
 	.legend {
 		font-size:85%;
+	}
+	+ footer {
+		background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
+		background-size:cover;
 	}
 }
 
@@ -207,7 +213,6 @@
 		font-size: 1.3em;
 		font-family: 'Oswald', sans-serif;
 		margin-bottom:12px;
-
 	}
 
 	ul {
@@ -222,10 +227,9 @@
 	}
 
 	a:not([href*="github"]){
-    background: transparent url('/img/new-window-svgrepo-com.svg') no-repeat top right;
+    background: transparent url('https://res.cloudinary.com/jryandoherty/image/upload/v1669751611/new-window-svgrepo-com_uzxb5h.svg') no-repeat top right;
 		background-size:18px;
 		padding-right:24px;
-
 	}
 
 	p {

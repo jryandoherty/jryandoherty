@@ -41,7 +41,7 @@ require("../header.php");
         <li><strong>Platform:</strong> Wordpress</li>
       <li><a href="https://www.cryptidscannabis.com" target="_blank">Live page</a></li>
     </ul>
-
+    <p>Wordpress site for cannabis retailer Cryptids LLC.</p>
   </div>
 
 </div><!-- end container -->

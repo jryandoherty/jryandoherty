@@ -1,23 +1,28 @@
-<?php include "../header.php"; ?>
+<?php
 
-<div class="container emails">
+$title = "Email :: Choose Your Truck";
+require("../header.php");
 
-<div class="row iframe">
-  <div class="col-md-12 crumbs">
-    <?php include "../breadcrumbs.php"; ?>
-  </div>
-</div> <!--end breadcrumb row -->
+?>
 
-<div class="row">
-  <div class="col-lg-6 desktop">
-    <object data="/portfolio/2016/emails/may/may_25.html"></object>
-  </div>
+<div class="emails-container">
 
-  <div class="col-lg-3 mobile">
-    <object data="/portfolio/2016/emails/may/may_25.html" ></object>
-  </div>
-  
-</div>
-</div><!-- end container -->
+  <div class="container">
+    <div class="crumbs">
+      <?php include "../breadcrumbs.php"; ?>
+    </div>
+  </div> <!--end breadcrumb row -->
 
+  <div class="emails">
+
+    <div class="desktop">
+      <object data="/portfolio/2016/emails/may/may_25.html"></object>
+    </div>
+
+    <div class="mobile">
+      <object data="/portfolio/2016/emails/may/may_25.html" ></object>
+    </div>
+
+  </div><!-- end emails -->
+</div><!-- end emails-container -->
 <?php include "../footer.php"; ?>

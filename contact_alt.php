@@ -1,4 +1,4 @@
-<div id="contactme" class="contactme">
+<section id="contactme" class="contactme">
  	<div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
@@ -49,13 +49,14 @@
 
 </form>
 
-<div id="success_message" style="width:100%; height:100%; display:none;">
-    <h3>Thanks for your message!</h3>
-    <p>I'll get back to you as soon as possible.</p>
-</div>
-<div id="error_message" style="width:100%; height:100%; display:none;">
-    <h3>Error</h3>
-    Sorry there was an error sending your form.
-</div>
-    </div> <!-- /.container -->
-</div> <!-- end contact section -->
+  <div id="success_message" style="width:100%; height:100%; display:none;">
+      <h3>Thanks for your message!</h3>
+      <p>I'll get back to you as soon as possible.</p>
+  </div>
+  <div id="error_message" style="width:100%; height:100%; display:none;">
+      <h3>Error</h3>
+      Sorry there was an error sending your form.
+  </div>
+  
+</div> <!-- /.container -->
+</section> <!-- end contact section -->

@@ -5,7 +5,8 @@ require("../header.php");
 
 ?>
 
-<div class="container webpage iframe">
+<div class="webpage-container">
+<div class="webpage">
   <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-8 crumbs">
@@ -15,9 +16,7 @@ require("../header.php");
 
   <div class="row">
 
-    <object data="../2015/copernicus/copernicus.html"
-            width="100%" height="700" frameborder="2"
-            allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
+    <object name="frame" data="../2015/copernicus/copernicus.html">
     </object>
 
     <div class="legend">
@@ -40,12 +39,14 @@ require("../header.php");
 
   <div class="project-flow">
 
-  <div class="item">Promotional Email</div>
+    <div class="item">Promotional Email</div>
 
-  <div class="item">Landing page</div>
+    <div class="item">Landing page</div>
 
   </div>
 
 
+
+</div><!-- end webpage -->
 </div><!-- end container -->
 <?php include "../footer.php"; ?>

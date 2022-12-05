@@ -57,7 +57,7 @@ require("../header.php");
       <li><a href="https://web.archive.org/web/20131120165520/http://www.buyerzone.com/" target="_blank">Archive page</a></li>
 
     </ul>
-    <p>New responsive homepage for buyerzone.com, an online lead generation service.</p>
+    <p>New responsive homepage for BuyerZone.com, an online lead generation service.</p>
   </div>
 
 </div><!-- end container -->
