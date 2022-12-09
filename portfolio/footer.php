@@ -34,7 +34,7 @@
 
 
 <!-- Begin Inspectlet Asynchronous Code -->
-<script type="text/javascript">
+<script>
 (function() {
 window.__insp = window.__insp || [];
 __insp.push(['wid', 687099730]);

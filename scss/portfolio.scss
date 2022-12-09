@@ -6,7 +6,7 @@ html, body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
 	color:$black;
-	background:url('/img/images/graffiti_home_02.png')no-repeat center 94px/700px $cream;
+	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png')no-repeat center 94px/700px $cream;
 
 
 
@@ -40,7 +40,7 @@ p.browsehappy{
 
 .brick {
 
-	background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent),url('https://res.cloudinary.com/jryandoherty/image/upload/v1670017100/graffiti_home_01_ut13fm.png') center bottom no-repeat,
+	background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent),url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_01_vblykt.png') center bottom no-repeat,
 	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
 	background-size:  cover,1410px,cover;
 	overflow:hidden;
@@ -163,7 +163,7 @@ p.browsehappy{
 }   /* end brick section */
 
 .about-section {
-	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670017100/graffiti_home_02_qajgxw.png') center top no-repeat;
+	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png') center top no-repeat;
 	background-size: 1410px;
 	padding:12% 5%;
 	@media(max-width:768px) {
@@ -431,7 +431,7 @@ p.browsehappy{
 .contactme {
 
 	padding:10%;
-	background:url('/img/images/graffiti_bottom_01.png')no-repeat bottom center/1250px;
+	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_01_wcsfde.png')no-repeat bottom center/1250px;
 	@media (max-width:992px){
 		padding:10%;
 	}
@@ -461,7 +461,7 @@ p.browsehappy{
 
 
 footer {
-	background: url('/img/images/graffiti_bottom_02.png')no-repeat top center,url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
+	background: url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_02_ijass0.png')no-repeat top center,url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
 	background-size:  1250px,cover;
 	padding:2% 0;
 	color:$white;
