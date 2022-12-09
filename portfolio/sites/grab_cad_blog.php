@@ -15,7 +15,7 @@ require("../header.php");
   </div> <!--end breadcrumb row -->
 
 <div class="row">
-    <object data="https://blog.grabcad.com/" type=""></object>
+    <object data="https://blog.grabcad.com/"></object>
 </div><!-- end row -->
 
 <div class="row">
@@ -38,7 +38,7 @@ require("../header.php");
   </div>
   <div class="col-lg-6">
     <picture>
-       <source srcset="" type="image/webp" class="three-screens">
+       <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1670535741/grabcad_fd6fki.webp" type="image/webp" class="three-screens">
        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1596128951/grabcad_ae6x58.jpg" alt="three screens" class="three-screens">
     </picture>
   </div>
