@@ -14,12 +14,10 @@
 
         <a href="/portfolio/sites/roger_buttles.php"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/roger_yhrdix.jpg" alt="Roger Buttles" ></a>
 
-        <a href="/portfolio/sites/cryptids.php"><img srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/cryptids_qhtzj3.jpg 2x" src="https://res.cloudinary.com/jryandoherty/image/upload/v1649122544/thumbs_sites/cryptids_1x_ouc19q.jpg" alt="Cryptids" ></a>
-
         <a href="/portfolio/sites/bdc_community.php"><img srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1648573008/thumbs_sites/bdc_community_vrusch.jpg 2x" src="https://res.cloudinary.com/jryandoherty/image/upload/v1649122544/thumbs_sites/bdc_community_1x_ffntfn.jpg" alt="Business.com Community" ></a>
 
         <a href="/portfolio/sites/buyerzone_home_2015.php"><img srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1648572958/thumbs_sites/bzhome2015_bjatis.jpg 2x" src="https://res.cloudinary.com/jryandoherty/image/upload/v1649122544/thumbs_sites/bzhome2015_1x_sh9xwx.jpg" alt="Buyerzone Home" ></a>
 
-        <a href="/portfolio/sites/buyerzone_home_2013.php"><img srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649122544/thumbs_sites/bzhome2013_waf608.jpg 2x" src="https://res.cloudinary.com/jryandoherty/image/upload/v1649122544/thumbs_sites/bzhome2013_1x_nzi1p5.jpg" alt="Buyerzone Home" ></a>
+
 
 </section>

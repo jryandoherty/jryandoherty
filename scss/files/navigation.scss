@@ -125,8 +125,9 @@
 .crumbs {
 	text-align: right;
 	font-size:.95em;
-	padding: 0 14px 12px 0;
+	padding: 0 14px 6px 0;
 	margin: 20px 0 0 0;
+	color:$breadcrumbs;
 	@media (max-width:768px) {
 		font-size:.7521367521367521em;
 		padding-right:15px;

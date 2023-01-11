@@ -10,6 +10,8 @@
 	.crumbs {
 			font-size:85%;
 			padding:0 0 12px 0;
+			border-bottom:1px solid $breadcrumbs;
+
 		}
 
 		@media(max-width:1100px){
@@ -54,6 +56,7 @@
 	box-shadow:0 0 5px $sienna;
 	border-radius: 5px;
 	margin-top:2%;
+	margin-left: 25px;
 
 	object {
 		margin: 115px auto 0 ;
@@ -135,12 +138,26 @@
 		}
 	}
 
+	.col-lg-3, .col-lg-4 {
+		padding-right:50px;
+	}
+
+	.col-lg-8, .col-lg-7 {
+		padding: 0;
+	}
+
 	.row:first-of-type {
-	 margin-top:4%;
+
+	 margin-bottom:1%;
+
  	}
 
+	.row:nth-of-type(2) {
+		margin-bottom:6%;
+	}
+
 	.row:last-of-type {
-		margin-top:4%;
+
 	}
 
 	iframe, object {
@@ -165,6 +182,7 @@
 
 	.crumbs {
 		font-size:100%;
+		border-bottom:1px solid $breadcrumbs;
 		padding-right:0!important;
 		@media(max-width:480px){
 			font-size:90%;
@@ -186,6 +204,7 @@
 
 	.crumbs {
 		font-size:85%;
+		border-bottom:1px solid $breadcrumbs;
 	}
 
 	.legend {
@@ -202,7 +221,7 @@
 	flex-direction: column;
 	justify-content: center;
 	height:auto;
-	padding:20px 0;
+	padding:0px 0 20px 0;
 
 	@media (max-width:768px) {
 			position:static;
@@ -334,12 +353,17 @@
 	.item {
 	  flex:1;
 	  text-align:center;
-		font-size:1.35em;
+		font-size:110%;
+		&:first-child {
+			text-align: left;
+			margin-left:20px;
+		}
 		@media(max-width:768px){
 			font-size:1em;
 		}
 	}
 }
+
 .project-flow-img {
 	max-width:100%;
 	width:1200px;

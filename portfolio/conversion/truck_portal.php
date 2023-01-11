@@ -8,17 +8,13 @@ require("../header.php");
 <div class="webpage-container">
 <div class="webpage">
   <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-8 crumbs">
+    <div class="col-md-12 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
 
   <div class="row">
-    <object data="../2016/trucks/trucks.html"></object>
-  </div>
-
-    <div class="legend">
+    <div class="legend col-lg-4">
       <h2>PROJECT</h2>
       <ul>
         <li><strong>Client:</strong> Buyerzone.com</li>
@@ -31,16 +27,26 @@ require("../header.php");
       </ul>
     </div>
 
-    <picture>
-       <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649348515/trucks_n0bnnw.webp" type="image/webp" class="project-flow-img">
-       <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649348515/trucks_e8hnwn.jpg" alt="project flow" class="project-flow-img">
-    </picture>
+    <div class="col-lg-8">
+      <picture>
+         <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649348515/trucks_n0bnnw.webp" type="image/webp" class="project-flow-img">
+         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649348515/trucks_e8hnwn.jpg" alt="project flow" class="project-flow-img">
+      </picture>
 
-    <div class="project-flow">
-        <div class="item">Promotional email</div>
-        <div class="item">Portal page</div>
-        <div class="item">Conversion page</div>
+      <div class="project-flow">
+          <div class="item">Promotional email</div>
+          <div class="item">Portal page</div>
+          <div class="item">Conversion page</div>
+      </div>
     </div>
+
+  </div><!-- end row  -->
+
+  <div class="row">
+    <object data="../2016/trucks/trucks.html"></object>
+  </div>
+
+
 
   </div><!-- end webpage -->
 </div><!-- end container -->

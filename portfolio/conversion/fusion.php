@@ -7,8 +7,7 @@ require("../header.php");
 
 <div class="container screenshot">
   <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-8 crumbs">
+    <div class="col-md-12 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
@@ -18,15 +17,15 @@ require("../header.php");
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <div class="col-lg-12"><img src="/portfolio/2015/fusion/home.png" alt="image 1"></div>
+        <div class="col-lg-12"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648600695/screens/home_hfwmli.png" alt="image 1"></div>
       </div>
 
       <div class="item">
-        <div class="col-lg-12"><img src="/portfolio/2015/fusion/monitored.png" alt="image 2"></div>
+        <div class="col-lg-12"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648600709/screens/monitored_ne0te5.png" alt="image 2"></div>
       </div>
 
       <div class="item">
-        <div class="col-lg-12"><img src="/portfolio/2015/fusion/time.png" alt="image 3"></div>
+        <div class="col-lg-12"><img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648600713/screens/time_aholdb.png" alt="image 3"></div>
       </div>
 
       <ol class="carousel-indicators">

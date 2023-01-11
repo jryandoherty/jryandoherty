@@ -14,6 +14,17 @@ require("../header.php");
     </div>
   </div> <!--end breadcrumb row -->
 
+<div class="legend">
+  <h2>PROJECT</h2>
+  <ul>
+    <li>Category: Sites and Mini-sites</li>
+    <li>Client: Buyerzone.com</li>
+    <li>Date: 2013</li>
+    <li><a href="https://web.archive.org/web/20131120165520/http://www.buyerzone.com/" target="_blank">Archive page</a></li>
+
+  </ul>
+  <p>New responsive homepage for BuyerZone.com, an online lead generation service.</p>
+</div>
 
 <div class="row">
   <div id="carousel-port" class="carousel slide" data-ride="carousel" data-interval="3000">
@@ -46,19 +57,6 @@ require("../header.php");
 
   </div><!-- end carousel -->
 </div><!-- end row -->
-
-
-  <div class="legend">
-    <h2>PROJECT</h2>
-    <ul>
-      <li>Category: Sites and Mini-sites</li>
-      <li>Client: Buyerzone.com</li>
-      <li>Date: 2013</li>
-      <li><a href="https://web.archive.org/web/20131120165520/http://www.buyerzone.com/" target="_blank">Archive page</a></li>
-
-    </ul>
-    <p>New responsive homepage for BuyerZone.com, an online lead generation service.</p>
-  </div>
 
 </div><!-- end container -->
 

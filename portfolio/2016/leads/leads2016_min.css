@@ -936,7 +936,7 @@ textarea {
 
 .feedback-input:focus {
   background: #fff;
-  box-shadow: 0;
+  box-shadow: none;
   border: 5px solid #FABF3A;
   color: #DD9833;
   outline: 0;

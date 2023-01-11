@@ -348,29 +348,43 @@ p.browsehappy {
 }
 .ads h2 {
   margin: 0 auto 40px;
-  font-size: 2.2em;
+}
+@media (max-width: 768px) {
+  .ads h2 {
+    margin: 30px auto 40px;
+  }
 }
 .ads img {
   margin: 10px 13px;
   box-shadow: 1px 2px 3px #824A14;
   border: 1px solid #824A14;
 }
+@media (max-width: 768px) {
+  .ads img {
+    margin: 10px auto;
+  }
+}
 .ads .square {
   max-width: 240px;
   height: auto;
 }
 .ads .rectangle {
-  max-width: 340px;
+  width: 340px;
+  max-width: 100%;
   height: auto;
 }
 
 .logos {
   text-align: center;
-  padding: 5% 0;
+  padding: 5%;
 }
 .logos h2 {
-  padding: 0px 10px 3px 17px;
-  font-size: 2.2em;
+  margin: 0 auto 40px;
+}
+@media (max-width: 768px) {
+  .logos h2 {
+    margin: 30px auto 40px;
+  }
 }
 .logos img {
   width: 240px;
@@ -646,8 +660,9 @@ footer .branding {
 .crumbs {
   text-align: right;
   font-size: 0.95em;
-  padding: 0 14px 12px 0;
+  padding: 0 14px 6px 0;
   margin: 20px 0 0 0;
+  color: #6b6b6b;
   /*a:nth-child(2){
   	display:none;
   }*/
@@ -906,6 +921,7 @@ input[type=checkbox]:focus {
 .emails-container .crumbs {
   font-size: 85%;
   padding: 0 0 12px 0;
+  border-bottom: 1px solid #6b6b6b;
 }
 @media (max-width: 1100px) {
   .emails-container .crumbs {
@@ -945,6 +961,7 @@ input[type=checkbox]:focus {
   box-shadow: 0 0 5px #824A14;
   border-radius: 5px;
   margin-top: 2%;
+  margin-left: 25px;
 }
 .desktop object {
   margin: 115px auto 0;
@@ -1022,11 +1039,17 @@ input[type=checkbox]:focus {
     text-align: center;
   }
 }
-.webpage .row:first-of-type {
-  margin-top: 4%;
+.webpage .col-lg-3, .webpage .col-lg-4 {
+  padding-right: 50px;
 }
-.webpage .row:last-of-type {
-  margin-top: 4%;
+.webpage .col-lg-8, .webpage .col-lg-7 {
+  padding: 0;
+}
+.webpage .row:first-of-type {
+  margin-bottom: 1%;
+}
+.webpage .row:nth-of-type(2) {
+  margin-bottom: 6%;
 }
 .webpage iframe, .webpage object {
   min-height: 700px;
@@ -1040,6 +1063,7 @@ input[type=checkbox]:focus {
 }
 .webpage .crumbs {
   font-size: 100%;
+  border-bottom: 1px solid #6b6b6b;
   padding-right: 0 !important;
 }
 @media (max-width: 480px) {
@@ -1059,6 +1083,7 @@ input[type=checkbox]:focus {
 }
 .screenshot .crumbs {
   font-size: 85%;
+  border-bottom: 1px solid #6b6b6b;
 }
 .screenshot .legend {
   font-size: 85%;
@@ -1073,7 +1098,7 @@ input[type=checkbox]:focus {
   flex-direction: column;
   justify-content: center;
   height: auto;
-  padding: 20px 0;
+  padding: 0px 0 20px 0;
 }
 @media (max-width: 768px) {
   .legend {
@@ -1190,7 +1215,11 @@ input[type=checkbox]:focus {
 .project-flow .item {
   flex: 1;
   text-align: center;
-  font-size: 1.35em;
+  font-size: 110%;
+}
+.project-flow .item:first-child {
+  text-align: left;
+  margin-left: 20px;
 }
 @media (max-width: 768px) {
   .project-flow .item {

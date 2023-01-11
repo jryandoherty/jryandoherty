@@ -379,13 +379,18 @@ p.browsehappy{
 
 	h2 {
 		margin:0 auto 40px;
-		font-size: 2.2em;
+		@media (max-width:768px){
+			margin:30px auto 40px;
+		}
 	}
 
 	img {
 		margin: 10px 13px;
 		box-shadow: 1px 2px 3px $sienna;
 		border:1px solid $sienna;
+		@media(max-width:768px){
+			margin:10px auto;
+		}
 	}
 	.square {
 		max-width: 240px;
@@ -393,7 +398,8 @@ p.browsehappy{
 	}
 
 	.rectangle {
-		max-width: 340px;
+		width: 340px;
+		max-width:100%;
 		height:auto;
 	}
 }
@@ -401,11 +407,13 @@ p.browsehappy{
 
 .logos {
   text-align:center;
-	padding:5% 0;
+	padding:5%;
 
 	h2 {
-		padding: 0px 10px 3px 17px;
-		font-size: 2.2em;
+		margin:0 auto 40px;
+		@media (max-width:768px){
+			margin:30px auto 40px;
+		}
 	}
 
 	img {

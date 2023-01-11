@@ -1,4 +1,3 @@
-
 <section class="logos tab-pane fade" id="logos" role="tabpanel">
     <h2>Logos</h2>
     <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648693045/logos/j-h_logo_blue_peiwky.png" alt="Just Healthy">

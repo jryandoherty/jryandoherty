@@ -8,18 +8,13 @@ require("../header.php");
 <div class="webpage-container">
 <div class="webpage">
   <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-8 crumbs">
+    <div class="col-md-12 crumbs">
       <?php include "../breadcrumbs.php"; ?>
     </div>
   </div> <!--end breadcrumb row -->
 
   <div class="row">
-    <object name="frame" data="../2016/hornet/skidSteer.html"></object>
-  </div>
-
-
-    <div class="legend col-lg-6">
+    <div class="legend col-lg-4">
       <h2>PROJECT</h2>
       <ul>
         <li><strong>Category:</strong> Conversion pages</li>
@@ -31,18 +26,23 @@ require("../header.php");
       </ul>
       <p>Construction themed conversion page. This page was the final step in a marketing campaign starting with a promotional email sent to potential customers in the construction business. The email would direct users either to a portal page, or directly to the conversion page.</p>
     </div>
+  <div class="col-lg-8">
+      <picture>
+         <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649345376/construction_skktvt.webp" type="image/webp" class="project-flow-img">
+         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649345376/construction_rdftbc.jpg" alt="project flow" class="project-flow-img">
+      </picture>
 
-    <picture>
-       <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649345376/construction_skktvt.webp" type="image/webp" class="project-flow-img">
-       <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649345376/construction_rdftbc.jpg" alt="project flow" class="project-flow-img">
-    </picture>
-
-    <div class="project-flow">
-      <div class="item">Promotional email</div>
-      <div class="item">Portal page</div>
-      <div class="item">Conversion page</div>
+      <div class="project-flow">
+        <div class="item">Promotional email</div>
+        <div class="item">Portal page</div>
+        <div class="item">Conversion page</div>
+      </div>
     </div>
+  </div><!-- end row  -->
 
+  <div class="row">
+    <object name="frame" data="../2016/hornet/skidSteer.html"></object>
+  </div>
 
   </div><!-- end webpage -->
 </div><!-- end container -->
