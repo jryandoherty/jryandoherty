@@ -1,23 +1,20 @@
 .emails-container {
-	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_01_wcsfde.png')no-repeat bottom center/1250px;
-	/*background:url('/img/triangleAsymmetrical.svg')no-repeat center 64px/100% $cream;*/
+		background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_bottom_01_wcsfde.png')no-repeat bottom center/1250px;
+		/*background:url('/img/triangleAsymmetrical.svg')no-repeat center 64px/100% $cream;*/
 
 	.container {
 		max-width:1024px!important;
-
 	}
 
 	.crumbs {
-			font-size:85%;
-			padding:0 0 12px 0;
-			border-bottom:1px solid $breadcrumbs;
-
+		font-size:85%;
+		padding:0 0 12px 0;
+		border-bottom:1px solid $breadcrumbs;
 		}
 
 		@media(max-width:1100px){
 			.crumbs{
 			text-align:center;
-
 			}
 		}
 }
@@ -42,7 +39,6 @@
 }
 
 
-
 .desktop {
 	height:594px;
 	width:740px;
@@ -65,10 +61,8 @@
 	}
 
 	@media(max-width:1100px) {
-
 		-moz-transform-origin: top center;
 		-webkit-transform-origin: top center;
-
 	}
 
 	@media(max-width: 767px){
@@ -97,7 +91,6 @@
 
 
 	@media(max-width:1100px) {
-
 		-moz-transform-origin: top center;
 		-webkit-transform-origin: top center;
 	}
@@ -111,7 +104,6 @@
 
 
 .webpage {
-
 	margin:0 auto;
 	-ms-zoom: 0.85;
  -moz-transform: scale(0.85);
@@ -147,13 +139,11 @@
 	}
 
 	.row:first-of-type {
-
-	 margin-bottom:1%;
-
+	 	margin-bottom:2%;
  	}
 
 	.row:nth-of-type(2) {
-		margin-bottom:6%;
+		margin-bottom:4%;
 	}
 
 	.row:last-of-type {
@@ -177,7 +167,10 @@
 	}
 
 	.legend {
-		font-size:110%;
+		font-size:100%;
+		@media(max-width:480px){
+			font-size:90%;
+		}
 	}
 
 	.crumbs {
@@ -197,18 +190,32 @@
 
 	position:relative;
 	padding-bottom:2%;
-	img {
-		box-shadow: 1px 2px 3px $sienna;
-		margin-bottom:10px;
-	}
 
 	.crumbs {
 		font-size:85%;
 		border-bottom:1px solid $breadcrumbs;
+		padding-right:0!important;
+		@media(max-width:480px){
+			font-size:80%;
+		}
+
+	}
+
+	.row:first-of-type {
+	 	margin-bottom:2%;
+ 	}
+
+	.row:nth-of-type(2) {
+		margin-bottom:4%;
+	}
+
+	.row:last-of-type  {
+		margin-bottom:15%;
 	}
 
 	.legend {
 		font-size:85%;
+
 	}
 	+ footer {
 		background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') $altblack;
@@ -225,7 +232,7 @@
 
 	@media (max-width:768px) {
 			position:static;
-			margin:20px auto;
+
 	}
 
 	h2 {
@@ -273,7 +280,7 @@
 	width:700px;
 	height:auto;
 	max-width: 100%;
-	margin-top:35px;
+
 
 }
 
@@ -293,10 +300,15 @@
 		max-width:500px;
 		margin-top:20px;
 
+
 		img {
 			width:150px;
 			height:100px;
 			box-shadow: 1px 2px 3px $sienna;
+			@media (max-width:460px){
+				width:110px;
+				height:auto;
+			}
 		}
 
 		a {
@@ -310,13 +322,13 @@
 		}
 
 		& >* {
-			flex: 1 1 140px;
+			flex: 1 1;
 		}
 }
 
 .carousel-indicators {
 	position:static;
-	margin-left: 20px;
+	margin-left: 2px;
 	text-align:left;
 }
 
@@ -341,7 +353,11 @@
 }
 
 .carousel img {
-	max-width:100%;
+	box-shadow: $sienna 2px 2px 4px;
+	margin-bottom:10px;
+	max-width: 99%!important;
+	border-top:1px solid $sienna;
+	border-left:1px solid $sienna;
 }
 
 .project-flow {

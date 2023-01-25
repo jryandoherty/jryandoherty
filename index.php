@@ -59,16 +59,6 @@
 
   </div><!-- end container -->
 
-<!--  <div class="container-fluid">
-    <h2>DESIGN + DEV</h2>
-    <div class="col-lg-12 bio">
- I've been working on the web since the early 2000s doing freelance, corporate, and non-profit work ranging from full site
- design, landing pages, conversion pages, and marketing emails. So many changes during that time! But that's the fun part.
- When I'm not designing or writing code, you can find me out <a href="https://en.wikipedia.org/wiki/Birdwatching" target="_blank">birding</a> or playing guitar.
-    </div>
-
-  </div> -->
-
 </section><!-- end about me -->
 
 <section class="portfolio" id="portfolio">

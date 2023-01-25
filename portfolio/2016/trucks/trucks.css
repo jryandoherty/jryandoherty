@@ -37,7 +37,7 @@ html, body {
 
 .headLine {
 	position: absolute;
-	top: 3%;
+	top: 6%;
 	width:36%;
 	left: 4%;
 	text-align:left;
@@ -399,7 +399,7 @@ html, body {
 		height:auto;
 		background: url('img/bg_trucks_mobile.jpg') center center no-repeat #919594;
 		background-size: cover;
-		padding-top: 8px;
+		padding-top: 8%;
 		padding-bottom: 24px;
 
 	}
@@ -411,12 +411,12 @@ html, body {
 	.headLine {
 		position:static;
 		width:300px;
-		margin:auto;
+		margin:24px auto;
 	}
 
 	.headLine img {
 		padding-top:10px;
-		width:100%;
+		width:90%;
 	}
 
 	.headLine a img {
@@ -427,8 +427,8 @@ html, body {
 
 	.tagline {
 		position:static;
-		width:95%;
-		margin:auto;
+		width:75%;
+		margin:0 auto 34px;
 		text-align:center;
 		clear: left;
 	}

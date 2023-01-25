@@ -29,8 +29,8 @@ require("../header.php");
 
     <div class="col-lg-8">
       <picture>
-         <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649348515/trucks_n0bnnw.webp" type="image/webp" class="project-flow-img">
-         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649348515/trucks_e8hnwn.jpg" alt="project flow" class="project-flow-img">
+         <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1673483637/trucks_elz1ig.webp" type="image/webp" class="project-flow-img">
+         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1673483637/trucks_a1mblg.jpg" alt="project flow" class="project-flow-img">
       </picture>
 
       <div class="project-flow">

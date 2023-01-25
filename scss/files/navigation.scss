@@ -143,8 +143,8 @@
 
 nav {
 		padding:15px;
-		background: radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_01_vblykt.png') center bottom no-repeat, url('https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp') $altblack;
-		background-size: cover, 700px, cover;
+		background: radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_01_vblykt.png') 185px bottom no-repeat, url('https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp') $altblack;
+		background-size: cover, 600px, cover;
 		border-radius: 0!important;
 		color:$white;
 		margin-bottom:5%!important;
@@ -207,7 +207,7 @@ nav {
 			border:2px solid $white;
 		}
 
-		@media (max-width: 1024px) {
+		@media (max-width: 768px) {
 			background: radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp') $altblack;
 			background-size: cover, cover;
 		}

@@ -31,7 +31,7 @@ require("../header.php");
   </div>
     <div class="col-lg-6">
       <picture>
-         <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649436236/business_qbmri1.webp" type="image/webp" class="three-screens">
+         <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1674059465/business_d34evs.webp" type="image/webp" class="three-screens">
          <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1597339328/business_c96lt5.jpg" alt="three screens" class="three-screens">
       </picture>
     </div>

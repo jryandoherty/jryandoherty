@@ -28,8 +28,8 @@ require("../header.php");
     </div>
   <div class="col-lg-8">
       <picture>
-         <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649345376/construction_skktvt.webp" type="image/webp" class="project-flow-img">
-         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1649345376/construction_rdftbc.jpg" alt="project flow" class="project-flow-img">
+         <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1674058071/construction_igsuw6.webp" type="image/webp" class="project-flow-img">
+         <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1674058083/construction2_r7gr1f.jpg" alt="project flow" class="project-flow-img">
       </picture>
 
       <div class="project-flow">

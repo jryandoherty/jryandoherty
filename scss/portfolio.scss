@@ -6,11 +6,11 @@ html, body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
 	color:$black;
-	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png')no-repeat center 94px/700px $cream;
+	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png')no-repeat 185px 94px/600px $cream;
 
 
 
-	@media (max-width: 1024px) {
+	@media (max-width: 768px) {
 		background:$cream;
 	}
 	/*scroll-behavior: smooth;*/
@@ -42,7 +42,7 @@ p.browsehappy{
 
 	background:radial-gradient(circle, rgba(240, 109, 6, .14), transparent),url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_01_vblykt.png') center bottom no-repeat,
 	url('https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp') center center no-repeat $altblack;
-	background-size:  cover,1410px,cover;
+	background-size:  cover,80%,cover;
 	overflow:hidden;
 	color:$white;
 	position:relative;
@@ -164,7 +164,7 @@ p.browsehappy{
 
 .about-section {
 	background:url('https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png') center top no-repeat;
-	background-size: 1410px;
+	background-size: 80%;
 	padding:12% 5%;
 	@media(max-width:768px) {
 		background-size: 900px;

@@ -4,11 +4,11 @@ html, body {
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   color: #35311C;
-  background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png") no-repeat center 94px/700px #fcfcf4;
+  background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png") no-repeat 185px 94px/600px #fcfcf4;
   /*scroll-behavior: smooth;*/
   /*image-rendering: -webkit-optimize-contrast;*/
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   html, body {
     background: #fcfcf4;
   }
@@ -36,7 +36,7 @@ p.browsehappy {
 
 .brick {
   background: radial-gradient(circle, rgba(240, 109, 6, 0.14), transparent), url("https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_01_vblykt.png") center bottom no-repeat, url("https://res.cloudinary.com/jryandoherty/image/upload/v1649268210/bg_brick_l0esqj.webp") center center no-repeat #211e18;
-  background-size: cover, 1410px, cover;
+  background-size: cover, 80%, cover;
   overflow: hidden;
   color: #ffffff;
   position: relative;
@@ -152,7 +152,7 @@ p.browsehappy {
 /* end brick section */
 .about-section {
   background: url("https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_02_rxuvdz.png") center top no-repeat;
-  background-size: 1410px;
+  background-size: 80%;
   padding: 12% 5%;
 }
 @media (max-width: 768px) {
@@ -676,8 +676,8 @@ footer .branding {
 
 nav {
   padding: 15px;
-  background: radial-gradient(circle, rgba(240, 109, 6, 0.24), transparent), url("https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_01_vblykt.png") center bottom no-repeat, url("https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp") #211e18;
-  background-size: cover, 700px, cover;
+  background: radial-gradient(circle, rgba(240, 109, 6, 0.24), transparent), url("https://res.cloudinary.com/jryandoherty/image/upload/v1670525303/graffiti_home_01_vblykt.png") 185px bottom no-repeat, url("https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp") #211e18;
+  background-size: cover, 600px, cover;
   border-radius: 0 !important;
   color: #ffffff;
   margin-bottom: 5% !important;
@@ -735,7 +735,7 @@ nav .navbar-toggle {
 nav .icon-bar {
   border: 2px solid #ffffff;
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   nav {
     background: radial-gradient(circle, rgba(240, 109, 6, 0.24), transparent), url("https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp") #211e18;
     background-size: cover, cover;
@@ -1046,10 +1046,10 @@ input[type=checkbox]:focus {
   padding: 0;
 }
 .webpage .row:first-of-type {
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 .webpage .row:nth-of-type(2) {
-  margin-bottom: 6%;
+  margin-bottom: 4%;
 }
 .webpage iframe, .webpage object {
   min-height: 700px;
@@ -1059,7 +1059,12 @@ input[type=checkbox]:focus {
   box-shadow: 1px 1px #211e18, 2px 2px #211e18, 3px 3px #211e18, 4px 4px #211e18, 5px 5px #211e18, 6px 6px #211e18, 7px 7px #211e18;
 }
 .webpage .legend {
-  font-size: 110%;
+  font-size: 100%;
+}
+@media (max-width: 480px) {
+  .webpage .legend {
+    font-size: 90%;
+  }
 }
 .webpage .crumbs {
   font-size: 100%;
@@ -1077,13 +1082,24 @@ input[type=checkbox]:focus {
   position: relative;
   padding-bottom: 2%;
 }
-.screenshot img {
-  box-shadow: 1px 2px 3px #824A14;
-  margin-bottom: 10px;
-}
 .screenshot .crumbs {
   font-size: 85%;
   border-bottom: 1px solid #6b6b6b;
+  padding-right: 0 !important;
+}
+@media (max-width: 480px) {
+  .screenshot .crumbs {
+    font-size: 80%;
+  }
+}
+.screenshot .row:first-of-type {
+  margin-bottom: 2%;
+}
+.screenshot .row:nth-of-type(2) {
+  margin-bottom: 4%;
+}
+.screenshot .row:last-of-type {
+  margin-bottom: 15%;
 }
 .screenshot .legend {
   font-size: 85%;
@@ -1103,7 +1119,6 @@ input[type=checkbox]:focus {
 @media (max-width: 768px) {
   .legend {
     position: static;
-    margin: 20px auto;
   }
 }
 .legend h2 {
@@ -1143,7 +1158,6 @@ input[type=checkbox]:focus {
   width: 700px;
   height: auto;
   max-width: 100%;
-  margin-top: 35px;
 }
 
 .four-screens {
@@ -1166,6 +1180,12 @@ input[type=checkbox]:focus {
   height: 100px;
   box-shadow: 1px 2px 3px #824A14;
 }
+@media (max-width: 460px) {
+  .thumbnail-webpage img {
+    width: 110px;
+    height: auto;
+  }
+}
 .thumbnail-webpage a:hover {
   width: 1200px;
 }
@@ -1173,12 +1193,12 @@ input[type=checkbox]:focus {
   padding: 20px 0;
 }
 .thumbnail-webpage > * {
-  flex: 1 1 140px;
+  flex: 1 1;
 }
 
 .carousel-indicators {
   position: static;
-  margin-left: 20px;
+  margin-left: 2px;
   text-align: left;
 }
 
@@ -1203,7 +1223,11 @@ input[type=checkbox]:focus {
 }
 
 .carousel img {
-  max-width: 100%;
+  box-shadow: #824A14 2px 2px 4px;
+  margin-bottom: 10px;
+  max-width: 99% !important;
+  border-top: 1px solid #824A14;
+  border-left: 1px solid #824A14;
 }
 
 .project-flow {
