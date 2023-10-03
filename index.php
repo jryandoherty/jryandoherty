@@ -18,6 +18,67 @@
 
   <link rel="canonical" href="https://www.jryandoherty.com/">
 
+<style>
+
+.mac-wrapper {
+  position:relative;
+  margin:60px auto 0 auto;
+  width:500px;
+  height:auto;
+  overflow:hidden;
+  display:block;
+}
+
+.screen {
+  position:relative;
+  margin:0 auto;
+  height:250px;
+  display:block;
+  background-color:white;
+  border:20px solid #313742;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+}
+
+.screen-camera {
+  position:absolute;
+  top:-15px;
+  left:50%;
+  transform:translateX(-50%);
+  width:10px;
+  height:10px;
+  background-color:#464b54;
+  border-radius:100%;
+}
+
+.screen-top {
+  height:15px;
+  background-color:#f1f2f2;
+}
+
+.screen-bottom {
+  height:50px;
+  background-color:#dcdfe2;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+}
+
+.screen-stand {
+  margin:0 auto;
+  width:35%;
+  height:50px;
+  background-color:#dcdfe2;
+  border-top:6px solid #d1d6da;
+}
+
+.screen-stand-bottom {
+  margin:0 auto;
+  width:50%;
+  height:10px;
+  background-color:#d1d6da;
+}
+</style>
+
 </head>
 
 <body class="homepage">
@@ -50,7 +111,9 @@
  When I'm not designing or writing code, you can find me out <a href="https://en.wikipedia.org/wiki/Birdwatching" target="_blank">birding</a>.
     </div>
 
+
   <div class="col-lg-6">
+
     <picture>
        <source srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1650997088/portrait_tbsdrz.webp" type="image/webp" >
        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1650997088/portrait_jci1ne.jpg" alt="me">
@@ -61,36 +124,34 @@
 
 </section><!-- end about me -->
 
-<section class="portfolio" id="portfolio">
+<section class="recent-work" id="recent">
 
+  <div class="container-fluid">
+    <h2>Recent Work</h2>
 
-  <div class="tab-content">
+    <div class="mac-wrapper">
+      <div class="screen">
+        <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573002/thumbs_sites/partner_o8w0ps.jpg">
+        <div class="screen-camera"></div>
 
-    <div class="scroll tabs nav-tabs" role="tablist" id="myTabs">
-        <a href="#sites" class="btn active" aria-controls="sites" role="tab" data-toggle="tab">Sites</a>
-        <a href="#conversion" class="btn" aria-controls="conversion" role="tab" data-toggle="tab">Conversion</a>
-        <a href="#emails" class="btn" aria-controls="emails" role="tab" data-toggle="tab">Emails</a>
-        <a href="#brochures" class="btn" aria-controls="brochures" role="tab" data-toggle="tab">Brochures</a>
-        <a href="#ads" class="btn" aria-controls="ads" role="tab" data-toggle="tab">Ads</a>
-        <a href="#logos" class="btn" aria-controls="logos" role="tab" data-toggle="tab">Logos</a>
+      </div>
+      <div class="screen-bottom"></div>
+      <div class="screen-stand"></div>
+      <div class="screen-stand-bottom"></div>
     </div>
 
-    <?php include "portfolio/sites.php"; ?>
 
-    <?php include "portfolio/conversion.php"; ?>
-
-    <?php include "portfolio/emails.php"; ?>
-
-    <?php include "portfolio/brochures.php"; ?>
-
-    <?php include "portfolio/ads.php"; ?>
-
-    <?php include "portfolio/logos.php"; ?>
+  <div class="col-lg-12">
+    <img src="/portfolio/2023/outerspace/phone-home.png" alt="mobile">
+    <img src="/portfolio/2023/outerspace/ipad-home.png" alt="tablet">
+    <img src="/portfolio/2023/outerspace/instagram.jpg" alt="instragram">
+    <img src="/portfolio/2023/outerspace/os-black.svg" alt="logo">
+    <img src="/portfolio/2023/outerspace/price-list.jpg" alt="pdf">
   </div>
 
-  <img src="https://res.cloudinary.com/jryandoherty/image/upload/v1648691942/border_ayevlo.png" alt="" class="divider">
+  </div><!-- end container -->
 
-</section>
+</section><!-- end about me -->
 
 <?php include "contact_alt.php"; ?>
 

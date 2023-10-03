@@ -1,6 +1,8 @@
 <section class="thumbnails tab-pane fade in active " id="sites" role="tabpanel">
         <h2>Sites</h2>
 
+  <a href="/portfolio/sites/dzone.php"><img srcset="/portfolio/thumbnails/dzone.jpg 2x" src="/portfolio/thumbnails/dzone_1x.jpg" alt="Dzone" ></a>
+
         <a href="/portfolio/sites/grab_cad_blog.php"><img srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1649437956/thumbs_sites/grabcad_rrmcl8.jpg 2x" src="https://res.cloudinary.com/jryandoherty/image/upload/v1649437955/thumbs_sites/grabcad_1x_f75pog.jpg" alt="GrabCad" ></a>
 
         <a href="/portfolio/sites/bdc_partner.php"><img srcset="https://res.cloudinary.com/jryandoherty/image/upload/v1648573002/thumbs_sites/partner_o8w0ps.jpg 2x" src="https://res.cloudinary.com/jryandoherty/image/upload/v1648573002/thumbs_sites/partner_o8w0ps.jpg" alt="Business.com" ></a>

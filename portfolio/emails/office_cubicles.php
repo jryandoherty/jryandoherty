@@ -10,7 +10,7 @@ require("../header.php");
 
   <div class="container">
     <div class="crumbs">
-      <?php include "../breadcrumbs.php"; ?>
+    
     </div>
   </div> <!--end breadcrumb row -->
 

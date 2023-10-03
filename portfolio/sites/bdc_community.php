@@ -8,13 +8,8 @@ require("../header.php");
 <div class="webpage-container">
 
 <div class="container screenshot">
-  <div class="row">
-    <div class="col-lg-12 crumbs">
-      <?php include "../breadcrumbs.php"; ?>
-    </div>
-  </div> <!--end breadcrumb row -->
 
-<div class="legend">
+<div class="legend col-lg-6">
   <h2>PROJECT</h2>
   <ul>
     <li><strong>Category:</strong> Sites and mini-sites</li>
@@ -33,7 +28,7 @@ require("../header.php");
         <img src="/portfolio/2018/community/image-1.png" alt="image 1">
       </div>
       <div class="item">
-      <img src="/portfolio/2018/community/image-2.png" alt="image 2">
+      < img src="/portfolio/2018/community/image-2.png" alt="image 2">
       </div>
       <div class="item">
         <img src="/portfolio/2018/community/image-3.png" alt="image 3">

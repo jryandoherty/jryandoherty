@@ -1,10 +1,5 @@
 /* Navigation */
 
-.logo {
-	width:200px;
-	display:block;
-}
-
 
 .recentWork {
 	width:175px;
@@ -16,12 +11,9 @@
 	transform: rotate(0deg);
 	visibility:hidden;
 
-
 	&:hover{
-
 		transform: rotate(10deg);
 		transition: .3s ease-in all;
-
 	}
 
 	svg #sticker4 {fill:$sienna}
@@ -42,12 +34,9 @@
 	transform: rotate(0deg);
 	visibility:hidden;
 
-
-	&:hover{
-
+	&:hover {
 		transform: rotate(15deg);
 		transition: .3s ease-in all;
-
 	}
 
 	svg #sticker3 {fill: $green}
@@ -57,10 +46,9 @@
 
 
 
-.contact{
+.contact {
 	width:100px;
 	height:100px;
-
 	margin:20px 0 0 -88px;
 	z-index: 900;
 	position:relative;
@@ -68,11 +56,8 @@
 	transform: rotate(0deg);
 	visibility:hidden;
 
-	&:hover{
-
+	&:hover {
 		transform: rotate(15deg);
-
-
 	}
 
 	svg #sticker2 {fill:$yellowDark}
@@ -90,7 +75,6 @@
 	position:relative;
 	cursor:pointer;
 	float:right;
-
 	visibility:hidden;
 
 	/*&:hover {
@@ -127,7 +111,11 @@
 	font-size:.95em;
 	padding: 0 14px 6px 0;
 	margin: 20px 0 0 0;
-	color:$breadcrumbs;
+	color:#fff;
+	a {
+		color:$siennaLight;
+	}
+
 	@media (max-width:768px) {
 		font-size:.7521367521367521em;
 		padding-right:15px;
@@ -148,19 +136,21 @@ nav {
 		border-radius: 0!important;
 		color:$white;
 		margin-bottom:5%!important;
+		overflow: hidden;
 
 
 		h1 {
-			margin:0;
-			font-size:2.3em;
+			margin:10% 0 0 0;
+			word-spacing: -.6ch;
+			font-size:6.1em;
 		}
 		h2 {
 			font-family: 'Montserrat', sans-serif;
-			font-size:.7521367521367521em;
+			font-size:1em;
 			padding-left:60px;
-			margin:0;
+			margin:-30px 90px ;
 			}
-		svg {
+	/*svg {
 			width:30px;
 			fill:$white;
 			&:hover.twitter {
@@ -179,7 +169,7 @@ nav {
 				fill:#1769ff;
 			}
 
-		}
+		} */
 
 		a {
 			color:white;
@@ -210,6 +200,47 @@ nav {
 		@media (max-width: 768px) {
 			background: radial-gradient(circle, rgba(240, 109, 6, .24), transparent), url('https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp') $altblack;
 			background-size: cover, cover;
+		}
+
+		.recentWork {
+		  width: 126px;
+		  height: 126px;
+				@media(max-width:768px){
+					width: 108px;
+					height: 108px;
+				}
+				@media(max-width:568px){
+					width: 94px;
+					height: 94px;
+				}
+		}
+
+		.contact {
+		  width: 71px;
+		  height: 71px;
+			margin: 32px 0 0 -49px;
+			@media(max-width:768px){
+				width: 108px;
+				height: 108px;
+			}
+			@media(max-width:568px){
+				width: 94px;
+				height: 94px;
+			}
+		}
+
+		.branding{
+			width: 90px;
+			height: 90px;
+			margin:85px -10px 0 -45px;
+			@media(max-width:768px){
+				width: 108px;
+				height: 108px;
+			}
+			@media(max-width:568px){
+				width: 94px;
+				height: 94px;
+			}
 		}
 
 	} /* end navigation */

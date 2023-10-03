@@ -31,6 +31,8 @@ function breadcrumbs($separator = ' &#8741; ', $home = 'Home') {
     return implode($separator, $breadcrumbs);
 }
 
+error_reporting(E_ERROR | E_PARSE);
+
 ?>
 
 <?php

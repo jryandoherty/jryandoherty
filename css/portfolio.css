@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "proletarianregular";
+  src: url("/fonts/proletarian-3lgy-webfont.woff2") format("woff2"), url("/fonts/proletarian-3lgy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 html, body {
   width: 100%;
   height: 100%;
@@ -15,9 +21,10 @@ html, body {
 }
 
 h1, h2 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 500;
-  font-size: 2.2em;
+  font-family: "proletarianregular", sans-serif;
+  font-size: 4.2em;
+  word-spacing: -0.4ch;
+  letter-spacing: -2px;
 }
 
 h3 {
@@ -40,7 +47,7 @@ p.browsehappy {
   overflow: hidden;
   color: #ffffff;
   position: relative;
-  height: 100%;
+  height: 75%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,29 +60,35 @@ p.browsehappy {
   }
 }
 .brick h1 {
-  font-size: 4em;
+  font-size: 6.33em;
+  font-size: max(6.2vw, 1.23em);
+  word-spacing: -0.4ch;
+  letter-spacing: -2px;
+  margin: 0;
 }
 @media (max-width: 768px) {
   .brick h1 {
-    font-size: 3.3em;
+    font-size: max(12.2vw, 1.23em);
     transition: all 0.5s ease-out;
   }
 }
 @media (max-width: 568px) {
   .brick h1 {
-    font-size: 2.75em;
+    font-size: max(14.2vw, 1.23em);
     transition: all 0.5s ease-out;
   }
 }
 .brick h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1em;
-  padding-left: 108px;
-  padding-bottom: 10px;
+  font-size: 1.3vw;
+  /*padding-left:108px;
+  padding-bottom:10px;
   /*border-bottom:1px solid $white;*/
-  letter-spacing: 0.18em;
+  letter-spacing: 0.1em;
   /*line-height: .2;*/
-  margin-top: -7px;
+  /*margin:-24px 40px 0 0;*/
+  margin: -7% 10% 0 0;
+  color: #fec800;
 }
 @media (max-width: 768px) {
   .brick h2 {
@@ -147,6 +160,7 @@ p.browsehappy {
 }
 .brick .intro {
   visibility: hidden;
+  text-align: right;
 }
 
 /* end brick section */
@@ -184,9 +198,26 @@ p.browsehappy {
 }
 
 /* end about section */
+.recent-work {
+  padding: 12% 5%;
+}
+.recent-work h1 {
+  margin-top: 0;
+}
+.recent-work img:nth-child(1) {
+  width: 190px;
+}
+.recent-work img:nth-child(2) {
+  width: 400px;
+}
+.recent-work img:nth-child(3) {
+  width: 500px;
+}
+
+/* end recent work */
 .portfolio {
   /*background: #ded6cc;*/
-  background: #f2e7d9;
+  background: url(/img/wild_oliva.png);
   box-shadow: rgba(60, 64, 67, 0.3) 0px -1px 2px 0px, rgba(60, 64, 67, 0.15) 0px -1px 3px 1px;
   /* end scroll classes */
   /* end button */
@@ -280,7 +311,7 @@ p.browsehappy {
   height: 62px;
   box-shadow: none!important;*/
   /*transform: scale(1, 1.5);*/
-  transition: height 0.5s linear;
+  transition: 0.5s linear;
 }
 .nav-tabs a.active:first-child {
   border-left: none;
@@ -293,7 +324,7 @@ p.browsehappy {
   /*border-top:2px solid $blackGreen;
   background:$creamDark!important;
   margin-top:-3px;*/
-  transition: margin 0.5s linear;
+  transition: 0.5s linear;
 }
 
 .thumbnails {
@@ -302,6 +333,7 @@ p.browsehappy {
 }
 .thumbnails h2 {
   margin: 0 auto 40px;
+  color: #ffffff;
 }
 @media (max-width: 768px) {
   .thumbnails h2 {
@@ -311,27 +343,25 @@ p.browsehappy {
 .thumbnails a {
   margin: 10px 13px;
   display: inline-block;
-  /*	&:nth-child(3n) {
-  	width:240px;
-  	height:auto;
-  }
-
-  	&:nth-child(2n) {
-  	width:300px;
-  	height:auto;
-  }*/
 }
 .thumbnails img {
-  width: 240px;
   min-height: 100px;
   height: auto;
   max-width: 100%;
-  box-shadow: 1px 2px 3px #824A14;
-  border: 1px solid #824A14;
+  border: 3px solid #ffffff;
+}
+.thumbnails img:nth-child(2) {
+  width: 440px;
+}
+.thumbnails img:nth-child(2n) {
+  width: 300px;
+}
+.thumbnails img:nth-child(4n) {
+  width: 600px;
 }
 .thumbnails img:hover {
-  transform: scale(1.08);
-  transition: all 0.5s ease-out;
+  /*transform: scale(1.08);
+  transition: all .5s ease-out;*/
 }
 .thumbnails img.mobile {
   border: none;
@@ -348,6 +378,7 @@ p.browsehappy {
 }
 .ads h2 {
   margin: 0 auto 40px;
+  color: #ffffff;
 }
 @media (max-width: 768px) {
   .ads h2 {
@@ -380,6 +411,7 @@ p.browsehappy {
 }
 .logos h2 {
   margin: 0 auto 40px;
+  color: #ffffff;
 }
 @media (max-width: 768px) {
   .logos h2 {
@@ -391,6 +423,9 @@ p.browsehappy {
   height: auto;
   margin: 30px 33px;
   display: inline-block;
+  background: #fcfcf4;
+  padding: 20px;
+  border-radius: 10px;
   /*	&:nth-child(3n) {
   	width:300px;
   	height:auto;
@@ -557,11 +592,6 @@ footer .branding {
 }
 
 /* Navigation */
-.logo {
-  width: 200px;
-  display: block;
-}
-
 .recentWork {
   width: 175px;
   height: 175px;
@@ -662,10 +692,13 @@ footer .branding {
   font-size: 0.95em;
   padding: 0 14px 6px 0;
   margin: 20px 0 0 0;
-  color: #6b6b6b;
+  color: #fff;
   /*a:nth-child(2){
   	display:none;
   }*/
+}
+.crumbs a {
+  color: #a25d1a;
 }
 @media (max-width: 768px) {
   .crumbs {
@@ -681,35 +714,38 @@ nav {
   border-radius: 0 !important;
   color: #ffffff;
   margin-bottom: 5% !important;
+  overflow: hidden;
+  /*svg {
+  		width:30px;
+  		fill:$white;
+  		&:hover.twitter {
+  			fill:#00ACEE;
+  		}
+  		&:hover.linkedIn {
+  			fill:#00a0dc;
+  		}
+  		&:hover.github {
+  			fill:#6cc644;
+  		}
+  		&:hover.flickr {
+  			fill:#216bd6;
+  		}
+  		&:hover.behance {
+  			fill:#1769ff;
+  		}
+
+  	} */
 }
 nav h1 {
-  margin: 0;
-  font-size: 2.3em;
+  margin: 10% 0 0 0;
+  word-spacing: -0.6ch;
+  font-size: 6.1em;
 }
 nav h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 0.7521367521em;
+  font-size: 1em;
   padding-left: 60px;
-  margin: 0;
-}
-nav svg {
-  width: 30px;
-  fill: #ffffff;
-}
-nav svg:hover.twitter {
-  fill: #00ACEE;
-}
-nav svg:hover.linkedIn {
-  fill: #00a0dc;
-}
-nav svg:hover.github {
-  fill: #6cc644;
-}
-nav svg:hover.flickr {
-  fill: #216bd6;
-}
-nav svg:hover.behance {
-  fill: #1769ff;
+  margin: -30px 90px;
 }
 nav a {
   color: white;
@@ -739,6 +775,56 @@ nav .icon-bar {
   nav {
     background: radial-gradient(circle, rgba(240, 109, 6, 0.24), transparent), url("https://res.cloudinary.com/jryandoherty/image/upload/v1649446471/brick_nav_iiyrf2.webp") #211e18;
     background-size: cover, cover;
+  }
+}
+nav .recentWork {
+  width: 126px;
+  height: 126px;
+}
+@media (max-width: 768px) {
+  nav .recentWork {
+    width: 108px;
+    height: 108px;
+  }
+}
+@media (max-width: 568px) {
+  nav .recentWork {
+    width: 94px;
+    height: 94px;
+  }
+}
+nav .contact {
+  width: 71px;
+  height: 71px;
+  margin: 32px 0 0 -49px;
+}
+@media (max-width: 768px) {
+  nav .contact {
+    width: 108px;
+    height: 108px;
+  }
+}
+@media (max-width: 568px) {
+  nav .contact {
+    width: 94px;
+    height: 94px;
+  }
+}
+nav .branding {
+  width: 90px;
+  height: 90px;
+  margin: 85px -10px 0 -45px;
+}
+@media (max-width: 768px) {
+  nav .branding {
+    width: 108px;
+    height: 108px;
+  }
+}
+@media (max-width: 568px) {
+  nav .branding {
+    width: 94px;
+    height: 94px;
   }
 }
 

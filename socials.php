@@ -1,5 +1,4 @@
-<div class="socials">
-<ul class="nav navbar-nav">
+<ul>
   <li>
     <a href="https://www.linkedin.com/in/jrdoherty/" target="_blank">
       <svg viewBox="0 0 32 32" class="linkedIn">
@@ -17,6 +16,4 @@
   </a>
 
   </li>
-
-  
-</div>
+</ul>

@@ -7,11 +7,7 @@ require("../header.php");
 
 <div class="emails-container">
 
-  <div class="container">
-    <div class="crumbs">
-      <?php include "../breadcrumbs.php"; ?>
-    </div>
-  </div> <!--end breadcrumb row -->
+  
 
 <div class="emails">
   <div class="desktop">

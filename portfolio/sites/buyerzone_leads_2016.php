@@ -8,11 +8,7 @@ require("../header.php");
 <div class="webpage-container">
 
 <div class="webpage">
-  <div class="row">
-    <div class="col-md-12 crumbs">
-      <?php include "../breadcrumbs.php"; ?>
-    </div>
-  </div> <!--end breadcrumb row -->
+  
 
 <div class="row">
   <div class="col-lg-6">
