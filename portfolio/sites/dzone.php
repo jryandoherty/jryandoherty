@@ -1,6 +1,6 @@
 <?php
 
-$title = "Sites ::Dzon.com";
+$title = "Sites ::Dzone.com";
 require("../header.php");
 
 ?>
