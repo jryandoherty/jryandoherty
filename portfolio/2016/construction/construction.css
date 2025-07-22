@@ -9,6 +9,7 @@ html, body {
 	font-family: "neuzeit-grotesk",sans-serif;
 	font-style: normal;
 	font-weight: 300;
+	background: #fff;
 	--scrollbarBG: #222;
 	--thumbBG: #fed117;
 		scrollbar-width: thin;
