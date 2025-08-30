@@ -140,7 +140,6 @@ img {
 }
 
 
-
 .leadGenIntro {
 	border-top:18px solid #ff863e;
 	border-bottom:12px solid #ff863e;
@@ -216,7 +215,6 @@ img {
     border: none;
     cursor: pointer;
     transition: background-color .2s ease;
-
 }
 
 .action:hover {
@@ -905,7 +903,8 @@ footer {
 
 	.ctaText {
 		font-size:100%;
-		padding-left:13%
+		padding-left:0;
+		padding-top:18px;
 	}
 
 	.testimonialText {
@@ -929,4 +928,31 @@ footer {
 		width:100%;
 	}
 
+	.lead-generation-image img {
+		width:190px;
+		text-align:center;
+	}
+
+	.advertising img {
+		display:none;
+	}
+
+}
+
+
+@media (max-width:500px){
+	.testimonial{
+		padding-top: 96.94%;
+	}
+
+	.emdash {
+		display:none;
+	}
+
+	.get-in-touch{
+		display:none;
+	}
+#phonenumber {
+	display:none;
+}
 }
