@@ -1670,12 +1670,12 @@ span.build {
     display: inline-block
   }
 
-  .navbar-nav li:first-child, .navbar-nav li:nth-child(2) {
+  .navbar-nav li:first-child, .navbar-nav li:nth-child(2), .navbar-nav li:nth-child(3) {
     display: none !important
   }
 
   #intro {
-    padding-top: 82.62%;
+    padding-top: 94.62%;
     background: url(https://cdn.buyerzone.com/images/leads/bg_office_mobile.jpg);
     background-size: cover;
     background-position: 50% 0;
