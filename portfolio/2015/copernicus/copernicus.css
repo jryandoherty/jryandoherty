@@ -1,670 +1,688 @@
 /* created by J. Ryan Doherty 2015 */
 
-html, body {
-  margin: 0;
-  min-width: 0;
-  padding: 0;
-  background-image: none;
-	height:100%;
-
+html,
+body {
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+    background-image: none;
+    height: 100%;
 }
 
 p {
-  margin: 0 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
-p, ul {
-  font-size-adjust: 0.488;
-  font-weight: 200;
-  font-style: normal;
+p,
+ul {
+    font-size-adjust: 0.488;
+    font-weight: 200;
+    font-style: normal;
 }
 
 img {
-  border: 0;
+    border: 0;
 }
 
-h1, #pixels {
-  font-size-adjust: 0.40;
-  font-weight: 700;
-  font-style: normal;
+h1,
+#pixels {
+    font-size-adjust: 0.4;
+    font-weight: 700;
+    font-style: normal;
 }
 
-h2 {}
+h2 {
+}
 
-#header h1, #pixels {
-  color: #48941A;
+#header h1,
+#pixels {
+    color: #48941a;
 }
 
 .float-left {
-  float: left;
-  margin: 0 0 0 20px;
+    float: left;
+    margin: 0 0 0 20px;
 }
 
 .float-right {
-  float: right;
-  margin: 0 20px 0 0;
+    float: right;
+    margin: 0 20px 0 0;
 }
 
 .center {
-  font-size: 2.5em;
-  padding: 80px 0 0 0;
-  text-align: center;
+    font-size: 2.5em;
+    padding: 80px 0 0 0;
+    text-align: center;
 }
 
 #nav {
-  list-style: none;
-  position: fixed;
-  right: 20px;
+    list-style: none;
+    position: fixed;
+    right: 20px;
 }
 
 #nav li {
-  margin: 0 0 15px 0;
+    margin: 0 0 15px 0;
 }
 
-#header, #intro, #second {
-  width: 100%;
+#header,
+#intro,
+#second {
+    width: 100%;
 }
 
 #intro {
-  background: linear-gradient(to bottom right, rgba(0, 53, 110, 0.5), rgba(7, 110, 221, 0.5)), url("https://www.buyerzone.com/office-equipment/digital-copiers/copier2.jpg") 50% 0 no-repeat fixed;
-	background-size:cover;
-	color: #fff;
-	height:90%;
-  min-height:500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+    background:
+        linear-gradient(
+            to bottom right,
+            rgba(0, 53, 110, 0.5),
+            rgba(7, 110, 221, 0.5)
+        ),
+        url("https://www.buyerzone.com/office-equipment/digital-copiers/copier2.jpg")
+            50% 0 no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+    height: 90%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #second {
-  background: url("https://www.buyerzone.com/office-equipment/digital-copiers/copier1.jpg") 50% 0 no-repeat fixed;
-  color: white;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 0;
+    background: url("https://www.buyerzone.com/office-equipment/digital-copiers/copier1.jpg")
+        50% 0 no-repeat fixed;
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
 }
 
-
 .story {
-  margin: auto;
-  width: 980px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-
+    margin: auto;
+    width: 980px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .rightCTA {
-  width: 350px;
-	text-align:center;
+    width: 350px;
+    text-align: center;
 }
 
 .rightCTA img {
-	width:180px;
-	height:180px;
+    width: 180px;
+    height: 180px;
 }
 
-
 .leftCTA {
-	width: 600px;
-	text-shadow: 2px 2px 0px rgb(46, 46, 46);
-	text-align:center;
-	padding: 0px;
-
+    width: 600px;
+    text-shadow: 2px 2px 0px rgb(46, 46, 46);
+    text-align: center;
+    padding: 0px;
 }
 
 .leftCTA strong {
-  color:#ffe16c;
+    color: #ffe16c;
 }
 
 .leftCTA h2:nth-child(1) {
-  font-size:37px ;
-  line-height:32px ;
+    line-height: 32px;
 }
 
 .leftCTA h2:nth-child(2) {
-  font-size:47px ;
 }
 
 .leftCTA h2:nth-child(3) {
-  font-size:60px ;
-  line-height:32px ;
+    line-height: 32px;
 }
 
 .leftCTA h2:nth-child(4) {
-  font-size:72px;
-  font-family:sneakers-pro, sans-serif;
-  font-style:italic;
-  text-shadow: 4px 3px 0px rgb(46, 46, 46);
-  margin:0;
-  padding:0;
-  line-height:1em;
+    font-size: 72px;
+    font-family: sneakers-pro, sans-serif;
+    font-style: italic;
+    text-shadow: 4px 3px 0px rgb(46, 46, 46);
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
 }
 
 .startButton:hover {
-  filter: brightness(110%);
-  -webkit-filter: brightness(110%);
-  -moz-filter: brightness(110%);
-  -ms-filter: brightness(110%);
+    filter: brightness(110%);
+    -webkit-filter: brightness(110%);
+    -moz-filter: brightness(110%);
+    -ms-filter: brightness(110%);
 }
 
 .pulse {
-  animation-name: pulse;
-  -webkit-animation-name: pulse;
-  animation-duration: 2.5s;
-  -webkit-animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-duration: 2.5s;
+    -webkit-animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 
 @keyframes pulse {
-  0% {
-    transform: scale(0.8);
-    opacity: 0.9;
-  }
+    0% {
+        transform: scale(0.8);
+        opacity: 0.9;
+    }
 
-  50% {
-    transform: scale(1);
-    opacity: 1;
-  }
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
 
-  100% {
-    transform: scale(0.8);
-    opacity: 0.9;
-  }
+    100% {
+        transform: scale(0.8);
+        opacity: 0.9;
+    }
 }
 
 @-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale(0.8);
-    opacity: 0.8;
-  }
+    0% {
+        -webkit-transform: scale(0.8);
+        opacity: 0.8;
+    }
 
-  50% {
-    -webkit-transform: scale(1);
-    opacity: 1;
-  }
+    50% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
 
-  100% {
-    -webkit-transform: scale(0.8);
-    opacity: 0.8;
-  }
+    100% {
+        -webkit-transform: scale(0.8);
+        opacity: 0.8;
+    }
 }
 
 /* RFQ overides */
 .questionContainer {
-  background: url("https://www.buyerzone.com/office-equipment/digital-copiers/digital_copier2.png") no-repeat left #fdfdfd;
-  background-size: 480px;
-  min-height: 525px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    background: url("https://www.buyerzone.com/office-equipment/digital-copiers/digital_copier2.png")
+        no-repeat left #fdfdfd;
+    background-size: 480px;
+    min-height: 525px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .qs-container {
-  text-align: center
+    text-align: center;
 }
 
 .contentCol {
-  background: none;
-  padding-top: 40px;
+    background: none;
+    padding-top: 40px;
 }
 
 .contentCol .rfq-box {
-  width: 100%;
-  background: none;
-  overflow: hidden;
-  padding: 20px 0;
-  margin: 0;
+    width: 100%;
+    background: none;
+    overflow: hidden;
+    padding: 20px 0;
+    margin: 0;
 }
 
 .contentCol .rfq-box .page {
-  width: 98%
+    width: 98%;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .contentCol .rfq-box .page {
-    width: 97%
-  }
+    .contentCol .rfq-box .page {
+        width: 97%;
+    }
 
-  .contentCol .rfq-box {
-    padding: 30px
-  }
+    .contentCol .rfq-box {
+        padding: 30px;
+    }
 }
 
 #backNextRow {
-  width: 50%;
-  border: none;
-  margin: 0 auto;
-  margin-top: 50px;
-  padding-bottom: 28px;
+    width: 50%;
+    border: none;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 28px;
 }
 
 .nextWrapper {
-  width: 80%;
-  left: 25%;
-  border-radius: 18px;
+    width: 80%;
+    left: 25%;
+    border-radius: 18px;
 }
 
 .backWrapper {
-  width: 18%;
-  border: none;
-  background-color: #754721;
-  color: #fff;
-  border-radius: 18px;
-	margin-right: 2%;
-  max-width:100px
+    width: 18%;
+    border: none;
+    background-color: #754721;
+    color: #fff;
+    border-radius: 18px;
+    margin-right: 2%;
+    max-width: 100px;
 }
 
 #rfq-back:hover {
-  background-color: #b46d33
+    background-color: #b46d33;
 }
 
 .completionWrapper {
-  width: 100%;
-  background: #0480b7;
-  height: 22px;
-  line-height: 22px;
+    width: 100%;
+    background: #0480b7;
+    height: 22px;
+    line-height: 22px;
 }
 
 .completionBar {
-  border: 0;
-  background-color: #8DCEEB;
+    border: 0;
+    background-color: #8dceeb;
 }
 
 .progress-value {
-  position: absolute;
+    position: absolute;
 }
 
 form legend {
-  text-align: center;
+    text-align: center;
 }
 
 .question {
-  font-size: 36px
+    font-size: 36px;
 }
 
-legend.question+p.note, p.note {
-  text-align: center;
-  font-size: 18px
+legend.question + p.note,
+p.note {
+    text-align: center;
+    font-size: 18px;
 }
 
 .q-help-link {
-  display: none
+    display: none;
 }
 
-p.note+span.error {
-  text-align: center;
-  font-size: 18px;
-  margin-top: 10px
+p.note + span.error {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
-form .question span.error, form legend span.error {
-  font-size: 18px
+form .question span.error,
+form legend span.error {
+    font-size: 18px;
 }
 
 /*.rfq-box {height:352px !important} */
-.rfq-box form .page>div.checkbox {
-  margin: 26px;
-  display: inline-block;
-  padding: 12px;
-  border-radius: 24px;
-  width: 300px;
-  padding: 10px 0 0 20px;
-  background: #8DCEEB;
-  text-align: left;
+.rfq-box form .page > div.checkbox {
+    margin: 26px;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 24px;
+    width: 300px;
+    padding: 10px 0 0 20px;
+    background: #8dceeb;
+    text-align: left;
 }
 
-.rfq-box form .page>div.answersColumn div.checkbox {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px;
-  border-radius: 24px;
-  width: 300px;
-  padding: 10px 0 0 20px;
-  background: #8DCEEB;
-  text-align: left;
+.rfq-box form .page > div.answersColumn div.checkbox {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 24px;
+    width: 300px;
+    padding: 10px 0 0 20px;
+    background: #8dceeb;
+    text-align: left;
 }
 
-.rfq-box form .page>input[type="text"] {
-  margin: 42px auto;
-  display: block;
-  width: 300px;
-  font-size: 35px;
-  border-radius: 6px;
-  border: #8DCEEB 4px solid;
-  padding: 6px
+.rfq-box form .page > input[type="text"] {
+    margin: 42px auto;
+    display: block;
+    width: 300px;
+    font-size: 35px;
+    border-radius: 6px;
+    border: #8dceeb 4px solid;
+    padding: 6px;
 }
 
 input#email {
-  width: 600px
+    width: 600px;
 }
 
 form fieldset.error {
-  background: none
+    background: none;
 }
 
 form fieldset.error input[type="text"] {
-  border: 8px solid #C91316 !important
+    border: 8px solid #c91316 !important;
 }
 
 .horizontalControls.choose2 {
-  margin: 42px auto 0px;
-  width: 600px;
+    margin: 42px auto 0px;
+    width: 600px;
 }
 
-.horizontalControls.choose2>div {
-  width: 49%
+.horizontalControls.choose2 > div {
+    width: 49%;
 }
 
 .horizontalControls label {
-  margin-top: -30px;
+    margin-top: -30px;
 }
 
-.rfq-box form .page>div.answersColumn {
-  width: 40%;
-  float: left;
-  display: block;
+.rfq-box form .page > div.answersColumn {
+    width: 40%;
+    float: left;
+    display: block;
 }
 
 .answersColumn1 {
-  margin: 42px 0px 0px 85px;
+    margin: 42px 0px 0px 85px;
 }
 
 .answersColumn2 {
-  margin: 0
+    margin: 0;
 }
 
-input[type="radio"]+div.multipleAnsOther>label, input[type="radio"]+label {
-  background: none;
-  margin-top: -35px;
+input[type="radio"] + div.multipleAnsOther > label,
+input[type="radio"] + label {
+    background: none;
+    margin-top: -35px;
 }
 
-input[type="radio"]:checked~div.multipleAnsOther>label, input[type="radio"]:checked~label {
-  background: none;
-  font-weight: bold;
-  color: #8DCEEB;
-  font-size: 21px;
+input[type="radio"]:checked ~ div.multipleAnsOther > label,
+input[type="radio"]:checked ~ label {
+    background: none;
+    font-weight: bold;
+    color: #8dceeb;
+    font-size: 21px;
 }
 
 input[type="radio"] {
-  border: 6px solid #8DCEEB;
-  border-radius: 20px;
-  padding: 4px;
-  background-color: rgba(141, 206, 235, 0.60);
-  background-position: 50% 6px
+    border: 6px solid #8dceeb;
+    border-radius: 20px;
+    padding: 4px;
+    background-color: rgba(141, 206, 235, 0.6);
+    background-position: 50% 6px;
 }
 
-input[type="checkbox"]+div.multipleAnsOther>label, input[type="checkbox"]+label {
-  width: 100%
+input[type="checkbox"] + div.multipleAnsOther > label,
+input[type="checkbox"] + label {
+    width: 100%;
 }
 
-input[type="checkbox"]:checked+div.multipleAnsOther>label, input[type="checkbox"]:checked+label {
-  background: url(/residential/hot-tubs/checkbox_on.png) no-repeat;
+input[type="checkbox"]:checked + div.multipleAnsOther > label,
+input[type="checkbox"]:checked + label {
+    background: url(/residential/hot-tubs/checkbox_on.png) no-repeat;
 }
 
-input[type="checkbox"]+div.multipleAnsOther>label, input[type="checkbox"]+label {
-  background: url(/residential/hot-tubs/checkbox_off.png) no-repeat;
+input[type="checkbox"] + div.multipleAnsOther > label,
+input[type="checkbox"] + label {
+    background: url(/residential/hot-tubs/checkbox_off.png) no-repeat;
 }
 
 .horizontalControls .qiconWrapper {
-  height: 120px;
-  width: 120px;
-  background-size: 120px
+    height: 120px;
+    width: 120px;
+    background-size: 120px;
 }
 
 .horizontalControls .qiconWrapper:hover {
-  filter: brightness(120%);
-  -webkit-filter: brightness(120%);
-  -moz-filter: brightness(120%);
-  -ms-filter: brightness(120%);
+    filter: brightness(120%);
+    -webkit-filter: brightness(120%);
+    -moz-filter: brightness(120%);
+    -ms-filter: brightness(120%);
 }
 
 .page-1 .radio:first-child .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/b-w.png) !important
+    background-image: url(/office-equipment/digital-copiers/b-w.png) !important;
 }
 
 .page-1 .radio:nth-child(2) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/cmyk.png) !important
+    background-image: url(/office-equipment/digital-copiers/cmyk.png) !important;
 }
 
 .page-1 .radio:nth-child(3) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/question.png) !important
+    background-image: url(/office-equipment/digital-copiers/question.png) !important;
 }
 
 .page-2 .radio:first-child .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/one_copier.png) !important
+    background-image: url(/office-equipment/digital-copiers/one_copier.png) !important;
 }
 
 .page-2 .radio:nth-child(2) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/two_copiers.png) !important
+    background-image: url(/office-equipment/digital-copiers/two_copiers.png) !important;
 }
 
 .page-3 .radio:first-child .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/question.png) !important
+    background-image: url(/office-equipment/digital-copiers/question.png) !important;
 }
 
 .page-3 .radio:nth-child(2) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/low_vol.png) !important
+    background-image: url(/office-equipment/digital-copiers/low_vol.png) !important;
 }
 
 .page-3 .radio:nth-child(3) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/med_vol.png) !important
+    background-image: url(/office-equipment/digital-copiers/med_vol.png) !important;
 }
 
 .page-3 .radio:nth-child(4) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/high_vol.png) !important
+    background-image: url(/office-equipment/digital-copiers/high_vol.png) !important;
 }
 
 .page-3 .radio:nth-child(5) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/v_high_vol.png) !important
+    background-image: url(/office-equipment/digital-copiers/v_high_vol.png) !important;
 }
 
 .page-5 .radio:first-child .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/asap.png) !important
+    background-image: url(/office-equipment/digital-copiers/asap.png) !important;
 }
 
 .page-5 .radio:nth-child(2) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/two_weeks.png) !important
+    background-image: url(/office-equipment/digital-copiers/two_weeks.png) !important;
 }
 
 .page-5 .radio:nth-child(3) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/1_month.png) !important
+    background-image: url(/office-equipment/digital-copiers/1_month.png) !important;
 }
 
 .page-6 .radio:first-child .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/check.png) !important
+    background-image: url(/office-equipment/digital-copiers/check.png) !important;
 }
 
 .page-6 .radio:nth-child(2) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/x-out.png) !important
+    background-image: url(/office-equipment/digital-copiers/x-out.png) !important;
 }
 
 .page-7 .radio:first-child .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/small_business.png) !important
+    background-image: url(/office-equipment/digital-copiers/small_business.png) !important;
 }
 
 .page-7 .radio:nth-child(2) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/large_business.png) !important
+    background-image: url(/office-equipment/digital-copiers/large_business.png) !important;
 }
 
 .page-7 .radio:nth-child(3) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/government.png) !important
+    background-image: url(/office-equipment/digital-copiers/government.png) !important;
 }
 
 .page-7 .answersRow2 .radio:first-child .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/educational.png) !important
+    background-image: url(/office-equipment/digital-copiers/educational.png) !important;
 }
 
 .page-7 .answersRow2 .radio:nth-child(2) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/nonprofit.png) !important
+    background-image: url(/office-equipment/digital-copiers/nonprofit.png) !important;
 }
 
 .page-7 .answersRow2 .radio:nth-child(3) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/question.png) !important
+    background-image: url(/office-equipment/digital-copiers/question.png) !important;
 }
 
 .page-9 .radio:first-child .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/check.png) !important
+    background-image: url(/office-equipment/digital-copiers/check.png) !important;
 }
 
 .page-9 .radio:nth-child(2) .qiconWrapper {
-  background-image: url(/office-equipment/digital-copiers/x-out.png) !important
+    background-image: url(/office-equipment/digital-copiers/x-out.png) !important;
 }
 
 /* Reg page overrides */
 .reg-page table {
-  width: 45%;
-  margin: 0 auto;
+    width: 45%;
+    margin: 0 auto;
 }
 
-.reg-page fieldset table input, .reg-page fieldset table select {
-  line-height: normal;
-  font-size: 28px;
-  border-radius: 6px;
-  border: #8DCEEB 4px solid;
-  padding: 6px;
-  margin-bottom: 12px;
+.reg-page fieldset table input,
+.reg-page fieldset table select {
+    line-height: normal;
+    font-size: 28px;
+    border-radius: 6px;
+    border: #8dceeb 4px solid;
+    padding: 6px;
+    margin-bottom: 12px;
 }
 
 .reg-page form fieldset.error input[type="text"] {
-  border: 8px solid #C91316 !important
+    border: 8px solid #c91316 !important;
 }
 
 .reg-page fieldset h3 {
-  font-size: 36px;
-  text-align: center;
+    font-size: 36px;
+    text-align: center;
 }
 
 .tcpaWrapper {
-  display: block;
-  width: 600px;
-  margin: 0px auto;
-  font-size: 16px;
-  border: 0px none;
+    display: block;
+    width: 600px;
+    margin: 0px auto;
+    font-size: 16px;
+    border: 0px none;
 }
 
-.check-note, .note, .q-note, form .reg-page label {
-  font-size: 17px;
-  display: block;
+.check-note,
+.note,
+.q-note,
+form .reg-page label {
+    font-size: 17px;
+    display: block;
 }
 
-td.error>span.error {
-  color: rgba(223, 0, 3, 1.00);
-  font-weight: bold;
-  margin-top: -10px;
-  margin-bottom: 10px;
-  display: block;
+td.error > span.error {
+    color: rgba(223, 0, 3, 1);
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: block;
 }
 
 #processing-body {
-  position: fixed
+    position: fixed;
 }
 
 .lowerPage {
-  font-size: 23px;
-  margin: 200px auto;
-  width: 60%;
-  background: rgba(83, 83, 83, 0.70);
-  padding: 40px 80px;
-  border-top-left-radius: 180px;
-  border-bottom-right-radius: 180px;
+    font-size: 23px;
+    margin: 200px auto;
+    width: 60%;
+    background: rgba(83, 83, 83, 0.7);
+    padding: 40px 80px;
+    border-top-left-radius: 180px;
+    border-bottom-right-radius: 180px;
 }
 
 .lowerPage h2 {
-  font-family: sneakers-pro, sans-serif;
-  font-style: italic;
-  font-size: 37px;
-  line-height: 1em;
-  margin: 30px 0 20px 0;
-	text-align: center;
+    font-family: sneakers-pro, sans-serif;
+    font-style: italic;
+    font-size: 37px;
+    line-height: 1em;
+    margin: 30px 0 20px 0;
+    text-align: center;
 }
 
 .lowerPage p {
-  text-align: left
+    text-align: left;
 }
 
 .lowerPage span {
-  margin-top: 30px;
-  display: block;
-  text-align: center;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
 }
 
 .lowerPage img {
-  width:200px;
-  height:116px;
+    width: 200px;
+    height: 116px;
 }
 
 footer {
-  background: #163353;
-  padding: 40px;
-  font-size: 15px;
+    background: #163353;
+    padding: 40px;
+    font-size: 15px;
 }
 
 footer:before {
-  background: none;
-  height: 0
+    background: none;
+    height: 0;
 }
 
 .credits {
-  margin: 0 auto;
-  color: #fff;
-  text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
 }
 
 .credits a {
-  color: #94ECFC;
-  text-decoration: none;
+    color: #94ecfc;
+    text-decoration: none;
 }
 
 .credits p {
-  margin: 6px 0 20px
+    margin: 6px 0 20px;
 }
 
 .credits p a img {
-  width:200px;
-  height:auto;
+    width: 200px;
+    height: auto;
 }
 
+@media (max-width: 1024px) {
+    .horizontalControls .qiconWrapper {
+        height: 120px;
+        width: 120px;
+        background-size: 120px;
+    }
 
-@media (max-width:1024px) {
-  .horizontalControls .qiconWrapper {
-    height: 120px;
-    width: 120px;
-    background-size: 120px
-  }
+    #intro {
+        height: 100%;
+    }
 
-	#intro {
-		height:100%;
-	}
+    .horizontalControls > div {
+        float: none;
+    }
 
-	.horizontalControls > div {
-			float:none;
-	}
+    .horizontalControls.choose2 {
+        width: 100%;
+    }
 
-  .horizontalControls.choose2 {
-    width:100%;
-  }
+    .horizontalControls.choose2 > div {
+        width: 100%;
+    }
 
-	.horizontalControls.choose2 > div {
-    width: 100%;
-	}
+    .question {
+        font-size: 30px;
+    }
 
-  .question {
-    font-size: 30px
-  }
+    .story {
+        width: 100%;
+        flex-direction: column;
+    }
 
-	.story {
-		width:100%;
-    flex-direction: column;
-	}
+    .leftCTA,
+    .rightCTA {
+        width: 100%;
+    }
 
-	.leftCTA, .rightCTA {
-		width:100%;
-	}
-
-  .rightCTA {
-    margin-top: 30px;
-  }
+    .rightCTA {
+        margin-top: 30px;
+    }
 }
